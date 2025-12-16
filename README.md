@@ -279,6 +279,7 @@ recruit-ai-framework/
 │   ├── style.css                # 暗色主题 + 响应式 + 打印样式
 │   ├── tarf.json                # 数据文件（1288 条资源，58 大分类）
 │   ├── robots.txt               # SEO 爬虫规则
+│   ├── sitemap.xml              # 站点地图
 │   └── 404.html                 # 404 错误页面
 ├── .gitignore                   # Git 忽略文件配置
 ├── LICENSE                      # MIT 许可证

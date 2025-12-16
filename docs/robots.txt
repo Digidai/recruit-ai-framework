@@ -4,5 +4,5 @@
 User-agent: *
 Allow: /
 
-# Sitemap (optional - uncomment if you add one)
-# Sitemap: https://digidai.github.io/recruit-ai-framework/sitemap.xml
+# Sitemap
+Sitemap: https://digidai.github.io/recruit-ai-framework/sitemap.xml
