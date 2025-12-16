@@ -7237,6 +7237,2262 @@
           ]
         }
       ]
+    },
+    {
+      "name": "47 招聘伦理与公平招聘",
+      "type": "folder",
+      "children": [
+        {
+          "name": "公平招聘框架",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Ban the Box Campaign",
+              "type": "url",
+              "url": "https://bantheboxcampaign.org/",
+              "tags": ["Fair Chance", "US"]
+            },
+            {
+              "name": "NELP｜Fair Chance Hiring",
+              "type": "url",
+              "url": "https://www.nelp.org/campaign/ensuring-fair-chance-to-work/",
+              "tags": ["Fair Chance", "US"]
+            },
+            {
+              "name": "EEOC｜Pre-Employment Inquiries",
+              "type": "url",
+              "url": "https://www.eeoc.gov/pre-employment-inquiries",
+              "tags": ["Compliance", "US"]
+            },
+            {
+              "name": "Business Roundtable｜Second Chance",
+              "type": "url",
+              "url": "https://www.secondchancebusinesscoalition.org/",
+              "tags": ["Fair Chance", "US"]
+            },
+            {
+              "name": "ACLU｜Fair Hiring",
+              "type": "url",
+              "url": "https://www.aclu.org/issues/smart-justice/mass-incarceration/fair-hiring",
+              "tags": ["Fair Chance", "US"]
+            },
+            {
+              "name": "Dave's Killer Bread Foundation",
+              "type": "url",
+              "url": "https://www.dkbfoundation.org/",
+              "tags": ["Fair Chance", "US"]
+            }
+          ]
+        },
+        {
+          "name": "招聘偏见检测",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Textio｜Bias Detection",
+              "type": "url",
+              "url": "https://textio.com/",
+              "tags": ["AI", "P", "Bias"]
+            },
+            {
+              "name": "Gender Decoder",
+              "type": "url",
+              "url": "http://gender-decoder.katmatfield.com/",
+              "tags": ["Free", "Bias"]
+            },
+            {
+              "name": "Applied｜Blind Hiring",
+              "type": "url",
+              "url": "https://www.beapplied.com/",
+              "tags": ["P", "Bias"]
+            },
+            {
+              "name": "Ongig｜Job Ad Analyzer",
+              "type": "url",
+              "url": "https://www.ongig.com/",
+              "tags": ["P", "Bias"]
+            },
+            {
+              "name": "Datapeople｜Job Post Analytics",
+              "type": "url",
+              "url": "https://www.datapeople.io/",
+              "tags": ["P", "Bias"]
+            },
+            {
+              "name": "Unbiased.io｜Bias Training",
+              "type": "url",
+              "url": "https://unbiasify.com/",
+              "tags": ["Training", "Bias"]
+            }
+          ]
+        },
+        {
+          "name": "AI 招聘伦理",
+          "type": "folder",
+          "children": [
+            {
+              "name": "IEEE｜Ethically Aligned AI",
+              "type": "url",
+              "url": "https://ethicsinaction.ieee.org/",
+              "tags": ["AI", "Ethics"]
+            },
+            {
+              "name": "Partnership on AI",
+              "type": "url",
+              "url": "https://partnershiponai.org/",
+              "tags": ["AI", "Ethics"]
+            },
+            {
+              "name": "AI Now Institute",
+              "type": "url",
+              "url": "https://ainowinstitute.org/",
+              "tags": ["AI", "Research"]
+            },
+            {
+              "name": "Data & Society｜AI Hiring",
+              "type": "url",
+              "url": "https://datasociety.net/",
+              "tags": ["AI", "Research"]
+            },
+            {
+              "name": "Upturn｜Hiring Algorithms",
+              "type": "url",
+              "url": "https://www.upturn.org/work/help-wanted/",
+              "tags": ["AI", "Research"]
+            },
+            {
+              "name": "NIST AI RMF",
+              "type": "url",
+              "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+              "tags": ["AI", "Framework", "US"]
+            }
+          ]
+        },
+        {
+          "name": "招聘道德规范",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SHRM Code of Ethics",
+              "type": "url",
+              "url": "https://www.shrm.org/about/code-of-ethics",
+              "tags": ["Ethics", "Standard"]
+            },
+            {
+              "name": "Recruiter Ethics（LinkedIn）",
+              "type": "url",
+              "url": "https://www.linkedin.com/learning/recruiting-ethics",
+              "tags": ["Ethics", "Training"]
+            },
+            {
+              "name": "ERE｜Ethics in Recruiting",
+              "type": "url",
+              "url": "https://www.ere.net/",
+              "tags": ["Ethics", "Article"]
+            },
+            {
+              "name": "APSCo Code of Conduct",
+              "type": "url",
+              "url": "https://www.apsco.org/",
+              "tags": ["Ethics", "UK"]
+            },
+            {
+              "name": "REC Code of Practice",
+              "type": "url",
+              "url": "https://www.rec.uk.com/",
+              "tags": ["Ethics", "UK"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "48 内部招聘与人才流动",
+      "type": "folder",
+      "children": [
+        {
+          "name": "内部流动平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Gloat｜Talent Marketplace",
+              "type": "url",
+              "url": "https://www.gloat.com/",
+              "tags": ["P", "Internal Mobility"]
+            },
+            {
+              "name": "Fuel50｜Career Pathing",
+              "type": "url",
+              "url": "https://fuel50.com/",
+              "tags": ["P", "Career"]
+            },
+            {
+              "name": "Eightfold｜Internal Mobility",
+              "type": "url",
+              "url": "https://eightfold.ai/",
+              "tags": ["AI", "P", "Internal Mobility"]
+            },
+            {
+              "name": "Phenom｜Internal Mobility",
+              "type": "url",
+              "url": "https://www.phenom.com/internal-mobility",
+              "tags": ["P", "Internal Mobility"]
+            },
+            {
+              "name": "365Talents",
+              "type": "url",
+              "url": "https://www.365talents.com/",
+              "tags": ["AI", "P", "EU"]
+            },
+            {
+              "name": "Paddle HR",
+              "type": "url",
+              "url": "https://paddlehr.com/",
+              "tags": ["P", "Career"]
+            },
+            {
+              "name": "Workday｜Opportunity Graph",
+              "type": "url",
+              "url": "https://www.workday.com/",
+              "tags": ["P", "Enterprise"]
+            },
+            {
+              "name": "Avature｜Internal Mobility",
+              "type": "url",
+              "url": "https://www.avature.net/internal-mobility/",
+              "tags": ["P", "Enterprise"]
+            }
+          ]
+        },
+        {
+          "name": "技能图谱与职业路径",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Degreed｜Skills Graph",
+              "type": "url",
+              "url": "https://degreed.com/",
+              "tags": ["P", "Skills"]
+            },
+            {
+              "name": "Cornerstone｜Skills Graph",
+              "type": "url",
+              "url": "https://www.cornerstoneondemand.com/",
+              "tags": ["P", "Skills"]
+            },
+            {
+              "name": "Lightcast｜Skills Taxonomy",
+              "type": "url",
+              "url": "https://lightcast.io/",
+              "tags": ["P", "Skills Data"]
+            },
+            {
+              "name": "ESCO｜European Skills Taxonomy",
+              "type": "url",
+              "url": "https://esco.ec.europa.eu/",
+              "tags": ["Free", "EU", "Taxonomy"]
+            },
+            {
+              "name": "O*NET｜Skills Database",
+              "type": "url",
+              "url": "https://www.onetonline.org/",
+              "tags": ["Free", "US", "Database"]
+            },
+            {
+              "name": "Skills Framework for the Information Age",
+              "type": "url",
+              "url": "https://sfia-online.org/",
+              "tags": ["Framework", "Tech"]
+            }
+          ]
+        },
+        {
+          "name": "内部招聘最佳实践",
+          "type": "folder",
+          "children": [
+            {
+              "name": "HBR｜Internal Mobility",
+              "type": "url",
+              "url": "https://hbr.org/topic/talent-management",
+              "tags": ["Article", "Research"]
+            },
+            {
+              "name": "Deloitte｜Internal Mobility",
+              "type": "url",
+              "url": "https://www2.deloitte.com/us/en/insights/topics/talent.html",
+              "tags": ["Research", "Consulting"]
+            },
+            {
+              "name": "LinkedIn｜Internal Mobility Report",
+              "type": "url",
+              "url": "https://business.linkedin.com/talent-solutions/resources",
+              "tags": ["Report", "Research"]
+            },
+            {
+              "name": "Josh Bersin｜Talent Mobility",
+              "type": "url",
+              "url": "https://joshbersin.com/",
+              "tags": ["Blog", "Research"]
+            },
+            {
+              "name": "Bersin by Deloitte｜Career Management",
+              "type": "url",
+              "url": "https://bersinpartners.com/",
+              "tags": ["Research", "Premium"]
+            }
+          ]
+        },
+        {
+          "name": "员工推荐系统",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Teamable｜Employee Referrals",
+              "type": "url",
+              "url": "https://www.teamable.com/",
+              "tags": ["P", "Referral"]
+            },
+            {
+              "name": "Boon｜Referral Platform",
+              "type": "url",
+              "url": "https://www.boon.com/",
+              "tags": ["P", "Referral"]
+            },
+            {
+              "name": "RolePoint｜Referrals",
+              "type": "url",
+              "url": "https://www.rolepoint.com/",
+              "tags": ["P", "Referral"]
+            },
+            {
+              "name": "ERIN｜Employee Referrals",
+              "type": "url",
+              "url": "https://erinapp.com/",
+              "tags": ["P", "Referral"]
+            },
+            {
+              "name": "Drafted｜Referral Network",
+              "type": "url",
+              "url": "https://www.drafted.us/",
+              "tags": ["P", "Referral"]
+            },
+            {
+              "name": "Greenhouse｜Referrals",
+              "type": "url",
+              "url": "https://www.greenhouse.io/referrals",
+              "tags": ["P", "ATS"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "49 招聘视觉与品牌设计",
+      "type": "folder",
+      "children": [
+        {
+          "name": "设计工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Canva｜Recruitment Templates",
+              "type": "url",
+              "url": "https://www.canva.com/templates/recruitment/",
+              "tags": ["Design", "Template"]
+            },
+            {
+              "name": "Figma｜HR Templates",
+              "type": "url",
+              "url": "https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=hr",
+              "tags": ["Design", "Template"]
+            },
+            {
+              "name": "Adobe Express｜Job Posts",
+              "type": "url",
+              "url": "https://www.adobe.com/express/",
+              "tags": ["Design", "P"]
+            },
+            {
+              "name": "Venngage｜HR Infographics",
+              "type": "url",
+              "url": "https://venngage.com/templates/human-resources",
+              "tags": ["Design", "Infographic"]
+            },
+            {
+              "name": "Piktochart｜HR Visuals",
+              "type": "url",
+              "url": "https://piktochart.com/",
+              "tags": ["Design", "Infographic"]
+            },
+            {
+              "name": "Loom｜Recruiter Videos",
+              "type": "url",
+              "url": "https://www.loom.com/",
+              "tags": ["Video", "Communication"]
+            }
+          ]
+        },
+        {
+          "name": "雇主品牌视觉",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Stories Inc.｜EB Content",
+              "type": "url",
+              "url": "https://storiesinc.com/",
+              "tags": ["Agency", "P"]
+            },
+            {
+              "name": "The Muse｜EB Solutions",
+              "type": "url",
+              "url": "https://www.themuse.com/employers",
+              "tags": ["P", "Employer Brand"]
+            },
+            {
+              "name": "Rally Recruitment Marketing",
+              "type": "url",
+              "url": "https://rallyrecruitmentmarketing.com/",
+              "tags": ["Blog", "EB"]
+            },
+            {
+              "name": "Employer Brand Academy",
+              "type": "url",
+              "url": "https://www.employerbrandacademy.com/",
+              "tags": ["Training", "EB"]
+            },
+            {
+              "name": "Universum｜EB Rankings",
+              "type": "url",
+              "url": "https://universumglobal.com/",
+              "tags": ["Research", "Rankings"]
+            },
+            {
+              "name": "Glassdoor｜EB Resources",
+              "type": "url",
+              "url": "https://www.glassdoor.com/employers/resources/",
+              "tags": ["Resource", "EB"]
+            }
+          ]
+        },
+        {
+          "name": "招聘社交媒体",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Hootsuite｜Social Recruiting",
+              "type": "url",
+              "url": "https://www.hootsuite.com/",
+              "tags": ["P", "Social"]
+            },
+            {
+              "name": "Buffer｜Social Scheduling",
+              "type": "url",
+              "url": "https://buffer.com/",
+              "tags": ["P", "Social"]
+            },
+            {
+              "name": "Sprout Social｜Recruiting",
+              "type": "url",
+              "url": "https://sproutsocial.com/",
+              "tags": ["P", "Social"]
+            },
+            {
+              "name": "Later｜Instagram Recruiting",
+              "type": "url",
+              "url": "https://later.com/",
+              "tags": ["P", "Social"]
+            },
+            {
+              "name": "LinkedIn｜Career Pages",
+              "type": "url",
+              "url": "https://business.linkedin.com/talent-solutions/career-pages",
+              "tags": ["P", "Social"]
+            },
+            {
+              "name": "Glassdoor｜Company Profile",
+              "type": "url",
+              "url": "https://www.glassdoor.com/employers/",
+              "tags": ["P", "Review"]
+            }
+          ]
+        },
+        {
+          "name": "招聘网站设计",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Recruitee｜Career Site Builder",
+              "type": "url",
+              "url": "https://recruitee.com/career-site",
+              "tags": ["P", "Website"]
+            },
+            {
+              "name": "SmartRecruiters｜Career Site",
+              "type": "url",
+              "url": "https://www.smartrecruiters.com/",
+              "tags": ["P", "Website"]
+            },
+            {
+              "name": "Phenom｜Career Site",
+              "type": "url",
+              "url": "https://www.phenom.com/career-site",
+              "tags": ["P", "Website"]
+            },
+            {
+              "name": "Lever｜Career Pages",
+              "type": "url",
+              "url": "https://www.lever.co/",
+              "tags": ["P", "Website"]
+            },
+            {
+              "name": "Ashby｜Career Sites",
+              "type": "url",
+              "url": "https://www.ashbyhq.com/",
+              "tags": ["P", "Website"]
+            },
+            {
+              "name": "Webflow｜Career Site Templates",
+              "type": "url",
+              "url": "https://webflow.com/templates/tag/jobs",
+              "tags": ["Website", "Template"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "50 候选人关系管理 (CRM)",
+      "type": "folder",
+      "children": [
+        {
+          "name": "专业招聘 CRM",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Beamery｜Talent CRM",
+              "type": "url",
+              "url": "https://beamery.com/",
+              "tags": ["P", "CRM", "Enterprise"]
+            },
+            {
+              "name": "Avature｜CRM",
+              "type": "url",
+              "url": "https://www.avature.net/crm/",
+              "tags": ["P", "CRM", "Enterprise"]
+            },
+            {
+              "name": "Phenom｜CRM",
+              "type": "url",
+              "url": "https://www.phenom.com/talent-crm",
+              "tags": ["P", "CRM"]
+            },
+            {
+              "name": "Gem｜Talent CRM",
+              "type": "url",
+              "url": "https://www.gem.com/",
+              "tags": ["P", "CRM"]
+            },
+            {
+              "name": "Yello｜Campus CRM",
+              "type": "url",
+              "url": "https://yello.co/",
+              "tags": ["P", "CRM", "Campus"]
+            },
+            {
+              "name": "Bullhorn｜Staffing CRM",
+              "type": "url",
+              "url": "https://www.bullhorn.com/",
+              "tags": ["P", "CRM", "Staffing"]
+            },
+            {
+              "name": "Loxo｜AI CRM",
+              "type": "url",
+              "url": "https://loxo.co/",
+              "tags": ["AI", "P", "CRM"]
+            },
+            {
+              "name": "Fetcher｜AI Sourcing CRM",
+              "type": "url",
+              "url": "https://fetcher.ai/",
+              "tags": ["AI", "P", "CRM"]
+            }
+          ]
+        },
+        {
+          "name": "人才库管理",
+          "type": "folder",
+          "children": [
+            {
+              "name": "TalentLyft｜Talent Pool",
+              "type": "url",
+              "url": "https://www.talentlyft.com/",
+              "tags": ["P", "Talent Pool"]
+            },
+            {
+              "name": "Recruitee｜Talent Pool",
+              "type": "url",
+              "url": "https://recruitee.com/talent-pool",
+              "tags": ["P", "Talent Pool"]
+            },
+            {
+              "name": "Greenhouse｜Nurture",
+              "type": "url",
+              "url": "https://www.greenhouse.io/",
+              "tags": ["P", "CRM"]
+            },
+            {
+              "name": "Lever｜Nurture",
+              "type": "url",
+              "url": "https://www.lever.co/nurture",
+              "tags": ["P", "CRM"]
+            },
+            {
+              "name": "SmashFly｜CRM",
+              "type": "url",
+              "url": "https://www.symphonytalent.com/",
+              "tags": ["P", "CRM"]
+            },
+            {
+              "name": "Jobvite｜CRM",
+              "type": "url",
+              "url": "https://www.jobvite.com/",
+              "tags": ["P", "CRM"]
+            }
+          ]
+        },
+        {
+          "name": "候选人沟通自动化",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Paradox｜Olivia AI",
+              "type": "url",
+              "url": "https://www.paradox.ai/",
+              "tags": ["AI", "P", "Chatbot"]
+            },
+            {
+              "name": "Sense｜AI Communication",
+              "type": "url",
+              "url": "https://www.sensehq.com/",
+              "tags": ["AI", "P", "Communication"]
+            },
+            {
+              "name": "Grayscale｜Texting",
+              "type": "url",
+              "url": "https://www.grayscaleapp.com/",
+              "tags": ["P", "SMS"]
+            },
+            {
+              "name": "TextRecruit｜SMS Recruiting",
+              "type": "url",
+              "url": "https://www.icims.com/products/textrecruit/",
+              "tags": ["P", "SMS"]
+            },
+            {
+              "name": "Emissary.ai｜Text Recruiting",
+              "type": "url",
+              "url": "https://emissary.ai/",
+              "tags": ["AI", "P", "SMS"]
+            },
+            {
+              "name": "Hireology｜Communication",
+              "type": "url",
+              "url": "https://hireology.com/",
+              "tags": ["P", "Communication"]
+            }
+          ]
+        },
+        {
+          "name": "候选人体验",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Talent Board｜CandE Research",
+              "type": "url",
+              "url": "https://www.thetalentboard.org/",
+              "tags": ["Research", "CandE"]
+            },
+            {
+              "name": "Survale｜CandE Surveys",
+              "type": "url",
+              "url": "https://survale.com/",
+              "tags": ["P", "Survey"]
+            },
+            {
+              "name": "Starred｜Candidate Feedback",
+              "type": "url",
+              "url": "https://www.starred.com/",
+              "tags": ["P", "Feedback"]
+            },
+            {
+              "name": "SurveyMonkey｜CandE Templates",
+              "type": "url",
+              "url": "https://www.surveymonkey.com/mp/candidate-experience-survey-template/",
+              "tags": ["Survey", "Template"]
+            },
+            {
+              "name": "Culture Amp｜Candidate Survey",
+              "type": "url",
+              "url": "https://www.cultureamp.com/",
+              "tags": ["P", "Survey"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "51 神经多样性招聘",
+      "type": "folder",
+      "children": [
+        {
+          "name": "神经多样性项目",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Autism@Work（SAP）",
+              "type": "url",
+              "url": "https://www.sap.com/about/careers/your-career/autism-at-work.html",
+              "tags": ["Neurodiversity", "Enterprise"]
+            },
+            {
+              "name": "Microsoft｜Autism Hiring",
+              "type": "url",
+              "url": "https://www.microsoft.com/en-us/diversity/inside-microsoft/cross-disability/hiring",
+              "tags": ["Neurodiversity", "Enterprise"]
+            },
+            {
+              "name": "JPMorgan｜Autism at Work",
+              "type": "url",
+              "url": "https://www.jpmorganchase.com/about/our-commitment-to-diversity",
+              "tags": ["Neurodiversity", "Finance"]
+            },
+            {
+              "name": "EY｜Neuro-Diverse CoE",
+              "type": "url",
+              "url": "https://www.ey.com/en_us/diversity-inclusiveness",
+              "tags": ["Neurodiversity", "Consulting"]
+            },
+            {
+              "name": "Dell｜Neurodiversity Hiring",
+              "type": "url",
+              "url": "https://jobs.dell.com/neurodiversity",
+              "tags": ["Neurodiversity", "Tech"]
+            },
+            {
+              "name": "IBM｜Neurodiversity Program",
+              "type": "url",
+              "url": "https://www.ibm.com/employment/inclusion/",
+              "tags": ["Neurodiversity", "Tech"]
+            }
+          ]
+        },
+        {
+          "name": "专业招聘机构",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Specialisterne",
+              "type": "url",
+              "url": "https://specialisterne.com/",
+              "tags": ["Neurodiversity", "Agency"]
+            },
+            {
+              "name": "Autism Speaks｜Employment",
+              "type": "url",
+              "url": "https://www.autismspeaks.org/employment",
+              "tags": ["Neurodiversity", "Resource"]
+            },
+            {
+              "name": "Integrate Autism Employment",
+              "type": "url",
+              "url": "https://integrateautism.com/",
+              "tags": ["Neurodiversity", "Training"]
+            },
+            {
+              "name": "Exceptional Minds",
+              "type": "url",
+              "url": "https://www.exceptionalmindsstudio.org/",
+              "tags": ["Neurodiversity", "Training"]
+            },
+            {
+              "name": "Ultranauts",
+              "type": "url",
+              "url": "https://ultranauts.co/",
+              "tags": ["Neurodiversity", "QA"]
+            },
+            {
+              "name": "CAI Neurodiverse Solutions",
+              "type": "url",
+              "url": "https://www.cai.io/neurodiverse-solutions/",
+              "tags": ["Neurodiversity", "Consulting"]
+            }
+          ]
+        },
+        {
+          "name": "资源与研究",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Harvard｜Neurodiversity as Competitive",
+              "type": "url",
+              "url": "https://hbr.org/2017/05/neurodiversity-as-a-competitive-advantage",
+              "tags": ["Research", "Article"]
+            },
+            {
+              "name": "Deloitte｜Neurodiversity",
+              "type": "url",
+              "url": "https://www2.deloitte.com/us/en/insights/topics/talent/neurodiversity-in-the-workplace.html",
+              "tags": ["Research", "Consulting"]
+            },
+            {
+              "name": "SHRM｜Neurodiversity Resources",
+              "type": "url",
+              "url": "https://www.shrm.org/topics-tools/topics/inclusion-diversity/neurodiversity",
+              "tags": ["Resource", "HR"]
+            },
+            {
+              "name": "EARN｜Neurodiversity Toolkit",
+              "type": "url",
+              "url": "https://askearn.org/page/neurodiversity-in-the-workplace",
+              "tags": ["Toolkit", "US"]
+            },
+            {
+              "name": "Made By Dyslexia",
+              "type": "url",
+              "url": "https://www.madebydyslexia.org/",
+              "tags": ["Neurodiversity", "Dyslexia"]
+            },
+            {
+              "name": "Understood.org｜Workplace",
+              "type": "url",
+              "url": "https://www.understood.org/en/articles/workplace",
+              "tags": ["Neurodiversity", "Resource"]
+            }
+          ]
+        },
+        {
+          "name": "适配工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Texthelp｜Read&Write",
+              "type": "url",
+              "url": "https://www.texthelp.com/",
+              "tags": ["Accessibility", "Tool"]
+            },
+            {
+              "name": "Natural Reader｜Text to Speech",
+              "type": "url",
+              "url": "https://www.naturalreaders.com/",
+              "tags": ["Accessibility", "Tool"]
+            },
+            {
+              "name": "Grammarly｜Writing Assistance",
+              "type": "url",
+              "url": "https://www.grammarly.com/",
+              "tags": ["Accessibility", "Tool"]
+            },
+            {
+              "name": "Otter.ai｜Transcription",
+              "type": "url",
+              "url": "https://otter.ai/",
+              "tags": ["AI", "Accessibility"]
+            },
+            {
+              "name": "Be My Eyes｜Visual Assistance",
+              "type": "url",
+              "url": "https://www.bemyeyes.com/",
+              "tags": ["Accessibility", "App"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "52 蓝领与一线员工招聘",
+      "type": "folder",
+      "children": [
+        {
+          "name": "蓝领招聘平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Instawork｜Gig Staffing",
+              "type": "url",
+              "url": "https://www.instawork.com/",
+              "tags": ["P", "Gig", "US"]
+            },
+            {
+              "name": "Wonolo｜On-Demand Staffing",
+              "type": "url",
+              "url": "https://www.wonolo.com/",
+              "tags": ["P", "Gig", "US"]
+            },
+            {
+              "name": "Instawork｜Hourly Jobs",
+              "type": "url",
+              "url": "https://www.instawork.com/",
+              "tags": ["P", "Hourly"]
+            },
+            {
+              "name": "Workstream｜Hourly Hiring",
+              "type": "url",
+              "url": "https://www.workstream.us/",
+              "tags": ["P", "Hourly"]
+            },
+            {
+              "name": "Fountain｜High-Volume",
+              "type": "url",
+              "url": "https://www.fountain.com/",
+              "tags": ["P", "High Volume"]
+            },
+            {
+              "name": "Jobget｜Hourly Jobs",
+              "type": "url",
+              "url": "https://www.jobget.com/",
+              "tags": ["App", "Hourly"]
+            },
+            {
+              "name": "Snagajob｜Hourly Work",
+              "type": "url",
+              "url": "https://www.snagajob.com/",
+              "tags": ["Job Board", "Hourly"]
+            },
+            {
+              "name": "58同城｜蓝领招聘",
+              "type": "url",
+              "url": "https://www.58.com/",
+              "tags": ["CN", "Job Board"]
+            }
+          ]
+        },
+        {
+          "name": "行业专业平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Truckstop｜Trucking Jobs",
+              "type": "url",
+              "url": "https://truckstop.com/",
+              "tags": ["Logistics", "Job Board"]
+            },
+            {
+              "name": "AllTruckJobs",
+              "type": "url",
+              "url": "https://www.alltruckjobs.com/",
+              "tags": ["Logistics", "Job Board"]
+            },
+            {
+              "name": "Hcareers｜Hospitality",
+              "type": "url",
+              "url": "https://www.hcareers.com/",
+              "tags": ["Hospitality", "Job Board"]
+            },
+            {
+              "name": "Poached Jobs｜Restaurant",
+              "type": "url",
+              "url": "https://poachedjobs.com/",
+              "tags": ["Restaurant", "Job Board"]
+            },
+            {
+              "name": "iHireConstruction",
+              "type": "url",
+              "url": "https://www.ihireconstruction.com/",
+              "tags": ["Construction", "Job Board"]
+            },
+            {
+              "name": "CoolWorks｜Seasonal Jobs",
+              "type": "url",
+              "url": "https://www.coolworks.com/",
+              "tags": ["Seasonal", "Job Board"]
+            },
+            {
+              "name": "RetailCareersNow",
+              "type": "url",
+              "url": "https://www.retailcareersnow.com/",
+              "tags": ["Retail", "Job Board"]
+            },
+            {
+              "name": "ManufacturingJobs",
+              "type": "url",
+              "url": "https://www.manufacturingjobs.com/",
+              "tags": ["Manufacturing", "Job Board"]
+            }
+          ]
+        },
+        {
+          "name": "移动招聘方案",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Paradox｜Mobile-First",
+              "type": "url",
+              "url": "https://www.paradox.ai/",
+              "tags": ["AI", "Mobile"]
+            },
+            {
+              "name": "Harri｜Hospitality Tech",
+              "type": "url",
+              "url": "https://harri.com/",
+              "tags": ["P", "Hospitality"]
+            },
+            {
+              "name": "Legion WFM｜Hourly",
+              "type": "url",
+              "url": "https://legion.co/",
+              "tags": ["P", "WFM"]
+            },
+            {
+              "name": "Sirenum｜Workforce",
+              "type": "url",
+              "url": "https://www.bullhorn.com/sirenum/",
+              "tags": ["P", "WFM"]
+            },
+            {
+              "name": "When I Work｜Scheduling",
+              "type": "url",
+              "url": "https://wheniwork.com/",
+              "tags": ["P", "Scheduling"]
+            },
+            {
+              "name": "Homebase｜SMB Hiring",
+              "type": "url",
+              "url": "https://joinhomebase.com/",
+              "tags": ["P", "SMB"]
+            }
+          ]
+        },
+        {
+          "name": "批量招聘工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Appcast｜Programmatic",
+              "type": "url",
+              "url": "https://www.appcast.io/",
+              "tags": ["P", "Programmatic"]
+            },
+            {
+              "name": "Joveo｜Programmatic",
+              "type": "url",
+              "url": "https://www.joveo.com/",
+              "tags": ["P", "Programmatic"]
+            },
+            {
+              "name": "PandoLogic｜AI Recruiting",
+              "type": "url",
+              "url": "https://pandologic.com/",
+              "tags": ["AI", "P", "Programmatic"]
+            },
+            {
+              "name": "Radancy｜High Volume",
+              "type": "url",
+              "url": "https://www.radancy.com/",
+              "tags": ["P", "Enterprise"]
+            },
+            {
+              "name": "Symphony Talent｜Volume Hiring",
+              "type": "url",
+              "url": "https://www.symphonytalent.com/",
+              "tags": ["P", "Enterprise"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "53 招聘效率与生产力工具",
+      "type": "folder",
+      "children": [
+        {
+          "name": "日程协调",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Calendly｜Scheduling",
+              "type": "url",
+              "url": "https://calendly.com/",
+              "tags": ["P", "Scheduling"]
+            },
+            {
+              "name": "Cronofy｜Interview Scheduling",
+              "type": "url",
+              "url": "https://www.cronofy.com/",
+              "tags": ["P", "Scheduling"]
+            },
+            {
+              "name": "GoodTime｜Interview Coordination",
+              "type": "url",
+              "url": "https://www.goodtime.io/",
+              "tags": ["P", "Scheduling"]
+            },
+            {
+              "name": "ModernLoop｜Scheduling",
+              "type": "url",
+              "url": "https://www.modernloop.io/",
+              "tags": ["P", "Scheduling"]
+            },
+            {
+              "name": "Prelude｜Interview Ops",
+              "type": "url",
+              "url": "https://www.prelude.co/",
+              "tags": ["P", "Scheduling"]
+            },
+            {
+              "name": "Doodle｜Group Scheduling",
+              "type": "url",
+              "url": "https://doodle.com/",
+              "tags": ["P", "Scheduling"]
+            },
+            {
+              "name": "Cal.com｜Open Source",
+              "type": "url",
+              "url": "https://cal.com/",
+              "tags": ["O", "Scheduling"]
+            }
+          ]
+        },
+        {
+          "name": "邮件与沟通",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Superhuman｜Email",
+              "type": "url",
+              "url": "https://superhuman.com/",
+              "tags": ["P", "Email"]
+            },
+            {
+              "name": "Mixmax｜Email Sequences",
+              "type": "url",
+              "url": "https://www.mixmax.com/",
+              "tags": ["P", "Email"]
+            },
+            {
+              "name": "Yesware｜Email Tracking",
+              "type": "url",
+              "url": "https://www.yesware.com/",
+              "tags": ["P", "Email"]
+            },
+            {
+              "name": "Outreach｜Sales Engagement",
+              "type": "url",
+              "url": "https://www.outreach.io/",
+              "tags": ["P", "Outreach"]
+            },
+            {
+              "name": "Salesloft｜Engagement",
+              "type": "url",
+              "url": "https://salesloft.com/",
+              "tags": ["P", "Outreach"]
+            },
+            {
+              "name": "Mailchimp｜Email Campaigns",
+              "type": "url",
+              "url": "https://mailchimp.com/",
+              "tags": ["P", "Email Marketing"]
+            }
+          ]
+        },
+        {
+          "name": "笔记与协作",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Notion｜Team Wiki",
+              "type": "url",
+              "url": "https://www.notion.so/",
+              "tags": ["P", "Productivity"]
+            },
+            {
+              "name": "Coda｜Docs & Apps",
+              "type": "url",
+              "url": "https://coda.io/",
+              "tags": ["P", "Productivity"]
+            },
+            {
+              "name": "Obsidian｜Note Taking",
+              "type": "url",
+              "url": "https://obsidian.md/",
+              "tags": ["Free", "Notes"]
+            },
+            {
+              "name": "Roam Research｜Networked Thought",
+              "type": "url",
+              "url": "https://roamresearch.com/",
+              "tags": ["P", "Notes"]
+            },
+            {
+              "name": "BrightHire｜Interview Notes",
+              "type": "url",
+              "url": "https://brighthire.com/",
+              "tags": ["P", "Interview"]
+            },
+            {
+              "name": "Metaview｜AI Interview Notes",
+              "type": "url",
+              "url": "https://www.metaview.ai/",
+              "tags": ["AI", "P", "Interview"]
+            }
+          ]
+        },
+        {
+          "name": "自动化工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Zapier｜Automation",
+              "type": "url",
+              "url": "https://zapier.com/",
+              "tags": ["P", "Automation"]
+            },
+            {
+              "name": "Make｜Integration",
+              "type": "url",
+              "url": "https://www.make.com/",
+              "tags": ["P", "Automation"]
+            },
+            {
+              "name": "n8n｜Open Source Automation",
+              "type": "url",
+              "url": "https://n8n.io/",
+              "tags": ["O", "Automation"]
+            },
+            {
+              "name": "Workato｜Enterprise Integration",
+              "type": "url",
+              "url": "https://www.workato.com/",
+              "tags": ["P", "Enterprise"]
+            },
+            {
+              "name": "Tray.io｜Low-Code",
+              "type": "url",
+              "url": "https://tray.io/",
+              "tags": ["P", "Automation"]
+            },
+            {
+              "name": "Power Automate｜Microsoft",
+              "type": "url",
+              "url": "https://powerautomate.microsoft.com/",
+              "tags": ["P", "Microsoft"]
+            }
+          ]
+        },
+        {
+          "name": "Chrome 扩展",
+          "type": "folder",
+          "children": [
+            {
+              "name": "LinkedIn Helper",
+              "type": "url",
+              "url": "https://www.linkedhelper.com/",
+              "tags": ["P", "LinkedIn", "Extension"]
+            },
+            {
+              "name": "Dux-Soup｜LinkedIn Automation",
+              "type": "url",
+              "url": "https://www.dux-soup.com/",
+              "tags": ["P", "LinkedIn", "Extension"]
+            },
+            {
+              "name": "ContactOut｜Email Finder",
+              "type": "url",
+              "url": "https://contactout.com/",
+              "tags": ["P", "Sourcing", "Extension"]
+            },
+            {
+              "name": "Lusha｜Contact Data",
+              "type": "url",
+              "url": "https://www.lusha.com/",
+              "tags": ["P", "Sourcing", "Extension"]
+            },
+            {
+              "name": "Hunter｜Email Finder",
+              "type": "url",
+              "url": "https://hunter.io/",
+              "tags": ["P", "Sourcing", "Extension"]
+            },
+            {
+              "name": "Clearbit Connect｜Email",
+              "type": "url",
+              "url": "https://clearbit.com/connect",
+              "tags": ["Free", "Extension"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "54 AI 面试与评估技术",
+      "type": "folder",
+      "children": [
+        {
+          "name": "AI 视频面试",
+          "type": "folder",
+          "children": [
+            {
+              "name": "HireVue｜AI Video Interview",
+              "type": "url",
+              "url": "https://www.hirevue.com/",
+              "tags": ["AI", "P", "Video"]
+            },
+            {
+              "name": "Modern Hire｜AI Assessment",
+              "type": "url",
+              "url": "https://modernhire.com/",
+              "tags": ["AI", "P", "Assessment"]
+            },
+            {
+              "name": "myInterview｜Video Screening",
+              "type": "url",
+              "url": "https://www.myinterview.com/",
+              "tags": ["AI", "P", "Video"]
+            },
+            {
+              "name": "Spark Hire｜Video Interviews",
+              "type": "url",
+              "url": "https://www.sparkhire.com/",
+              "tags": ["P", "Video"]
+            },
+            {
+              "name": "VidCruiter｜Video Recruiting",
+              "type": "url",
+              "url": "https://vidcruiter.com/",
+              "tags": ["P", "Video"]
+            },
+            {
+              "name": "Willo｜Async Video",
+              "type": "url",
+              "url": "https://www.willo.video/",
+              "tags": ["P", "Video"]
+            }
+          ]
+        },
+        {
+          "name": "AI 面试助手",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Metaview｜AI Note Taker",
+              "type": "url",
+              "url": "https://www.metaview.ai/",
+              "tags": ["AI", "P", "Notes"]
+            },
+            {
+              "name": "BrightHire｜Interview Intelligence",
+              "type": "url",
+              "url": "https://brighthire.com/",
+              "tags": ["AI", "P", "Intelligence"]
+            },
+            {
+              "name": "Pillar｜Interview Intelligence",
+              "type": "url",
+              "url": "https://www.pillar.hr/",
+              "tags": ["AI", "P", "Intelligence"]
+            },
+            {
+              "name": "Hume AI｜Emotion AI",
+              "type": "url",
+              "url": "https://www.hume.ai/",
+              "tags": ["AI", "Research"]
+            },
+            {
+              "name": "Kira Talent｜AI Assessment",
+              "type": "url",
+              "url": "https://www.kiratalent.com/",
+              "tags": ["AI", "P", "Campus"]
+            },
+            {
+              "name": "Interviewer.AI",
+              "type": "url",
+              "url": "https://www.interviewer.ai/",
+              "tags": ["AI", "P", "Video"]
+            }
+          ]
+        },
+        {
+          "name": "AI 编程面试",
+          "type": "folder",
+          "children": [
+            {
+              "name": "CodeSignal｜Technical Assessment",
+              "type": "url",
+              "url": "https://codesignal.com/",
+              "tags": ["AI", "P", "Tech"]
+            },
+            {
+              "name": "HackerRank｜AI-Powered",
+              "type": "url",
+              "url": "https://www.hackerrank.com/",
+              "tags": ["P", "Tech"]
+            },
+            {
+              "name": "CoderPad｜Technical Interviews",
+              "type": "url",
+              "url": "https://coderpad.io/",
+              "tags": ["P", "Tech"]
+            },
+            {
+              "name": "Codility｜Tech Screening",
+              "type": "url",
+              "url": "https://www.codility.com/",
+              "tags": ["P", "Tech"]
+            },
+            {
+              "name": "Triplebyte｜AI Matching",
+              "type": "url",
+              "url": "https://triplebyte.com/",
+              "tags": ["AI", "P", "Tech"]
+            },
+            {
+              "name": "Qualified.io｜Live Coding",
+              "type": "url",
+              "url": "https://www.qualified.io/",
+              "tags": ["P", "Tech"]
+            }
+          ]
+        },
+        {
+          "name": "心理测评 AI",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Pymetrics｜Game-Based AI",
+              "type": "url",
+              "url": "https://www.pymetrics.ai/",
+              "tags": ["AI", "P", "Games"]
+            },
+            {
+              "name": "Plum｜AI Talent Assessment",
+              "type": "url",
+              "url": "https://www.plum.io/",
+              "tags": ["AI", "P", "Assessment"]
+            },
+            {
+              "name": "Traitify｜Visual Assessment",
+              "type": "url",
+              "url": "https://www.traitify.com/",
+              "tags": ["AI", "P", "Visual"]
+            },
+            {
+              "name": "Cangrade｜AI Hiring",
+              "type": "url",
+              "url": "https://www.cangrade.com/",
+              "tags": ["AI", "P", "Prediction"]
+            },
+            {
+              "name": "Criteria Corp｜AI Assessment",
+              "type": "url",
+              "url": "https://www.criteriacorp.com/",
+              "tags": ["AI", "P", "Assessment"]
+            },
+            {
+              "name": "Arctic Shores｜Behavioral AI",
+              "type": "url",
+              "url": "https://www.arcticshores.com/",
+              "tags": ["AI", "P", "Games"]
+            }
+          ]
+        },
+        {
+          "name": "AI 面试研究",
+          "type": "folder",
+          "children": [
+            {
+              "name": "MIT｜AI Hiring Research",
+              "type": "url",
+              "url": "https://www.media.mit.edu/",
+              "tags": ["Research", "Academic"]
+            },
+            {
+              "name": "ACM｜FAccT Conference",
+              "type": "url",
+              "url": "https://facctconference.org/",
+              "tags": ["Research", "Fairness"]
+            },
+            {
+              "name": "Brookings｜AI Employment",
+              "type": "url",
+              "url": "https://www.brookings.edu/topic/ai-employment/",
+              "tags": ["Research", "Policy"]
+            },
+            {
+              "name": "OECD｜AI in Hiring",
+              "type": "url",
+              "url": "https://www.oecd.org/employment/ai-and-the-labour-market/",
+              "tags": ["Research", "Policy"]
+            },
+            {
+              "name": "World Economic Forum｜Future of Jobs",
+              "type": "url",
+              "url": "https://www.weforum.org/reports/the-future-of-jobs-report-2023/",
+              "tags": ["Research", "Global"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "55 招聘行业研究与报告",
+      "type": "folder",
+      "children": [
+        {
+          "name": "年度报告",
+          "type": "folder",
+          "children": [
+            {
+              "name": "LinkedIn｜Global Talent Trends",
+              "type": "url",
+              "url": "https://business.linkedin.com/talent-solutions/global-talent-trends",
+              "tags": ["Report", "Annual"]
+            },
+            {
+              "name": "Jobvite｜Recruiter Nation",
+              "type": "url",
+              "url": "https://www.jobvite.com/lp/recruiter-nation-report/",
+              "tags": ["Report", "Annual"]
+            },
+            {
+              "name": "SHRM｜State of the Workplace",
+              "type": "url",
+              "url": "https://www.shrm.org/topics-tools/research",
+              "tags": ["Report", "US"]
+            },
+            {
+              "name": "Glassdoor｜Job & Hiring Trends",
+              "type": "url",
+              "url": "https://www.glassdoor.com/research/",
+              "tags": ["Report", "Trends"]
+            },
+            {
+              "name": "Indeed｜Hiring Lab",
+              "type": "url",
+              "url": "https://www.hiringlab.org/",
+              "tags": ["Research", "Data"]
+            },
+            {
+              "name": "ManpowerGroup｜Talent Shortage",
+              "type": "url",
+              "url": "https://go.manpowergroup.com/talent-shortage",
+              "tags": ["Report", "Global"]
+            }
+          ]
+        },
+        {
+          "name": "咨询公司研究",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Deloitte｜Human Capital Trends",
+              "type": "url",
+              "url": "https://www2.deloitte.com/us/en/insights/focus/human-capital-trends.html",
+              "tags": ["Report", "Consulting"]
+            },
+            {
+              "name": "McKinsey｜Future of Work",
+              "type": "url",
+              "url": "https://www.mckinsey.com/featured-insights/future-of-work",
+              "tags": ["Research", "Consulting"]
+            },
+            {
+              "name": "Gartner｜HR Research",
+              "type": "url",
+              "url": "https://www.gartner.com/en/human-resources",
+              "tags": ["Research", "Premium"]
+            },
+            {
+              "name": "BCG｜People Strategy",
+              "type": "url",
+              "url": "https://www.bcg.com/capabilities/people-strategy",
+              "tags": ["Research", "Consulting"]
+            },
+            {
+              "name": "Mercer｜Talent Trends",
+              "type": "url",
+              "url": "https://www.mercer.com/insights/talent-and-transformation/",
+              "tags": ["Research", "Consulting"]
+            },
+            {
+              "name": "Korn Ferry｜Talent Research",
+              "type": "url",
+              "url": "https://www.kornferry.com/insights",
+              "tags": ["Research", "Executive"]
+            }
+          ]
+        },
+        {
+          "name": "行业分析",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Josh Bersin｜HR Tech",
+              "type": "url",
+              "url": "https://joshbersin.com/",
+              "tags": ["Analysis", "Blog"]
+            },
+            {
+              "name": "Aptitude Research｜TA Tech",
+              "type": "url",
+              "url": "https://aptituderesearch.com/",
+              "tags": ["Research", "HR Tech"]
+            },
+            {
+              "name": "Talent Tech Labs｜Innovation",
+              "type": "url",
+              "url": "https://www.talenttechlabs.com/",
+              "tags": ["Research", "Innovation"]
+            },
+            {
+              "name": "HRWins｜Vendor Analysis",
+              "type": "url",
+              "url": "https://hrwins.com/",
+              "tags": ["Analysis", "Vendors"]
+            },
+            {
+              "name": "Lighthouse Research｜HR Tech",
+              "type": "url",
+              "url": "https://lhra.io/",
+              "tags": ["Research", "HR Tech"]
+            },
+            {
+              "name": "William Tincup｜Recruiting Daily",
+              "type": "url",
+              "url": "https://recruitingdaily.com/",
+              "tags": ["News", "Analysis"]
+            }
+          ]
+        },
+        {
+          "name": "学术研究",
+          "type": "folder",
+          "children": [
+            {
+              "name": "NBER｜Labor Economics",
+              "type": "url",
+              "url": "https://www.nber.org/topics/labor-studies",
+              "tags": ["Academic", "Research"]
+            },
+            {
+              "name": "ILO｜World Employment",
+              "type": "url",
+              "url": "https://www.ilo.org/research",
+              "tags": ["Research", "Global"]
+            },
+            {
+              "name": "Cornell｜ILR School",
+              "type": "url",
+              "url": "https://www.ilr.cornell.edu/",
+              "tags": ["Academic", "Research"]
+            },
+            {
+              "name": "Wharton｜People Analytics",
+              "type": "url",
+              "url": "https://analytics.wharton.upenn.edu/",
+              "tags": ["Academic", "Analytics"]
+            },
+            {
+              "name": "MIT Sloan｜Work of the Future",
+              "type": "url",
+              "url": "https://workofthefuture.mit.edu/",
+              "tags": ["Academic", "Research"]
+            },
+            {
+              "name": "Stanford HAI｜AI & Work",
+              "type": "url",
+              "url": "https://hai.stanford.edu/",
+              "tags": ["Academic", "AI"]
+            }
+          ]
+        },
+        {
+          "name": "数据与统计",
+          "type": "folder",
+          "children": [
+            {
+              "name": "BLS｜Employment Statistics",
+              "type": "url",
+              "url": "https://www.bls.gov/",
+              "tags": ["Data", "US"]
+            },
+            {
+              "name": "Eurostat｜Labour Market",
+              "type": "url",
+              "url": "https://ec.europa.eu/eurostat/web/labour-market",
+              "tags": ["Data", "EU"]
+            },
+            {
+              "name": "OECD｜Employment Data",
+              "type": "url",
+              "url": "https://data.oecd.org/emp/",
+              "tags": ["Data", "Global"]
+            },
+            {
+              "name": "World Bank｜Jobs Data",
+              "type": "url",
+              "url": "https://datatopics.worldbank.org/jobs/",
+              "tags": ["Data", "Global"]
+            },
+            {
+              "name": "国家统计局｜就业数据",
+              "type": "url",
+              "url": "https://data.stats.gov.cn/",
+              "tags": ["Data", "CN"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "56 人才社区与人才库建设",
+      "type": "folder",
+      "children": [
+        {
+          "name": "社区平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Discord｜Tech Communities",
+              "type": "url",
+              "url": "https://discord.com/",
+              "tags": ["Platform", "Tech"]
+            },
+            {
+              "name": "Slack｜Professional Communities",
+              "type": "url",
+              "url": "https://slack.com/",
+              "tags": ["Platform", "Professional"]
+            },
+            {
+              "name": "Circle｜Community Platform",
+              "type": "url",
+              "url": "https://circle.so/",
+              "tags": ["P", "Community"]
+            },
+            {
+              "name": "Mighty Networks｜Community",
+              "type": "url",
+              "url": "https://www.mightynetworks.com/",
+              "tags": ["P", "Community"]
+            },
+            {
+              "name": "Hivebrite｜Alumni & Community",
+              "type": "url",
+              "url": "https://hivebrite.com/",
+              "tags": ["P", "Alumni"]
+            },
+            {
+              "name": "Graduway｜Alumni Network",
+              "type": "url",
+              "url": "https://www.graduway.com/",
+              "tags": ["P", "Alumni"]
+            }
+          ]
+        },
+        {
+          "name": "人才库工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Beamery｜Talent Pool",
+              "type": "url",
+              "url": "https://beamery.com/",
+              "tags": ["P", "CRM"]
+            },
+            {
+              "name": "Gem｜Pipeline",
+              "type": "url",
+              "url": "https://www.gem.com/",
+              "tags": ["P", "Pipeline"]
+            },
+            {
+              "name": "TalentLyft｜Pool Management",
+              "type": "url",
+              "url": "https://www.talentlyft.com/",
+              "tags": ["P", "Pool"]
+            },
+            {
+              "name": "Lever｜Nurture Campaigns",
+              "type": "url",
+              "url": "https://www.lever.co/",
+              "tags": ["P", "CRM"]
+            },
+            {
+              "name": "Zoho Recruit｜Talent Pool",
+              "type": "url",
+              "url": "https://www.zoho.com/recruit/",
+              "tags": ["P", "SMB"]
+            },
+            {
+              "name": "Airtable｜DIY Talent Pool",
+              "type": "url",
+              "url": "https://www.airtable.com/",
+              "tags": ["P", "Database"]
+            }
+          ]
+        },
+        {
+          "name": "Alumni 网络",
+          "type": "folder",
+          "children": [
+            {
+              "name": "EnterpriseAlumni",
+              "type": "url",
+              "url": "https://www.enterprisealumni.com/",
+              "tags": ["P", "Alumni"]
+            },
+            {
+              "name": "Almabase｜Alumni Management",
+              "type": "url",
+              "url": "https://www.almabase.com/",
+              "tags": ["P", "Alumni"]
+            },
+            {
+              "name": "LinkedIn Alumni｜School Pages",
+              "type": "url",
+              "url": "https://www.linkedin.com/school/",
+              "tags": ["Free", "Alumni"]
+            },
+            {
+              "name": "PeopleGrove｜Career Networks",
+              "type": "url",
+              "url": "https://www.peoplegrove.com/",
+              "tags": ["P", "Mentorship"]
+            },
+            {
+              "name": "Firsthand（Vault）",
+              "type": "url",
+              "url": "https://firsthand.co/",
+              "tags": ["P", "Career"]
+            }
+          ]
+        },
+        {
+          "name": "社区运营",
+          "type": "folder",
+          "children": [
+            {
+              "name": "CMX｜Community Professionals",
+              "type": "url",
+              "url": "https://cmxhub.com/",
+              "tags": ["Community", "Training"]
+            },
+            {
+              "name": "Community Led Growth",
+              "type": "url",
+              "url": "https://www.communityledgrowth.com/",
+              "tags": ["Community", "Strategy"]
+            },
+            {
+              "name": "Orbit｜Community Analytics",
+              "type": "url",
+              "url": "https://orbit.love/",
+              "tags": ["P", "Analytics"]
+            },
+            {
+              "name": "Common Room｜Community Intel",
+              "type": "url",
+              "url": "https://www.commonroom.io/",
+              "tags": ["P", "Analytics"]
+            },
+            {
+              "name": "Savannah｜Community OS",
+              "type": "url",
+              "url": "https://www.savannahhq.com/",
+              "tags": ["O", "Analytics"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "57 招聘视频与多媒体",
+      "type": "folder",
+      "children": [
+        {
+          "name": "视频制作工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Loom｜Quick Videos",
+              "type": "url",
+              "url": "https://www.loom.com/",
+              "tags": ["P", "Video"]
+            },
+            {
+              "name": "Vidyard｜Video Platform",
+              "type": "url",
+              "url": "https://www.vidyard.com/",
+              "tags": ["P", "Video"]
+            },
+            {
+              "name": "Animoto｜Video Maker",
+              "type": "url",
+              "url": "https://animoto.com/",
+              "tags": ["P", "Video"]
+            },
+            {
+              "name": "Biteable｜Video Creator",
+              "type": "url",
+              "url": "https://biteable.com/",
+              "tags": ["P", "Video"]
+            },
+            {
+              "name": "Synthesia｜AI Video",
+              "type": "url",
+              "url": "https://www.synthesia.io/",
+              "tags": ["AI", "P", "Video"]
+            },
+            {
+              "name": "HeyGen｜AI Spokesperson",
+              "type": "url",
+              "url": "https://www.heygen.com/",
+              "tags": ["AI", "P", "Video"]
+            },
+            {
+              "name": "Descript｜Video Editing",
+              "type": "url",
+              "url": "https://www.descript.com/",
+              "tags": ["AI", "P", "Editing"]
+            }
+          ]
+        },
+        {
+          "name": "招聘视频平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "VideoMyJob｜Job Videos",
+              "type": "url",
+              "url": "https://www.videomyjob.com/",
+              "tags": ["P", "Recruiting"]
+            },
+            {
+              "name": "Stories Inc.｜EB Videos",
+              "type": "url",
+              "url": "https://storiesinc.com/",
+              "tags": ["Agency", "EB"]
+            },
+            {
+              "name": "Vimeo｜Business Video",
+              "type": "url",
+              "url": "https://vimeo.com/",
+              "tags": ["P", "Hosting"]
+            },
+            {
+              "name": "Wistia｜Video Marketing",
+              "type": "url",
+              "url": "https://wistia.com/",
+              "tags": ["P", "Marketing"]
+            },
+            {
+              "name": "YouTube｜Career Channels",
+              "type": "url",
+              "url": "https://www.youtube.com/",
+              "tags": ["Free", "Platform"]
+            },
+            {
+              "name": "TikTok｜Recruiting Content",
+              "type": "url",
+              "url": "https://www.tiktok.com/business/",
+              "tags": ["Platform", "Social"]
+            }
+          ]
+        },
+        {
+          "name": "员工故事",
+          "type": "folder",
+          "children": [
+            {
+              "name": "PathMotion｜Employee Stories",
+              "type": "url",
+              "url": "https://pathmotion.com/",
+              "tags": ["P", "Stories"]
+            },
+            {
+              "name": "The Muse｜Company Profiles",
+              "type": "url",
+              "url": "https://www.themuse.com/",
+              "tags": ["P", "EB"]
+            },
+            {
+              "name": "Glassdoor｜Employee Photos",
+              "type": "url",
+              "url": "https://www.glassdoor.com/employers/",
+              "tags": ["P", "Review"]
+            },
+            {
+              "name": "Comparably｜Culture Videos",
+              "type": "url",
+              "url": "https://www.comparably.com/",
+              "tags": ["P", "Culture"]
+            },
+            {
+              "name": "BuiltIn｜Company Stories",
+              "type": "url",
+              "url": "https://builtin.com/",
+              "tags": ["P", "Tech"]
+            },
+            {
+              "name": "LinkedIn Life｜Employee Stories",
+              "type": "url",
+              "url": "https://www.linkedin.com/company/",
+              "tags": ["Free", "Social"]
+            }
+          ]
+        },
+        {
+          "name": "虚拟办公室参观",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Matterport｜3D Tours",
+              "type": "url",
+              "url": "https://matterport.com/",
+              "tags": ["P", "VR"]
+            },
+            {
+              "name": "Kuula｜360 Tours",
+              "type": "url",
+              "url": "https://kuula.co/",
+              "tags": ["P", "360"]
+            },
+            {
+              "name": "Google Street View｜Virtual Tour",
+              "type": "url",
+              "url": "https://www.google.com/streetview/",
+              "tags": ["Free", "Virtual"]
+            },
+            {
+              "name": "Roundme｜VR Tours",
+              "type": "url",
+              "url": "https://roundme.com/",
+              "tags": ["P", "VR"]
+            },
+            {
+              "name": "Pano2VR｜Virtual Tours",
+              "type": "url",
+              "url": "https://ggnome.com/pano2vr/",
+              "tags": ["P", "Software"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "58 招聘协作与团队管理",
+      "type": "folder",
+      "children": [
+        {
+          "name": "招聘团队协作",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Greenhouse｜Team Collaboration",
+              "type": "url",
+              "url": "https://www.greenhouse.io/",
+              "tags": ["P", "ATS"]
+            },
+            {
+              "name": "Lever｜Collaborative Hiring",
+              "type": "url",
+              "url": "https://www.lever.co/",
+              "tags": ["P", "ATS"]
+            },
+            {
+              "name": "Ashby｜Team Analytics",
+              "type": "url",
+              "url": "https://www.ashbyhq.com/",
+              "tags": ["P", "Analytics"]
+            },
+            {
+              "name": "Workable｜Team Features",
+              "type": "url",
+              "url": "https://www.workable.com/",
+              "tags": ["P", "ATS"]
+            },
+            {
+              "name": "Pinpoint｜Team Hiring",
+              "type": "url",
+              "url": "https://www.pinpointhq.com/",
+              "tags": ["P", "ATS"]
+            },
+            {
+              "name": "Recruitee｜Team Collaboration",
+              "type": "url",
+              "url": "https://recruitee.com/",
+              "tags": ["P", "ATS"]
+            }
+          ]
+        },
+        {
+          "name": "项目管理",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Asana｜Project Management",
+              "type": "url",
+              "url": "https://asana.com/",
+              "tags": ["P", "PM"]
+            },
+            {
+              "name": "Monday.com｜Work OS",
+              "type": "url",
+              "url": "https://monday.com/",
+              "tags": ["P", "PM"]
+            },
+            {
+              "name": "Trello｜Kanban Boards",
+              "type": "url",
+              "url": "https://trello.com/",
+              "tags": ["P", "Kanban"]
+            },
+            {
+              "name": "ClickUp｜All-in-One",
+              "type": "url",
+              "url": "https://clickup.com/",
+              "tags": ["P", "PM"]
+            },
+            {
+              "name": "Notion｜Team Wiki",
+              "type": "url",
+              "url": "https://www.notion.so/",
+              "tags": ["P", "Wiki"]
+            },
+            {
+              "name": "Linear｜Issue Tracking",
+              "type": "url",
+              "url": "https://linear.app/",
+              "tags": ["P", "Tech"]
+            }
+          ]
+        },
+        {
+          "name": "沟通工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Slack｜Team Messaging",
+              "type": "url",
+              "url": "https://slack.com/",
+              "tags": ["P", "Communication"]
+            },
+            {
+              "name": "Microsoft Teams｜Collaboration",
+              "type": "url",
+              "url": "https://www.microsoft.com/en-us/microsoft-teams/",
+              "tags": ["P", "Enterprise"]
+            },
+            {
+              "name": "Zoom｜Video Meetings",
+              "type": "url",
+              "url": "https://zoom.us/",
+              "tags": ["P", "Video"]
+            },
+            {
+              "name": "Google Meet｜Video Calls",
+              "type": "url",
+              "url": "https://meet.google.com/",
+              "tags": ["P", "Google"]
+            },
+            {
+              "name": "Discord｜Voice & Chat",
+              "type": "url",
+              "url": "https://discord.com/",
+              "tags": ["Free", "Chat"]
+            },
+            {
+              "name": "Loom｜Async Video",
+              "type": "url",
+              "url": "https://www.loom.com/",
+              "tags": ["P", "Async"]
+            }
+          ]
+        },
+        {
+          "name": "绩效与目标",
+          "type": "folder",
+          "children": [
+            {
+              "name": "15Five｜Performance",
+              "type": "url",
+              "url": "https://www.15five.com/",
+              "tags": ["P", "Performance"]
+            },
+            {
+              "name": "Lattice｜People Management",
+              "type": "url",
+              "url": "https://lattice.com/",
+              "tags": ["P", "Performance"]
+            },
+            {
+              "name": "Culture Amp｜Engagement",
+              "type": "url",
+              "url": "https://www.cultureamp.com/",
+              "tags": ["P", "Engagement"]
+            },
+            {
+              "name": "Peakon｜Employee Voice",
+              "type": "url",
+              "url": "https://www.workday.com/peakon",
+              "tags": ["P", "Engagement"]
+            },
+            {
+              "name": "BetterUp｜Coaching",
+              "type": "url",
+              "url": "https://www.betterup.com/",
+              "tags": ["P", "Coaching"]
+            },
+            {
+              "name": "Koan｜OKRs",
+              "type": "url",
+              "url": "https://www.koan.co/",
+              "tags": ["P", "OKR"]
+            }
+          ]
+        },
+        {
+          "name": "招聘运营 (RecOps)",
+          "type": "folder",
+          "children": [
+            {
+              "name": "RecOps Collective｜Community",
+              "type": "url",
+              "url": "https://www.recopscollective.com/",
+              "tags": ["Community", "RecOps"]
+            },
+            {
+              "name": "Ashby｜RecOps Analytics",
+              "type": "url",
+              "url": "https://www.ashbyhq.com/",
+              "tags": ["P", "Analytics"]
+            },
+            {
+              "name": "Gem｜Pipeline Analytics",
+              "type": "url",
+              "url": "https://www.gem.com/",
+              "tags": ["P", "Analytics"]
+            },
+            {
+              "name": "Crosschq｜Quality Analytics",
+              "type": "url",
+              "url": "https://www.crosschq.com/",
+              "tags": ["P", "Quality"]
+            },
+            {
+              "name": "Findem｜People Intelligence",
+              "type": "url",
+              "url": "https://www.findem.ai/",
+              "tags": ["AI", "P", "Analytics"]
+            },
+            {
+              "name": "Visier｜People Analytics",
+              "type": "url",
+              "url": "https://www.visier.com/",
+              "tags": ["P", "Analytics"]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
