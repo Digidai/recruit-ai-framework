@@ -52,7 +52,7 @@
 
 ### 在线访问
 
-部署后可直接访问：`https://your-domain.com/public/`
+部署后可直接访问：`https://your-domain.com/docs/`
 
 ### 本地预览
 
@@ -65,10 +65,10 @@ python -m http.server 8000        # Python 3
 # 或
 python3 -m http.server 8000       # macOS/Linux
 # 或
-npx http-server ./public -p 8000  # Node.js
+npx http-server ./docs -p 8000    # Node.js
 
 # 打开浏览器访问
-open http://localhost:8000/public/
+open http://localhost:8000/docs/
 ```
 
 > **注意**：直接双击打开 `index.html` 会因浏览器 CORS 安全策略无法读取 `tarf.json`，必须通过 HTTP 服务访问。
@@ -77,16 +77,16 @@ open http://localhost:8000/public/
 
 #### GitHub Pages
 
-```bash
-# 在 GitHub 仓库设置中启用 Pages
-# 选择 main 分支，目录选择 /public
-# 访问：https://username.github.io/recruit-ai-framework/
-```
+1. 进入仓库 Settings → Pages
+2. Source 选择 **Deploy from a branch**
+3. Branch 选择 **main**，目录选择 **/docs**
+4. 点击 Save，等待部署完成
+5. 访问：`https://username.github.io/recruit-ai-framework/`
 
 #### Vercel / Netlify / Cloudflare Pages
 
 1. 连接 GitHub 仓库
-2. 设置 Output Directory 为 `public`
+2. 设置 Output Directory 为 `docs`
 3. 自动部署完成
 
 ---
@@ -143,7 +143,7 @@ open http://localhost:8000/public/
 
 ## 数据结构规范
 
-所有资源存储在 `public/tarf.json` 中，采用树形 JSON 结构。
+所有资源存储在 `docs/tarf.json` 中，采用树形 JSON 结构。
 
 ### 节点类型
 
@@ -217,7 +217,7 @@ open http://localhost:8000/public/
 
 ```
 recruit-ai-framework/
-├── public/                      # 前端静态资源
+├── docs/                        # 前端静态资源（GitHub Pages 部署目录）
 │   ├── index.html               # 主应用页面（72行）
 │   ├── app.js                   # D3 树形图 + 搜索逻辑（262行）
 │   ├── style.css                # 暗色主题样式（199行）
@@ -236,7 +236,7 @@ recruit-ai-framework/
 
 1. Fork 本仓库
 2. 创建特性分支：`git checkout -b feature/add-xxx-resources`
-3. 编辑 `public/tarf.json` 添加资源
+3. 编辑 `docs/tarf.json` 添加资源
 4. 本地测试搜索和导航功能
 5. 提交 PR，描述添加的分类和资源
 
@@ -283,7 +283,7 @@ recruit-ai-framework/
 
 ### Q: 如何添加新的资源分类？
 
-编辑 `public/tarf.json`，在对应位置添加 folder 节点：
+编辑 `docs/tarf.json`，在对应位置添加 folder 节点：
 
 ```json
 {
