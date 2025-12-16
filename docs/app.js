@@ -263,6 +263,12 @@ async function init(){
   // Search interactions
   const onSearch = () => renderResults(items, searchInput.value || "");
   searchInput.addEventListener("input", onSearch);
+  searchInput.addEventListener("keydown", (e) => {
+    if(e.key === "Enter"){
+      e.preventDefault();
+      onSearch();
+    }
+  });
   btnClear.addEventListener("click", () => { searchInput.value = ""; onSearch(); searchInput.focus(); });
 
   // Build tree
@@ -274,5 +280,7 @@ async function init(){
 
 init().catch(err => {
   console.error(err);
-  resultMeta.textContent = "加载 tarf.json 失败，请检查本地服务/路径。";
+  const errorMsg = err.message || "未知错误";
+  resultMeta.textContent = `加载失败：${errorMsg}。请检查网络连接和本地服务。`;
+  treeSvg.innerHTML = `<text x="20" y="40" fill="#e6e6e6" font-size="14">数据加载失败，请刷新页面重试。</text>`;
 });

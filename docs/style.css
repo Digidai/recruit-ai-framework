@@ -12,6 +12,32 @@
 
 *{box-sizing:border-box;}
 html,body{height:100%;}
+
+/* Accessibility: visually hidden but accessible to screen readers */
+.visually-hidden{
+  position:absolute;
+  width:1px;
+  height:1px;
+  padding:0;
+  margin:-1px;
+  overflow:hidden;
+  clip:rect(0,0,0,0);
+  white-space:nowrap;
+  border:0;
+}
+
+/* Focus styles for keyboard navigation */
+:focus-visible{
+  outline:2px solid var(--link);
+  outline-offset:2px;
+}
+button:focus-visible,
+input:focus-visible,
+a:focus-visible{
+  outline:2px solid var(--link);
+  outline-offset:2px;
+}
+
 body{
   margin:0;
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
@@ -217,4 +243,67 @@ a:hover{text-decoration:underline;}
   padding:10px 14px 18px;
   color:var(--muted);
   font-size:12px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px){
+  .header{padding:12px;}
+  .header__title h1{font-size:16px;}
+  .subtitle{font-size:12px;}
+  #searchInput{min-width:180px; padding:8px 10px;}
+  #btnClear{padding:8px 10px;}
+  .btnLink{padding:8px 10px; font-size:12px;}
+  .legend{gap:8px 10px; font-size:11px;}
+  .layout{padding:8px;}
+  .panel__title{padding:8px 10px; font-size:12px;}
+  .zoom-controls button{padding:6px 8px; min-width:32px; min-height:32px;}
+  .treeWrap{height:50vh; min-height:300px;}
+  .resultList{max-height:40vh;}
+  .hint{font-size:11px;}
+}
+
+@media (max-width: 480px){
+  .header__controls{flex-direction:column; align-items:stretch;}
+  #searchInput{min-width:100%; width:100%;}
+  .header__controls button,
+  .header__controls .btnLink{text-align:center;}
+  .legend{justify-content:center;}
+  .zoom-controls{gap:2px;}
+  .zoom-controls button{padding:8px 12px; min-width:40px; min-height:40px;}
+}
+
+/* Print styles */
+@media print{
+  body{
+    background:#fff;
+    color:#000;
+  }
+  .header{
+    background:#fff;
+    border-bottom:1px solid #ccc;
+  }
+  .header__controls,
+  .zoom-controls,
+  .hint,
+  .panel__details,
+  .footer{
+    display:none;
+  }
+  .panel{
+    background:#fff;
+    border:1px solid #ccc;
+    page-break-inside:avoid;
+  }
+  .panel__title{
+    background:#f5f5f5;
+    color:#333;
+  }
+  .resultList li{
+    background:#fff;
+    border:1px solid #ddd;
+    color:#000;
+  }
+  .resultPath,
+  .resultUrl{color:#666;}
+  a{color:#0066cc;}
 }
