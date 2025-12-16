@@ -255,10 +255,16 @@ function buildTree(data){
 }
 
 async function init(){
+  // Show loading state
+  resultMeta.textContent = "正在加载数据...";
+  treeSvg.innerHTML = `<text x="20" y="40" fill="#a7a7a7" font-size="14">加载中...</text>`;
+
   const res = await fetch(DATA_URL);
+  if(!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
 
   const items = flatten(data);
+  resultMeta.textContent = `已加载 ${items.length} 条资源。输入关键词开始搜索。`;
 
   // Search interactions
   const onSearch = () => renderResults(items, searchInput.value || "");
@@ -266,6 +272,11 @@ async function init(){
   searchInput.addEventListener("keydown", (e) => {
     if(e.key === "Enter"){
       e.preventDefault();
+      onSearch();
+    }
+    // Escape key to clear search
+    if(e.key === "Escape"){
+      searchInput.value = "";
       onSearch();
     }
   });

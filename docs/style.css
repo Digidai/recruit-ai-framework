@@ -204,6 +204,7 @@ a:hover{text-decoration:underline;}
   margin:0;
   max-height: 56vh;
   overflow:auto;
+  scroll-behavior:smooth;
 }
 .resultList li{
   border:1px solid var(--border);
