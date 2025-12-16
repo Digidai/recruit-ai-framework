@@ -32,7 +32,14 @@
 
   <main class="layout">
     <section class="panel panel--tree">
-      <div class="panel__title">工具树</div>
+      <div class="panel__title">
+        <span>工具树</span>
+        <div class="zoom-controls">
+          <button type="button" onclick="zoomTreeOut()" title="缩小">−</button>
+          <button type="button" onclick="resetTreeZoom()" title="重置视图">重置</button>
+          <button type="button" onclick="zoomTreeIn()" title="放大">+</button>
+        </div>
+      </div>
       <div id="treeWrap" class="treeWrap">
         <svg id="treeSvg"></svg>
       </div>

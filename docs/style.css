@@ -123,6 +123,28 @@ a:hover{text-decoration:underline;}
   color:var(--muted);
   border-bottom:1px solid var(--border);
   background:rgba(255,255,255,0.02);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.zoom-controls{
+  display:flex;
+  gap:4px;
+}
+.zoom-controls button{
+  padding:4px 10px;
+  border-radius:6px;
+  border:1px solid var(--border);
+  background:var(--panel);
+  color:var(--text);
+  cursor:pointer;
+  font-size:12px;
+  line-height:1;
+}
+.zoom-controls button:hover{
+  border-color:#4a5a74;
+  background:#1a1f2a;
 }
 
 .treeWrap{

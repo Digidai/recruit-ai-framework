@@ -110,10 +110,26 @@ function buildTree(data){
     .append("g");
 
   const zoom = d3.zoom()
-    .scaleExtent([0.3, 2.5])
+    .scaleExtent([0.1, 10])
     .on("zoom", (event) => g.attr("transform", event.transform));
 
   svg.call(zoom);
+
+  // Store initial transform for reset
+  const initialTransform = d3.zoomIdentity.translate(40, height/2).scale(1);
+
+  // Reset zoom button handler
+  window.resetTreeZoom = () => {
+    svg.transition().duration(300).call(zoom.transform, initialTransform);
+  };
+
+  // Zoom in/out button handlers
+  window.zoomTreeIn = () => {
+    svg.transition().duration(200).call(zoom.scaleBy, 1.5);
+  };
+  window.zoomTreeOut = () => {
+    svg.transition().duration(200).call(zoom.scaleBy, 0.67);
+  };
 
   const dx = 14;
   const dy = 220;
