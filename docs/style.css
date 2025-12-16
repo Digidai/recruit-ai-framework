@@ -302,6 +302,16 @@ a:hover{text-decoration:underline;}
   color:var(--muted);
   font-size:12px;
 }
+.footer__links{
+  margin-top:6px;
+  display:flex;
+  gap:8px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.footer__links span{
+  color:var(--border);
+}
 
 /* Mobile responsiveness */
 @media (max-width: 768px){

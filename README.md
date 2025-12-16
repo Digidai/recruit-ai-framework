@@ -274,10 +274,13 @@ open http://localhost:8000/docs/
 ```
 recruit-ai-framework/
 ├── docs/                        # 前端静态资源（GitHub Pages 部署目录）
-│   ├── index.html               # 主应用页面（~80行，含 SEO 和无障碍支持）
-│   ├── app.js                   # D3 树形图 + 搜索逻辑（~290行）
-│   ├── style.css                # 暗色主题 + 响应式 + 打印样式（~310行）
-│   └── tarf.json                # 数据文件（1288 条资源，58 大分类）
+│   ├── index.html               # 主应用页面（SEO + 无障碍支持）
+│   ├── app.js                   # D3 树形图 + 搜索逻辑
+│   ├── style.css                # 暗色主题 + 响应式 + 打印样式
+│   ├── tarf.json                # 数据文件（1288 条资源，58 大分类）
+│   ├── robots.txt               # SEO 爬虫规则
+│   └── 404.html                 # 404 错误页面
+├── .gitignore                   # Git 忽略文件配置
 ├── LICENSE                      # MIT 许可证
 └── README.md                    # 项目文档
 ```

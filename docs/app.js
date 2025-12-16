@@ -35,7 +35,12 @@ function debounce(fn, delay) {
 }
 
 function escapeHtml(str){
-  return str.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
+  return str
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#39;");
 }
 
 function tagHtml(tag){
@@ -157,6 +162,9 @@ function renderResults(items, query){
   }
 }
 
+// Tree controller - stores references to tree functions for button handlers
+let treeController = null;
+
 function buildTree(data){
   // D3 collapsible tree (zoomable)
   const root = d3.hierarchy(data);
@@ -189,39 +197,6 @@ function buildTree(data){
 
   // Store initial transform for reset
   const initialTransform = d3.zoomIdentity.translate(40, height/2).scale(1);
-
-  // Zoom button handlers via event listeners
-  btnZoomReset?.addEventListener("click", () => {
-    svg.transition().duration(300).call(zoom.transform, initialTransform);
-  });
-
-  btnZoomIn?.addEventListener("click", () => {
-    svg.transition().duration(200).call(zoom.scaleBy, 1.5);
-  });
-
-  btnZoomOut?.addEventListener("click", () => {
-    svg.transition().duration(200).call(zoom.scaleBy, 0.67);
-  });
-
-  // Expand/Collapse all handlers
-  btnExpandAll?.addEventListener("click", () => {
-    root.descendants().forEach(d => {
-      if (d._children) {
-        d.children = d._children;
-      }
-    });
-    update(root);
-  });
-
-  btnCollapseAll?.addEventListener("click", () => {
-    root.descendants().forEach(d => {
-      if (d.depth >= 1 && d.children) {
-        d._children = d.children;
-        d.children = null;
-      }
-    });
-    update(root);
-  });
 
   const dx = 14;
   const dy = 220;
@@ -344,6 +319,28 @@ function buildTree(data){
 
   // Center view a bit
   svg.call(zoom.transform, d3.zoomIdentity.translate(40, height/2).scale(1));
+
+  // Return controller object for button handlers
+  treeController = {
+    zoomIn: () => svg.transition().duration(200).call(zoom.scaleBy, 1.5),
+    zoomOut: () => svg.transition().duration(200).call(zoom.scaleBy, 0.67),
+    zoomReset: () => svg.transition().duration(300).call(zoom.transform, initialTransform),
+    expandAll: () => {
+      root.descendants().forEach(d => {
+        if (d._children) d.children = d._children;
+      });
+      update(root);
+    },
+    collapseAll: () => {
+      root.descendants().forEach(d => {
+        if (d.depth >= 1 && d.children) {
+          d._children = d.children;
+          d.children = null;
+        }
+      });
+      update(root);
+    }
+  };
 }
 
 async function init(){
@@ -393,6 +390,13 @@ async function init(){
 
   // Build tree
   buildTree(data);
+
+  // Set up tree control button handlers (once, after tree is built)
+  btnZoomIn?.addEventListener("click", () => treeController?.zoomIn());
+  btnZoomOut?.addEventListener("click", () => treeController?.zoomOut());
+  btnZoomReset?.addEventListener("click", () => treeController?.zoomReset());
+  btnExpandAll?.addEventListener("click", () => treeController?.expandAll());
+  btnCollapseAll?.addEventListener("click", () => treeController?.collapseAll());
 
   // First render
   onSearch();
