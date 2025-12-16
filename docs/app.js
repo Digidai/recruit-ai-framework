@@ -8,19 +8,40 @@
 
 const DATA_URL = "tarf.json";
 const MAX_RESULTS = 80;
+const DEBOUNCE_MS = 150;
 
+// DOM elements
 const searchInput = document.getElementById("searchInput");
 const btnClear = document.getElementById("btnClear");
 const resultMeta = document.getElementById("resultMeta");
 const resultList = document.getElementById("resultList");
 const treeSvg = document.getElementById("treeSvg");
+const statsContent = document.getElementById("statsContent");
+
+// Zoom control buttons
+const btnZoomIn = document.getElementById("btnZoomIn");
+const btnZoomOut = document.getElementById("btnZoomOut");
+const btnZoomReset = document.getElementById("btnZoomReset");
+const btnExpandAll = document.getElementById("btnExpandAll");
+const btnCollapseAll = document.getElementById("btnCollapseAll");
+
+// Utility: debounce function
+function debounce(fn, delay) {
+  let timer = null;
+  return function(...args) {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn.apply(this, args), delay);
+  };
+}
 
 function escapeHtml(str){
   return str.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;");
 }
+
 function tagHtml(tag){
   return `<span class="tag">${escapeHtml(tag)}</span>`;
 }
+
 function tagsHtml(tags){
   if(!tags || !tags.length) return "";
   return tags.map(tagHtml).join("");
@@ -60,10 +81,54 @@ function flatten(node, path = []){
   return out;
 }
 
+// Count statistics
+function countStats(data) {
+  let categories = 0;
+  let resources = 0;
+  let templates = 0;
+  const tagCounts = {};
+
+  function traverse(node) {
+    if (node.type === "folder") {
+      // Count top-level categories (depth 1)
+      if (node.name.match(/^\d{2}\s/)) {
+        categories++;
+      }
+      if (Array.isArray(node.children)) {
+        node.children.forEach(traverse);
+      }
+    } else if (node.url) {
+      resources++;
+      if (node.type === "template") templates++;
+      if (node.tags) {
+        node.tags.forEach(tag => {
+          tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+        });
+      }
+    }
+  }
+
+  traverse(data);
+  return { categories, resources, templates, tagCounts };
+}
+
+function renderStats(stats) {
+  const topTags = Object.entries(stats.tagCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([tag, count]) => `<span class="tag">${escapeHtml(tag)}</span> ${count}`)
+    .join("、");
+
+  statsContent.innerHTML = `
+    <p><strong>${stats.categories}</strong> 大分类 · <strong>${stats.resources}</strong> 条资源 · <strong>${stats.templates}</strong> 个模板</p>
+    <p>热门标签：${topTags}</p>
+  `;
+}
+
 function renderResults(items, query){
   resultList.innerHTML = "";
   if(!query){
-    resultMeta.textContent = "输入关键词开始搜索。";
+    resultMeta.textContent = `共 ${items.length} 条资源。输入关键词开始搜索。`;
     return;
   }
   const q = query.trim().toLowerCase();
@@ -72,6 +137,7 @@ function renderResults(items, query){
 
   for(const it of hit.slice(0, MAX_RESULTS)){
     const li = document.createElement("li");
+    li.tabIndex = 0; // Make focusable for keyboard navigation
     li.innerHTML = `
       <div class="resultTitle">
         <strong>${escapeHtml(it.name)}</strong>
@@ -81,6 +147,12 @@ function renderResults(items, query){
       <div class="resultUrl">${escapeHtml(it.url)}</div>
     `;
     li.addEventListener("click", () => openNode(it));
+    li.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openNode(it);
+      }
+    });
     resultList.appendChild(li);
   }
 }
@@ -118,18 +190,38 @@ function buildTree(data){
   // Store initial transform for reset
   const initialTransform = d3.zoomIdentity.translate(40, height/2).scale(1);
 
-  // Reset zoom button handler
-  window.resetTreeZoom = () => {
+  // Zoom button handlers via event listeners
+  btnZoomReset?.addEventListener("click", () => {
     svg.transition().duration(300).call(zoom.transform, initialTransform);
-  };
+  });
 
-  // Zoom in/out button handlers
-  window.zoomTreeIn = () => {
+  btnZoomIn?.addEventListener("click", () => {
     svg.transition().duration(200).call(zoom.scaleBy, 1.5);
-  };
-  window.zoomTreeOut = () => {
+  });
+
+  btnZoomOut?.addEventListener("click", () => {
     svg.transition().duration(200).call(zoom.scaleBy, 0.67);
-  };
+  });
+
+  // Expand/Collapse all handlers
+  btnExpandAll?.addEventListener("click", () => {
+    root.descendants().forEach(d => {
+      if (d._children) {
+        d.children = d._children;
+      }
+    });
+    update(root);
+  });
+
+  btnCollapseAll?.addEventListener("click", () => {
+    root.descendants().forEach(d => {
+      if (d.depth >= 1 && d.children) {
+        d._children = d.children;
+        d.children = null;
+      }
+    });
+    update(root);
+  });
 
   const dx = 14;
   const dy = 220;
@@ -264,23 +356,40 @@ async function init(){
   const data = await res.json();
 
   const items = flatten(data);
-  resultMeta.textContent = `已加载 ${items.length} 条资源。输入关键词开始搜索。`;
+  const stats = countStats(data);
+  renderStats(stats);
 
-  // Search interactions
+  // Search interactions with debounce
   const onSearch = () => renderResults(items, searchInput.value || "");
-  searchInput.addEventListener("input", onSearch);
+  const debouncedSearch = debounce(onSearch, DEBOUNCE_MS);
+
+  searchInput.addEventListener("input", debouncedSearch);
   searchInput.addEventListener("keydown", (e) => {
     if(e.key === "Enter"){
       e.preventDefault();
-      onSearch();
+      onSearch(); // Immediate search on Enter
     }
-    // Escape key to clear search
     if(e.key === "Escape"){
       searchInput.value = "";
       onSearch();
+      searchInput.blur();
     }
   });
-  btnClear.addEventListener("click", () => { searchInput.value = ""; onSearch(); searchInput.focus(); });
+
+  // Global keyboard shortcuts
+  document.addEventListener("keydown", (e) => {
+    // "/" to focus search (when not in input)
+    if (e.key === "/" && document.activeElement !== searchInput) {
+      e.preventDefault();
+      searchInput.focus();
+    }
+  });
+
+  btnClear.addEventListener("click", () => {
+    searchInput.value = "";
+    onSearch();
+    searchInput.focus();
+  });
 
   // Build tree
   buildTree(data);
@@ -294,4 +403,5 @@ init().catch(err => {
   const errorMsg = err.message || "未知错误";
   resultMeta.textContent = `加载失败：${errorMsg}。请检查网络连接和本地服务。`;
   treeSvg.innerHTML = `<text x="20" y="40" fill="#e6e6e6" font-size="14">数据加载失败，请刷新页面重试。</text>`;
+  if (statsContent) statsContent.innerHTML = "加载失败";
 });

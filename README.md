@@ -37,12 +37,15 @@
 
 | 特性 | 说明 |
 |------|------|
-| **交互式树形导航** | D3.js 可视化，支持缩放（0.1x~10x）、缩放控制按钮、展开/收起、平滑动画 |
-| **智能全文搜索** | 支持中英文关键词和 Enter 键搜索，搜索名称+分类路径+标签，显示完整面包屑 |
+| **交互式树形导航** | D3.js 可视化，支持缩放（0.1x~10x）、展开/收起全部、平滑动画 |
+| **智能全文搜索** | 支持中英文关键词，防抖优化，`/` 快捷聚焦，`Esc` 清空 |
 | **58大分类体系** | 覆盖招聘全流程，从 JD 撰写到入职，包含 AI 风险治理、DEI、神经多样性等专项 |
-| **1280+ 精选资源** | 工具、标准、法规、最佳实践、开源组件、学习资源 |
+| **1288 精选资源** | 工具、标准、法规、最佳实践、开源组件、学习资源 |
+| **实时数据统计** | 自动统计分类数、资源数、热门标签分布 |
+| **键盘无障碍** | 完整键盘导航支持，ARIA 标签，屏幕阅读器友好 |
 | **模板链接支持** | 动态搜索模板（含 `{query}` 占位符），输入关键词即可打开 |
 | **多维度标签系统** | R(注册)/P(付费)/O(开源)/M(模板)/Law/Framework 等 |
+| **SEO 优化** | Open Graph、Twitter Card、canonical URL、meta 标签完备 |
 | **零构建部署** | 纯静态站点，无需 npm/webpack，JSON 数据驱动 |
 | **MIT 开源** | 自由使用、修改和分发，社区贡献友好 |
 
@@ -52,7 +55,7 @@
 
 ### 在线访问
 
-部署后可直接访问：`https://your-domain.com/docs/`
+**GitHub Pages**：[https://digidai.github.io/recruit-ai-framework/](https://digidai.github.io/recruit-ai-framework/)
 
 ### 本地预览
 
@@ -81,7 +84,7 @@ open http://localhost:8000/docs/
 2. Source 选择 **Deploy from a branch**
 3. Branch 选择 **main**，目录选择 **/docs**
 4. 点击 Save，等待部署完成
-5. 访问：`https://username.github.io/recruit-ai-framework/`
+5. 访问：`https://<username>.github.io/recruit-ai-framework/`
 
 #### Vercel / Netlify / Cloudflare Pages
 

@@ -23,7 +23,18 @@
   <!-- Favicon (using data URI for simplicity) -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
 
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://digidai.github.io/recruit-ai-framework/" />
+
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Noscript fallback styles -->
+  <noscript>
+    <style>
+      .treeWrap, .zoom-controls, #searchInput, #btnClear { display: none !important; }
+      .noscript-msg { padding: 20px; color: #e6e6e6; text-align: center; }
+    </style>
+  </noscript>
 </head>
 <body>
   <header class="header">
@@ -55,11 +66,19 @@
       <div class="panel__title">
         <span>工具树</span>
         <div class="zoom-controls">
-          <button type="button" onclick="zoomTreeOut()" title="缩小">−</button>
-          <button type="button" onclick="resetTreeZoom()" title="重置视图">重置</button>
-          <button type="button" onclick="zoomTreeIn()" title="放大">+</button>
+          <button type="button" id="btnZoomOut" title="缩小" aria-label="缩小视图">−</button>
+          <button type="button" id="btnZoomReset" title="重置视图" aria-label="重置视图">重置</button>
+          <button type="button" id="btnZoomIn" title="放大" aria-label="放大视图">+</button>
+          <button type="button" id="btnExpandAll" title="展开全部" aria-label="展开全部分类">展开</button>
+          <button type="button" id="btnCollapseAll" title="收起全部" aria-label="收起全部分类">收起</button>
         </div>
       </div>
+      <noscript>
+        <div class="noscript-msg">
+          <p>本站需要 JavaScript 支持。请启用 JavaScript 后刷新页面。</p>
+          <p>您也可以直接 <a href="tarf.json" download>下载 tarf.json 数据文件</a> 查看所有资源。</p>
+        </div>
+      </noscript>
       <div id="treeWrap" class="treeWrap">
         <svg id="treeSvg"></svg>
       </div>
@@ -68,6 +87,7 @@
           <li>点击「文件夹」节点展开/收起。</li>
           <li>点击「链接」节点会在新标签页打开。</li>
           <li>点击带 <span class="tag">M</span> 的节点会弹窗让你输入关键词，并把关键词替换进 URL 里的 <code>{query}</code>。</li>
+          <li><kbd>/</kbd> 聚焦搜索框，<kbd>Esc</kbd> 清空搜索。</li>
         </ul>
       </div>
     </section>
@@ -76,6 +96,11 @@
       <div class="panel__title">搜索结果</div>
       <div id="resultMeta" class="resultMeta">输入关键词开始搜索。</div>
       <ul id="resultList" class="resultList"></ul>
+
+      <details class="panel__details panel__stats">
+        <summary>数据统计</summary>
+        <div id="statsContent" class="stats-content">加载中...</div>
+      </details>
 
       <details class="panel__details" open>
         <summary>如何扩展</summary>
