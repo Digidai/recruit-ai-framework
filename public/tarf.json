@@ -1,0 +1,839 @@
+{
+  "name": "Recruitment & AI Hiring Framework（招聘 × AI 招聘框架）",
+  "type": "folder",
+  "children": [
+    {
+      "name": "01 招聘流程与方法论",
+      "type": "folder",
+      "children": [
+        {
+          "name": "结构化面试 / 选拔方法",
+          "type": "folder",
+          "children": [
+            {
+              "name": "CIPD｜Selection methods（结构化面试等）",
+              "type": "url",
+              "url": "https://www.cipd.org/en/knowledge/factsheets/selection-factsheet/",
+              "tags": [
+                "Guide"
+              ]
+            },
+            {
+              "name": "SHRM Labs｜Structured interviewing & AI（减少偏差）",
+              "type": "url",
+              "url": "https://www.shrm.org/labs/resources/eliminating-biases-in-hiring--structured-interviewing-and-ai-solutions",
+              "tags": [
+                "Guide"
+              ]
+            },
+            {
+              "name": "BIT｜How to run structured interviews（PDF）",
+              "type": "url",
+              "url": "https://www.bi.team/wp-content/uploads/2021/07/BIT_How_to_improve_gender_equality_guide_RSI.pdf",
+              "tags": [
+                "PDF"
+              ]
+            },
+            {
+              "name": "SHRM｜Recruitment and Selection: Hiring the Right Person（PDF）",
+              "type": "url",
+              "url": "https://www.shrm.org/content/dam/en/shrm/credentials/shrm-certification/teaching-resources/recruitment-and-selection-hiring-the-right-person-instructors-manual.pdf",
+              "tags": [
+                "PDF"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "合规：选拔/测评/面试",
+          "type": "folder",
+          "children": [
+            {
+              "name": "EEOC｜Employment Tests and Selection Procedures",
+              "type": "url",
+              "url": "https://www.eeoc.gov/laws/guidance/employment-tests-and-selection-procedures",
+              "tags": [
+                "Compliance"
+              ]
+            },
+            {
+              "name": "UGESP｜Uniform Guidelines（eCFR 29 CFR Part 1607）",
+              "type": "url",
+              "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XIV/part-1607",
+              "tags": [
+                "Compliance"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "招聘官网/职位结构化数据（SEO）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Google｜JobPosting structured data（Job Search）",
+              "type": "url",
+              "url": "https://developers.google.com/search/docs/appearance/structured-data/job-posting",
+              "tags": [
+                "Dev"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "02 市场/薪酬/职位与技能字典",
+      "type": "folder",
+      "children": [
+        {
+          "name": "职位/技能字典",
+          "type": "folder",
+          "children": [
+            {
+              "name": "O*NET OnLine（职业/技能/任务）",
+              "type": "url",
+              "url": "https://www.onetonline.org/",
+              "tags": [
+                "Data",
+                "US"
+              ]
+            },
+            {
+              "name": "ESCO（欧盟技能/职业分类）",
+              "type": "url",
+              "url": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/skills-and-qualifications/skills-jobs/european-skillscompetences-qualifications-and-occupations-esco_en",
+              "tags": [
+                "Data",
+                "EU"
+              ]
+            },
+            {
+              "name": "SFIA（数字/技术技能框架）",
+              "type": "url",
+              "url": "https://sfia-online.org/",
+              "tags": [
+                "Framework"
+              ]
+            },
+            {
+              "name": "NICE Framework（网络安全岗位/技能通用词典）",
+              "type": "url",
+              "url": "https://niccs.cisa.gov/tools/nice-framework",
+              "tags": [
+                "Framework",
+                "US"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "薪酬/劳动力数据",
+          "type": "folder",
+          "children": [
+            {
+              "name": "BLS｜OEWS（就业与工资统计）",
+              "type": "url",
+              "url": "https://www.bls.gov/oes/",
+              "tags": [
+                "Data",
+                "US"
+              ]
+            },
+            {
+              "name": "BLS｜Wage data overview",
+              "type": "url",
+              "url": "https://www.bls.gov/bls/blswage.htm",
+              "tags": [
+                "Data",
+                "US"
+              ]
+            },
+            {
+              "name": "levels.fyi（科技岗位薪酬）",
+              "type": "url",
+              "url": "https://www.levels.fyi/",
+              "tags": [
+                "Comp"
+              ]
+            },
+            {
+              "name": "Glassdoor（薪酬/雇主品牌）",
+              "type": "url",
+              "url": "https://www.glassdoor.com/",
+              "tags": [
+                "Comp",
+                "R"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "03 渠道：职位发布 & 招聘营销",
+      "type": "folder",
+      "children": [
+        {
+          "name": "国际主流",
+          "type": "folder",
+          "children": [
+            {
+              "name": "LinkedIn Talent Solutions（R/P）",
+              "type": "url",
+              "url": "https://business.linkedin.com/talent-solutions",
+              "tags": [
+                "R",
+                "P"
+              ]
+            },
+            {
+              "name": "Indeed for Employers（Post a Job）",
+              "type": "url",
+              "url": "https://www.indeed.com/hire",
+              "tags": [
+                "P"
+              ]
+            },
+            {
+              "name": "Glassdoor for Employers（雇主品牌）",
+              "type": "url",
+              "url": "https://www.glassdoor.com/employers/",
+              "tags": [
+                "P"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "中国常用",
+          "type": "folder",
+          "children": [
+            {
+              "name": "BOSS直聘（CN/R）",
+              "type": "url",
+              "url": "https://www.zhipin.com/",
+              "tags": [
+                "CN",
+                "R"
+              ]
+            },
+            {
+              "name": "拉勾（CN/R）",
+              "type": "url",
+              "url": "https://www.lagou.com/",
+              "tags": [
+                "CN",
+                "R"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "04 渠道：人才画像（公开档案/社区）",
+      "type": "folder",
+      "children": [
+        {
+          "name": "技术/数据",
+          "type": "folder",
+          "children": [
+            {
+              "name": "GitHub（开发者档案）",
+              "type": "url",
+              "url": "https://github.com/",
+              "tags": [
+                "Profile"
+              ]
+            },
+            {
+              "name": "Kaggle（数据科学档案）",
+              "type": "url",
+              "url": "https://www.kaggle.com/",
+              "tags": [
+                "Profile"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "设计/产品",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Behance（作品集）",
+              "type": "url",
+              "url": "https://www.behance.net/",
+              "tags": [
+                "Portfolio"
+              ]
+            },
+            {
+              "name": "Dribbble（作品集）",
+              "type": "url",
+              "url": "https://dribbble.com/",
+              "tags": [
+                "Portfolio"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "学术/研究",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Google Scholar（论文/作者）",
+              "type": "url",
+              "url": "https://scholar.google.com/",
+              "tags": [
+                "Research"
+              ]
+            },
+            {
+              "name": "arXiv（预印本）",
+              "type": "url",
+              "url": "https://arxiv.org/",
+              "tags": [
+                "Research"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "05 Sourcing：搜索模板（X-Ray / Boolean）",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Google X-Ray（模板）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "LinkedIn 个人页 X-Ray（M）",
+              "type": "template",
+              "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+{query}",
+              "tags": [
+                "M"
+              ]
+            },
+            {
+              "name": "GitHub 用户搜索（M）",
+              "type": "template",
+              "url": "https://github.com/search?q={query}&type=users",
+              "tags": [
+                "M"
+              ]
+            },
+            {
+              "name": "Kaggle 搜索（M）",
+              "type": "template",
+              "url": "https://www.kaggle.com/search?q={query}",
+              "tags": [
+                "M"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "06 ATS / CRM / 招聘协作",
+      "type": "folder",
+      "children": [
+        {
+          "name": "ATS（国际）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Greenhouse（ATS）",
+              "type": "url",
+              "url": "https://www.greenhouse.com/",
+              "tags": [
+                "ATS",
+                "P"
+              ]
+            },
+            {
+              "name": "Lever（ATS+CRM）",
+              "type": "url",
+              "url": "https://www.lever.co/",
+              "tags": [
+                "ATS",
+                "P"
+              ]
+            },
+            {
+              "name": "Ashby（ATS+CRM+Analytics）",
+              "type": "url",
+              "url": "https://www.ashbyhq.com/",
+              "tags": [
+                "ATS",
+                "P"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ATS（中国）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "MokaHR（ATS/招聘自动化）",
+              "type": "url",
+              "url": "https://www.mokahr.com/ats",
+              "tags": [
+                "ATS",
+                "CN",
+                "P"
+              ]
+            },
+            {
+              "name": "北森｜招聘管理系统",
+              "type": "url",
+              "url": "https://www.beisen.com/product/recruitment/",
+              "tags": [
+                "ATS",
+                "CN",
+                "P"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "开源 ATS",
+          "type": "folder",
+          "children": [
+            {
+              "name": "OpenCATS（开源 ATS）",
+              "type": "url",
+              "url": "https://opencats.org/",
+              "tags": [
+                "O",
+                "ATS"
+              ]
+            },
+            {
+              "name": "OpenCATS GitHub（源码）",
+              "type": "url",
+              "url": "https://github.com/opencats/OpenCATS",
+              "tags": [
+                "O",
+                "Code"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "07 测评与面试（Assessments & Interviewing）",
+      "type": "folder",
+      "children": [
+        {
+          "name": "技术测评",
+          "type": "folder",
+          "children": [
+            {
+              "name": "HackerRank",
+              "type": "url",
+              "url": "https://www.hackerrank.com/",
+              "tags": [
+                "Assessment",
+                "P"
+              ]
+            },
+            {
+              "name": "Codility",
+              "type": "url",
+              "url": "https://www.codility.com/",
+              "tags": [
+                "Assessment",
+                "P"
+              ]
+            },
+            {
+              "name": "CodeSignal",
+              "type": "url",
+              "url": "https://codesignal.com/",
+              "tags": [
+                "Assessment",
+                "P"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "通用测评/视频面试",
+          "type": "folder",
+          "children": [
+            {
+              "name": "TestGorilla",
+              "type": "url",
+              "url": "https://www.testgorilla.com/",
+              "tags": [
+                "Assessment",
+                "P"
+              ]
+            },
+            {
+              "name": "HireVue",
+              "type": "url",
+              "url": "https://www.hirevue.com/",
+              "tags": [
+                "Interview",
+                "P"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "08 Offer / 背调 / 入职",
+      "type": "folder",
+      "children": [
+        {
+          "name": "背调与验证",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Checkr（背景调查）",
+              "type": "url",
+              "url": "https://checkr.com/background-check",
+              "tags": [
+                "Background",
+                "P"
+              ]
+            },
+            {
+              "name": "HireRight（背景调查）",
+              "type": "url",
+              "url": "https://www.hireright.com/",
+              "tags": [
+                "Background",
+                "P"
+              ]
+            },
+            {
+              "name": "Sterling（背景调查）",
+              "type": "url",
+              "url": "https://www.sterlingcheck.com/",
+              "tags": [
+                "Background",
+                "P"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Offer 文档",
+          "type": "folder",
+          "children": [
+            {
+              "name": "DocuSign｜Offer letter template",
+              "type": "url",
+              "url": "https://www.docusign.com/templates/offer-letter",
+              "tags": [
+                "Template"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "合规参考（背调）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "FTC｜FCRA 背景筛查指南（Employers）",
+              "type": "url",
+              "url": "https://www.ftc.gov/business-guidance/resources/what-employment-background-screening-companies-need-know-about-fair-credit-reporting-act",
+              "tags": [
+                "Compliance",
+                "US"
+              ]
+            },
+            {
+              "name": "FTC｜Employer Background Checks and Your Rights（求职者视角）",
+              "type": "url",
+              "url": "https://consumer.ftc.gov/articles/employer-background-checks-and-your-rights",
+              "tags": [
+                "Compliance",
+                "US"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "09 AI 招聘应用场景（工具/平台）",
+      "type": "folder",
+      "children": [
+        {
+          "name": "JD 写作/雇主品牌内容",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Textio（JD/招聘文案优化）",
+              "type": "url",
+              "url": "https://textio.com/",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "智能寻才/匹配/CRM",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Eightfold AI（Talent Intelligence）",
+              "type": "url",
+              "url": "https://eightfold.ai/",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            },
+            {
+              "name": "SeekOut（Agentic AI Talent Platform）",
+              "type": "url",
+              "url": "https://www.seekout.com/",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            },
+            {
+              "name": "Beamery（Talent CRM / Skills）",
+              "type": "url",
+              "url": "https://beamery.com/",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "候选人沟通/Chatbot/自动排期",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Paradox（Olivia 招聘 AI 助手）",
+              "type": "url",
+              "url": "https://www.paradox.ai/",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "10 AI 风险治理与合规（Hiring AI）",
+      "type": "folder",
+      "children": [
+        {
+          "name": "治理框架 / 标准",
+          "type": "folder",
+          "children": [
+            {
+              "name": "NIST｜AI Risk Management Framework（AI RMF）",
+              "type": "url",
+              "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+              "tags": [
+                "Framework"
+              ]
+            },
+            {
+              "name": "NIST｜AI RMF 1.0（PDF）",
+              "type": "url",
+              "url": "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf",
+              "tags": [
+                "PDF"
+              ]
+            },
+            {
+              "name": "ISO/IEC 42001:2023（AI 管理体系）",
+              "type": "url",
+              "url": "https://www.iso.org/standard/42001",
+              "tags": [
+                "Standard"
+              ]
+            },
+            {
+              "name": "ISO/IEC 23894:2023（AI 风险管理指南）",
+              "type": "url",
+              "url": "https://www.iso.org/standard/77304.html",
+              "tags": [
+                "Standard"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "招聘相关监管/指引（示例）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "NYC DCWP｜Automated Employment Decision Tools（Local Law 144）",
+              "type": "url",
+              "url": "https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page",
+              "tags": [
+                "Law",
+                "US"
+              ]
+            },
+            {
+              "name": "EEOC｜Artificial Intelligence and the ADA",
+              "type": "url",
+              "url": "https://www.eeoc.gov/eeoc-disability-related-resources/artificial-intelligence-and-ada",
+              "tags": [
+                "Guidance",
+                "US"
+              ]
+            },
+            {
+              "name": "DOJ｜AI & Disability Discrimination in Hiring（PDF）",
+              "type": "url",
+              "url": "https://www.ada.gov/assets/pdfs/ai-guidance.pdf",
+              "tags": [
+                "PDF",
+                "US"
+              ]
+            },
+            {
+              "name": "EU｜AI Act（政策页面）",
+              "type": "url",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+              "tags": [
+                "Law",
+                "EU"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "透明度/文档化（模型/数据）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Model Cards（Google）",
+              "type": "url",
+              "url": "https://modelcards.withgoogle.com/",
+              "tags": [
+                "Docs"
+              ]
+            },
+            {
+              "name": "Datasheets for Datasets（arXiv）",
+              "type": "url",
+              "url": "https://arxiv.org/abs/1803.09010",
+              "tags": [
+                "Paper"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "11 开源组件（公平性/审计/ATS）",
+      "type": "folder",
+      "children": [
+        {
+          "name": "公平性评估 / 偏差审计",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Fairlearn（Python）",
+              "type": "url",
+              "url": "https://github.com/fairlearn/fairlearn",
+              "tags": [
+                "O",
+                "Code"
+              ]
+            },
+            {
+              "name": "AIF360（IBM Trusted-AI）",
+              "type": "url",
+              "url": "https://github.com/Trusted-AI/AIF360",
+              "tags": [
+                "O",
+                "Code"
+              ]
+            },
+            {
+              "name": "Aequitas（DSSG）",
+              "type": "url",
+              "url": "https://github.com/dssg/aequitas",
+              "tags": [
+                "O",
+                "Code"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ATS（开源）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "OpenCATS（网站）",
+              "type": "url",
+              "url": "https://opencats.org/",
+              "tags": [
+                "O",
+                "ATS"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "12 学习资源 / 研究社区",
+      "type": "folder",
+      "children": [
+        {
+          "name": "行业组织 / 研究",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SHRM（人力资源协会）",
+              "type": "url",
+              "url": "https://www.shrm.org/",
+              "tags": [
+                "Community"
+              ]
+            },
+            {
+              "name": "CIPD（英国人力资源协会）",
+              "type": "url",
+              "url": "https://www.cipd.org/",
+              "tags": [
+                "Community"
+              ]
+            },
+            {
+              "name": "ACM FAccT（Fairness, Accountability, Transparency）",
+              "type": "url",
+              "url": "https://facctconference.org/",
+              "tags": [
+                "Research"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

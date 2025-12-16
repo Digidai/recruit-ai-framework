@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recruitment & AI Hiring Framework</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__title">
+      <h1>Recruitment & AI Hiring Framework</h1>
+      <p class="subtitle">一个可维护的「招聘 × AI 招聘」工具地图（数据驱动），灵感来自 OSINT Framework。</p>
+    </div>
+
+    <div class="header__controls">
+      <input id="searchInput" type="search" placeholder="搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）" autocomplete="off" />
+      <button id="btnClear" type="button">清空</button>
+      <a id="btnJson" class="btnLink" href="tarf.json" download>下载 tarf.json</a>
+    </div>
+
+    <div class="legend">
+      <span class="legend__item"><span class="tag">R</span> 需要注册/登录</span>
+      <span class="legend__item"><span class="tag">P</span> 付费/商用</span>
+      <span class="legend__item"><span class="tag">O</span> 开源</span>
+      <span class="legend__item"><span class="tag">M</span> 模板链接（会提示输入 query）</span>
+      <span class="legend__item"><span class="tag">PDF</span> PDF 资源</span>
+      <span class="legend__item"><span class="tag">Law</span> 法规/监管页面</span>
+      <span class="legend__item"><span class="tag">Framework</span> 框架/标准</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel panel--tree">
+      <div class="panel__title">工具树</div>
+      <div id="treeWrap" class="treeWrap">
+        <svg id="treeSvg"></svg>
+      </div>
+      <div class="hint">
+        <ul>
+          <li>点击「文件夹」节点展开/收起。</li>
+          <li>点击「链接」节点会在新标签页打开。</li>
+          <li>点击带 <span class="tag">M</span> 的节点会弹窗让你输入关键词，并把关键词替换进 URL 里的 <code>{query}</code>。</li>
+        </ul>
+      </div>
+    </section>
+
+    <aside class="panel panel--side">
+      <div class="panel__title">搜索结果</div>
+      <div id="resultMeta" class="resultMeta">输入关键词开始搜索。</div>
+      <ul id="resultList" class="resultList"></ul>
+
+      <details class="panel__details" open>
+        <summary>如何扩展</summary>
+        <ol>
+          <li>编辑 <code>public/tarf.json</code>（添加/修改节点）。</li>
+          <li>本地预览：在项目根目录运行 <code>python -m http.server 8000</code>，然后打开 <code>http://localhost:8000/public/</code>。</li>
+          <li>发布：把 <code>public/</code> 作为静态站点部署（GitHub Pages / Cloudflare Pages / Vercel 等）。</li>
+        </ol>
+      </details>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>⚠️ 仅用于招聘工具导航与学习研究；使用任何自动化/AI 招聘能力时请遵守适用法律法规与隐私要求，并进行必要的偏差评估与人类复核。</p>
+  </footer>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
