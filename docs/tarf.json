@@ -3445,6 +3445,1908 @@
           ]
         }
       ]
+    },
+    {
+      "name": "23 招聘数据隐私与合规",
+      "type": "folder",
+      "children": [
+        {
+          "name": "GDPR 与招聘",
+          "type": "folder",
+          "children": [
+            {
+              "name": "GDPR｜Official Text",
+              "type": "url",
+              "url": "https://gdpr.eu/",
+              "tags": ["Law", "EU"]
+            },
+            {
+              "name": "ICO｜Employment Practices Code（UK）",
+              "type": "url",
+              "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/employment/",
+              "tags": ["Guide", "UK"]
+            },
+            {
+              "name": "CNIL｜Recruitment & GDPR（France）",
+              "type": "url",
+              "url": "https://www.cnil.fr/en/recruitment",
+              "tags": ["Guide", "EU"]
+            },
+            {
+              "name": "IAPP｜GDPR for HR Professionals",
+              "type": "url",
+              "url": "https://iapp.org/resources/article/gdpr-for-hr-professionals/",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "OneTrust｜Recruiting Compliance",
+              "type": "url",
+              "url": "https://www.onetrust.com/",
+              "tags": ["Compliance", "P"]
+            }
+          ]
+        },
+        {
+          "name": "美国数据隐私法",
+          "type": "folder",
+          "children": [
+            {
+              "name": "CCPA｜California Consumer Privacy Act",
+              "type": "url",
+              "url": "https://oag.ca.gov/privacy/ccpa",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "CPRA｜California Privacy Rights Act",
+              "type": "url",
+              "url": "https://cppa.ca.gov/",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "Virginia CDPA",
+              "type": "url",
+              "url": "https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "Colorado Privacy Act",
+              "type": "url",
+              "url": "https://coag.gov/resources/colorado-privacy-act/",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "IAPP｜US State Privacy Legislation Tracker",
+              "type": "url",
+              "url": "https://iapp.org/resources/article/us-state-privacy-legislation-tracker/",
+              "tags": ["Guide", "US"]
+            }
+          ]
+        },
+        {
+          "name": "中国数据安全法规",
+          "type": "folder",
+          "children": [
+            {
+              "name": "中国｜个人信息保护法（PIPL）",
+              "type": "url",
+              "url": "http://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml",
+              "tags": ["Law", "CN"]
+            },
+            {
+              "name": "中国｜数据安全法",
+              "type": "url",
+              "url": "http://www.npc.gov.cn/npc/c30834/202106/7c9af12f51334a73b56d7938f99a788a.shtml",
+              "tags": ["Law", "CN"]
+            },
+            {
+              "name": "中国｜网络安全法",
+              "type": "url",
+              "url": "http://www.cac.gov.cn/2016-11/07/c_1119867116.htm",
+              "tags": ["Law", "CN"]
+            }
+          ]
+        },
+        {
+          "name": "隐私合规工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "OneTrust（隐私管理平台）",
+              "type": "url",
+              "url": "https://www.onetrust.com/",
+              "tags": ["Compliance", "P"]
+            },
+            {
+              "name": "TrustArc（隐私合规）",
+              "type": "url",
+              "url": "https://trustarc.com/",
+              "tags": ["Compliance", "P"]
+            },
+            {
+              "name": "BigID（数据智能）",
+              "type": "url",
+              "url": "https://bigid.com/",
+              "tags": ["Compliance", "AI", "P"]
+            },
+            {
+              "name": "Osano（隐私平台）",
+              "type": "url",
+              "url": "https://www.osano.com/",
+              "tags": ["Compliance", "P"]
+            },
+            {
+              "name": "Securiti.ai（AI 数据治理）",
+              "type": "url",
+              "url": "https://securiti.ai/",
+              "tags": ["Compliance", "AI", "P"]
+            }
+          ]
+        },
+        {
+          "name": "候选人数据管理",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SHRM｜Candidate Data Retention",
+              "type": "url",
+              "url": "https://www.shrm.org/topics-tools/news/hr-magazine/how-long-keep-employee-records",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "Greenhouse｜GDPR Compliance",
+              "type": "url",
+              "url": "https://www.greenhouse.com/guidance/gdpr-compliance",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "Lever｜Data Privacy",
+              "type": "url",
+              "url": "https://www.lever.co/blog/lever-gdpr-compliance/",
+              "tags": ["Guide"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "24 人才盘点与继任计划",
+      "type": "folder",
+      "children": [
+        {
+          "name": "人才盘点平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Workday Talent Optimization",
+              "type": "url",
+              "url": "https://www.workday.com/en-us/products/talent-management.html",
+              "tags": ["Talent", "P"]
+            },
+            {
+              "name": "SAP SuccessFactors Talent",
+              "type": "url",
+              "url": "https://www.sap.com/products/hcm/talent-management.html",
+              "tags": ["Talent", "P"]
+            },
+            {
+              "name": "Oracle Talent Management",
+              "type": "url",
+              "url": "https://www.oracle.com/human-capital-management/talent-management/",
+              "tags": ["Talent", "P"]
+            },
+            {
+              "name": "Cornerstone OnDemand",
+              "type": "url",
+              "url": "https://www.cornerstoneondemand.com/",
+              "tags": ["Talent", "P"]
+            },
+            {
+              "name": "SumTotal（Cornerstone）",
+              "type": "url",
+              "url": "https://www.sumtotalsystems.com/",
+              "tags": ["Talent", "P"]
+            },
+            {
+              "name": "Lattice（绩效+人才）",
+              "type": "url",
+              "url": "https://lattice.com/",
+              "tags": ["Talent", "P"]
+            },
+            {
+              "name": "15Five（绩效管理）",
+              "type": "url",
+              "url": "https://www.15five.com/",
+              "tags": ["Talent", "P"]
+            },
+            {
+              "name": "Culture Amp",
+              "type": "url",
+              "url": "https://www.cultureamp.com/",
+              "tags": ["Talent", "P"]
+            }
+          ]
+        },
+        {
+          "name": "继任计划工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SIGMA Assessment（继任计划）",
+              "type": "url",
+              "url": "https://www.sigmaassessmentsystems.com/succession-planning/",
+              "tags": ["Succession", "P"]
+            },
+            {
+              "name": "Peoplebox（OKR + 继任）",
+              "type": "url",
+              "url": "https://www.peoplebox.ai/",
+              "tags": ["Succession", "AI", "P"]
+            },
+            {
+              "name": "Primalogik（360 评估）",
+              "type": "url",
+              "url": "https://www.primalogik.com/",
+              "tags": ["Succession", "P"]
+            },
+            {
+              "name": "TalentGuard（职业路径）",
+              "type": "url",
+              "url": "https://www.talentguard.com/",
+              "tags": ["Succession", "P"]
+            },
+            {
+              "name": "Ingentis org.manager（组织架构）",
+              "type": "url",
+              "url": "https://www.intrafocus.com/",
+              "tags": ["Succession", "P"]
+            }
+          ]
+        },
+        {
+          "name": "9-Box / 人才矩阵",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SHRM｜9-Box Grid Guide",
+              "type": "url",
+              "url": "https://www.shrm.org/topics-tools/tools/toolkits/developing-employees",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "McKinsey｜Talent Management",
+              "type": "url",
+              "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/winning-with-your-talent-management-strategy",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "Harvard Business Review｜Talent Management",
+              "type": "url",
+              "url": "https://hbr.org/topic/subject/talent-management",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "Lucidchart｜9-Box Template",
+              "type": "url",
+              "url": "https://www.lucidchart.com/pages/templates/9-box",
+              "tags": ["Tool"]
+            }
+          ]
+        },
+        {
+          "name": "技能图谱/能力模型",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Degreed（技能发展）",
+              "type": "url",
+              "url": "https://degreed.com/",
+              "tags": ["Skills", "P"]
+            },
+            {
+              "name": "Pluralsight Skills",
+              "type": "url",
+              "url": "https://www.pluralsight.com/product/skills",
+              "tags": ["Skills", "Tech", "P"]
+            },
+            {
+              "name": "LinkedIn Learning Skills",
+              "type": "url",
+              "url": "https://learning.linkedin.com/",
+              "tags": ["Skills", "P"]
+            },
+            {
+              "name": "Skillsoft（技能学习）",
+              "type": "url",
+              "url": "https://www.skillsoft.com/",
+              "tags": ["Skills", "P"]
+            },
+            {
+              "name": "TalentNeuron（Gartner）",
+              "type": "url",
+              "url": "https://www.gartner.com/en/human-resources/research/talentneuron",
+              "tags": ["Skills", "Data", "P"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "25 招聘自动化与工作流",
+      "type": "folder",
+      "children": [
+        {
+          "name": "工作流自动化平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Zapier（工作流自动化）",
+              "type": "url",
+              "url": "https://zapier.com/",
+              "tags": ["Automation", "P"]
+            },
+            {
+              "name": "Make (Integromat)（可视化自动化）",
+              "type": "url",
+              "url": "https://www.make.com/",
+              "tags": ["Automation", "P"]
+            },
+            {
+              "name": "n8n（开源自动化）",
+              "type": "url",
+              "url": "https://n8n.io/",
+              "tags": ["Automation", "O"]
+            },
+            {
+              "name": "Workato（企业自动化）",
+              "type": "url",
+              "url": "https://www.workato.com/",
+              "tags": ["Automation", "P"]
+            },
+            {
+              "name": "Tray.io（集成平台）",
+              "type": "url",
+              "url": "https://tray.io/",
+              "tags": ["Automation", "P"]
+            },
+            {
+              "name": "Power Automate（Microsoft）",
+              "type": "url",
+              "url": "https://powerautomate.microsoft.com/",
+              "tags": ["Automation", "P"]
+            }
+          ]
+        },
+        {
+          "name": "招聘自动化工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Beamery Automation",
+              "type": "url",
+              "url": "https://beamery.com/products/talent-marketing/",
+              "tags": ["Automation", "AI", "P"]
+            },
+            {
+              "name": "Gem Automated Sequences",
+              "type": "url",
+              "url": "https://www.gem.com/product/sequences",
+              "tags": ["Automation", "P"]
+            },
+            {
+              "name": "Lever Nurture Campaigns",
+              "type": "url",
+              "url": "https://www.lever.co/nurture/",
+              "tags": ["Automation", "P"]
+            },
+            {
+              "name": "Greenhouse Automations",
+              "type": "url",
+              "url": "https://www.greenhouse.com/automations",
+              "tags": ["Automation", "P"]
+            },
+            {
+              "name": "hireEZ Automated Outreach",
+              "type": "url",
+              "url": "https://hireez.com/automated-outreach/",
+              "tags": ["Automation", "AI", "P"]
+            },
+            {
+              "name": "Ashby Automations",
+              "type": "url",
+              "url": "https://www.ashbyhq.com/product/automations",
+              "tags": ["Automation", "P"]
+            }
+          ]
+        },
+        {
+          "name": "邮件自动化/序列",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Outreach（销售/招聘外联）",
+              "type": "url",
+              "url": "https://www.outreach.io/",
+              "tags": ["Email", "P"]
+            },
+            {
+              "name": "Salesloft",
+              "type": "url",
+              "url": "https://www.salesloft.com/",
+              "tags": ["Email", "P"]
+            },
+            {
+              "name": "Apollo.io（邮件查找+序列）",
+              "type": "url",
+              "url": "https://www.apollo.io/",
+              "tags": ["Email", "P"]
+            },
+            {
+              "name": "Lemlist（个性化外联）",
+              "type": "url",
+              "url": "https://www.lemlist.com/",
+              "tags": ["Email", "P"]
+            },
+            {
+              "name": "Mailshake",
+              "type": "url",
+              "url": "https://mailshake.com/",
+              "tags": ["Email", "P"]
+            },
+            {
+              "name": "Reply.io",
+              "type": "url",
+              "url": "https://reply.io/",
+              "tags": ["Email", "AI", "P"]
+            }
+          ]
+        },
+        {
+          "name": "RPA（机器人流程自动化）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "UiPath（企业 RPA）",
+              "type": "url",
+              "url": "https://www.uipath.com/",
+              "tags": ["RPA", "P"]
+            },
+            {
+              "name": "Automation Anywhere",
+              "type": "url",
+              "url": "https://www.automationanywhere.com/",
+              "tags": ["RPA", "P"]
+            },
+            {
+              "name": "Blue Prism",
+              "type": "url",
+              "url": "https://www.blueprism.com/",
+              "tags": ["RPA", "P"]
+            },
+            {
+              "name": "Robocorp（开源 RPA）",
+              "type": "url",
+              "url": "https://robocorp.com/",
+              "tags": ["RPA", "O"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "26 面试官培训与招聘培训",
+      "type": "folder",
+      "children": [
+        {
+          "name": "面试官培训平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "BrightHire（面试智能）",
+              "type": "url",
+              "url": "https://brighthire.com/",
+              "tags": ["Training", "AI", "P"]
+            },
+            {
+              "name": "Metaview（AI 面试笔记）",
+              "type": "url",
+              "url": "https://www.metaview.ai/",
+              "tags": ["Training", "AI", "P"]
+            },
+            {
+              "name": "Pillar（面试平台）",
+              "type": "url",
+              "url": "https://www.pillar.hr/",
+              "tags": ["Training", "P"]
+            },
+            {
+              "name": "Clovers（面试优化）",
+              "type": "url",
+              "url": "https://www.clovers.ai/",
+              "tags": ["Training", "AI", "P"]
+            },
+            {
+              "name": "Kira Talent（面试平台）",
+              "type": "url",
+              "url": "https://www.kiratalent.com/",
+              "tags": ["Training", "P"]
+            }
+          ]
+        },
+        {
+          "name": "招聘技能培训",
+          "type": "folder",
+          "children": [
+            {
+              "name": "LinkedIn Recruiter Certification",
+              "type": "url",
+              "url": "https://www.linkedin.com/learning/paths/become-a-recruiter",
+              "tags": ["Certification", "P"]
+            },
+            {
+              "name": "AIRS Certifications",
+              "type": "url",
+              "url": "https://airsdirectory.com/learning/airs-certifications",
+              "tags": ["Certification"]
+            },
+            {
+              "name": "SHRM Talent Acquisition Specialty",
+              "type": "url",
+              "url": "https://www.shrm.org/credentials/specialty-credentials/talent-acquisition",
+              "tags": ["Certification"]
+            },
+            {
+              "name": "Recruiter Academy",
+              "type": "url",
+              "url": "https://recruiteracademy.com/",
+              "tags": ["Course"]
+            },
+            {
+              "name": "SocialTalent（招聘培训）",
+              "type": "url",
+              "url": "https://www.socialtalent.com/",
+              "tags": ["Course", "P"]
+            },
+            {
+              "name": "Recruiting Toolbox",
+              "type": "url",
+              "url": "https://recruitingtoolbox.com/",
+              "tags": ["Course"]
+            }
+          ]
+        },
+        {
+          "name": "无意识偏见培训",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Google｜Unconscious Bias Training",
+              "type": "url",
+              "url": "https://rework.withgoogle.com/guides/unbiasing-raise-awareness/",
+              "tags": ["Training", "DEI"]
+            },
+            {
+              "name": "Paradigm（DEI 培训）",
+              "type": "url",
+              "url": "https://www.paradigmiq.com/",
+              "tags": ["Training", "DEI", "P"]
+            },
+            {
+              "name": "Textio｜Inclusive Writing",
+              "type": "url",
+              "url": "https://textio.com/",
+              "tags": ["Training", "DEI", "P"]
+            },
+            {
+              "name": "Catalyst（DEI 研究）",
+              "type": "url",
+              "url": "https://www.catalyst.org/",
+              "tags": ["Training", "DEI"]
+            },
+            {
+              "name": "Project Implicit（哈佛隐性偏见测试）",
+              "type": "url",
+              "url": "https://implicit.harvard.edu/implicit/",
+              "tags": ["Training", "DEI"]
+            }
+          ]
+        },
+        {
+          "name": "面试指南/最佳实践",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Google re:Work｜Hiring",
+              "type": "url",
+              "url": "https://rework.withgoogle.com/subjects/hiring/",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "Greenhouse｜Interviewing Resources",
+              "type": "url",
+              "url": "https://www.greenhouse.com/resources",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "Lever｜Hiring Resources",
+              "type": "url",
+              "url": "https://www.lever.co/resources/",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "Indeed｜Hiring Resources",
+              "type": "url",
+              "url": "https://www.indeed.com/hire/resources",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "STAR Method Interview Guide",
+              "type": "url",
+              "url": "https://www.themuse.com/advice/star-interview-method",
+              "tags": ["Guide"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "27 招聘行业活动与会议",
+      "type": "folder",
+      "children": [
+        {
+          "name": "HR Tech 会议",
+          "type": "folder",
+          "children": [
+            {
+              "name": "HR Technology Conference",
+              "type": "url",
+              "url": "https://www.hrtechnologyconference.com/",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "SHRM Annual Conference",
+              "type": "url",
+              "url": "https://annual.shrm.org/",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "HR Tech Europe",
+              "type": "url",
+              "url": "https://www.hrtecheurope.com/",
+              "tags": ["Conference", "EU"]
+            },
+            {
+              "name": "Unleash World",
+              "type": "url",
+              "url": "https://www.unleash.ai/",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "HR Transform",
+              "type": "url",
+              "url": "https://www.hrtransform.com/",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "Gartner ReimagineHR",
+              "type": "url",
+              "url": "https://www.gartner.com/en/conferences/na/reimagine-hr-us",
+              "tags": ["Conference"]
+            }
+          ]
+        },
+        {
+          "name": "招聘/Sourcing 会议",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SourceCon",
+              "type": "url",
+              "url": "https://www.sourcecon.com/",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "LinkedIn Talent Connect",
+              "type": "url",
+              "url": "https://business.linkedin.com/talent-solutions/events/talent-connect",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "RecFest",
+              "type": "url",
+              "url": "https://www.recfest.com/",
+              "tags": ["Conference", "UK"]
+            },
+            {
+              "name": "ERE Recruiting Conference",
+              "type": "url",
+              "url": "https://www.ere.net/events/",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "Talent Acquisition Week",
+              "type": "url",
+              "url": "https://www.talentacquisitionweek.com/",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "ATAP Annual Conference",
+              "type": "url",
+              "url": "https://atap.org/",
+              "tags": ["Conference"]
+            }
+          ]
+        },
+        {
+          "name": "DEI / 多元化会议",
+          "type": "folder",
+          "children": [
+            {
+              "name": "NACE Conference（校招）",
+              "type": "url",
+              "url": "https://www.naceweb.org/conferences/",
+              "tags": ["Conference", "Campus"]
+            },
+            {
+              "name": "Diversity Best Practices",
+              "type": "url",
+              "url": "https://www.diversitybestpractices.com/",
+              "tags": ["Conference", "DEI"]
+            },
+            {
+              "name": "Out & Equal Workplace Summit",
+              "type": "url",
+              "url": "https://outandequal.org/summit/",
+              "tags": ["Conference", "DEI"]
+            },
+            {
+              "name": "DisabilityIN Conference",
+              "type": "url",
+              "url": "https://disabilityin.org/",
+              "tags": ["Conference", "DEI"]
+            }
+          ]
+        },
+        {
+          "name": "AI / 未来工作会议",
+          "type": "folder",
+          "children": [
+            {
+              "name": "AI in HR Summit",
+              "type": "url",
+              "url": "https://www.aiinhr.com/",
+              "tags": ["Conference", "AI"]
+            },
+            {
+              "name": "Future of Work Conference",
+              "type": "url",
+              "url": "https://www.futureofworkcongress.com/",
+              "tags": ["Conference"]
+            },
+            {
+              "name": "People Analytics World",
+              "type": "url",
+              "url": "https://www.peopleanalyticsworld.com/",
+              "tags": ["Conference", "Analytics"]
+            },
+            {
+              "name": "Josh Bersin Irresistible",
+              "type": "url",
+              "url": "https://joshbersin.com/irresistible/",
+              "tags": ["Conference"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "28 退伍军人招聘",
+      "type": "folder",
+      "children": [
+        {
+          "name": "退伍军人招聘平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Hire Heroes USA",
+              "type": "url",
+              "url": "https://www.hireheroesusa.org/",
+              "tags": ["Veteran", "US"]
+            },
+            {
+              "name": "Military.com",
+              "type": "url",
+              "url": "https://www.military.com/",
+              "tags": ["Veteran", "US"]
+            },
+            {
+              "name": "RecruitMilitary",
+              "type": "url",
+              "url": "https://recruitmilitary.com/",
+              "tags": ["Veteran", "US"]
+            },
+            {
+              "name": "American Corporate Partners",
+              "type": "url",
+              "url": "https://www.acp-usa.org/",
+              "tags": ["Veteran", "US"]
+            },
+            {
+              "name": "Hiring Our Heroes",
+              "type": "url",
+              "url": "https://www.hiringourheroes.org/",
+              "tags": ["Veteran", "US"]
+            },
+            {
+              "name": "VetJobs",
+              "type": "url",
+              "url": "https://www.vetjobs.com/",
+              "tags": ["Veteran", "US"]
+            },
+            {
+              "name": "G.I. Jobs",
+              "type": "url",
+              "url": "https://www.gijobs.com/",
+              "tags": ["Veteran", "US"]
+            }
+          ]
+        },
+        {
+          "name": "军转民技能翻译",
+          "type": "folder",
+          "children": [
+            {
+              "name": "O*NET Military Crosswalk",
+              "type": "url",
+              "url": "https://www.onetonline.org/crosswalk/MOC/",
+              "tags": ["Tool", "US"]
+            },
+            {
+              "name": "Military Skills Translator（Military.com）",
+              "type": "url",
+              "url": "https://www.military.com/skills-translator",
+              "tags": ["Tool", "US"]
+            },
+            {
+              "name": "Skillbridge（DoD）",
+              "type": "url",
+              "url": "https://skillbridge.osd.mil/",
+              "tags": ["Program", "US"]
+            },
+            {
+              "name": "Onward to Opportunity",
+              "type": "url",
+              "url": "https://onward2opportunity.org/",
+              "tags": ["Program", "US"]
+            }
+          ]
+        },
+        {
+          "name": "退伍军人招聘认证",
+          "type": "folder",
+          "children": [
+            {
+              "name": "VETS Index",
+              "type": "url",
+              "url": "https://vetsindexes.com/",
+              "tags": ["Certification", "US"]
+            },
+            {
+              "name": "Military Friendly Employers",
+              "type": "url",
+              "url": "https://www.militaryfriendly.com/",
+              "tags": ["Certification", "US"]
+            },
+            {
+              "name": "DOL HIRE Vets Medallion",
+              "type": "url",
+              "url": "https://www.hirevets.gov/",
+              "tags": ["Certification", "US"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "29 残障人士 / 无障碍招聘",
+      "type": "folder",
+      "children": [
+        {
+          "name": "残障人士招聘平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "AbilityLinks",
+              "type": "url",
+              "url": "https://abilitylinks.org/",
+              "tags": ["Disability", "US"]
+            },
+            {
+              "name": "Disability:IN",
+              "type": "url",
+              "url": "https://disabilityin.org/",
+              "tags": ["Disability", "US"]
+            },
+            {
+              "name": "Getting Hired",
+              "type": "url",
+              "url": "https://www.gettinghired.com/",
+              "tags": ["Disability", "US"]
+            },
+            {
+              "name": "Bender Consulting Services",
+              "type": "url",
+              "url": "https://www.benderconsult.com/",
+              "tags": ["Disability", "US"]
+            },
+            {
+              "name": "Evenbreak（UK）",
+              "type": "url",
+              "url": "https://www.evenbreak.co.uk/",
+              "tags": ["Disability", "UK"]
+            },
+            {
+              "name": "Inclusively",
+              "type": "url",
+              "url": "https://www.inclusively.com/",
+              "tags": ["Disability", "P"]
+            },
+            {
+              "name": "Understood.org Job Resources",
+              "type": "url",
+              "url": "https://www.understood.org/",
+              "tags": ["Disability"]
+            }
+          ]
+        },
+        {
+          "name": "无障碍合规",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ADA.gov（Americans with Disabilities Act）",
+              "type": "url",
+              "url": "https://www.ada.gov/",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "EEOC｜Disability Discrimination",
+              "type": "url",
+              "url": "https://www.eeoc.gov/disability-discrimination",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "Section 503 of Rehabilitation Act",
+              "type": "url",
+              "url": "https://www.dol.gov/agencies/ofccp/section-503",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "UK Equality Act 2010",
+              "type": "url",
+              "url": "https://www.gov.uk/guidance/equality-act-2010-guidance",
+              "tags": ["Law", "UK"]
+            },
+            {
+              "name": "EU Accessibility Act",
+              "type": "url",
+              "url": "https://ec.europa.eu/social/main.jsp?catId=1202",
+              "tags": ["Law", "EU"]
+            }
+          ]
+        },
+        {
+          "name": "无障碍招聘工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "WAVE Accessibility Tool",
+              "type": "url",
+              "url": "https://wave.webaim.org/",
+              "tags": ["Tool"]
+            },
+            {
+              "name": "axe Accessibility Checker",
+              "type": "url",
+              "url": "https://www.deque.com/axe/",
+              "tags": ["Tool"]
+            },
+            {
+              "name": "WCAG Guidelines",
+              "type": "url",
+              "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+              "tags": ["Standard"]
+            },
+            {
+              "name": "PEAT（Partnership on Employment & Accessible Technology）",
+              "type": "url",
+              "url": "https://www.peatworks.org/",
+              "tags": ["Guide", "US"]
+            },
+            {
+              "name": "Job Accommodation Network（JAN）",
+              "type": "url",
+              "url": "https://askjan.org/",
+              "tags": ["Guide", "US"]
+            }
+          ]
+        },
+        {
+          "name": "神经多样性招聘",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Specialisterne",
+              "type": "url",
+              "url": "https://specialisterne.com/",
+              "tags": ["Neurodiversity"]
+            },
+            {
+              "name": "Autism at Work Employer Roundtable",
+              "type": "url",
+              "url": "https://disabilityin.org/what-we-do/autism/",
+              "tags": ["Neurodiversity"]
+            },
+            {
+              "name": "Microsoft Autism Hiring Program",
+              "type": "url",
+              "url": "https://www.microsoft.com/en-us/diversity/inside-microsoft/cross-disability/hiring.aspx",
+              "tags": ["Neurodiversity"]
+            },
+            {
+              "name": "SAP Autism at Work",
+              "type": "url",
+              "url": "https://www.sap.com/about/company/diversity/differently-abled.html",
+              "tags": ["Neurodiversity"]
+            },
+            {
+              "name": "Exceptional Minds（自闭症人才）",
+              "type": "url",
+              "url": "https://www.exceptionalmindsstudio.org/",
+              "tags": ["Neurodiversity"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "30 区域招聘资源",
+      "type": "folder",
+      "children": [
+        {
+          "name": "亚太地区（APAC）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "JobStreet（东南亚）",
+              "type": "url",
+              "url": "https://www.jobstreet.com/",
+              "tags": ["APAC", "R"]
+            },
+            {
+              "name": "JobsDB（港澳台/东南亚）",
+              "type": "url",
+              "url": "https://www.jobsdb.com/",
+              "tags": ["APAC", "R"]
+            },
+            {
+              "name": "Seek（澳洲/新西兰）",
+              "type": "url",
+              "url": "https://www.seek.com.au/",
+              "tags": ["APAC", "R"]
+            },
+            {
+              "name": "Indeed Japan",
+              "type": "url",
+              "url": "https://jp.indeed.com/",
+              "tags": ["APAC", "JP"]
+            },
+            {
+              "name": "Rikunabi（日本）",
+              "type": "url",
+              "url": "https://www.rikunabi.com/",
+              "tags": ["APAC", "JP"]
+            },
+            {
+              "name": "Saramin（韩国）",
+              "type": "url",
+              "url": "https://www.saramin.co.kr/",
+              "tags": ["APAC", "KR"]
+            },
+            {
+              "name": "Naukri.com（印度）",
+              "type": "url",
+              "url": "https://www.naukri.com/",
+              "tags": ["APAC", "IN"]
+            },
+            {
+              "name": "FoundIt (Monster India)",
+              "type": "url",
+              "url": "https://www.foundit.in/",
+              "tags": ["APAC", "IN"]
+            }
+          ]
+        },
+        {
+          "name": "中东/非洲（MEA）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Bayt.com（中东）",
+              "type": "url",
+              "url": "https://www.bayt.com/",
+              "tags": ["MEA", "R"]
+            },
+            {
+              "name": "GulfTalent（海湾地区）",
+              "type": "url",
+              "url": "https://www.gulftalent.com/",
+              "tags": ["MEA", "R"]
+            },
+            {
+              "name": "Naukrigulf",
+              "type": "url",
+              "url": "https://www.naukrigulf.com/",
+              "tags": ["MEA", "R"]
+            },
+            {
+              "name": "Jobberman（非洲）",
+              "type": "url",
+              "url": "https://www.jobberman.com/",
+              "tags": ["MEA", "Africa"]
+            },
+            {
+              "name": "Careers24（南非）",
+              "type": "url",
+              "url": "https://www.careers24.com/",
+              "tags": ["MEA", "Africa"]
+            },
+            {
+              "name": "Wuzzuf（埃及）",
+              "type": "url",
+              "url": "https://wuzzuf.net/",
+              "tags": ["MEA", "Africa"]
+            }
+          ]
+        },
+        {
+          "name": "拉丁美洲（LATAM）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Computrabajo（拉美）",
+              "type": "url",
+              "url": "https://www.computrabajo.com/",
+              "tags": ["LATAM", "R"]
+            },
+            {
+              "name": "Bumeran（阿根廷/墨西哥）",
+              "type": "url",
+              "url": "https://www.bumeran.com/",
+              "tags": ["LATAM", "R"]
+            },
+            {
+              "name": "InfoJobs（巴西/西班牙）",
+              "type": "url",
+              "url": "https://www.infojobs.com.br/",
+              "tags": ["LATAM", "R"]
+            },
+            {
+              "name": "Catho（巴西）",
+              "type": "url",
+              "url": "https://www.catho.com.br/",
+              "tags": ["LATAM", "BR"]
+            },
+            {
+              "name": "OCC Mundial（墨西哥）",
+              "type": "url",
+              "url": "https://www.occ.com.mx/",
+              "tags": ["LATAM", "MX"]
+            },
+            {
+              "name": "Trabajando.com（智利）",
+              "type": "url",
+              "url": "https://www.trabajando.cl/",
+              "tags": ["LATAM", "CL"]
+            }
+          ]
+        },
+        {
+          "name": "欧洲（补充）",
+          "type": "folder",
+          "children": [
+            {
+              "name": "StepStone（德国/比利时）",
+              "type": "url",
+              "url": "https://www.stepstone.de/",
+              "tags": ["EU", "DE"]
+            },
+            {
+              "name": "Jobteaser（欧洲校招）",
+              "type": "url",
+              "url": "https://www.jobteaser.com/",
+              "tags": ["EU", "Campus"]
+            },
+            {
+              "name": "Welcome to the Jungle（法国）",
+              "type": "url",
+              "url": "https://www.welcometothejungle.com/",
+              "tags": ["EU", "FR"]
+            },
+            {
+              "name": "Totaljobs（英国）",
+              "type": "url",
+              "url": "https://www.totaljobs.com/",
+              "tags": ["EU", "UK"]
+            },
+            {
+              "name": "Reed.co.uk（英国）",
+              "type": "url",
+              "url": "https://www.reed.co.uk/",
+              "tags": ["EU", "UK"]
+            },
+            {
+              "name": "EURES（欧盟就业服务）",
+              "type": "url",
+              "url": "https://eures.ec.europa.eu/",
+              "tags": ["EU", "Government"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "31 招聘播客与媒体",
+      "type": "folder",
+      "children": [
+        {
+          "name": "招聘播客",
+          "type": "folder",
+          "children": [
+            {
+              "name": "The Recruiting Brainfood Podcast",
+              "type": "url",
+              "url": "https://www.recruitingbrainfood.com/podcast/",
+              "tags": ["Podcast"]
+            },
+            {
+              "name": "The Chad and Cheese Podcast",
+              "type": "url",
+              "url": "https://www.chadcheese.com/",
+              "tags": ["Podcast"]
+            },
+            {
+              "name": "Talk Talent to Me（Hired）",
+              "type": "url",
+              "url": "https://hired.com/blog/employers/talk-talent-to-me-podcast/",
+              "tags": ["Podcast"]
+            },
+            {
+              "name": "The HR Happy Hour",
+              "type": "url",
+              "url": "https://www.hrhappyhour.net/",
+              "tags": ["Podcast"]
+            },
+            {
+              "name": "Hiring On All Cylinders（Entelo）",
+              "type": "url",
+              "url": "https://www.entelo.com/blog/",
+              "tags": ["Podcast"]
+            },
+            {
+              "name": "The Talent Cast",
+              "type": "url",
+              "url": "https://www.intjobscast.com/",
+              "tags": ["Podcast"]
+            },
+            {
+              "name": "Talent Acquisition Trends（HCI）",
+              "type": "url",
+              "url": "https://www.hci.org/podcasts",
+              "tags": ["Podcast"]
+            },
+            {
+              "name": "HR Leaders Podcast",
+              "type": "url",
+              "url": "https://hrleaders.co/podcast",
+              "tags": ["Podcast"]
+            }
+          ]
+        },
+        {
+          "name": "招聘行业媒体",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ERE Media",
+              "type": "url",
+              "url": "https://www.ere.net/",
+              "tags": ["Media"]
+            },
+            {
+              "name": "HR Dive",
+              "type": "url",
+              "url": "https://www.hrdive.com/",
+              "tags": ["Media"]
+            },
+            {
+              "name": "TLNT（Talent Management）",
+              "type": "url",
+              "url": "https://www.tlnt.com/",
+              "tags": ["Media"]
+            },
+            {
+              "name": "HR Executive",
+              "type": "url",
+              "url": "https://hrexecutive.com/",
+              "tags": ["Media"]
+            },
+            {
+              "name": "Recruiting Daily",
+              "type": "url",
+              "url": "https://recruitingdaily.com/",
+              "tags": ["Media"]
+            },
+            {
+              "name": "HR Technologist",
+              "type": "url",
+              "url": "https://www.hrtechnologist.com/",
+              "tags": ["Media"]
+            },
+            {
+              "name": "Personnel Today（UK）",
+              "type": "url",
+              "url": "https://www.personneltoday.com/",
+              "tags": ["Media", "UK"]
+            },
+            {
+              "name": "HRZone（UK）",
+              "type": "url",
+              "url": "https://www.hrzone.com/",
+              "tags": ["Media", "UK"]
+            }
+          ]
+        },
+        {
+          "name": "招聘 Newsletter",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Recruiting Brainfood（Weekly）",
+              "type": "url",
+              "url": "https://www.recruitingbrainfood.com/",
+              "tags": ["Newsletter"]
+            },
+            {
+              "name": "Hung Lee's Newsletter",
+              "type": "url",
+              "url": "https://www.recruitingbrainfood.com/",
+              "tags": ["Newsletter"]
+            },
+            {
+              "name": "Tim Sackett（HR/TA）",
+              "type": "url",
+              "url": "https://timsackett.com/",
+              "tags": ["Newsletter", "Blog"]
+            },
+            {
+              "name": "Katrina Kibben（Recruiting）",
+              "type": "url",
+              "url": "https://www.katrinakibben.com/",
+              "tags": ["Newsletter", "Blog"]
+            },
+            {
+              "name": "The Talent Fix（Kris Dunn）",
+              "type": "url",
+              "url": "https://www.thetalentfix.com/",
+              "tags": ["Newsletter", "Blog"]
+            },
+            {
+              "name": "Erin Meyer Newsletter",
+              "type": "url",
+              "url": "https://erinmeyer.com/",
+              "tags": ["Newsletter"]
+            }
+          ]
+        },
+        {
+          "name": "YouTube 频道",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Josh Bersin（HR Tech）",
+              "type": "url",
+              "url": "https://www.youtube.com/@joshbersin",
+              "tags": ["YouTube"]
+            },
+            {
+              "name": "SHRM（HR Resources）",
+              "type": "url",
+              "url": "https://www.youtube.com/@ABORADOR",
+              "tags": ["YouTube"]
+            },
+            {
+              "name": "LinkedIn Talent Solutions",
+              "type": "url",
+              "url": "https://www.youtube.com/@LinkedInTalentSolutions",
+              "tags": ["YouTube"]
+            },
+            {
+              "name": "Greenhouse Software",
+              "type": "url",
+              "url": "https://www.youtube.com/@GreenhouseSoftware",
+              "tags": ["YouTube"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "32 招聘模板与工具包",
+      "type": "folder",
+      "children": [
+        {
+          "name": "JD 模板库",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Indeed Job Description Templates",
+              "type": "url",
+              "url": "https://www.indeed.com/hire/job-description-templates",
+              "tags": ["Template"]
+            },
+            {
+              "name": "LinkedIn Job Description Templates",
+              "type": "url",
+              "url": "https://business.linkedin.com/talent-solutions/resources/talent-engagement/job-descriptions",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Workable Job Description Library",
+              "type": "url",
+              "url": "https://resources.workable.com/job-descriptions/",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Glassdoor Job Description Templates",
+              "type": "url",
+              "url": "https://www.glassdoor.com/employers/blog/job-description-templates/",
+              "tags": ["Template"]
+            },
+            {
+              "name": "BetterTeam Job Description Templates",
+              "type": "url",
+              "url": "https://www.betterteam.com/job-descriptions",
+              "tags": ["Template"]
+            },
+            {
+              "name": "SHRM Job Description Manager",
+              "type": "url",
+              "url": "https://www.shrm.org/topics-tools/tools/job-descriptions",
+              "tags": ["Template", "P"]
+            }
+          ]
+        },
+        {
+          "name": "面试评分卡/指南",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Greenhouse Scorecard Templates",
+              "type": "url",
+              "url": "https://www.greenhouse.com/resources/templates/interview-scorecard",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Lever Interview Kit Template",
+              "type": "url",
+              "url": "https://www.lever.co/resources/templates/interview-kit",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Notion Interview Templates",
+              "type": "url",
+              "url": "https://www.notion.so/templates/category/hr-recruiting",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Monday.com HR Templates",
+              "type": "url",
+              "url": "https://monday.com/templates/hr",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Airtable Recruiting Templates",
+              "type": "url",
+              "url": "https://www.airtable.com/templates/human-resources",
+              "tags": ["Template"]
+            }
+          ]
+        },
+        {
+          "name": "招聘漏斗/报告模板",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Ashby Recruiting Metrics Guide",
+              "type": "url",
+              "url": "https://www.ashbyhq.com/resources/recruiting-metrics",
+              "tags": ["Template", "Guide"]
+            },
+            {
+              "name": "Greenhouse Recruiting Metrics",
+              "type": "url",
+              "url": "https://www.greenhouse.com/resources/templates/recruiting-metrics",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Tableau HR Dashboard Templates",
+              "type": "url",
+              "url": "https://www.tableau.com/solutions/human-resources",
+              "tags": ["Template", "P"]
+            },
+            {
+              "name": "Google Sheets Recruiting Tracker",
+              "type": "url",
+              "url": "https://docs.google.com/spreadsheets/",
+              "tags": ["Template"]
+            }
+          ]
+        },
+        {
+          "name": "Offer Letter / 合同模板",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Gusto Offer Letter Templates",
+              "type": "url",
+              "url": "https://gusto.com/resources/offer-letter-template",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Rocket Lawyer Employment Templates",
+              "type": "url",
+              "url": "https://www.rocketlawyer.com/business-and-contracts/employers-and-hr/employment-letters",
+              "tags": ["Template"]
+            },
+            {
+              "name": "PandaDoc HR Templates",
+              "type": "url",
+              "url": "https://www.pandadoc.com/hr-templates/",
+              "tags": ["Template", "P"]
+            },
+            {
+              "name": "LawDepot Employment Agreement",
+              "type": "url",
+              "url": "https://www.lawdepot.com/contracts/employment-contract/",
+              "tags": ["Template"]
+            }
+          ]
+        },
+        {
+          "name": "入职检查清单",
+          "type": "folder",
+          "children": [
+            {
+              "name": "SHRM Onboarding Checklist",
+              "type": "url",
+              "url": "https://www.shrm.org/topics-tools/tools/onboarding-resource-center",
+              "tags": ["Template"]
+            },
+            {
+              "name": "BambooHR Onboarding Checklist",
+              "type": "url",
+              "url": "https://www.bamboohr.com/resources/guides/onboarding-checklist",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Process Street HR Checklists",
+              "type": "url",
+              "url": "https://www.process.st/human-resources/",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Trello Onboarding Template",
+              "type": "url",
+              "url": "https://trello.com/templates/human-resources",
+              "tags": ["Template"]
+            },
+            {
+              "name": "Asana Onboarding Template",
+              "type": "url",
+              "url": "https://asana.com/templates/employee-onboarding",
+              "tags": ["Template"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "33 招聘心理学与行为科学",
+      "type": "folder",
+      "children": [
+        {
+          "name": "招聘决策科学",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Daniel Kahneman｜Thinking, Fast and Slow",
+              "type": "url",
+              "url": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+              "tags": ["Book"]
+            },
+            {
+              "name": "Predictive Hiring（Work Rules by Laszlo Bock）",
+              "type": "url",
+              "url": "https://www.goodreads.com/book/show/22875519-work-rules",
+              "tags": ["Book"]
+            },
+            {
+              "name": "HBR｜How to Hire",
+              "type": "url",
+              "url": "https://hbr.org/topic/subject/hiring",
+              "tags": ["Guide"]
+            },
+            {
+              "name": "Schmidt & Hunter｜Validity of Selection Methods",
+              "type": "url",
+              "url": "https://psycnet.apa.org/record/1998-10661-006",
+              "tags": ["Research"]
+            },
+            {
+              "name": "Who: The A Method for Hiring",
+              "type": "url",
+              "url": "https://www.goodreads.com/book/show/4989687-who",
+              "tags": ["Book"]
+            }
+          ]
+        },
+        {
+          "name": "认知偏差与招聘",
+          "type": "folder",
+          "children": [
+            {
+              "name": "List of Cognitive Biases（Wikipedia）",
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/List_of_cognitive_biases",
+              "tags": ["Reference"]
+            },
+            {
+              "name": "Behavioral Insights Team",
+              "type": "url",
+              "url": "https://www.bi.team/",
+              "tags": ["Research"]
+            },
+            {
+              "name": "ideas42（Behavioral Science）",
+              "type": "url",
+              "url": "https://www.ideas42.org/",
+              "tags": ["Research"]
+            },
+            {
+              "name": "BVA Nudge Unit",
+              "type": "url",
+              "url": "https://www.bva-group.com/en/bva-nudge-consulting/",
+              "tags": ["Research"]
+            },
+            {
+              "name": "Iris Bohnet｜What Works（Gender Equality）",
+              "type": "url",
+              "url": "https://www.goodreads.com/book/show/27226096-what-works",
+              "tags": ["Book", "DEI"]
+            }
+          ]
+        },
+        {
+          "name": "人才评估心理学",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Big Five Personality Model",
+              "type": "url",
+              "url": "https://www.psychologytoday.com/us/basics/big-5-personality-traits",
+              "tags": ["Reference"]
+            },
+            {
+              "name": "SIOP（I-O Psychology）",
+              "type": "url",
+              "url": "https://www.siop.org/",
+              "tags": ["Community"]
+            },
+            {
+              "name": "APA｜Industrial-Organizational Psychology",
+              "type": "url",
+              "url": "https://www.apa.org/ed/graduate/specialize/industrial",
+              "tags": ["Community"]
+            },
+            {
+              "name": "Personnel Psychology Journal",
+              "type": "url",
+              "url": "https://onlinelibrary.wiley.com/journal/17446570",
+              "tags": ["Research"]
+            },
+            {
+              "name": "Journal of Applied Psychology",
+              "type": "url",
+              "url": "https://www.apa.org/pubs/journals/apl",
+              "tags": ["Research"]
+            }
+          ]
+        },
+        {
+          "name": "候选人体验心理学",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Applicant Reactions Research",
+              "type": "url",
+              "url": "https://www.siop.org/Research-Publications/Items-of-Interest/ArticleID/1243/Applicant-Reactions",
+              "tags": ["Research"]
+            },
+            {
+              "name": "Candidate Experience Research（Talent Board）",
+              "type": "url",
+              "url": "https://www.thetalentboard.org/benchmark-research/",
+              "tags": ["Research"]
+            },
+            {
+              "name": "LinkedIn｜Inside the Mind of Today's Candidate",
+              "type": "url",
+              "url": "https://business.linkedin.com/talent-solutions/resources/talent-strategy",
+              "tags": ["Report"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "34 招聘法律与劳动法",
+      "type": "folder",
+      "children": [
+        {
+          "name": "美国劳动法",
+          "type": "folder",
+          "children": [
+            {
+              "name": "DOL（Department of Labor）",
+              "type": "url",
+              "url": "https://www.dol.gov/",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "EEOC（Equal Employment Opportunity Commission）",
+              "type": "url",
+              "url": "https://www.eeoc.gov/",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "NLRB（National Labor Relations Board）",
+              "type": "url",
+              "url": "https://www.nlrb.gov/",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "FLSA（Fair Labor Standards Act）",
+              "type": "url",
+              "url": "https://www.dol.gov/agencies/whd/flsa",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "I-9 Central（Work Authorization）",
+              "type": "url",
+              "url": "https://www.uscis.gov/i-9-central",
+              "tags": ["Law", "US"]
+            },
+            {
+              "name": "E-Verify",
+              "type": "url",
+              "url": "https://www.e-verify.gov/",
+              "tags": ["Law", "US"]
+            }
+          ]
+        },
+        {
+          "name": "国际劳动法",
+          "type": "folder",
+          "children": [
+            {
+              "name": "ILO（International Labour Organization）",
+              "type": "url",
+              "url": "https://www.ilo.org/",
+              "tags": ["Law", "International"]
+            },
+            {
+              "name": "UK Employment Law（GOV.UK）",
+              "type": "url",
+              "url": "https://www.gov.uk/browse/employing-people",
+              "tags": ["Law", "UK"]
+            },
+            {
+              "name": "EU Employment Law",
+              "type": "url",
+              "url": "https://ec.europa.eu/social/main.jsp?catId=157",
+              "tags": ["Law", "EU"]
+            },
+            {
+              "name": "Australia Fair Work",
+              "type": "url",
+              "url": "https://www.fairwork.gov.au/",
+              "tags": ["Law", "AU"]
+            },
+            {
+              "name": "Canada Labour Code",
+              "type": "url",
+              "url": "https://www.canada.ca/en/services/jobs/workplace/federal-labour-standards.html",
+              "tags": ["Law", "CA"]
+            }
+          ]
+        },
+        {
+          "name": "中国劳动法",
+          "type": "folder",
+          "children": [
+            {
+              "name": "中国｜劳动法",
+              "type": "url",
+              "url": "http://www.npc.gov.cn/wxzl/gongbao/2007-10/09/content_5369350.htm",
+              "tags": ["Law", "CN"]
+            },
+            {
+              "name": "中国｜劳动合同法",
+              "type": "url",
+              "url": "http://www.npc.gov.cn/wxzl/gongbao/2007-10/31/content_5374365.htm",
+              "tags": ["Law", "CN"]
+            },
+            {
+              "name": "人力资源和社会保障部",
+              "type": "url",
+              "url": "http://www.mohrss.gov.cn/",
+              "tags": ["Law", "CN"]
+            },
+            {
+              "name": "中国法律服务网",
+              "type": "url",
+              "url": "http://www.12348.gov.cn/",
+              "tags": ["Law", "CN"]
+            }
+          ]
+        },
+        {
+          "name": "雇佣法律资源",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Littler Mendelson（劳动法律所）",
+              "type": "url",
+              "url": "https://www.littler.com/",
+              "tags": ["Law", "P"]
+            },
+            {
+              "name": "Jackson Lewis",
+              "type": "url",
+              "url": "https://www.jacksonlewis.com/",
+              "tags": ["Law", "P"]
+            },
+            {
+              "name": "Fisher Phillips",
+              "type": "url",
+              "url": "https://www.fisherphillips.com/",
+              "tags": ["Law", "P"]
+            },
+            {
+              "name": "SHRM Legal Resources",
+              "type": "url",
+              "url": "https://www.shrm.org/topics-tools/employment-law-compliance",
+              "tags": ["Law", "Guide"]
+            },
+            {
+              "name": "XpertHR（HR 合规）",
+              "type": "url",
+              "url": "https://www.xperthr.com/",
+              "tags": ["Law", "P"]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
