@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" id="htmlRoot">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -45,37 +45,40 @@
   <header class="header">
     <div class="header__title">
       <h1>Recruitment & AI Hiring Framework</h1>
-      <p class="subtitle">一个可维护的「招聘 × AI 招聘」工具地图（数据驱动），灵感来自 OSINT Framework。</p>
+      <p class="subtitle" data-i18n="subtitle">一个可维护的「招聘 × AI 招聘」工具地图（数据驱动），灵感来自 OSINT Framework。</p>
     </div>
 
     <nav class="header__controls" aria-label="搜索和工具">
       <label for="searchInput" class="visually-hidden">搜索工具和资源</label>
-      <input id="searchInput" type="search" placeholder="搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）" autocomplete="off" aria-label="搜索工具和资源" />
-      <button id="btnClear" type="button" title="清空搜索" aria-label="清空搜索">清空</button>
-      <a id="btnJson" class="btnLink" href="tarf.json" download title="下载数据文件" aria-label="下载 tarf.json 数据文件">下载 tarf.json</a>
+      <input id="searchInput" type="search" placeholder="搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）" autocomplete="off" aria-label="搜索工具和资源" data-i18n-placeholder="searchPlaceholder" />
+      <button id="btnClear" type="button" title="清空搜索" aria-label="清空搜索" data-i18n="clearBtn">清空</button>
+      <a id="btnJson" class="btnLink" href="tarf.json" download title="下载数据文件" aria-label="下载 tarf.json 数据文件" data-i18n="downloadJson">下载 tarf.json</a>
+      <button id="btnLang" type="button" class="btnLink btnLang" title="切换语言 / Switch Language" aria-label="切换语言">
+        <span id="langIcon">🌐</span> <span id="langLabel">EN</span>
+      </button>
     </nav>
 
     <div class="legend">
-      <span class="legend__item"><span class="tag">R</span> 需要注册/登录</span>
-      <span class="legend__item"><span class="tag">P</span> 付费/商用</span>
-      <span class="legend__item"><span class="tag">O</span> 开源</span>
-      <span class="legend__item"><span class="tag">M</span> 模板链接（会提示输入 query）</span>
-      <span class="legend__item"><span class="tag">PDF</span> PDF 资源</span>
-      <span class="legend__item"><span class="tag">Law</span> 法规/监管页面</span>
-      <span class="legend__item"><span class="tag">Framework</span> 框架/标准</span>
+      <span class="legend__item"><span class="tag">R</span> <span data-i18n="legendR">需要注册/登录</span></span>
+      <span class="legend__item"><span class="tag">P</span> <span data-i18n="legendP">付费/商用</span></span>
+      <span class="legend__item"><span class="tag">O</span> <span data-i18n="legendO">开源</span></span>
+      <span class="legend__item"><span class="tag">M</span> <span data-i18n="legendM">模板链接（会提示输入 query）</span></span>
+      <span class="legend__item"><span class="tag">PDF</span> <span data-i18n="legendPDF">PDF 资源</span></span>
+      <span class="legend__item"><span class="tag">Law</span> <span data-i18n="legendLaw">法规/监管页面</span></span>
+      <span class="legend__item"><span class="tag">Framework</span> <span data-i18n="legendFramework">框架/标准</span></span>
     </div>
   </header>
 
   <main class="layout">
     <section class="panel panel--tree">
       <div class="panel__title">
-        <span>工具树</span>
+        <span data-i18n="treeTitle">工具树</span>
         <div class="zoom-controls">
           <button type="button" id="btnZoomOut" title="缩小" aria-label="缩小视图">−</button>
-          <button type="button" id="btnZoomReset" title="重置视图" aria-label="重置视图">重置</button>
+          <button type="button" id="btnZoomReset" title="重置视图" aria-label="重置视图" data-i18n="resetBtn">重置</button>
           <button type="button" id="btnZoomIn" title="放大" aria-label="放大视图">+</button>
-          <button type="button" id="btnExpandAll" title="展开全部" aria-label="展开全部分类">展开</button>
-          <button type="button" id="btnCollapseAll" title="收起全部" aria-label="收起全部分类">收起</button>
+          <button type="button" id="btnExpandAll" title="展开全部" aria-label="展开全部分类" data-i18n="expandBtn">展开</button>
+          <button type="button" id="btnCollapseAll" title="收起全部" aria-label="收起全部分类" data-i18n="collapseBtn">收起</button>
         </div>
       </div>
       <noscript>
@@ -89,41 +92,41 @@
       </div>
       <div class="hint">
         <ul>
-          <li>点击「文件夹」节点展开/收起。</li>
-          <li>点击「链接」节点会在新标签页打开。</li>
-          <li>点击带 <span class="tag">M</span> 的节点会弹窗让你输入关键词，并把关键词替换进 URL 里的 <code>{query}</code>。</li>
-          <li><kbd>/</kbd> 聚焦搜索框，<kbd>Esc</kbd> 清空搜索。</li>
+          <li data-i18n="hint1">点击「文件夹」节点展开/收起。</li>
+          <li data-i18n="hint2">点击「链接」节点会在新标签页打开。</li>
+          <li data-i18n-html="hint3">点击带 <span class="tag">M</span> 的节点会弹窗让你输入关键词，并把关键词替换进 URL 里的 <code>{query}</code>。</li>
+          <li data-i18n-html="hint4"><kbd>/</kbd> 聚焦搜索框，<kbd>Esc</kbd> 清空搜索。</li>
         </ul>
       </div>
     </section>
 
     <aside class="panel panel--side">
-      <div class="panel__title">搜索结果</div>
-      <div id="resultMeta" class="resultMeta">输入关键词开始搜索。</div>
+      <div class="panel__title" data-i18n="searchResults">搜索结果</div>
+      <div id="resultMeta" class="resultMeta" data-i18n="searchHint">输入关键词开始搜索。</div>
       <ul id="resultList" class="resultList"></ul>
 
       <details class="panel__details panel__stats">
-        <summary>数据统计</summary>
-        <div id="statsContent" class="stats-content">加载中...</div>
+        <summary data-i18n="statsTitle">数据统计</summary>
+        <div id="statsContent" class="stats-content" data-i18n="loading">加载中...</div>
       </details>
 
       <details class="panel__details" open>
-        <summary>如何扩展</summary>
+        <summary data-i18n="howToExtend">如何扩展</summary>
         <ol>
-          <li>编辑 <code>docs/tarf.json</code>（添加/修改节点）。</li>
-          <li>本地预览：在项目根目录运行 <code>python -m http.server 8000</code>，然后打开 <code>http://localhost:8000/docs/</code>。</li>
-          <li>发布：把 <code>docs/</code> 作为静态站点部署（GitHub Pages / Cloudflare Pages / Vercel 等）。</li>
+          <li data-i18n-html="extend1">编辑 <code>docs/tarf.json</code>（添加/修改节点）。</li>
+          <li data-i18n-html="extend2">本地预览：在项目根目录运行 <code>python -m http.server 8000</code>，然后打开 <code>http://localhost:8000/docs/</code>。</li>
+          <li data-i18n-html="extend3">发布：把 <code>docs/</code> 作为静态站点部署（GitHub Pages / Cloudflare Pages / Vercel 等）。</li>
         </ol>
       </details>
     </aside>
   </main>
 
   <footer class="footer">
-    <p>⚠️ 仅用于招聘工具导航与学习研究；使用任何自动化/AI 招聘能力时请遵守适用法律法规与隐私要求，并进行必要的偏差评估与人类复核。</p>
+    <p data-i18n="footerWarning">⚠️ 仅用于招聘工具导航与学习研究；使用任何自动化/AI 招聘能力时请遵守适用法律法规与隐私要求，并进行必要的偏差评估与人类复核。</p>
     <p class="footer__links">
       <a href="https://github.com/Digidai/recruit-ai-framework" target="_blank" rel="noopener">GitHub</a>
       <span>·</span>
-      <a href="https://github.com/Digidai/recruit-ai-framework/issues" target="_blank" rel="noopener">反馈问题</a>
+      <a href="https://github.com/Digidai/recruit-ai-framework/issues" target="_blank" rel="noopener" data-i18n="reportIssue">反馈问题</a>
       <span>·</span>
       <a href="https://github.com/Digidai/recruit-ai-framework/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
     </p>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" id="htmlRoot">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -12,6 +12,7 @@
       --text: #e6e6e6;
       --muted: #a7a7a7;
       --link: #78b7ff;
+      --border: #2a2f3a;
     }
     * { box-sizing: border-box; }
     body {
@@ -61,17 +62,75 @@
       text-decoration: none;
       opacity: 0.9;
     }
+    .lang-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .lang-btn:hover {
+      border-color: #4a5a74;
+    }
   </style>
 </head>
 <body>
+  <button class="lang-btn" id="btnLang" title="切换语言 / Switch Language">🌐 <span id="langLabel">EN</span></button>
   <h1>404</h1>
-  <h2>页面未找到</h2>
-  <p>您访问的页面不存在或已被移动。</p>
-  <a href="./" class="btn">返回首页</a>
+  <h2 id="title">页面未找到</h2>
+  <p id="desc">您访问的页面不存在或已被移动。</p>
+  <a href="./" class="btn" id="homeBtn">返回首页</a>
   <p style="margin-top: 40px;">
     <a href="https://github.com/Digidai/recruit-ai-framework" target="_blank" rel="noopener">GitHub</a>
     <span style="color: #2a2f3a; margin: 0 8px;">·</span>
-    <a href="https://github.com/Digidai/recruit-ai-framework/issues" target="_blank" rel="noopener">报告问题</a>
+    <a href="https://github.com/Digidai/recruit-ai-framework/issues" target="_blank" rel="noopener" id="issueLink">报告问题</a>
   </p>
+
+  <script>
+    const i18n = {
+      zh: {
+        title: "页面未找到",
+        desc: "您访问的页面不存在或已被移动。",
+        homeBtn: "返回首页",
+        issueLink: "报告问题",
+        langLabel: "EN",
+        htmlTitle: "页面未找到 - Recruitment & AI Hiring Framework"
+      },
+      en: {
+        title: "Page Not Found",
+        desc: "The page you're looking for doesn't exist or has been moved.",
+        homeBtn: "Back to Home",
+        issueLink: "Report Issue",
+        langLabel: "中文",
+        htmlTitle: "Page Not Found - Recruitment & AI Hiring Framework"
+      }
+    };
+
+    let currentLang = localStorage.getItem("lang") || "zh";
+
+    function applyLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem("lang", lang);
+      document.getElementById("htmlRoot").lang = lang === "zh" ? "zh-CN" : "en";
+      document.getElementById("title").textContent = i18n[lang].title;
+      document.getElementById("desc").textContent = i18n[lang].desc;
+      document.getElementById("homeBtn").textContent = i18n[lang].homeBtn;
+      document.getElementById("issueLink").textContent = i18n[lang].issueLink;
+      document.getElementById("langLabel").textContent = i18n[lang].langLabel;
+      document.title = i18n[lang].htmlTitle;
+    }
+
+    document.getElementById("btnLang").addEventListener("click", () => {
+      applyLanguage(currentLang === "zh" ? "en" : "zh");
+    });
+
+    // Apply saved language on load
+    applyLanguage(currentLang);
+  </script>
 </body>
 </html>

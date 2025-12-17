@@ -114,6 +114,19 @@ a:hover{text-decoration:underline;}
   background:var(--panel);
 }
 
+.btnLang{
+  display:flex;
+  align-items:center;
+  gap:4px;
+  cursor:pointer;
+  color:var(--text);
+  font-size:13px;
+  transition: border-color 0.15s ease;
+}
+.btnLang:hover{
+  border-color:#4a5a74;
+}
+
 .legend{
   display:flex;
   flex-wrap:wrap;
