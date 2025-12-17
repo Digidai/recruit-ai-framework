@@ -204,11 +204,14 @@ open http://localhost:8000/docs/
 
 ### 节点类型
 
+所有节点都支持 `name_en` 字段用于英文显示（可选，缺省时使用 `name`）。
+
 #### Folder（文件夹/分类）
 
 ```json
 {
   "name": "01 招聘流程与方法论",
+  "name_en": "01 Recruitment Process & Methodology",
   "type": "folder",
   "children": [...]
 }
@@ -218,7 +221,8 @@ open http://localhost:8000/docs/
 
 ```json
 {
-  "name": "CIPD｜Selection methods",
+  "name": "CIPD｜Selection methods（结构化面试等）",
+  "name_en": "CIPD | Selection methods (Structured Interviews)",
   "type": "url",
   "url": "https://www.cipd.org/en/knowledge/factsheets/selection-factsheet/",
   "tags": ["Guide"]
@@ -230,6 +234,7 @@ open http://localhost:8000/docs/
 ```json
 {
   "name": "LinkedIn 个人页 X-Ray",
+  "name_en": "LinkedIn Profile X-Ray",
   "type": "template",
   "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+{query}",
   "tags": ["M"]
@@ -275,13 +280,15 @@ open http://localhost:8000/docs/
 ```
 recruit-ai-framework/
 ├── docs/                        # 前端静态资源（GitHub Pages 部署目录）
-│   ├── index.html               # 主应用页面（SEO + 无障碍支持）
-│   ├── app.js                   # D3 树形图 + 搜索逻辑
+│   ├── index.html               # 主应用页面（SEO + 无障碍 + i18n）
+│   ├── app.js                   # D3 树形图 + 搜索 + 国际化逻辑
 │   ├── style.css                # 暗色主题 + 响应式 + 打印样式
-│   ├── tarf.json                # 数据文件（1288 条资源，58 大分类）
+│   ├── tarf.json                # 数据文件（1288 条资源，58 大分类，双语）
 │   ├── robots.txt               # SEO 爬虫规则
 │   ├── sitemap.xml              # 站点地图
-│   └── 404.html                 # 404 错误页面
+│   └── 404.html                 # 404 错误页面（双语）
+├── scripts/                     # 工具脚本
+│   └── add_translations.py      # 添加英文翻译到 tarf.json
 ├── .gitignore                   # Git 忽略文件配置
 ├── LICENSE                      # MIT 许可证
 └── README.md                    # 项目文档

@@ -161,6 +161,10 @@ function toggleLanguage() {
   if (window._appStats) {
     renderStats(window._appStats);
   }
+  // Rebuild tree with new language
+  if (window._appData) {
+    buildTree(window._appData);
+  }
 }
 
 // DOM elements
@@ -220,23 +224,44 @@ function openNode(node){
   }
 }
 
-function flatten(node, path = []){
+// Get localized name for a node
+function getLocalizedName(node) {
+  if (currentLang === "en" && node.name_en) {
+    return node.name_en;
+  }
+  return node.name;
+}
+
+function flatten(node, path = [], pathEn = []){
   const here = [...path, node.name];
+  const hereEn = [...pathEn, node.name_en || node.name];
   const out = [];
   if(node.type === "folder" && Array.isArray(node.children)){
     for(const ch of node.children){
-      out.push(...flatten(ch, here));
+      out.push(...flatten(ch, here, hereEn));
     }
   }else if(node.url){
     out.push({
       name: node.name,
+      name_en: node.name_en || node.name,
       type: node.type || "url",
       url: node.url,
       tags: node.tags || [],
       path: here.slice(0, -1),
+      path_en: hereEn.slice(0, -1),
     });
   }
   return out;
+}
+
+// Get display name based on current language
+function getDisplayName(item) {
+  return currentLang === "en" ? (item.name_en || item.name) : item.name;
+}
+
+// Get display path based on current language
+function getDisplayPath(item) {
+  return currentLang === "en" ? (item.path_en || item.path) : item.path;
 }
 
 // Count statistics
@@ -291,7 +316,17 @@ function renderResults(items, query){
     return;
   }
   const q = query.trim().toLowerCase();
-  const hit = items.filter(it => (it.name + " " + it.path.join(" / ") + " " + it.tags.join(" ")).toLowerCase().includes(q));
+  // Search both Chinese and English names/paths
+  const hit = items.filter(it => {
+    const searchText = [
+      it.name,
+      it.name_en || "",
+      it.path.join(" / "),
+      (it.path_en || it.path).join(" / "),
+      it.tags.join(" ")
+    ].join(" ").toLowerCase();
+    return searchText.includes(q);
+  });
   resultMeta.textContent = t("matchResults", hit.length, Math.min(MAX_RESULTS, hit.length));
 
   for(const it of hit.slice(0, MAX_RESULTS)){
@@ -299,10 +334,10 @@ function renderResults(items, query){
     li.tabIndex = 0; // Make focusable for keyboard navigation
     li.innerHTML = `
       <div class="resultTitle">
-        <strong>${escapeHtml(it.name)}</strong>
+        <strong>${escapeHtml(getDisplayName(it))}</strong>
         ${tagsHtml(it.tags)}
       </div>
-      <div class="resultPath">${escapeHtml(it.path.join(" / "))}</div>
+      <div class="resultPath">${escapeHtml(getDisplayPath(it).join(" / "))}</div>
       <div class="resultUrl">${escapeHtml(it.url)}</div>
     `;
     li.addEventListener("click", () => openNode(it));
@@ -436,11 +471,11 @@ function buildTree(data){
       .attr("text-anchor", d => d._children ? "end" : "start")
       .attr("fill", "#e6e6e6")
       .style("font-size", "12px")
-      .text(d => d.data.name);
+      .text(d => getLocalizedName(d.data));
 
     nodeEnter.append("title")
       .text(d => {
-        const path = d.ancestors().reverse().map(x => x.data.name).join(" / ");
+        const path = d.ancestors().reverse().map(x => getLocalizedName(x.data)).join(" / ");
         const url = d.data.url ? `\n${d.data.url}` : "";
         return path + url;
       });
@@ -519,6 +554,7 @@ async function init(){
   const stats = countStats(data);
 
   // Store for re-rendering on language change
+  window._appData = data;
   window._appItems = items;
   window._appStats = stats;
 
