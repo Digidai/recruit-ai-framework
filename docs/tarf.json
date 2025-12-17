@@ -841,6 +841,46 @@
                 "Tech"
               ],
               "name_en": "Codeforces (Competitive Programming)"
+            },
+            {
+              "name": "Hashnode（技术博客平台）",
+              "name_en": "Hashnode (Tech Blog Platform)",
+              "type": "url",
+              "url": "https://hashnode.com/",
+              "tags": [
+                "Blog",
+                "Dev"
+              ]
+            },
+            {
+              "name": "IndieHackers（独立开发者）",
+              "name_en": "IndieHackers (Indie Developers)",
+              "type": "url",
+              "url": "https://www.indiehackers.com/",
+              "tags": [
+                "Community",
+                "Startup"
+              ]
+            },
+            {
+              "name": "Product Hunt（产品社区）",
+              "name_en": "Product Hunt (Product Community)",
+              "type": "url",
+              "url": "https://www.producthunt.com/",
+              "tags": [
+                "Community",
+                "Product"
+              ]
+            },
+            {
+              "name": "Hacker News（YC 社区）",
+              "name_en": "Hacker News (YC Community)",
+              "type": "url",
+              "url": "https://news.ycombinator.com/",
+              "tags": [
+                "Community",
+                "Tech"
+              ]
             }
           ],
           "name_en": "Tech / Data"
@@ -1121,6 +1161,26 @@
                 "Tool"
               ],
               "name_en": "Recruit'em｜Free Boolean Search Tool"
+            },
+            {
+              "name": "Irina Shamaeva 博客（高级 Sourcing）",
+              "name_en": "Irina Shamaeva Blog (Advanced Sourcing)",
+              "type": "url",
+              "url": "https://booleanstrings.com/blog/",
+              "tags": [
+                "Blog",
+                "Expert"
+              ]
+            },
+            {
+              "name": "Glen Cathey｜Boolean Black Belt",
+              "name_en": "Glen Cathey | Boolean Black Belt",
+              "type": "url",
+              "url": "https://booleanblackbelt.com/",
+              "tags": [
+                "Blog",
+                "Expert"
+              ]
             }
           ],
           "name_en": "Boolean Search Guides"
@@ -1229,6 +1289,46 @@
                 "Enterprise"
               ],
               "name_en": "Oracle Taleo"
+            },
+            {
+              "name": "Pinpoint（招聘软件）",
+              "name_en": "Pinpoint (Recruiting Software)",
+              "type": "url",
+              "url": "https://www.pinpointhq.com/",
+              "tags": [
+                "ATS",
+                "SMB"
+              ]
+            },
+            {
+              "name": "Recruitee（协作招聘）",
+              "name_en": "Recruitee (Collaborative Hiring)",
+              "type": "url",
+              "url": "https://recruitee.com/",
+              "tags": [
+                "ATS",
+                "Collaboration"
+              ]
+            },
+            {
+              "name": "Manatal（AI ATS）",
+              "name_en": "Manatal (AI ATS)",
+              "type": "url",
+              "url": "https://www.manatal.com/",
+              "tags": [
+                "ATS",
+                "AI"
+              ]
+            },
+            {
+              "name": "JazzHR（SMB ATS）",
+              "name_en": "JazzHR (SMB ATS)",
+              "type": "url",
+              "url": "https://www.jazzhr.com/",
+              "tags": [
+                "ATS",
+                "SMB"
+              ]
             }
           ],
           "name_en": "ATS (Enterprise)"
@@ -1753,6 +1853,26 @@
                 "P"
               ],
               "name_en": "Canditech"
+            },
+            {
+              "name": "Knack（游戏化人才识别）",
+              "name_en": "Knack (Gamified Talent Discovery)",
+              "type": "url",
+              "url": "https://www.knack.it/",
+              "tags": [
+                "Gamification",
+                "AI"
+              ]
+            },
+            {
+              "name": "Owiwi（游戏化软技能测评）",
+              "name_en": "Owiwi (Gamified Soft Skills)",
+              "type": "url",
+              "url": "https://owiwi.co.uk/",
+              "tags": [
+                "Gamification",
+                "Soft Skills"
+              ]
             }
           ],
           "name_en": "AI Assessment / Gamified Assessments"
@@ -2188,6 +2308,36 @@
                 "P"
               ],
               "name_en": "TalVista"
+            },
+            {
+              "name": "ChatGPT（OpenAI LLM）",
+              "name_en": "ChatGPT (OpenAI LLM)",
+              "type": "url",
+              "url": "https://chat.openai.com/",
+              "tags": [
+                "AI",
+                "LLM"
+              ]
+            },
+            {
+              "name": "Claude（Anthropic LLM）",
+              "name_en": "Claude (Anthropic LLM)",
+              "type": "url",
+              "url": "https://claude.ai/",
+              "tags": [
+                "AI",
+                "LLM"
+              ]
+            },
+            {
+              "name": "Jasper（AI 写作助手）",
+              "name_en": "Jasper (AI Writing Assistant)",
+              "type": "url",
+              "url": "https://www.jasper.ai/",
+              "tags": [
+                "AI",
+                "Writing"
+              ]
             }
           ],
           "name_en": "JD Writing / Recruiting Copy"
@@ -2265,6 +2415,16 @@
                 "P"
               ],
               "name_en": "Ideal"
+            },
+            {
+              "name": "Gem（人才关系管理）",
+              "name_en": "Gem (Talent Relationship Management)",
+              "type": "url",
+              "url": "https://www.gem.com/",
+              "tags": [
+                "CRM",
+                "Sourcing"
+              ]
             }
           ],
           "name_en": "Smart Sourcing / Talent Matching"
@@ -2419,6 +2579,36 @@
                 "P"
               ],
               "name_en": "Knockri"
+            },
+            {
+              "name": "Interviewer.AI（AI 视频分析）",
+              "name_en": "Interviewer.AI (AI Video Analytics)",
+              "type": "url",
+              "url": "https://www.interviewer.ai/",
+              "tags": [
+                "AI",
+                "Video"
+              ]
+            },
+            {
+              "name": "Sapia.ai（对话式 AI 面试）",
+              "name_en": "Sapia.ai (Conversational AI Interview)",
+              "type": "url",
+              "url": "https://sapia.ai/",
+              "tags": [
+                "AI",
+                "Chat"
+              ]
+            },
+            {
+              "name": "Criteria Corp（AI 测评）",
+              "name_en": "Criteria Corp (AI Assessment)",
+              "type": "url",
+              "url": "https://www.criteriacorp.com/",
+              "tags": [
+                "AI",
+                "Assessment"
+              ]
             }
           ],
           "name_en": "AI Interview / Assessment"
@@ -2555,6 +2745,16 @@
                 "Framework"
               ],
               "name_en": "OECD｜AI Principles"
+            },
+            {
+              "name": "IEEE 7000（伦理设计系统）",
+              "name_en": "IEEE 7000 (Ethical Design Systems)",
+              "type": "url",
+              "url": "https://ethicsinaction.ieee.org/",
+              "tags": [
+                "Standard",
+                "Ethics"
+              ]
             }
           ],
           "name_en": "International Standards / Frameworks"
@@ -2632,6 +2832,16 @@
                 "US"
               ],
               "name_en": "Colorado AI Act（SB21-169）"
+            },
+            {
+              "name": "伊利诺伊州｜AIPA（人工智能视频面试法）",
+              "name_en": "Illinois | AIPA (AI Video Interview Act)",
+              "type": "url",
+              "url": "https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=101-0260",
+              "tags": [
+                "Law",
+                "US"
+              ]
             }
           ],
           "name_en": "US Hiring AI Regulations"
@@ -3354,6 +3564,56 @@
             }
           ],
           "name_en": "Internal Mobility / Talent Marketplace"
+        },
+        {
+          "name": "Teamable（员工推荐网络）",
+          "name_en": "Teamable (Employee Referral Network)",
+          "type": "url",
+          "url": "https://www.teamable.com/",
+          "tags": [
+            "Referral",
+            "Platform"
+          ]
+        },
+        {
+          "name": "Drafted（智能推荐）",
+          "name_en": "Drafted (Smart Referrals)",
+          "type": "url",
+          "url": "https://drafted.us/",
+          "tags": [
+            "Referral",
+            "AI"
+          ]
+        },
+        {
+          "name": "RolePoint（推荐自动化）",
+          "name_en": "RolePoint (Referral Automation)",
+          "type": "url",
+          "url": "https://www.rolepoint.com/",
+          "tags": [
+            "Referral",
+            "Automation"
+          ]
+        },
+        {
+          "name": "ERIN（员工推荐应用）",
+          "name_en": "ERIN (Employee Referral App)",
+          "type": "url",
+          "url": "https://erinapp.com/",
+          "tags": [
+            "Referral",
+            "Mobile"
+          ]
+        },
+        {
+          "name": "Boon（AI 推荐平台）",
+          "name_en": "Boon (AI Referral Platform)",
+          "type": "url",
+          "url": "https://www.boon.io/",
+          "tags": [
+            "Referral",
+            "AI"
+          ]
         }
       ],
       "name_en": "13 Employee Referrals / Internal Mobility"
@@ -6667,6 +6927,46 @@
                 "US"
               ],
               "name_en": "G.I. Jobs"
+            },
+            {
+              "name": "Hiring Our Heroes（雇佣我们的英雄）",
+              "name_en": "Hiring Our Heroes",
+              "type": "url",
+              "url": "https://www.hiringourheroes.org/",
+              "tags": [
+                "Veteran",
+                "Platform"
+              ]
+            },
+            {
+              "name": "Military.com 职业频道",
+              "name_en": "Military.com Careers",
+              "type": "url",
+              "url": "https://www.military.com/veteran-jobs",
+              "tags": [
+                "Veteran",
+                "Jobs"
+              ]
+            },
+            {
+              "name": "American Corporate Partners（企业导师项目）",
+              "name_en": "American Corporate Partners (Mentorship)",
+              "type": "url",
+              "url": "https://www.acp-usa.org/",
+              "tags": [
+                "Veteran",
+                "Mentorship"
+              ]
+            },
+            {
+              "name": "Veterati（退伍军人导师网络）",
+              "name_en": "Veterati (Veteran Mentor Network)",
+              "type": "url",
+              "url": "https://www.veterati.com/",
+              "tags": [
+                "Veteran",
+                "Network"
+              ]
             }
           ],
           "name_en": "Veteran Recruiting Platforms"
@@ -9203,6 +9503,36 @@
                 "Practice"
               ],
               "name_en": "Pramp"
+            },
+            {
+              "name": "interviewing.io（匿名技术面试）",
+              "name_en": "interviewing.io (Anonymous Tech Interviews)",
+              "type": "url",
+              "url": "https://interviewing.io/",
+              "tags": [
+                "Interview",
+                "Practice"
+              ]
+            },
+            {
+              "name": "Pramp（免费技术面试练习）",
+              "name_en": "Pramp (Free Tech Interview Practice)",
+              "type": "url",
+              "url": "https://www.pramp.com/",
+              "tags": [
+                "Interview",
+                "Free"
+              ]
+            },
+            {
+              "name": "Triplebyte（技术人才评估）",
+              "name_en": "Triplebyte (Tech Talent Assessment)",
+              "type": "url",
+              "url": "https://triplebyte.com/",
+              "tags": [
+                "Assessment",
+                "Tech"
+              ]
             }
           ],
           "name_en": "Technical Interview Platforms"

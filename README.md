@@ -41,7 +41,7 @@
 | **智能全文搜索** | 支持中英文关键词，防抖优化，`/` 快捷聚焦，`Esc` 清空 |
 | **中英文双语界面** | 一键切换中文/英文界面，语言偏好自动保存 |
 | **58大分类体系** | 覆盖招聘全流程，从 JD 撰写到入职，包含 AI 风险治理、DEI、神经多样性等专项 |
-| **1288 精选资源** | 工具、标准、法规、最佳实践、开源组件、学习资源 |
+| **1600+ 精选资源** | 工具、标准、法规、最佳实践、开源组件、学习资源 |
 | **实时数据统计** | 自动统计分类数、资源数、热门标签分布 |
 | **键盘无障碍** | 完整键盘导航支持，ARIA 标签，屏幕阅读器友好 |
 | **模板链接支持** | 动态搜索模板（含 `{query}` 占位符），输入关键词即可打开 |
@@ -283,12 +283,16 @@ recruit-ai-framework/
 │   ├── index.html               # 主应用页面（SEO + 无障碍 + i18n）
 │   ├── app.js                   # D3 树形图 + 搜索 + 国际化逻辑
 │   ├── style.css                # 暗色主题 + 响应式 + 打印样式
-│   ├── tarf.json                # 数据文件（1288 条资源，58 大分类，双语）
+│   ├── tarf.json                # 数据文件（1600+ 条资源，58 大分类，双语）
 │   ├── robots.txt               # SEO 爬虫规则
 │   ├── sitemap.xml              # 站点地图
 │   └── 404.html                 # 404 错误页面（双语）
 ├── scripts/                     # 工具脚本
-│   └── add_translations.py      # 添加英文翻译到 tarf.json
+│   ├── add_new_nodes.py         # 批量添加新节点（示例脚本）
+│   ├── add_translations.py      # 添加英文翻译到 tarf.json
+│   ├── translate_all.py         # 完整翻译所有节点
+│   ├── fix_remaining_translations.py  # 修复遗漏翻译
+│   └── fix_final_translations.py      # 最终翻译修正
 ├── .gitignore                   # Git 忽略文件配置
 ├── LICENSE                      # MIT 许可证
 └── README.md                    # 项目文档
@@ -323,6 +327,148 @@ recruit-ai-framework/
 - 优先使用官网/一手资料链接
 - 避免博客/转载等二手资源
 - 确保链接可访问且内容相关
+
+---
+
+## 如何更新节点 | How to Update Nodes
+
+本项目数据存储在 `docs/tarf.json` 文件中，支持以下更新方式：
+
+### 方式一：直接编辑 JSON（推荐小量更新）
+
+1. 打开 `docs/tarf.json`
+2. 找到目标分类位置
+3. 添加新节点（注意中英文双语）
+
+**新增叶子节点示例**：
+
+```json
+{
+  "name": "工具名称（中文说明）",
+  "name_en": "Tool Name (English Description)",
+  "type": "url",
+  "url": "https://example.com/",
+  "tags": ["AI", "Free"]
+}
+```
+
+**新增分类节点示例**：
+
+```json
+{
+  "name": "新分类名称",
+  "name_en": "New Category Name",
+  "type": "folder",
+  "children": [
+    {
+      "name": "子资源1（说明）",
+      "name_en": "Sub Resource 1 (Description)",
+      "type": "url",
+      "url": "https://example.com/",
+      "tags": ["Tool"]
+    }
+  ]
+}
+```
+
+### 方式二：使用 Python 脚本（推荐批量更新）
+
+项目提供了 `scripts/add_new_nodes.py` 作为批量添加节点的示例脚本。
+
+**步骤**：
+
+1. 编辑 `scripts/add_new_nodes.py` 中的 `NEW_NODES` 字典
+2. 按照以下格式添加新节点：
+
+```python
+NEW_NODES = {
+    # 目标分类名称（支持部分匹配）
+    "Boolean 搜索指南": [
+        {
+            "name": "新工具名称（中文说明）",
+            "name_en": "New Tool Name (English Description)",
+            "type": "url",
+            "url": "https://example.com/",
+            "tags": ["Free", "Tool"]
+        },
+    ],
+    # 可以添加多个分类...
+}
+```
+
+3. 运行脚本：
+
+```bash
+python3 scripts/add_new_nodes.py
+```
+
+4. 脚本会自动：
+   - 查找目标分类
+   - 检查重复（基于 URL 和名称）
+   - 添加新节点
+   - 保存更新后的 JSON
+
+### 节点字段说明
+
+| 字段 | 必填 | 说明 |
+|------|------|------|
+| `name` | ✅ | 中文名称（可包含英文品牌名） |
+| `name_en` | ✅ | 英文名称（用于英文界面显示） |
+| `type` | ✅ | `url`（链接）/ `folder`（分类）/ `template`（模板） |
+| `url` | 链接必填 | 资源链接地址 |
+| `tags` | 建议填写 | 标签数组，如 `["AI", "Free", "Tool"]` |
+| `children` | 分类必填 | 子节点数组（仅 `folder` 类型） |
+
+### 中英文命名规范
+
+为确保双语界面正确显示，请遵循以下规范：
+
+**中文名称 (`name`)**：
+- 格式：`品牌名（中文说明）` 或 `中文名称`
+- 示例：`Greenhouse（企业级 ATS）`、`智联招聘`
+
+**英文名称 (`name_en`)**：
+- 格式：`Brand Name (English Description)` 或 `English Name`
+- 示例：`Greenhouse (Enterprise ATS)`、`Zhaopin`
+- **重要**：英文名称中不应包含中文字符
+
+### 验证更新
+
+更新后可运行以下命令验证：
+
+```bash
+# 检查是否有中文残留在 name_en 中
+python3 -c "
+import json, re
+data = json.load(open('docs/tarf.json'))
+def check(n):
+    if n.get('name_en') and re.search(r'[\u4e00-\u9fff]', n.get('name_en','')):
+        print(f'Warning: {n[\"name\"]}')
+    for c in n.get('children',[]): check(c)
+check(data)
+"
+
+# 统计节点总数
+python3 -c "
+import json
+data = json.load(open('docs/tarf.json'))
+def count(n): return 1 + sum(count(c) for c in n.get('children',[]))
+print(f'Total nodes: {count(data)}')
+"
+```
+
+### 提交更新
+
+```bash
+# 添加变更
+git add docs/tarf.json
+
+# 提交（描述添加的内容）
+git commit -m "Add new resources: [简要说明]"
+
+# 推送
+git push
+```
 
 ---
 
