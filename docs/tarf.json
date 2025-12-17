@@ -17,7 +17,7 @@
               "tags": [
                 "Guide"
               ],
-              "name_en": "CIPD｜Selection methods（结构化面试等）"
+              "name_en": "CIPD | Selection Methods (Structured Interviews)"
             },
             {
               "name": "SHRM Labs｜Structured interviewing & AI（减少偏差）",
@@ -26,7 +26,7 @@
               "tags": [
                 "Guide"
               ],
-              "name_en": "SHRM Labs｜Structured interviewing & AI（减少偏差）"
+              "name_en": "SHRM Labs | Structured Interviewing & AI (Reducing Bias)"
             },
             {
               "name": "BIT｜How to run structured interviews（PDF）",
@@ -35,7 +35,7 @@
               "tags": [
                 "PDF"
               ],
-              "name_en": "BIT｜How to run structured interviews（PDF）"
+              "name_en": "BIT | How to Run Structured Interviews (PDF)"
             },
             {
               "name": "SHRM｜Recruitment and Selection: Hiring the Right Person（PDF）",
@@ -44,7 +44,7 @@
               "tags": [
                 "PDF"
               ],
-              "name_en": "SHRM｜Recruitment and Selection: Hiring the Right Person（PDF）"
+              "name_en": "SHRM | Recruitment and Selection: Hiring the Right Person (PDF)"
             },
             {
               "name": "Harvard Business Review｜The Case for Structured Interviews",
@@ -192,7 +192,7 @@
                 "Data",
                 "US"
               ],
-              "name_en": "O*NET OnLine（职业/技能/任务）"
+              "name_en": "O*NET OnLine (Occupations/Skills/Tasks)"
             },
             {
               "name": "ESCO（欧盟技能/职业分类）",
@@ -202,7 +202,7 @@
                 "Data",
                 "EU"
               ],
-              "name_en": "ESCO（欧盟技能/职业分类）"
+              "name_en": "ESCO (EU Skills/Occupation Classification)"
             },
             {
               "name": "SFIA（数字/技术技能框架）",
@@ -211,7 +211,7 @@
               "tags": [
                 "Framework"
               ],
-              "name_en": "SFIA（数字/技术技能框架）"
+              "name_en": "SFIA (Digital/Tech Skills Framework)"
             },
             {
               "name": "NICE Framework（网络安全岗位/技能通用词典）",
@@ -221,7 +221,7 @@
                 "Framework",
                 "US"
               ],
-              "name_en": "NICE Framework（网络安全岗位/技能通用词典）"
+              "name_en": "NICE Framework (Cybersecurity Roles/Skills Dictionary)"
             },
             {
               "name": "Lightcast Skills Taxonomy（33,000+ 技能库）",
@@ -231,7 +231,7 @@
                 "Data",
                 "O"
               ],
-              "name_en": "Lightcast Skills Taxonomy（33,000+ 技能库）"
+              "name_en": "Lightcast Skills Taxonomy (33,000+ Skills Library)"
             },
             {
               "name": "Lightcast Skills API",
@@ -267,7 +267,7 @@
                 "Data",
                 "US"
               ],
-              "name_en": "BLS｜OEWS（就业与工资统计）"
+              "name_en": "BLS | OEWS (Employment & Wage Statistics)"
             },
             {
               "name": "BLS｜Wage data overview",
@@ -286,7 +286,7 @@
               "tags": [
                 "Comp"
               ],
-              "name_en": "levels.fyi（科技岗位薪酬）"
+              "name_en": "levels.fyi (Tech Compensation)"
             },
             {
               "name": "Glassdoor（薪酬/雇主品牌）",
@@ -296,7 +296,7 @@
                 "Comp",
                 "R"
               ],
-              "name_en": "Glassdoor（薪酬/雇主品牌）"
+              "name_en": "Glassdoor (Salary/Employer Brand)"
             },
             {
               "name": "Payscale（薪酬数据和对标）",
@@ -306,7 +306,7 @@
                 "Comp",
                 "P"
               ],
-              "name_en": "Payscale（薪酬数据和对标）"
+              "name_en": "Payscale (Compensation Data & Benchmarking)"
             },
             {
               "name": "Salary.com（薪酬管理）",
@@ -316,7 +316,7 @@
                 "Comp",
                 "P"
               ],
-              "name_en": "Salary.com（薪酬管理）"
+              "name_en": "Salary.com (Compensation Management)"
             },
             {
               "name": "Mercer｜Global Compensation Data",
@@ -451,7 +451,7 @@
                 "Tech",
                 "P"
               ],
-              "name_en": "Dice（技术招聘）"
+              "name_en": "Dice (Tech Recruiting)"
             },
             {
               "name": "AngelList / Wellfound（创业公司）",
@@ -460,7 +460,7 @@
               "tags": [
                 "Startup"
               ],
-              "name_en": "AngelList / Wellfound（创业公司）"
+              "name_en": "AngelList / Wellfound (Startups)"
             },
             {
               "name": "Hired（技术人才市场）",
@@ -470,7 +470,7 @@
                 "Tech",
                 "P"
               ],
-              "name_en": "Hired（技术人才市场）"
+              "name_en": "Hired (Tech Talent Marketplace)"
             },
             {
               "name": "Triplebyte (Karat)｜技术招聘",
@@ -479,7 +479,7 @@
               "tags": [
                 "Tech"
               ],
-              "name_en": "Triplebyte (Karat)｜技术招聘"
+              "name_en": "Triplebyte (Karat) | Tech Recruiting"
             },
             {
               "name": "Turing（远程开发者）",
@@ -489,7 +489,7 @@
                 "Tech",
                 "Remote"
               ],
-              "name_en": "Turing（远程开发者）"
+              "name_en": "Turing (Remote Developers)"
             },
             {
               "name": "Arc.dev（远程开发者）",
@@ -499,7 +499,7 @@
                 "Tech",
                 "Remote"
               ],
-              "name_en": "Arc.dev（远程开发者）"
+              "name_en": "Arc.dev (Remote Developers)"
             }
           ],
           "name_en": "Tech / Engineering Talent Platforms"
@@ -516,7 +516,7 @@
                 "CN",
                 "R"
               ],
-              "name_en": "BOSS直聘"
+              "name_en": "BOSS Zhipin"
             },
             {
               "name": "拉勾（互联网招聘）",
@@ -527,7 +527,7 @@
                 "R",
                 "Tech"
               ],
-              "name_en": "拉勾（互联网招聘）"
+              "name_en": "Lagou (Internet Recruiting)"
             },
             {
               "name": "智联招聘",
@@ -537,7 +537,7 @@
                 "CN",
                 "R"
               ],
-              "name_en": "智联招聘"
+              "name_en": "Zhaopin"
             },
             {
               "name": "前程无忧（51job）",
@@ -547,7 +547,7 @@
                 "CN",
                 "R"
               ],
-              "name_en": "前程无忧（51job）"
+              "name_en": "51job"
             },
             {
               "name": "猎聘（中高端）",
@@ -557,7 +557,7 @@
                 "CN",
                 "R"
               ],
-              "name_en": "猎聘（中高端）"
+              "name_en": "Liepin (Mid-Senior Level)"
             },
             {
               "name": "脉脉（职场社交）",
@@ -567,7 +567,7 @@
                 "CN",
                 "R"
               ],
-              "name_en": "脉脉（职场社交）"
+              "name_en": "Maimai (Professional Social)"
             },
             {
               "name": "牛客网（校招/技术）",
@@ -578,7 +578,7 @@
                 "Campus",
                 "Tech"
               ],
-              "name_en": "牛客网（校招/技术）"
+              "name_en": "Nowcoder (Campus/Tech Recruiting)"
             }
           ],
           "name_en": "China Job Boards"
@@ -612,7 +612,7 @@
               "tags": [
                 "DEI"
               ],
-              "name_en": "Fairygodboss（女性招聘）"
+              "name_en": "Fairygodboss (Women in Tech)"
             },
             {
               "name": "PowerToFly（女性&多元化）",
@@ -622,7 +622,7 @@
                 "DEI",
                 "P"
               ],
-              "name_en": "PowerToFly（女性&多元化）"
+              "name_en": "PowerToFly (Women & Diversity)"
             },
             {
               "name": "Hirepurpose（退伍军人招聘）",
@@ -631,7 +631,7 @@
               "tags": [
                 "DEI"
               ],
-              "name_en": "Hirepurpose（退伍军人招聘）"
+              "name_en": "Hirepurpose (Veteran Recruiting)"
             },
             {
               "name": "AbilityLinks（残障人士）",
@@ -640,7 +640,7 @@
               "tags": [
                 "DEI"
               ],
-              "name_en": "AbilityLinks（残障人士）"
+              "name_en": "AbilityLinks (Disability Inclusion)"
             },
             {
               "name": "Out & Equal（LGBTQ+）",
@@ -675,7 +675,7 @@
               "tags": [
                 "P"
               ],
-              "name_en": "Radancy（雇主品牌）"
+              "name_en": "Radancy (Employer Brand)"
             },
             {
               "name": "Clinch（招聘营销）",
@@ -684,7 +684,7 @@
               "tags": [
                 "P"
               ],
-              "name_en": "Clinch（招聘营销）"
+              "name_en": "Clinch (Recruitment Marketing)"
             },
             {
               "name": "Appcast（程序化招聘广告）",
@@ -693,7 +693,7 @@
               "tags": [
                 "P"
               ],
-              "name_en": "Appcast（程序化招聘广告）"
+              "name_en": "Appcast (Programmatic Job Ads)"
             },
             {
               "name": "Joveo（AI 招聘广告优化）",
@@ -703,7 +703,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Joveo（AI 招聘广告优化）"
+              "name_en": "Joveo (AI Job Ad Optimization)"
             }
           ],
           "name_en": "Recruitment Marketing Platforms"
@@ -738,7 +738,7 @@
                 "Freelance",
                 "P"
               ],
-              "name_en": "Toptal（顶尖自由职业者）"
+              "name_en": "Toptal (Top Freelancers)"
             },
             {
               "name": "Catalant（咨询人才）",
@@ -748,7 +748,7 @@
                 "Freelance",
                 "P"
               ],
-              "name_en": "Catalant（咨询人才）"
+              "name_en": "Catalant (Consulting Talent)"
             }
           ],
           "name_en": "Freelance / Gig Platforms"
@@ -771,7 +771,7 @@
               "tags": [
                 "Profile"
               ],
-              "name_en": "GitHub（开发者档案）"
+              "name_en": "GitHub (Developer Profiles)"
             },
             {
               "name": "GitLab",
@@ -790,7 +790,7 @@
                 "Profile",
                 "Data"
               ],
-              "name_en": "Kaggle（数据科学档案）"
+              "name_en": "Kaggle (Data Science Profiles)"
             },
             {
               "name": "Stack Overflow",
@@ -810,7 +810,7 @@
                 "Profile",
                 "AI"
               ],
-              "name_en": "Hugging Face（AI/ML 社区）"
+              "name_en": "Hugging Face (AI/ML Community)"
             },
             {
               "name": "Dev.to（开发者社区）",
@@ -820,7 +820,7 @@
                 "Profile",
                 "Tech"
               ],
-              "name_en": "Dev.to（开发者社区）"
+              "name_en": "Dev.to (Developer Community)"
             },
             {
               "name": "LeetCode（算法）",
@@ -830,7 +830,7 @@
                 "Profile",
                 "Tech"
               ],
-              "name_en": "LeetCode（算法）"
+              "name_en": "LeetCode (Algorithms)"
             },
             {
               "name": "Codeforces（竞技编程）",
@@ -840,7 +840,7 @@
                 "Profile",
                 "Tech"
               ],
-              "name_en": "Codeforces（竞技编程）"
+              "name_en": "Codeforces (Competitive Programming)"
             }
           ],
           "name_en": "Tech / Data"
@@ -856,7 +856,7 @@
               "tags": [
                 "Portfolio"
               ],
-              "name_en": "Behance（作品集）"
+              "name_en": "Behance (Portfolio)"
             },
             {
               "name": "Dribbble（作品集）",
@@ -865,7 +865,7 @@
               "tags": [
                 "Portfolio"
               ],
-              "name_en": "Dribbble（作品集）"
+              "name_en": "Dribbble (Portfolio)"
             },
             {
               "name": "Figma Community",
@@ -901,7 +901,7 @@
               "tags": [
                 "Research"
               ],
-              "name_en": "Google Scholar（论文/作者）"
+              "name_en": "Google Scholar (Papers/Authors)"
             },
             {
               "name": "arXiv（预印本）",
@@ -910,7 +910,7 @@
               "tags": [
                 "Research"
               ],
-              "name_en": "arXiv（预印本）"
+              "name_en": "arXiv (Preprints)"
             },
             {
               "name": "ResearchGate",
@@ -930,7 +930,7 @@
                 "Research",
                 "Profile"
               ],
-              "name_en": "ORCID（研究者 ID）"
+              "name_en": "ORCID (Researcher ID)"
             },
             {
               "name": "Semantic Scholar",
@@ -967,7 +967,7 @@
                 "Profile",
                 "EU"
               ],
-              "name_en": "Xing（德语区）"
+              "name_en": "Xing (German-speaking Region)"
             },
             {
               "name": "Twitter/X（技术社区）",
@@ -976,7 +976,7 @@
               "tags": [
                 "Profile"
               ],
-              "name_en": "Twitter/X（技术社区）"
+              "name_en": "Twitter/X (Tech Community)"
             }
           ],
           "name_en": "Professional Networking"
@@ -999,7 +999,7 @@
               "tags": [
                 "M"
               ],
-              "name_en": "LinkedIn 个人页 X-Ray（M）"
+              "name_en": "LinkedIn Profile X-Ray"
             },
             {
               "name": "LinkedIn 公司员工 X-Ray（M）",
@@ -1008,7 +1008,7 @@
               "tags": [
                 "M"
               ],
-              "name_en": "LinkedIn 公司员工 X-Ray（M）"
+              "name_en": "LinkedIn Company Employee X-Ray"
             }
           ],
           "name_en": "LinkedIn X-Ray"
@@ -1024,7 +1024,7 @@
               "tags": [
                 "M"
               ],
-              "name_en": "GitHub 用户搜索（M）"
+              "name_en": "GitHub User Search"
             },
             {
               "name": "GitHub 代码搜索（M）",
@@ -1033,7 +1033,7 @@
               "tags": [
                 "M"
               ],
-              "name_en": "GitHub 代码搜索（M）"
+              "name_en": "GitHub Code Search"
             },
             {
               "name": "GitHub X-Ray（M）",
@@ -1058,7 +1058,7 @@
               "tags": [
                 "M"
               ],
-              "name_en": "Kaggle 搜索（M）"
+              "name_en": "Kaggle Search (M)"
             },
             {
               "name": "Stack Overflow 用户搜索（M）",
@@ -1067,7 +1067,7 @@
               "tags": [
                 "M"
               ],
-              "name_en": "Stack Overflow 用户搜索（M）"
+              "name_en": "Stack Overflow User Search"
             },
             {
               "name": "Twitter/X 搜索（M）",
@@ -1076,7 +1076,7 @@
               "tags": [
                 "M"
               ],
-              "name_en": "Twitter/X 搜索（M）"
+              "name_en": "Twitter/X Search (M)"
             },
             {
               "name": "ResearchGate 搜索（M）",
@@ -1085,7 +1085,7 @@
               "tags": [
                 "M"
               ],
-              "name_en": "ResearchGate 搜索（M）"
+              "name_en": "ResearchGate Search (M)"
             }
           ],
           "name_en": "Other Platform Search"
@@ -1335,7 +1335,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "MokaHR（AI 招聘）"
+              "name_en": "MokaHR"
             },
             {
               "name": "北森｜招聘管理系统",
@@ -1346,7 +1346,7 @@
                 "CN",
                 "P"
               ],
-              "name_en": "北森｜招聘管理系统"
+              "name_en": "Beisen (Chinese ATS)"
             },
             {
               "name": "用友大易（招聘云）",
@@ -1357,7 +1357,7 @@
                 "CN",
                 "P"
               ],
-              "name_en": "用友大易（招聘云）"
+              "name_en": "Yonyou Dayi"
             },
             {
               "name": "谷露招聘管理系统",
@@ -1368,7 +1368,7 @@
                 "CN",
                 "P"
               ],
-              "name_en": "谷露招聘管理系统"
+              "name_en": "Gulu Recruiting System"
             }
           ],
           "name_en": "ATS (China)"
@@ -1432,7 +1432,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Fetcher（自动化 Sourcing）"
+              "name_en": "Fetcher"
             },
             {
               "name": "Entelo",
@@ -1480,7 +1480,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "GoodTime（AI 面试排期）"
+              "name_en": "GoodTime"
             },
             {
               "name": "Calendly（通用排期）",
@@ -1489,7 +1489,7 @@
               "tags": [
                 "Tool"
               ],
-              "name_en": "Calendly（通用排期）"
+              "name_en": "Calendly"
             },
             {
               "name": "ModernLoop（面试协调）",
@@ -1499,7 +1499,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "ModernLoop（面试协调）"
+              "name_en": "ModernLoop (Interview Coordination)"
             },
             {
               "name": "Prelude（面试优化）",
@@ -1508,7 +1508,7 @@
               "tags": [
                 "P"
               ],
-              "name_en": "Prelude（面试优化）"
+              "name_en": "Prelude"
             }
           ],
           "name_en": "Interview Scheduling Tools"
@@ -1563,7 +1563,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "CoderPad（Live 代码面试）"
+              "name_en": "CoderPad"
             },
             {
               "name": "HackerEarth",
@@ -1603,7 +1603,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Byteboard（项目式评估）"
+              "name_en": "Byteboard"
             },
             {
               "name": "Equip（按候选人付费）",
@@ -1613,7 +1613,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Equip（按候选人付费）"
+              "name_en": "Equip"
             },
             {
               "name": "Karat（外包技术面试）",
@@ -1623,7 +1623,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Karat（外包技术面试）"
+              "name_en": "Karat"
             }
           ],
           "name_en": "Technical Assessment Platforms"
@@ -1640,7 +1640,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "TestGorilla（多类型测评）"
+              "name_en": "TestGorilla"
             },
             {
               "name": "Criteria Corp（认知/性格测评）",
@@ -1650,7 +1650,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Criteria Corp（认知/性格测评）"
+              "name_en": "Criteria Corp"
             },
             {
               "name": "SHL（人才评估）",
@@ -1660,7 +1660,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "SHL（人才评估）"
+              "name_en": "SHL"
             },
             {
               "name": "Hogan Assessments",
@@ -1680,7 +1680,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Predictive Index（行为评估）"
+              "name_en": "Predictive Index"
             },
             {
               "name": "Wonderlic（认知测评）",
@@ -1690,7 +1690,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Wonderlic（认知测评）"
+              "name_en": "Wonderlic"
             },
             {
               "name": "iMocha（技能测评）",
@@ -1701,7 +1701,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "iMocha（技能测评）"
+              "name_en": "iMocha"
             }
           ],
           "name_en": "General / Psychometric Assessments"
@@ -1719,7 +1719,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Pymetrics (Harver)（神经科学游戏）"
+              "name_en": "Pymetrics (Harver)"
             },
             {
               "name": "Harver（量化招聘）",
@@ -1730,7 +1730,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Harver（量化招聘）"
+              "name_en": "Harver"
             },
             {
               "name": "Arctic Shores（游戏化测评）",
@@ -1741,7 +1741,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Arctic Shores（游戏化测评）"
+              "name_en": "Arctic Shores (Gamified Assessment)"
             },
             {
               "name": "Canditech（无偏见评估）",
@@ -1752,7 +1752,7 @@
                 "DEI",
                 "P"
               ],
-              "name_en": "Canditech（无偏见评估）"
+              "name_en": "Canditech"
             }
           ],
           "name_en": "AI Assessment / Gamified Assessments"
@@ -1770,7 +1770,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "HireVue（AI 视频面试）"
+              "name_en": "HireVue (AI Video Interview)"
             },
             {
               "name": "Spark Hire（视频面试+ATS）",
@@ -1780,7 +1780,7 @@
                 "Interview",
                 "P"
               ],
-              "name_en": "Spark Hire（视频面试+ATS）"
+              "name_en": "Spark Hire"
             },
             {
               "name": "myInterview（AI 视频筛选）",
@@ -1791,7 +1791,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "myInterview（AI 视频筛选）"
+              "name_en": "myInterview"
             },
             {
               "name": "Hireflix（异步视频面试）",
@@ -1801,7 +1801,7 @@
                 "Interview",
                 "P"
               ],
-              "name_en": "Hireflix（异步视频面试）"
+              "name_en": "Hireflix"
             },
             {
               "name": "Willo（异步视频）",
@@ -1811,7 +1811,7 @@
                 "Interview",
                 "P"
               ],
-              "name_en": "Willo（异步视频）"
+              "name_en": "Willo"
             },
             {
               "name": "VidCruiter",
@@ -1847,7 +1847,7 @@
               "tags": [
                 "Practice"
               ],
-              "name_en": "Interviewing.io（技术面试练习）"
+              "name_en": "Interviewing.io"
             },
             {
               "name": "Pramp（免费面试练习）",
@@ -1856,7 +1856,7 @@
               "tags": [
                 "Practice"
               ],
-              "name_en": "Pramp（免费面试练习）"
+              "name_en": "Pramp"
             },
             {
               "name": "System Design Primer（GitHub）",
@@ -1900,7 +1900,7 @@
                 "Background",
                 "P"
               ],
-              "name_en": "Sterling（已被 First Advantage 收购）"
+              "name_en": "Sterling"
             },
             {
               "name": "HireRight",
@@ -1930,7 +1930,7 @@
                 "Background",
                 "P"
               ],
-              "name_en": "GoodHire（Checkr 旗下）"
+              "name_en": "GoodHire"
             },
             {
               "name": "Certn（快速背调）",
@@ -1940,7 +1940,7 @@
                 "Background",
                 "P"
               ],
-              "name_en": "Certn（快速背调）"
+              "name_en": "Certn"
             },
             {
               "name": "Verified First",
@@ -1960,7 +1960,7 @@
                 "Background",
                 "P"
               ],
-              "name_en": "Veremark（全球背调）"
+              "name_en": "Veremark (Global Background Check)"
             },
             {
               "name": "IntelliCorp（医疗行业）",
@@ -1971,7 +1971,7 @@
                 "P",
                 "Healthcare"
               ],
-              "name_en": "IntelliCorp（医疗行业）"
+              "name_en": "IntelliCorp"
             }
           ],
           "name_en": "Background Check Services"
@@ -1988,7 +1988,7 @@
                 "Compliance",
                 "US"
               ],
-              "name_en": "FTC｜FCRA 背景筛查指南（Employers）"
+              "name_en": "FTC FCRA Background Check Guide"
             },
             {
               "name": "FTC｜Employer Background Checks and Your Rights",
@@ -2035,7 +2035,7 @@
                 "eSign",
                 "P"
               ],
-              "name_en": "DocuSign（电子签名）"
+              "name_en": "DocuSign (E-Signature)"
             },
             {
               "name": "HelloSign（Dropbox Sign）",
@@ -2055,7 +2055,7 @@
                 "eSign",
                 "P"
               ],
-              "name_en": "PandaDoc（文档自动化）"
+              "name_en": "PandaDoc (Document Automation)"
             },
             {
               "name": "Compa（薪酬管理）",
@@ -2065,7 +2065,7 @@
                 "Comp",
                 "P"
               ],
-              "name_en": "Compa（薪酬管理）"
+              "name_en": "Compa"
             }
           ],
           "name_en": "Offer Management"
@@ -2082,7 +2082,7 @@
                 "Onboarding",
                 "P"
               ],
-              "name_en": "WorkBright（移动端入职）"
+              "name_en": "WorkBright"
             },
             {
               "name": "BambooHR Onboarding",
@@ -2112,7 +2112,7 @@
                 "Onboarding",
                 "P"
               ],
-              "name_en": "Enboarder（体验式入职）"
+              "name_en": "Enboarder"
             },
             {
               "name": "Click Boarding",
@@ -2156,7 +2156,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Textio（JD/招聘文案优化）"
+              "name_en": "Textio"
             },
             {
               "name": "Datapeople（JD 分析优化）",
@@ -2166,7 +2166,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Datapeople（JD 分析优化）"
+              "name_en": "Datapeople (JD Analysis & Optimization)"
             },
             {
               "name": "Ongig（JD 优化）",
@@ -2176,7 +2176,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Ongig（JD 优化）"
+              "name_en": "Ongig"
             },
             {
               "name": "TalVista（去偏见 JD）",
@@ -2187,7 +2187,7 @@
                 "DEI",
                 "P"
               ],
-              "name_en": "TalVista（去偏见 JD）"
+              "name_en": "TalVista"
             }
           ],
           "name_en": "JD Writing / Recruiting Copy"
@@ -2254,7 +2254,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "HiredScore（AI 候选人匹配）"
+              "name_en": "HiredScore (AI Candidate Matching)"
             },
             {
               "name": "Ideal（AI 简历筛选，已被 Ceridian 收购）",
@@ -2264,7 +2264,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Ideal（AI 简历筛选，已被 Ceridian 收购）"
+              "name_en": "Ideal"
             }
           ],
           "name_en": "Smart Sourcing / Talent Matching"
@@ -2281,7 +2281,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Paradox（Olivia 招聘 AI 助手）"
+              "name_en": "Paradox"
             },
             {
               "name": "XOR（招聘 Chatbot）",
@@ -2291,7 +2291,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "XOR（招聘 Chatbot）"
+              "name_en": "XOR"
             },
             {
               "name": "Mya Systems（AI 招聘助手）",
@@ -2301,7 +2301,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Mya Systems（AI 招聘助手）"
+              "name_en": "Mya Systems (AI Recruiting Assistant)"
             },
             {
               "name": "Wade & Wendy（AI 招聘伴侣）",
@@ -2311,7 +2311,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Wade & Wendy（AI 招聘伴侣）"
+              "name_en": "Wade & Wendy"
             },
             {
               "name": "AllyO（HireVue 旗下）",
@@ -2321,7 +2321,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "AllyO（HireVue 旗下）"
+              "name_en": "AllyO"
             }
           ],
           "name_en": "AI Candidate Communication / Chatbot"
@@ -2339,7 +2339,7 @@
                 "API",
                 "P"
               ],
-              "name_en": "Sovren（简历解析 API）"
+              "name_en": "Sovren (Resume Parsing API)"
             },
             {
               "name": "Daxtra（简历解析）",
@@ -2349,7 +2349,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Daxtra（简历解析）"
+              "name_en": "Daxtra"
             },
             {
               "name": "Affinda（AI 文档解析）",
@@ -2360,7 +2360,7 @@
                 "API",
                 "P"
               ],
-              "name_en": "Affinda（AI 文档解析）"
+              "name_en": "Affinda"
             },
             {
               "name": "Textkernel（解析+匹配）",
@@ -2370,7 +2370,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Textkernel（解析+匹配）"
+              "name_en": "Textkernel"
             }
           ],
           "name_en": "AI Resume Parsing / Screening"
@@ -2387,7 +2387,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "HireVue（AI 视频面试+测评）"
+              "name_en": "HireVue"
             },
             {
               "name": "Pymetrics (Harver)（神经科学评估）",
@@ -2397,7 +2397,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Pymetrics (Harver)（神经科学评估）"
+              "name_en": "Pymetrics (Harver)"
             },
             {
               "name": "Vervoe（AI 技能测评）",
@@ -2407,7 +2407,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Vervoe（AI 技能测评）"
+              "name_en": "Vervoe (AI Skills Assessment)"
             },
             {
               "name": "Knockri（AI 视频面试）",
@@ -2418,7 +2418,7 @@
                 "DEI",
                 "P"
               ],
-              "name_en": "Knockri（AI 视频面试）"
+              "name_en": "Knockri"
             }
           ],
           "name_en": "AI Interview / Assessment"
@@ -2435,7 +2435,7 @@
                 "Analytics",
                 "P"
               ],
-              "name_en": "Visier（人才分析）"
+              "name_en": "Visier"
             },
             {
               "name": "One Model（HR 数据平台）",
@@ -2445,7 +2445,7 @@
                 "Analytics",
                 "P"
               ],
-              "name_en": "One Model（HR 数据平台）"
+              "name_en": "One Model"
             },
             {
               "name": "Crunchr（人才分析）",
@@ -2455,7 +2455,7 @@
                 "Analytics",
                 "P"
               ],
-              "name_en": "Crunchr（人才分析）"
+              "name_en": "Crunchr"
             },
             {
               "name": "ChartHop（组织分析）",
@@ -2466,7 +2466,7 @@
                 "DEI",
                 "P"
               ],
-              "name_en": "ChartHop（组织分析）"
+              "name_en": "ChartHop"
             },
             {
               "name": "Agentnoon（AI 组织设计）",
@@ -2477,7 +2477,7 @@
                 "Analytics",
                 "P"
               ],
-              "name_en": "Agentnoon（AI 组织设计）"
+              "name_en": "Agentnoon"
             }
           ],
           "name_en": "Recruiting Data Analytics / Insights"
@@ -2527,7 +2527,7 @@
               "tags": [
                 "Standard"
               ],
-              "name_en": "ISO/IEC 42001:2023（AI 管理体系）"
+              "name_en": "ISO/IEC 42001:2023"
             },
             {
               "name": "ISO/IEC 23894:2023（AI 风险管理指南）",
@@ -2536,7 +2536,7 @@
               "tags": [
                 "Standard"
               ],
-              "name_en": "ISO/IEC 23894:2023（AI 风险管理指南）"
+              "name_en": "ISO/IEC 23894:2023"
             },
             {
               "name": "IEEE｜Ethics in AI Standards",
@@ -2571,7 +2571,7 @@
                 "Law",
                 "US"
               ],
-              "name_en": "NYC DCWP｜Local Law 144（自动化招聘决策工具）"
+              "name_en": "NYC DCWP｜Local Law 144"
             },
             {
               "name": "NYC｜AEDT Rules（详细规则）",
@@ -2581,7 +2581,7 @@
                 "Law",
                 "US"
               ],
-              "name_en": "NYC｜AEDT Rules（详细规则）"
+              "name_en": "NYC｜AEDT Rules"
             },
             {
               "name": "EEOC｜Artificial Intelligence and the ADA",
@@ -2648,7 +2648,7 @@
                 "Law",
                 "EU"
               ],
-              "name_en": "EU｜AI Act（政策页面）"
+              "name_en": "EU｜AI Act"
             },
             {
               "name": "EU｜AI Act Full Text",
@@ -2668,7 +2668,7 @@
                 "Guide",
                 "EU"
               ],
-              "name_en": "EU｜AI Act Explorer（交互式查看）"
+              "name_en": "EU｜AI Act Explorer"
             },
             {
               "name": "GDPR｜自动化决策（Article 22）",
@@ -2678,7 +2678,7 @@
                 "Law",
                 "EU"
               ],
-              "name_en": "GDPR｜自动化决策（Article 22）"
+              "name_en": "GDPR Automated Decision-Making"
             }
           ],
           "name_en": "EU AI Regulations"
@@ -2695,7 +2695,7 @@
                 "Audit",
                 "P"
               ],
-              "name_en": "Holistic AI（AI 治理平台）"
+              "name_en": "Holistic AI"
             },
             {
               "name": "Fairly AI（偏差审计）",
@@ -2705,7 +2705,7 @@
                 "Audit",
                 "P"
               ],
-              "name_en": "Fairly AI（偏差审计）"
+              "name_en": "Fairly AI"
             },
             {
               "name": "FairNow（AI 合规）",
@@ -2715,7 +2715,7 @@
                 "Audit",
                 "P"
               ],
-              "name_en": "FairNow（AI 合规）"
+              "name_en": "FairNow"
             },
             {
               "name": "Warden AI（HR AI 合规）",
@@ -2725,7 +2725,7 @@
                 "Audit",
                 "P"
               ],
-              "name_en": "Warden AI（HR AI 合规）"
+              "name_en": "Warden AI"
             },
             {
               "name": "Credo AI（AI 治理）",
@@ -2735,7 +2735,7 @@
                 "Audit",
                 "P"
               ],
-              "name_en": "Credo AI（AI 治理）"
+              "name_en": "Credo AI"
             },
             {
               "name": "Deloitte｜NYC LL144 偏差审计服务",
@@ -2745,7 +2745,7 @@
                 "Audit",
                 "P"
               ],
-              "name_en": "Deloitte｜NYC LL144 偏差审计服务"
+              "name_en": "Deloitte NYC LL144 Bias Audit Service"
             }
           ],
           "name_en": "Bias Audit / Compliance Services"
@@ -3073,7 +3073,7 @@
                 "EOR",
                 "P"
               ],
-              "name_en": "Deel（150+ 国家）"
+              "name_en": "Deel"
             },
             {
               "name": "Remote（100+ 国家）",
@@ -3083,7 +3083,7 @@
                 "EOR",
                 "P"
               ],
-              "name_en": "Remote（100+ 国家）"
+              "name_en": "Remote"
             },
             {
               "name": "Oyster HR（180+ 国家）",
@@ -3093,7 +3093,7 @@
                 "EOR",
                 "P"
               ],
-              "name_en": "Oyster HR（180+ 国家）"
+              "name_en": "Oyster HR"
             },
             {
               "name": "Papaya Global",
@@ -3160,7 +3160,7 @@
                 "Payroll",
                 "P"
               ],
-              "name_en": "Pilot（国际承包商薪酬）"
+              "name_en": "Pilot"
             },
             {
               "name": "Letsdeel Contractor（承包商管理）",
@@ -3170,7 +3170,7 @@
                 "Contractor",
                 "P"
               ],
-              "name_en": "Letsdeel Contractor（承包商管理）"
+              "name_en": "Letsdeel Contractor (Contractor Management)"
             },
             {
               "name": "Plane（国际薪酬）",
@@ -3180,7 +3180,7 @@
                 "Payroll",
                 "P"
               ],
-              "name_en": "Plane（国际薪酬）"
+              "name_en": "Plane"
             }
           ],
           "name_en": "International Payroll / Compliance"
@@ -3196,7 +3196,7 @@
               "tags": [
                 "Remote"
               ],
-              "name_en": "Remote OK（远程职位）"
+              "name_en": "Remote OK"
             },
             {
               "name": "We Work Remotely",
@@ -3215,7 +3215,7 @@
                 "Remote",
                 "P"
               ],
-              "name_en": "FlexJobs（远程/灵活工作）"
+              "name_en": "FlexJobs"
             },
             {
               "name": "Remote.co｜Resources",
@@ -3249,7 +3249,7 @@
                 "Referral",
                 "P"
               ],
-              "name_en": "ERIN（员工推荐+内部流动）"
+              "name_en": "ERIN"
             },
             {
               "name": "Boon（游戏化推荐）",
@@ -3259,7 +3259,7 @@
                 "Referral",
                 "P"
               ],
-              "name_en": "Boon（游戏化推荐）"
+              "name_en": "Boon"
             },
             {
               "name": "RolePoint（iCIMS 旗下）",
@@ -3269,7 +3269,7 @@
                 "Referral",
                 "P"
               ],
-              "name_en": "RolePoint（iCIMS 旗下）"
+              "name_en": "RolePoint"
             },
             {
               "name": "Teamable（网络推荐）",
@@ -3279,7 +3279,7 @@
                 "Referral",
                 "P"
               ],
-              "name_en": "Teamable（网络推荐）"
+              "name_en": "Teamable"
             },
             {
               "name": "Drafted（员工网络）",
@@ -3289,7 +3289,7 @@
                 "Referral",
                 "P"
               ],
-              "name_en": "Drafted（员工网络）"
+              "name_en": "Drafted"
             }
           ],
           "name_en": "Employee Referral Platforms"
@@ -3307,7 +3307,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Gloat（内部人才市场）"
+              "name_en": "Gloat (Internal Talent Marketplace)"
             },
             {
               "name": "Fuel50（职业路径）",
@@ -3318,7 +3318,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Fuel50（职业路径）"
+              "name_en": "Fuel50 (Career Pathing)"
             },
             {
               "name": "365Talents（技能匹配）",
@@ -3329,7 +3329,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "365Talents（技能匹配）"
+              "name_en": "365Talents"
             },
             {
               "name": "Eightfold Talent Management",
@@ -3373,7 +3373,7 @@
               "tags": [
                 "Community"
               ],
-              "name_en": "SHRM（人力资源管理协会）"
+              "name_en": "SHRM (Society for Human Resource Management)"
             },
             {
               "name": "CIPD（英国人力资源协会）",
@@ -3382,7 +3382,7 @@
               "tags": [
                 "Community"
               ],
-              "name_en": "CIPD（英国人力资源协会）"
+              "name_en": "CIPD"
             },
             {
               "name": "AIRS（招聘认证）",
@@ -3391,7 +3391,7 @@
               "tags": [
                 "Certification"
               ],
-              "name_en": "AIRS（招聘认证）"
+              "name_en": "AIRS (Recruiting Certification)"
             },
             {
               "name": "LinkedIn Talent Blog",
@@ -3409,7 +3409,7 @@
               "tags": [
                 "Media"
               ],
-              "name_en": "ERE Media（招聘行业媒体）"
+              "name_en": "ERE Media"
             },
             {
               "name": "SourceCon（Sourcing 社区）",
@@ -3418,7 +3418,7 @@
               "tags": [
                 "Community"
               ],
-              "name_en": "SourceCon（Sourcing 社区）"
+              "name_en": "SourceCon (Sourcing Community)"
             },
             {
               "name": "Recruiting Brainfood（Newsletter）",
@@ -3589,7 +3589,7 @@
                 "Report",
                 "EU"
               ],
-              "name_en": "Fosway Group（欧洲 HR Tech 分析）"
+              "name_en": "Fosway Group"
             }
           ],
           "name_en": "AI Recruiting Reports / Research"
@@ -3653,7 +3653,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Moonhub（AI 招聘 Agent）"
+              "name_en": "Moonhub"
             },
             {
               "name": "Mercor（AI 招聘平台）",
@@ -3663,7 +3663,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Mercor（AI 招聘平台）"
+              "name_en": "Mercor"
             },
             {
               "name": "Juicebox (PeopleGPT)（AI 人才搜索）",
@@ -3673,7 +3673,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Juicebox (PeopleGPT)（AI 人才搜索）"
+              "name_en": "Juicebox (PeopleGPT)"
             },
             {
               "name": "Covey（AI Sourcing Scout）",
@@ -3693,7 +3693,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Jenni AI（招聘写作助手）"
+              "name_en": "Jenni AI"
             }
           ],
           "name_en": "LLM Recruiting Assistant / Agent"
@@ -3710,7 +3710,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Final Round AI（AI 面试教练）"
+              "name_en": "Final Round AI"
             },
             {
               "name": "Interview Warmup（Google）",
@@ -3730,7 +3730,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Yoodli（AI 演讲教练）"
+              "name_en": "Yoodli"
             },
             {
               "name": "Huru（AI 面试准备）",
@@ -3740,7 +3740,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Huru（AI 面试准备）"
+              "name_en": "Huru"
             },
             {
               "name": "InterviewAI（AI 面试问题生成）",
@@ -3750,7 +3750,7 @@
                 "AI",
                 "Tool"
               ],
-              "name_en": "InterviewAI（AI 面试问题生成）"
+              "name_en": "InterviewAI"
             }
           ],
           "name_en": "AI Interview / Mock Interview"
@@ -3767,7 +3767,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Teal（AI 简历优化）"
+              "name_en": "Teal"
             },
             {
               "name": "Kickresume（AI 简历生成）",
@@ -3777,7 +3777,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Kickresume（AI 简历生成）"
+              "name_en": "Kickresume"
             },
             {
               "name": "Resume.io",
@@ -3797,7 +3797,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Rezi（AI 简历 ATS 优化）"
+              "name_en": "Rezi"
             },
             {
               "name": "Jobscan（简历 ATS 匹配）",
@@ -3807,7 +3807,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Jobscan（简历 ATS 匹配）"
+              "name_en": "Jobscan"
             }
           ],
           "name_en": "AI Resume Tools"
@@ -3874,7 +3874,7 @@
                 "API",
                 "P"
               ],
-              "name_en": "Cohere（企业 LLM）"
+              "name_en": "Cohere"
             }
           ],
           "name_en": "LLM Development Frameworks / APIs"
@@ -3898,7 +3898,7 @@
                 "Campus",
                 "P"
               ],
-              "name_en": "Handshake（大学招聘）"
+              "name_en": "Handshake"
             },
             {
               "name": "WayUp（早期职业）",
@@ -3908,7 +3908,7 @@
                 "Campus",
                 "P"
               ],
-              "name_en": "WayUp（早期职业）"
+              "name_en": "WayUp"
             },
             {
               "name": "RippleMatch（AI 校招匹配）",
@@ -3919,7 +3919,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "RippleMatch（AI 校招匹配）"
+              "name_en": "RippleMatch"
             },
             {
               "name": "Symplicity（大学职业服务）",
@@ -3929,7 +3929,7 @@
                 "Campus",
                 "P"
               ],
-              "name_en": "Symplicity（大学职业服务）"
+              "name_en": "Symplicity"
             },
             {
               "name": "GradLeaders（研究生招聘）",
@@ -3939,7 +3939,7 @@
                 "Campus",
                 "P"
               ],
-              "name_en": "GradLeaders（研究生招聘）"
+              "name_en": "GradLeaders (Graduate Recruiting)"
             },
             {
               "name": "Internships.com",
@@ -3977,7 +3977,7 @@
                 "Campus",
                 "Tech"
               ],
-              "name_en": "牛客网（校招/技术）"
+              "name_en": "Nowcoder (Campus/Tech Recruiting)"
             },
             {
               "name": "应届生求职网",
@@ -3987,7 +3987,7 @@
                 "CN",
                 "Campus"
               ],
-              "name_en": "应届生求职网"
+              "name_en": "Yingjiesheng (Fresh Graduate Job Site)"
             },
             {
               "name": "实习僧",
@@ -3997,7 +3997,7 @@
                 "CN",
                 "Intern"
               ],
-              "name_en": "实习僧"
+              "name_en": "Shixiseng (Chinese Internship Platform)"
             },
             {
               "name": "刺猬实习",
@@ -4007,7 +4007,7 @@
                 "CN",
                 "Intern"
               ],
-              "name_en": "刺猬实习"
+              "name_en": "Ciwei (Chinese Internship Platform)"
             },
             {
               "name": "大街网",
@@ -4017,7 +4017,7 @@
                 "CN",
                 "Campus"
               ],
-              "name_en": "大街网"
+              "name_en": "Dajie (Chinese Job Network)"
             }
           ],
           "name_en": "Campus Recruiting Platforms (China)"
@@ -4197,7 +4197,7 @@
                 "Executive",
                 "Community"
               ],
-              "name_en": "AESC（高管猎头协会）"
+              "name_en": "AESC"
             },
             {
               "name": "BoardEx（董事会数据）",
@@ -4208,7 +4208,7 @@
                 "Data",
                 "P"
               ],
-              "name_en": "BoardEx（董事会数据）"
+              "name_en": "BoardEx (Board Data)"
             },
             {
               "name": "Equilar（高管薪酬数据）",
@@ -4219,7 +4219,7 @@
                 "Comp",
                 "P"
               ],
-              "name_en": "Equilar（高管薪酬数据）"
+              "name_en": "Equilar"
             },
             {
               "name": "ExecuNet（高管职业网络）",
@@ -4229,7 +4229,7 @@
                 "Executive",
                 "P"
               ],
-              "name_en": "ExecuNet（高管职业网络）"
+              "name_en": "ExecuNet"
             }
           ],
           "name_en": "Board / C-Suite Recruiting"
@@ -4568,7 +4568,7 @@
                 "DEI",
                 "P"
               ],
-              "name_en": "Syndio（薪酬公平分析）"
+              "name_en": "Syndio (Pay Equity Analytics)"
             },
             {
               "name": "Trusaic（薪酬公平合规）",
@@ -4579,7 +4579,7 @@
                 "Compliance",
                 "P"
               ],
-              "name_en": "Trusaic（薪酬公平合规）"
+              "name_en": "Trusaic"
             },
             {
               "name": "PayScale Pay Equity",
@@ -4711,7 +4711,7 @@
                 "Dev",
                 "P"
               ],
-              "name_en": "Merge.dev（HR API 聚合）"
+              "name_en": "Merge.dev (HR API Aggregation)"
             },
             {
               "name": "Finch（Employment API）",
@@ -4733,7 +4733,7 @@
                 "Dev",
                 "P"
               ],
-              "name_en": "Kombo（HR 集成）"
+              "name_en": "Kombo"
             },
             {
               "name": "Zapier HR Integrations",
@@ -4828,7 +4828,7 @@
                 "Standard",
                 "O"
               ],
-              "name_en": "HR-JSON（HR 数据标准）"
+              "name_en": "HR-JSON"
             },
             {
               "name": "ResumeParser（Python）",
@@ -4882,7 +4882,7 @@
                 "CX",
                 "P"
               ],
-              "name_en": "Starred（候选人体验调研）"
+              "name_en": "Starred"
             },
             {
               "name": "Survale（招聘体验反馈）",
@@ -4892,7 +4892,7 @@
                 "CX",
                 "P"
               ],
-              "name_en": "Survale（招聘体验反馈）"
+              "name_en": "Survale"
             },
             {
               "name": "Talent Board｜CandE Awards",
@@ -4950,7 +4950,7 @@
                 "EB",
                 "P"
               ],
-              "name_en": "Universum（雇主品牌研究）"
+              "name_en": "Universum"
             },
             {
               "name": "Employer Branding College",
@@ -4980,7 +4980,7 @@
                 "EB",
                 "P"
               ],
-              "name_en": "Stories Inc（雇主品牌内容）"
+              "name_en": "Stories Inc (Employer Brand Content)"
             }
           ],
           "name_en": "Employer Brand / EVP"
@@ -5027,7 +5027,7 @@
                 "Review",
                 "Tech"
               ],
-              "name_en": "Blind（职场匿名社区）"
+              "name_en": "Blind"
             },
             {
               "name": "Kununu（德语区）",
@@ -5037,7 +5037,7 @@
                 "Review",
                 "EU"
               ],
-              "name_en": "Kununu（德语区）"
+              "name_en": "Kununu (German-speaking Region)"
             },
             {
               "name": "看准网（中国）",
@@ -5047,7 +5047,7 @@
                 "Review",
                 "CN"
               ],
-              "name_en": "看准网（中国）"
+              "name_en": "Kanzhun"
             },
             {
               "name": "职友集（中国）",
@@ -5057,7 +5057,7 @@
                 "Review",
                 "CN"
               ],
-              "name_en": "职友集（中国）"
+              "name_en": "Zhiyouji"
             }
           ],
           "name_en": "Employee Review Sites"
@@ -5074,7 +5074,7 @@
                 "Content",
                 "P"
               ],
-              "name_en": "The Muse（职业内容平台）"
+              "name_en": "The Muse"
             },
             {
               "name": "Glassdoor Company Updates",
@@ -5104,7 +5104,7 @@
                 "Content",
                 "Tech"
               ],
-              "name_en": "Built In（科技公司文化）"
+              "name_en": "Built In"
             }
           ],
           "name_en": "Recruitment Marketing Content"
@@ -5136,7 +5136,7 @@
               "tags": [
                 "Healthcare"
               ],
-              "name_en": "PracticeLink（医生招聘）"
+              "name_en": "PracticeLink (Physician Recruiting)"
             },
             {
               "name": "BioSpace（生物科技）",
@@ -5145,7 +5145,7 @@
               "tags": [
                 "Life Sciences"
               ],
-              "name_en": "BioSpace（生物科技）"
+              "name_en": "BioSpace"
             },
             {
               "name": "MedReps（医疗销售）",
@@ -5154,7 +5154,7 @@
               "tags": [
                 "Healthcare"
               ],
-              "name_en": "MedReps（医疗销售）"
+              "name_en": "MedReps"
             },
             {
               "name": "Nursys（护士执照验证）",
@@ -5164,7 +5164,7 @@
                 "Healthcare",
                 "Verification"
               ],
-              "name_en": "Nursys（护士执照验证）"
+              "name_en": "Nursys"
             }
           ],
           "name_en": "Healthcare / Life Sciences"
@@ -5190,7 +5190,7 @@
                 "Finance",
                 "Consulting"
               ],
-              "name_en": "Vault（金融/咨询）"
+              "name_en": "Vault"
             },
             {
               "name": "Lawjobs.com",
@@ -5208,7 +5208,7 @@
               "tags": [
                 "Legal"
               ],
-              "name_en": "Lateral Link（法律猎头）"
+              "name_en": "Lateral Link"
             }
           ],
           "name_en": "Finance / Legal"
@@ -5224,7 +5224,7 @@
               "tags": [
                 "Hourly"
               ],
-              "name_en": "Snagajob（小时工）"
+              "name_en": "Snagajob (Hourly Workers)"
             },
             {
               "name": "Wonolo（按需用工）",
@@ -5234,7 +5234,7 @@
                 "Gig",
                 "P"
               ],
-              "name_en": "Wonolo（按需用工）"
+              "name_en": "Wonolo (On-Demand Staffing)"
             },
             {
               "name": "Instawork（灵活用工）",
@@ -5244,7 +5244,7 @@
                 "Gig",
                 "P"
               ],
-              "name_en": "Instawork（灵活用工）"
+              "name_en": "Instawork"
             },
             {
               "name": "Fountain（大批量招聘）",
@@ -5255,7 +5255,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Fountain（大批量招聘）"
+              "name_en": "Fountain"
             },
             {
               "name": "Jobget（蓝领招聘）",
@@ -5264,7 +5264,7 @@
               "tags": [
                 "Hourly"
               ],
-              "name_en": "Jobget（蓝领招聘）"
+              "name_en": "Jobget"
             }
           ],
           "name_en": "Blue-Collar / Service Industry"
@@ -5281,7 +5281,7 @@
                 "Government",
                 "US"
               ],
-              "name_en": "USAJOBS（美国联邦政府）"
+              "name_en": "USAJOBS"
             },
             {
               "name": "ClearanceJobs（安全许可）",
@@ -5291,7 +5291,7 @@
                 "Government",
                 "US"
               ],
-              "name_en": "ClearanceJobs（安全许可）"
+              "name_en": "ClearanceJobs (Security Clearance)"
             },
             {
               "name": "GovernmentJobs.com",
@@ -5346,7 +5346,7 @@
                 "Creative",
                 "P"
               ],
-              "name_en": "Working Not Working（创意人才）"
+              "name_en": "Working Not Working"
             },
             {
               "name": "Artstation Jobs（游戏/影视美术）",
@@ -5356,7 +5356,7 @@
                 "Creative",
                 "Game"
               ],
-              "name_en": "Artstation Jobs（游戏/影视美术）"
+              "name_en": "Artstation Jobs"
             }
           ],
           "name_en": "Creative / Media"
@@ -5493,7 +5493,7 @@
                 "Law",
                 "CN"
               ],
-              "name_en": "中国｜个人信息保护法（PIPL）"
+              "name_en": "China PIPL"
             },
             {
               "name": "中国｜数据安全法",
@@ -5503,7 +5503,7 @@
                 "Law",
                 "CN"
               ],
-              "name_en": "中国｜数据安全法"
+              "name_en": "China Data Security Law"
             },
             {
               "name": "中国｜网络安全法",
@@ -5513,7 +5513,7 @@
                 "Law",
                 "CN"
               ],
-              "name_en": "中国｜网络安全法"
+              "name_en": "China Cybersecurity Law"
             }
           ],
           "name_en": "China Data Security Regulations"
@@ -5530,7 +5530,7 @@
                 "Compliance",
                 "P"
               ],
-              "name_en": "OneTrust（隐私管理平台）"
+              "name_en": "OneTrust"
             },
             {
               "name": "TrustArc（隐私合规）",
@@ -5540,7 +5540,7 @@
                 "Compliance",
                 "P"
               ],
-              "name_en": "TrustArc（隐私合规）"
+              "name_en": "TrustArc (Privacy Compliance)"
             },
             {
               "name": "BigID（数据智能）",
@@ -5551,7 +5551,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "BigID（数据智能）"
+              "name_en": "BigID (Data Intelligence)"
             },
             {
               "name": "Osano（隐私平台）",
@@ -5561,7 +5561,7 @@
                 "Compliance",
                 "P"
               ],
-              "name_en": "Osano（隐私平台）"
+              "name_en": "Osano"
             },
             {
               "name": "Securiti.ai（AI 数据治理）",
@@ -5572,7 +5572,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Securiti.ai（AI 数据治理）"
+              "name_en": "Securiti.ai"
             }
           ],
           "name_en": "Privacy Compliance Tools"
@@ -5680,7 +5680,7 @@
                 "Talent",
                 "P"
               ],
-              "name_en": "Lattice（绩效+人才）"
+              "name_en": "Lattice (Performance+Talent)"
             },
             {
               "name": "15Five（绩效管理）",
@@ -5690,7 +5690,7 @@
                 "Talent",
                 "P"
               ],
-              "name_en": "15Five（绩效管理）"
+              "name_en": "15Five"
             },
             {
               "name": "Culture Amp",
@@ -5717,7 +5717,7 @@
                 "Succession",
                 "P"
               ],
-              "name_en": "SIGMA Assessment（继任计划）"
+              "name_en": "SIGMA Assessment"
             },
             {
               "name": "Peoplebox（OKR + 继任）",
@@ -5728,7 +5728,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Peoplebox（OKR + 继任）"
+              "name_en": "Peoplebox"
             },
             {
               "name": "Primalogik（360 评估）",
@@ -5738,7 +5738,7 @@
                 "Succession",
                 "P"
               ],
-              "name_en": "Primalogik（360 评估）"
+              "name_en": "Primalogik"
             },
             {
               "name": "TalentGuard（职业路径）",
@@ -5748,7 +5748,7 @@
                 "Succession",
                 "P"
               ],
-              "name_en": "TalentGuard（职业路径）"
+              "name_en": "TalentGuard"
             },
             {
               "name": "Ingentis org.manager（组织架构）",
@@ -5758,7 +5758,7 @@
                 "Succession",
                 "P"
               ],
-              "name_en": "Ingentis org.manager（组织架构）"
+              "name_en": "Ingentis org.manager (Org Chart)"
             }
           ],
           "name_en": "Succession Planning Tools"
@@ -5818,7 +5818,7 @@
                 "Skills",
                 "P"
               ],
-              "name_en": "Degreed（技能发展）"
+              "name_en": "Degreed"
             },
             {
               "name": "Pluralsight Skills",
@@ -5849,7 +5849,7 @@
                 "Skills",
                 "P"
               ],
-              "name_en": "Skillsoft（技能学习）"
+              "name_en": "Skillsoft"
             },
             {
               "name": "TalentNeuron（Gartner）",
@@ -5884,7 +5884,7 @@
                 "Automation",
                 "P"
               ],
-              "name_en": "Zapier（工作流自动化）"
+              "name_en": "Zapier (Workflow Automation)"
             },
             {
               "name": "Make (Integromat)（可视化自动化）",
@@ -5894,7 +5894,7 @@
                 "Automation",
                 "P"
               ],
-              "name_en": "Make (Integromat)（可视化自动化）"
+              "name_en": "Make (Integromat)"
             },
             {
               "name": "n8n（开源自动化）",
@@ -5904,7 +5904,7 @@
                 "Automation",
                 "O"
               ],
-              "name_en": "n8n（开源自动化）"
+              "name_en": "n8n"
             },
             {
               "name": "Workato（企业自动化）",
@@ -5914,7 +5914,7 @@
                 "Automation",
                 "P"
               ],
-              "name_en": "Workato（企业自动化）"
+              "name_en": "Workato (Enterprise Automation)"
             },
             {
               "name": "Tray.io（集成平台）",
@@ -5924,7 +5924,7 @@
                 "Automation",
                 "P"
               ],
-              "name_en": "Tray.io（集成平台）"
+              "name_en": "Tray.io"
             },
             {
               "name": "Power Automate（Microsoft）",
@@ -6020,7 +6020,7 @@
                 "Email",
                 "P"
               ],
-              "name_en": "Outreach（销售/招聘外联）"
+              "name_en": "Outreach"
             },
             {
               "name": "Salesloft",
@@ -6040,7 +6040,7 @@
                 "Email",
                 "P"
               ],
-              "name_en": "Apollo.io（邮件查找+序列）"
+              "name_en": "Apollo.io"
             },
             {
               "name": "Lemlist（个性化外联）",
@@ -6050,7 +6050,7 @@
                 "Email",
                 "P"
               ],
-              "name_en": "Lemlist（个性化外联）"
+              "name_en": "Lemlist"
             },
             {
               "name": "Mailshake",
@@ -6088,7 +6088,7 @@
                 "RPA",
                 "P"
               ],
-              "name_en": "UiPath（企业 RPA）"
+              "name_en": "UiPath"
             },
             {
               "name": "Automation Anywhere",
@@ -6118,7 +6118,7 @@
                 "RPA",
                 "O"
               ],
-              "name_en": "Robocorp（开源 RPA）"
+              "name_en": "Robocorp"
             }
           ],
           "name_en": "RPA (Robotic Process Automation)"
@@ -6143,7 +6143,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "BrightHire（面试智能）"
+              "name_en": "BrightHire"
             },
             {
               "name": "Metaview（AI 面试笔记）",
@@ -6154,7 +6154,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Metaview（AI 面试笔记）"
+              "name_en": "Metaview"
             },
             {
               "name": "Pillar（面试平台）",
@@ -6164,7 +6164,7 @@
                 "Training",
                 "P"
               ],
-              "name_en": "Pillar（面试平台）"
+              "name_en": "Pillar"
             },
             {
               "name": "Clovers（面试优化）",
@@ -6175,7 +6175,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Clovers（面试优化）"
+              "name_en": "Clovers"
             },
             {
               "name": "Kira Talent（面试平台）",
@@ -6185,7 +6185,7 @@
                 "Training",
                 "P"
               ],
-              "name_en": "Kira Talent（面试平台）"
+              "name_en": "Kira Talent"
             }
           ],
           "name_en": "Interviewer Training Platforms"
@@ -6239,7 +6239,7 @@
                 "Course",
                 "P"
               ],
-              "name_en": "SocialTalent（招聘培训）"
+              "name_en": "SocialTalent"
             },
             {
               "name": "Recruiting Toolbox",
@@ -6276,7 +6276,7 @@
                 "DEI",
                 "P"
               ],
-              "name_en": "Paradigm（DEI 培训）"
+              "name_en": "Paradigm"
             },
             {
               "name": "Textio｜Inclusive Writing",
@@ -6297,7 +6297,7 @@
                 "Training",
                 "DEI"
               ],
-              "name_en": "Catalyst（DEI 研究）"
+              "name_en": "Catalyst"
             },
             {
               "name": "Project Implicit（哈佛隐性偏见测试）",
@@ -6307,7 +6307,7 @@
                 "Training",
                 "DEI"
               ],
-              "name_en": "Project Implicit（哈佛隐性偏见测试）"
+              "name_en": "Project Implicit"
             }
           ],
           "name_en": "Unconscious Bias Training"
@@ -6507,7 +6507,7 @@
                 "Conference",
                 "Campus"
               ],
-              "name_en": "NACE Conference（校招）"
+              "name_en": "NACE Conference"
             },
             {
               "name": "Diversity Best Practices",
@@ -6996,7 +6996,7 @@
               "tags": [
                 "Neurodiversity"
               ],
-              "name_en": "Exceptional Minds（自闭症人才）"
+              "name_en": "Exceptional Minds"
             }
           ],
           "name_en": "Neurodiversity Recruiting"
@@ -7020,7 +7020,7 @@
                 "APAC",
                 "R"
               ],
-              "name_en": "JobStreet（东南亚）"
+              "name_en": "JobStreet (Southeast Asia)"
             },
             {
               "name": "JobsDB（港澳台/东南亚）",
@@ -7030,7 +7030,7 @@
                 "APAC",
                 "R"
               ],
-              "name_en": "JobsDB（港澳台/东南亚）"
+              "name_en": "JobsDB"
             },
             {
               "name": "Seek（澳洲/新西兰）",
@@ -7040,7 +7040,7 @@
                 "APAC",
                 "R"
               ],
-              "name_en": "Seek（澳洲/新西兰）"
+              "name_en": "Seek"
             },
             {
               "name": "Indeed Japan",
@@ -7060,7 +7060,7 @@
                 "APAC",
                 "JP"
               ],
-              "name_en": "Rikunabi（日本）"
+              "name_en": "Rikunabi"
             },
             {
               "name": "Saramin（韩国）",
@@ -7070,7 +7070,7 @@
                 "APAC",
                 "KR"
               ],
-              "name_en": "Saramin（韩国）"
+              "name_en": "Saramin"
             },
             {
               "name": "Naukri.com（印度）",
@@ -7080,7 +7080,7 @@
                 "APAC",
                 "IN"
               ],
-              "name_en": "Naukri.com（印度）"
+              "name_en": "Naukri.com (India)"
             },
             {
               "name": "FoundIt (Monster India)",
@@ -7107,7 +7107,7 @@
                 "MEA",
                 "R"
               ],
-              "name_en": "Bayt.com（中东）"
+              "name_en": "Bayt.com (Middle East)"
             },
             {
               "name": "GulfTalent（海湾地区）",
@@ -7117,7 +7117,7 @@
                 "MEA",
                 "R"
               ],
-              "name_en": "GulfTalent（海湾地区）"
+              "name_en": "GulfTalent (Gulf Region)"
             },
             {
               "name": "Naukrigulf",
@@ -7137,7 +7137,7 @@
                 "MEA",
                 "Africa"
               ],
-              "name_en": "Jobberman（非洲）"
+              "name_en": "Jobberman"
             },
             {
               "name": "Careers24（南非）",
@@ -7147,7 +7147,7 @@
                 "MEA",
                 "Africa"
               ],
-              "name_en": "Careers24（南非）"
+              "name_en": "Careers24 (South Africa)"
             },
             {
               "name": "Wuzzuf（埃及）",
@@ -7157,7 +7157,7 @@
                 "MEA",
                 "Africa"
               ],
-              "name_en": "Wuzzuf（埃及）"
+              "name_en": "Wuzzuf"
             }
           ],
           "name_en": "Middle East / Africa (MEA)"
@@ -7174,7 +7174,7 @@
                 "LATAM",
                 "R"
               ],
-              "name_en": "Computrabajo（拉美）"
+              "name_en": "Computrabajo (Latin America)"
             },
             {
               "name": "Bumeran（阿根廷/墨西哥）",
@@ -7184,7 +7184,7 @@
                 "LATAM",
                 "R"
               ],
-              "name_en": "Bumeran（阿根廷/墨西哥）"
+              "name_en": "Bumeran"
             },
             {
               "name": "InfoJobs（巴西/西班牙）",
@@ -7194,7 +7194,7 @@
                 "LATAM",
                 "R"
               ],
-              "name_en": "InfoJobs（巴西/西班牙）"
+              "name_en": "InfoJobs"
             },
             {
               "name": "Catho（巴西）",
@@ -7204,7 +7204,7 @@
                 "LATAM",
                 "BR"
               ],
-              "name_en": "Catho（巴西）"
+              "name_en": "Catho"
             },
             {
               "name": "OCC Mundial（墨西哥）",
@@ -7214,7 +7214,7 @@
                 "LATAM",
                 "MX"
               ],
-              "name_en": "OCC Mundial（墨西哥）"
+              "name_en": "OCC Mundial (Mexico)"
             },
             {
               "name": "Trabajando.com（智利）",
@@ -7224,7 +7224,7 @@
                 "LATAM",
                 "CL"
               ],
-              "name_en": "Trabajando.com（智利）"
+              "name_en": "Trabajando.com"
             }
           ],
           "name_en": "Latin America (LATAM)"
@@ -7241,7 +7241,7 @@
                 "EU",
                 "DE"
               ],
-              "name_en": "StepStone（德国/比利时）"
+              "name_en": "StepStone"
             },
             {
               "name": "Jobteaser（欧洲校招）",
@@ -7251,7 +7251,7 @@
                 "EU",
                 "Campus"
               ],
-              "name_en": "Jobteaser（欧洲校招）"
+              "name_en": "Jobteaser"
             },
             {
               "name": "Welcome to the Jungle（法国）",
@@ -7261,7 +7261,7 @@
                 "EU",
                 "FR"
               ],
-              "name_en": "Welcome to the Jungle（法国）"
+              "name_en": "Welcome to the Jungle"
             },
             {
               "name": "Totaljobs（英国）",
@@ -7271,7 +7271,7 @@
                 "EU",
                 "UK"
               ],
-              "name_en": "Totaljobs（英国）"
+              "name_en": "Totaljobs (UK)"
             },
             {
               "name": "Reed.co.uk（英国）",
@@ -7281,7 +7281,7 @@
                 "EU",
                 "UK"
               ],
-              "name_en": "Reed.co.uk（英国）"
+              "name_en": "Reed.co.uk"
             },
             {
               "name": "EURES（欧盟就业服务）",
@@ -7291,7 +7291,7 @@
                 "EU",
                 "Government"
               ],
-              "name_en": "EURES（欧盟就业服务）"
+              "name_en": "EURES"
             }
           ],
           "name_en": "Europe (Supplementary)"
@@ -7850,7 +7850,7 @@
               "tags": [
                 "Book"
               ],
-              "name_en": "Daniel Kahneman｜Thinking, Fast and Slow"
+              "name_en": "Daniel Kahneman | Thinking, Fast and Slow"
             },
             {
               "name": "Predictive Hiring（Work Rules by Laszlo Bock）",
@@ -8173,7 +8173,7 @@
                 "Law",
                 "CN"
               ],
-              "name_en": "中国｜劳动法"
+              "name_en": "China Labor Law"
             },
             {
               "name": "中国｜劳动合同法",
@@ -8183,7 +8183,7 @@
                 "Law",
                 "CN"
               ],
-              "name_en": "中国｜劳动合同法"
+              "name_en": "China Labor Contract Law"
             },
             {
               "name": "人力资源和社会保障部",
@@ -8193,7 +8193,7 @@
                 "Law",
                 "CN"
               ],
-              "name_en": "人力资源和社会保障部"
+              "name_en": "Ministry of Human Resources and Social Security (China)"
             },
             {
               "name": "中国法律服务网",
@@ -8203,7 +8203,7 @@
                 "Law",
                 "CN"
               ],
-              "name_en": "中国法律服务网"
+              "name_en": "China Legal Service Network"
             }
           ],
           "name_en": "China Labor Law"
@@ -8220,7 +8220,7 @@
                 "Law",
                 "P"
               ],
-              "name_en": "Littler Mendelson（劳动法律所）"
+              "name_en": "Littler Mendelson"
             },
             {
               "name": "Jackson Lewis",
@@ -8260,7 +8260,7 @@
                 "Law",
                 "P"
               ],
-              "name_en": "XpertHR（HR 合规）"
+              "name_en": "XpertHR"
             }
           ],
           "name_en": "Employment Law Resources"
@@ -8284,7 +8284,7 @@
                 "Analytics",
                 "P"
               ],
-              "name_en": "Visier（People Analytics 领导者）"
+              "name_en": "Visier"
             },
             {
               "name": "One Model（People Data Cloud）",
@@ -8362,7 +8362,7 @@
                 "BI",
                 "P"
               ],
-              "name_en": "Tableau（数据可视化）"
+              "name_en": "Tableau"
             },
             {
               "name": "Power BI（Microsoft）",
@@ -8392,7 +8392,7 @@
                 "BI",
                 "O"
               ],
-              "name_en": "Metabase（开源 BI）"
+              "name_en": "Metabase (Open Source BI)"
             },
             {
               "name": "Superset（Apache 开源）",
@@ -8402,7 +8402,7 @@
                 "BI",
                 "O"
               ],
-              "name_en": "Superset（Apache 开源）"
+              "name_en": "Superset"
             },
             {
               "name": "Sigma Computing",
@@ -8543,7 +8543,7 @@
                 "Video",
                 "P"
               ],
-              "name_en": "Zoom（视频会议）"
+              "name_en": "Zoom (Video Conferencing)"
             },
             {
               "name": "Microsoft Teams",
@@ -8574,7 +8574,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "HireVue（AI 视频面试）"
+              "name_en": "HireVue (AI Video Interview)"
             },
             {
               "name": "Spark Hire（视频面试）",
@@ -8584,7 +8584,7 @@
                 "Video",
                 "P"
               ],
-              "name_en": "Spark Hire（视频面试）"
+              "name_en": "Spark Hire (Video Interview)"
             },
             {
               "name": "VidCruiter（视频招聘）",
@@ -8594,7 +8594,7 @@
                 "Video",
                 "P"
               ],
-              "name_en": "VidCruiter（视频招聘）"
+              "name_en": "VidCruiter (Video Recruiting)"
             },
             {
               "name": "myInterview（视频简历）",
@@ -8604,7 +8604,7 @@
                 "Video",
                 "P"
               ],
-              "name_en": "myInterview（视频简历）"
+              "name_en": "myInterview"
             },
             {
               "name": "interviewstream",
@@ -8631,7 +8631,7 @@
                 "Virtual",
                 "P"
               ],
-              "name_en": "Brazen（虚拟招聘会）"
+              "name_en": "Brazen (Virtual Career Fair)"
             },
             {
               "name": "Hopin（虚拟活动）",
@@ -8641,7 +8641,7 @@
                 "Virtual",
                 "P"
               ],
-              "name_en": "Hopin（虚拟活动）"
+              "name_en": "Hopin (Virtual Events)"
             },
             {
               "name": "vFairs（虚拟招聘会）",
@@ -8651,7 +8651,7 @@
                 "Virtual",
                 "P"
               ],
-              "name_en": "vFairs（虚拟招聘会）"
+              "name_en": "vFairs (Virtual Career Fair)"
             },
             {
               "name": "Premier Virtual",
@@ -8672,7 +8672,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Paradox Olivia（AI 招聘会）"
+              "name_en": "Paradox Olivia"
             },
             {
               "name": "CareerEco（虚拟招聘会）",
@@ -8682,7 +8682,7 @@
                 "Virtual",
                 "P"
               ],
-              "name_en": "CareerEco（虚拟招聘会）"
+              "name_en": "CareerEco"
             }
           ],
           "name_en": "Virtual Career Fair Platforms"
@@ -8699,7 +8699,7 @@
                 "Collaboration",
                 "P"
               ],
-              "name_en": "Miro（白板协作）"
+              "name_en": "Miro"
             },
             {
               "name": "Figma（设计协作）",
@@ -8709,7 +8709,7 @@
                 "Collaboration",
                 "P"
               ],
-              "name_en": "Figma（设计协作）"
+              "name_en": "Figma (Design Collaboration)"
             },
             {
               "name": "Loom（异步视频）",
@@ -8719,7 +8719,7 @@
                 "Video",
                 "P"
               ],
-              "name_en": "Loom（异步视频）"
+              "name_en": "Loom (Async Video)"
             },
             {
               "name": "Calendly（日程安排）",
@@ -8729,7 +8729,7 @@
                 "Scheduling",
                 "P"
               ],
-              "name_en": "Calendly（日程安排）"
+              "name_en": "Calendly (Scheduling)"
             },
             {
               "name": "Cal.com（开源日程）",
@@ -8739,7 +8739,7 @@
                 "Scheduling",
                 "O"
               ],
-              "name_en": "Cal.com（开源日程）"
+              "name_en": "Cal.com"
             },
             {
               "name": "Goodtime（面试调度）",
@@ -8749,7 +8749,7 @@
                 "Scheduling",
                 "P"
               ],
-              "name_en": "Goodtime（面试调度）"
+              "name_en": "Goodtime"
             }
           ],
           "name_en": "Remote Collaboration Tools"
@@ -8766,7 +8766,7 @@
                 "Onboarding",
                 "P"
               ],
-              "name_en": "Enboarder（入职体验）"
+              "name_en": "Enboarder (Onboarding Experience)"
             },
             {
               "name": "Click Boarding",
@@ -8786,7 +8786,7 @@
                 "Onboarding",
                 "P"
               ],
-              "name_en": "Sapling（入职工作流）"
+              "name_en": "Sapling"
             },
             {
               "name": "Talmundo（入职平台）",
@@ -8796,7 +8796,7 @@
                 "Onboarding",
                 "P"
               ],
-              "name_en": "Talmundo（入职平台）"
+              "name_en": "Talmundo"
             },
             {
               "name": "WorkBright（移动入职）",
@@ -8806,7 +8806,7 @@
                 "Onboarding",
                 "P"
               ],
-              "name_en": "WorkBright（移动入职）"
+              "name_en": "WorkBright"
             }
           ],
           "name_en": "Virtual Onboarding Platforms"
@@ -8921,7 +8921,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Textio（AI 职位描述优化）"
+              "name_en": "Textio"
             },
             {
               "name": "Datapeople（JD Analytics）",
@@ -9016,7 +9016,7 @@
                 "Social",
                 "P"
               ],
-              "name_en": "Hootsuite（社交管理）"
+              "name_en": "Hootsuite"
             },
             {
               "name": "Buffer（社交发布）",
@@ -9026,7 +9026,7 @@
                 "Social",
                 "P"
               ],
-              "name_en": "Buffer（社交发布）"
+              "name_en": "Buffer"
             },
             {
               "name": "Sprout Social",
@@ -9053,7 +9053,7 @@
                 "Design",
                 "P"
               ],
-              "name_en": "Canva（设计工具）"
+              "name_en": "Canva (Design Tool)"
             },
             {
               "name": "Adobe Express",
@@ -9073,7 +9073,7 @@
                 "Design",
                 "P"
               ],
-              "name_en": "Piktochart（信息图）"
+              "name_en": "Piktochart (Infographics)"
             },
             {
               "name": "Animoto（视频制作）",
@@ -9083,7 +9083,7 @@
                 "Video",
                 "P"
               ],
-              "name_en": "Animoto（视频制作）"
+              "name_en": "Animoto"
             },
             {
               "name": "Biteable（视频模板）",
@@ -9093,7 +9093,7 @@
                 "Video",
                 "P"
               ],
-              "name_en": "Biteable（视频模板）"
+              "name_en": "Biteable"
             },
             {
               "name": "Unsplash（免费图片）",
@@ -9102,7 +9102,7 @@
               "tags": [
                 "Resource"
               ],
-              "name_en": "Unsplash（免费图片）"
+              "name_en": "Unsplash"
             }
           ],
           "name_en": "Content Creation Tools"
@@ -9126,7 +9126,7 @@
                 "Tech",
                 "Assessment"
               ],
-              "name_en": "LeetCode（算法题库）"
+              "name_en": "LeetCode"
             },
             {
               "name": "HackerRank（技术评估）",
@@ -9137,7 +9137,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "HackerRank（技术评估）"
+              "name_en": "HackerRank"
             },
             {
               "name": "Codility（编程测试）",
@@ -9148,7 +9148,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Codility（编程测试）"
+              "name_en": "Codility (Coding Tests)"
             },
             {
               "name": "CoderPad（实时编程面试）",
@@ -9159,7 +9159,7 @@
                 "Interview",
                 "P"
               ],
-              "name_en": "CoderPad（实时编程面试）"
+              "name_en": "CoderPad"
             },
             {
               "name": "CodeSignal（技术评估）",
@@ -9170,7 +9170,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "CodeSignal（技术评估）"
+              "name_en": "CodeSignal"
             },
             {
               "name": "Karat（技术面试外包）",
@@ -9181,7 +9181,7 @@
                 "Interview",
                 "P"
               ],
-              "name_en": "Karat（技术面试外包）"
+              "name_en": "Karat (Technical Interview Outsourcing)"
             },
             {
               "name": "interviewing.io（匿名面试）",
@@ -9192,7 +9192,7 @@
                 "Interview",
                 "P"
               ],
-              "name_en": "interviewing.io（匿名面试）"
+              "name_en": "interviewing.io"
             },
             {
               "name": "Pramp（面试练习）",
@@ -9202,7 +9202,7 @@
                 "Tech",
                 "Practice"
               ],
-              "name_en": "Pramp（面试练习）"
+              "name_en": "Pramp"
             }
           ],
           "name_en": "Technical Interview Platforms"
@@ -9264,7 +9264,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "TestGorilla（技术测试）"
+              "name_en": "TestGorilla"
             },
             {
               "name": "Vervoe（AI 技能评估）",
@@ -9276,7 +9276,7 @@
                 "Assessment",
                 "P"
               ],
-              "name_en": "Vervoe（AI 技能评估）"
+              "name_en": "Vervoe"
             }
           ],
           "name_en": "Technical Skills Assessment"
@@ -9293,7 +9293,7 @@
                 "Tech",
                 "Community"
               ],
-              "name_en": "GitHub Jobs（已关闭，参考）"
+              "name_en": "GitHub Jobs"
             },
             {
               "name": "Stack Overflow Jobs",
@@ -9343,7 +9343,7 @@
                 "Tech",
                 "R"
               ],
-              "name_en": "Dice（技术招聘）"
+              "name_en": "Dice (Tech Recruiting)"
             },
             {
               "name": "Built In（科技公司）",
@@ -9353,7 +9353,7 @@
                 "Tech",
                 "R"
               ],
-              "name_en": "Built In（科技公司）"
+              "name_en": "Built In"
             }
           ],
           "name_en": "Tech Community Recruiting"
@@ -9445,7 +9445,7 @@
                 "Intelligence",
                 "P"
               ],
-              "name_en": "Lightcast（原 Emsi Burning Glass）"
+              "name_en": "Lightcast"
             },
             {
               "name": "TalentNeuron（Gartner）",
@@ -9684,7 +9684,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Onfido（身份验证）"
+              "name_en": "Onfido (Identity Verification)"
             },
             {
               "name": "Jumio（身份验证）",
@@ -9695,7 +9695,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Jumio（身份验证）"
+              "name_en": "Jumio (Identity Verification)"
             },
             {
               "name": "Trulioo（全球身份验证）",
@@ -9705,7 +9705,7 @@
                 "Verification",
                 "P"
               ],
-              "name_en": "Trulioo（全球身份验证）"
+              "name_en": "Trulioo (Global Identity Verification)"
             },
             {
               "name": "Persona（身份平台）",
@@ -9715,7 +9715,7 @@
                 "Verification",
                 "P"
               ],
-              "name_en": "Persona（身份平台）"
+              "name_en": "Persona"
             },
             {
               "name": "Veriff（视频验证）",
@@ -9725,7 +9725,7 @@
                 "Verification",
                 "P"
               ],
-              "name_en": "Veriff（视频验证）"
+              "name_en": "Veriff"
             }
           ],
           "name_en": "Identity Verification"
@@ -9752,7 +9752,7 @@
                 "Education",
                 "P"
               ],
-              "name_en": "Parchment（学历证书）"
+              "name_en": "Parchment"
             },
             {
               "name": "WES（World Education Services）",
@@ -9772,7 +9772,7 @@
                 "Education",
                 "US"
               ],
-              "name_en": "NACES（学历评估）"
+              "name_en": "NACES"
             },
             {
               "name": "Hedd UK（学历验证）",
@@ -9782,7 +9782,7 @@
                 "Education",
                 "UK"
               ],
-              "name_en": "Hedd UK（学历验证）"
+              "name_en": "Hedd UK"
             },
             {
               "name": "学信网（中国学历）",
@@ -9792,7 +9792,7 @@
                 "Education",
                 "CN"
               ],
-              "name_en": "学信网（中国学历）"
+              "name_en": "CHSI"
             }
           ],
           "name_en": "Education Verification"
@@ -9819,7 +9819,7 @@
                 "Employment",
                 "P"
               ],
-              "name_en": "Truework（就业验证）"
+              "name_en": "Truework"
             },
             {
               "name": "Experian Verify",
@@ -9839,7 +9839,7 @@
                 "Employment",
                 "P"
               ],
-              "name_en": "Argyle（收入验证）"
+              "name_en": "Argyle"
             }
           ],
           "name_en": "Employment Verification"
@@ -9856,7 +9856,7 @@
                 "Background",
                 "P"
               ],
-              "name_en": "Checkr（背景调查）"
+              "name_en": "Checkr"
             },
             {
               "name": "Sterling（背景调查）",
@@ -9866,7 +9866,7 @@
                 "Background",
                 "P"
               ],
-              "name_en": "Sterling（背景调查）"
+              "name_en": "Sterling"
             },
             {
               "name": "HireRight",
@@ -9897,7 +9897,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Certn（AI 背调）"
+              "name_en": "Certn (AI Background Check)"
             }
           ],
           "name_en": "Resume Fraud Detection"
@@ -9951,7 +9951,7 @@
                 "Freelance",
                 "P"
               ],
-              "name_en": "Toptal（高端自由职业）"
+              "name_en": "Toptal"
             },
             {
               "name": "Contra（无佣金自由职业）",
@@ -9961,7 +9961,7 @@
                 "Freelance",
                 "P"
               ],
-              "name_en": "Contra（无佣金自由职业）"
+              "name_en": "Contra"
             },
             {
               "name": "99designs（设计自由职业）",
@@ -9971,7 +9971,7 @@
                 "Freelance",
                 "Design"
               ],
-              "name_en": "99designs（设计自由职业）"
+              "name_en": "99designs"
             }
           ],
           "name_en": "Freelance Platforms"
@@ -10031,7 +10031,7 @@
                 "EU",
                 "P"
               ],
-              "name_en": "Malt（欧洲）"
+              "name_en": "Malt"
             }
           ],
           "name_en": "High-End Talent Platforms"
@@ -10048,7 +10048,7 @@
                 "Contractor",
                 "P"
               ],
-              "name_en": "Deel（全球合规）"
+              "name_en": "Deel (Global Compliance)"
             },
             {
               "name": "Remote.com",
@@ -10173,7 +10173,7 @@
                 "AI",
                 "P"
               ],
-              "name_en": "Pymetrics（神经科学游戏）"
+              "name_en": "Pymetrics (Neuroscience Games)"
             },
             {
               "name": "Arctic Shores（行为评估游戏）",
@@ -10183,7 +10183,7 @@
                 "Gamification",
                 "P"
               ],
-              "name_en": "Arctic Shores（行为评估游戏）"
+              "name_en": "Arctic Shores"
             },
             {
               "name": "Knack（游戏化评估）",
@@ -10193,7 +10193,7 @@
                 "Gamification",
                 "P"
               ],
-              "name_en": "Knack（游戏化评估）"
+              "name_en": "Knack (Gamified Assessment)"
             },
             {
               "name": "Revelian（Game-Based Assessment）",
@@ -10213,7 +10213,7 @@
                 "Gamification",
                 "P"
               ],
-              "name_en": "Owiwi（游戏化软技能评估）"
+              "name_en": "Owiwi"
             },
             {
               "name": "Scoutible（游戏化招聘）",
@@ -10223,7 +10223,7 @@
                 "Gamification",
                 "P"
               ],
-              "name_en": "Scoutible（游戏化招聘）"
+              "name_en": "Scoutible (Gamified Recruiting)"
             }
           ],
           "name_en": "Gamified Assessments"
@@ -10240,7 +10240,7 @@
                 "VR",
                 "P"
               ],
-              "name_en": "Strivr（VR 培训）"
+              "name_en": "Strivr (VR Training)"
             },
             {
               "name": "Talespin（VR 技能开发）",
@@ -10250,7 +10250,7 @@
                 "VR",
                 "P"
               ],
-              "name_en": "Talespin（VR 技能开发）"
+              "name_en": "Talespin"
             },
             {
               "name": "Mursion（VR 模拟面试）",
@@ -10260,7 +10260,7 @@
                 "VR",
                 "P"
               ],
-              "name_en": "Mursion（VR 模拟面试）"
+              "name_en": "Mursion"
             },
             {
               "name": "Virtway Events（VR 招聘会）",
@@ -10270,7 +10270,7 @@
                 "VR",
                 "P"
               ],
-              "name_en": "Virtway Events（VR 招聘会）"
+              "name_en": "Virtway Events"
             },
             {
               "name": "Spatial.io（VR 协作）",
@@ -10280,7 +10280,7 @@
                 "VR",
                 "P"
               ],
-              "name_en": "Spatial.io（VR 协作）"
+              "name_en": "Spatial.io"
             }
           ],
           "name_en": "VR/AR Recruiting"
@@ -10308,7 +10308,7 @@
                 "Challenge",
                 "Data"
               ],
-              "name_en": "Kaggle Competitions（数据科学）"
+              "name_en": "Kaggle Competitions"
             },
             {
               "name": "Topcoder（编程挑战）",
@@ -10318,7 +10318,7 @@
                 "Challenge",
                 "Tech"
               ],
-              "name_en": "Topcoder（编程挑战）"
+              "name_en": "Topcoder (Coding Challenges)"
             },
             {
               "name": "Codeforces",
@@ -10338,7 +10338,7 @@
                 "Challenge",
                 "Hackathon"
               ],
-              "name_en": "Devpost（Hackathon 平台）"
+              "name_en": "Devpost"
             },
             {
               "name": "MLH（Major League Hacking）",
@@ -10348,7 +10348,7 @@
                 "Challenge",
                 "Campus"
               ],
-              "name_en": "MLH（Major League Hacking）"
+              "name_en": "MLH (Major League Hacking)"
             }
           ],
           "name_en": "Coding Challenges / Hackathons"
@@ -10559,7 +10559,7 @@
                 "Case",
                 "Tech"
               ],
-              "name_en": "Google re:Work（招聘最佳实践）"
+              "name_en": "Google re:Work"
             },
             {
               "name": "Netflix Culture Deck",
@@ -10656,7 +10656,7 @@
                 "Remote",
                 "O"
               ],
-              "name_en": "GitLab Handbook（远程工作）"
+              "name_en": "GitLab Handbook"
             },
             {
               "name": "Basecamp Handbook",
@@ -10694,7 +10694,7 @@
                 "CN",
                 "Tech"
               ],
-              "name_en": "字节跳动招聘"
+              "name_en": "ByteDance Careers"
             },
             {
               "name": "阿里巴巴招聘",
@@ -10705,7 +10705,7 @@
                 "CN",
                 "Tech"
               ],
-              "name_en": "阿里巴巴招聘"
+              "name_en": "Alibaba Careers"
             },
             {
               "name": "腾讯招聘",
@@ -10716,7 +10716,7 @@
                 "CN",
                 "Tech"
               ],
-              "name_en": "腾讯招聘"
+              "name_en": "Tencent Careers"
             },
             {
               "name": "华为招聘",
@@ -10727,7 +10727,7 @@
                 "CN",
                 "Tech"
               ],
-              "name_en": "华为招聘"
+              "name_en": "Huawei Careers"
             },
             {
               "name": "美团招聘",
@@ -10738,7 +10738,7 @@
                 "CN",
                 "Tech"
               ],
-              "name_en": "美团招聘"
+              "name_en": "Meituan Careers"
             },
             {
               "name": "小红书招聘",
@@ -10749,7 +10749,7 @@
                 "CN",
                 "Tech"
               ],
-              "name_en": "小红书招聘"
+              "name_en": "Xiaohongshu Careers"
             }
           ],
           "name_en": "China Company Recruiting Practices"
@@ -10796,7 +10796,7 @@
                 "Case",
                 "Research"
               ],
-              "name_en": "BCG｜People Strategy"
+              "name_en": "BCG | People Strategy"
             }
           ],
           "name_en": "Recruiting Case Studies"
@@ -10863,7 +10863,7 @@
                 "Wiki",
                 "P"
               ],
-              "name_en": "Notion（知识库）"
+              "name_en": "Notion"
             },
             {
               "name": "Confluence（Atlassian）",
@@ -10883,7 +10883,7 @@
                 "Wiki",
                 "P"
               ],
-              "name_en": "Slite（团队知识库）"
+              "name_en": "Slite"
             },
             {
               "name": "Guru（知识管理）",
@@ -10893,7 +10893,7 @@
                 "Wiki",
                 "P"
               ],
-              "name_en": "Guru（知识管理）"
+              "name_en": "Guru (Knowledge Management)"
             },
             {
               "name": "Tettra（内部 Wiki）",
@@ -10903,7 +10903,7 @@
                 "Wiki",
                 "P"
               ],
-              "name_en": "Tettra（内部 Wiki）"
+              "name_en": "Tettra"
             },
             {
               "name": "Slab（知识库）",
@@ -10913,7 +10913,7 @@
                 "Wiki",
                 "P"
               ],
-              "name_en": "Slab（知识库）"
+              "name_en": "Slab"
             }
           ],
           "name_en": "Knowledge Management Platforms"
@@ -12702,7 +12702,7 @@
                 "CN",
                 "Job Board"
               ],
-              "name_en": "58同城｜蓝领招聘"
+              "name_en": "58.com Blue-Collar Recruiting"
             }
           ],
           "name_en": "Blue-Collar Recruiting Platforms"
@@ -12917,7 +12917,7 @@
               "name_en": "Symphony Talent｜Volume Hiring"
             }
           ],
-          "name_en": "High-Volume Recruiting Tools"
+          "name_en": "Volume Hiring Tools"
         }
       ],
       "name_en": "52 Blue-Collar & Frontline Recruiting"
@@ -13721,7 +13721,7 @@
                 "Research",
                 "Consulting"
               ],
-              "name_en": "McKinsey｜Future of Work"
+              "name_en": "McKinsey | Future of Work"
             },
             {
               "name": "Gartner｜HR Research",
@@ -13731,7 +13731,7 @@
                 "Research",
                 "Premium"
               ],
-              "name_en": "Gartner｜HR Research"
+              "name_en": "Gartner | HR Research"
             },
             {
               "name": "BCG｜People Strategy",
@@ -13741,7 +13741,7 @@
                 "Research",
                 "Consulting"
               ],
-              "name_en": "BCG｜People Strategy"
+              "name_en": "BCG | People Strategy"
             },
             {
               "name": "Mercer｜Talent Trends",
@@ -13952,7 +13952,7 @@
                 "Data",
                 "CN"
               ],
-              "name_en": "国家统计局｜就业数据"
+              "name_en": "National Bureau of Statistics (China Employment Data)"
             }
           ],
           "name_en": "Data & Statistics"
