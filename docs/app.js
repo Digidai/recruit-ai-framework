@@ -385,10 +385,11 @@ function buildTree(data){
   svg.call(zoom);
 
   // Store initial transform for reset
-  const initialTransform = d3.zoomIdentity.translate(40, height/2).scale(1);
+  const initialTransform = d3.zoomIdentity.translate(60, height/2).scale(1);
 
-  const dx = 14;
-  const dy = 220;
+  // Increased spacing for better readability
+  const dx = 28;  // Vertical spacing (was 14)
+  const dy = 260; // Horizontal spacing (was 220)
   const tree = d3.tree().nodeSize([dx, dy]);
   const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 
@@ -424,9 +425,6 @@ function buildTree(data){
           const o = {x: source.x0, y: source.y0};
           return diagonal({source: o, target: o});
         })
-        .attr("fill", "none")
-        .attr("stroke", "#2a2f3a")
-        .attr("stroke-width", 1.2)
         .call(enter => enter.transition().duration(duration).attr("d", diagonal)),
       update => update.call(update => update.transition().duration(duration).attr("d", diagonal)),
       exit => exit.call(exit => exit.transition().duration(duration)
@@ -442,9 +440,9 @@ function buildTree(data){
       .data(nodes, d => d.id);
 
     const nodeEnter = node.enter().append("g")
-      .attr("class", "node")
+      .attr("class", d => "node" + (d.children ? " node--internal" : " node--leaf"))
       .attr("transform", d => `translate(${source.y0},${source.x0})`)
-      .attr("cursor", "pointer")
+      // .attr("cursor", "pointer") // Handled by CSS
       .on("click", (event, d) => {
         if(d.children){
           d._children = d.children;
@@ -460,17 +458,36 @@ function buildTree(data){
       });
 
     nodeEnter.append("circle")
-      .attr("r", 4.5)
-      .attr("fill", d => (d._children ? "#394b66" : (d.children ? "#394b66" : "#1b2230")))
-      .attr("stroke", "#6a7ea6")
-      .attr("stroke-width", 1);
+      .attr("r", 5) // Slightly larger radius
+      // Fill and stroke handled by CSS now
+      .attr("fill", d => (d._children ? "#555" : (d.children ? "#555" : "#999"))); 
+      // Note: Kept inline fill as a fallback or if we want dynamic logic, 
+      // but actually we want CSS to handle it completely. 
+      // Let's remove the inline attrs so CSS variables take over.
+      
+    // Re-select to clear any previous attributes if this was a partial replace, 
+    // but here we are replacing the block. 
+    // Actually, D3 enters need distinct elements. 
+    // Let's stick to the cleaner version:
+
+    /* 
+       We will remove the inline .attr("fill", ...) and .attr("stroke", ...)
+       and let CSS .node circle handle it.
+       However, we might want to distinguish open/closed folders visually if CSS isn't enough.
+       CSS :has() selector isn't fully supported in all outdated contexts but good enough for modern.
+       Alternatively, we can add classes like 'node--closed' or 'node--open'.
+    */
+
+    nodeEnter.select("circle").remove(); // Remove if exists (it shouldn't in enter)
+    
+    nodeEnter.append("circle")
+        .attr("r", 5);
 
     nodeEnter.append("text")
       .attr("dy", "0.32em")
-      .attr("x", d => d._children ? -8 : 8)
-      .attr("text-anchor", d => d._children ? "end" : "start")
-      .attr("fill", "#e6e6e6")
-      .style("font-size", "12px")
+      .attr("x", d => d.children || d._children ? -10 : 10)
+      .attr("text-anchor", d => d.children || d._children ? "end" : "start")
+      .style("font-size", null) // Controlled by CSS
       .text(d => getLocalizedName(d.data));
 
     nodeEnter.append("title")
@@ -485,9 +502,13 @@ function buildTree(data){
     nodeUpdate.transition()
       .duration(duration)
       .attr("transform", d => `translate(${d.y},${d.x})`);
+    
+    // Update classes for open/closed state styling if needed
+    nodeUpdate.attr("class", d => "node" + (d.children ? " node--open" : (d._children ? " node--closed" : " node--leaf")));
 
+    // We can remove the inline styling for circles here too
     nodeUpdate.select("circle")
-      .attr("fill", d => (d._children ? "#394b66" : (d.children ? "#394b66" : "#1b2230")));
+       .attr("r", 5); // Ensure size
 
     const nodeExit = node.exit().transition()
       .duration(duration)

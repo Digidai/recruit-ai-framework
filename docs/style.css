@@ -207,6 +207,42 @@ a:hover{text-decoration:underline;}
   height:100%;
 }
 
+/* D3 Tree Styles */
+.node{
+  cursor: pointer;
+}
+.node circle {
+  fill: var(--panel);
+  stroke: var(--link);
+  stroke-width: 1.5px;
+  transition: all 0.2s ease;
+}
+.node:hover circle {
+  stroke: var(--accent);
+  fill: var(--tagBg);
+  r: 6px;
+}
+.node text {
+  font: 13px ui-sans-serif, system-ui, sans-serif;
+  fill: var(--text);
+  text-shadow: 0 1px 4px var(--bg), 0 1px 4px var(--bg); /* Improve readability over lines */
+  transition: fill 0.2s;
+}
+.node:hover text {
+  fill: #fff;
+}
+
+.link {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 1.5px;
+  stroke-opacity: 0.6;
+  transition: stroke-opacity 0.2s, stroke 0.2s;
+}
+.node:hover ~ .link {
+  stroke-opacity: 0.8;
+}
+
 .hint{
   padding:10px 12px 14px;
   border-top:1px solid var(--border);
