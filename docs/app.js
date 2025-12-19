@@ -185,41 +185,41 @@ const btnCollapseAll = document.getElementById("btnCollapseAll");
 // Utility: debounce function
 function debounce(fn, delay) {
   let timer = null;
-  return function(...args) {
+  return function (...args) {
     clearTimeout(timer);
     timer = setTimeout(() => fn.apply(this, args), delay);
   };
 }
 
-function escapeHtml(str){
+function escapeHtml(str) {
   return str
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;")
-    .replaceAll('"',"&quot;")
-    .replaceAll("'","&#39;");
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
 
-function tagHtml(tag){
+function tagHtml(tag) {
   return `<span class="tag">${escapeHtml(tag)}</span>`;
 }
 
-function tagsHtml(tags){
-  if(!tags || !tags.length) return "";
+function tagsHtml(tags) {
+  if (!tags || !tags.length) return "";
   return tags.map(tagHtml).join("");
 }
 
-function openNode(node){
+function openNode(node) {
   const nodeType = node.type || node.data?.type;
   const url = node.url || node.data?.url;
-  if(!url) return;
+  if (!url) return;
 
-  if(nodeType === "template"){
+  if (nodeType === "template") {
     const q = prompt(t("promptQuery"));
-    if(!q) return;
+    if (!q) return;
     const finalUrl = url.replaceAll("{query}", encodeURIComponent(q.trim()));
     window.open(finalUrl, "_blank", "noopener");
-  }else{
+  } else {
     window.open(url, "_blank", "noopener");
   }
 }
@@ -232,15 +232,15 @@ function getLocalizedName(node) {
   return node.name;
 }
 
-function flatten(node, path = [], pathEn = []){
+function flatten(node, path = [], pathEn = []) {
   const here = [...path, node.name];
   const hereEn = [...pathEn, node.name_en || node.name];
   const out = [];
-  if(node.type === "folder" && Array.isArray(node.children)){
-    for(const ch of node.children){
+  if (node.type === "folder" && Array.isArray(node.children)) {
+    for (const ch of node.children) {
       out.push(...flatten(ch, here, hereEn));
     }
-  }else if(node.url){
+  } else if (node.url) {
     out.push({
       name: node.name,
       name_en: node.name_en || node.name,
@@ -309,9 +309,9 @@ function renderStats(stats) {
   `;
 }
 
-function renderResults(items, query){
+function renderResults(items, query) {
   resultList.innerHTML = "";
-  if(!query){
+  if (!query) {
     resultMeta.textContent = t("totalResources", items.length);
     return;
   }
@@ -329,7 +329,7 @@ function renderResults(items, query){
   });
   resultMeta.textContent = t("matchResults", hit.length, Math.min(MAX_RESULTS, hit.length));
 
-  for(const it of hit.slice(0, MAX_RESULTS)){
+  for (const it of hit.slice(0, MAX_RESULTS)) {
     const li = document.createElement("li");
     li.tabIndex = 0; // Make focusable for keyboard navigation
     li.innerHTML = `
@@ -354,7 +354,7 @@ function renderResults(items, query){
 // Tree controller - stores references to tree functions for button handlers
 let treeController = null;
 
-function buildTree(data){
+function buildTree(data) {
   // D3 collapsible tree (zoomable)
   const root = d3.hierarchy(data);
   root.x0 = 0;
@@ -364,7 +364,7 @@ function buildTree(data){
   root.descendants().forEach((d, i) => {
     d.id = i;
     d._children = d.children;
-    if(d.depth >= 2) d.children = null;
+    if (d.depth >= 2) d.children = null;
   });
 
   const svg = d3.select(treeSvg);
@@ -385,17 +385,16 @@ function buildTree(data){
   svg.call(zoom);
 
   // Store initial transform for reset
-  const initialTransform = d3.zoomIdentity.translate(60, height/2).scale(1);
+  const initialTransform = d3.zoomIdentity.translate(40, height / 2).scale(1);
 
-  // Increased spacing for better readability
-  const dx = 28;  // Vertical spacing (was 14)
-  const dy = 260; // Horizontal spacing (was 220)
+  const dx = 14;
+  const dy = 220;
   const tree = d3.tree().nodeSize([dx, dy]);
   const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 
   let duration = 250;
 
-  function update(source){
+  function update(source) {
     const nodes = root.descendants().reverse();
     const links = root.links();
 
@@ -404,8 +403,8 @@ function buildTree(data){
     let left = root;
     let right = root;
     root.eachBefore(node => {
-      if(node.x < left.x) left = node;
-      if(node.x > right.x) right = node;
+      if (node.x < left.x) left = node;
+      if (node.x > right.x) right = node;
     });
 
     const innerHeight = right.x - left.x + 120;
@@ -422,15 +421,18 @@ function buildTree(data){
       enter => enter.append("path")
         .attr("class", "link")
         .attr("d", d => {
-          const o = {x: source.x0, y: source.y0};
-          return diagonal({source: o, target: o});
+          const o = { x: source.x0, y: source.y0 };
+          return diagonal({ source: o, target: o });
         })
+        .attr("fill", "none")
+        .attr("stroke", "#2a2f3a")
+        .attr("stroke-width", 1.2)
         .call(enter => enter.transition().duration(duration).attr("d", diagonal)),
       update => update.call(update => update.transition().duration(duration).attr("d", diagonal)),
       exit => exit.call(exit => exit.transition().duration(duration)
         .attr("d", d => {
-          const o = {x: source.x, y: source.y};
-          return diagonal({source: o, target: o});
+          const o = { x: source.x, y: source.y };
+          return diagonal({ source: o, target: o });
         })
         .remove())
     );
@@ -440,54 +442,35 @@ function buildTree(data){
       .data(nodes, d => d.id);
 
     const nodeEnter = node.enter().append("g")
-      .attr("class", d => "node" + (d.children ? " node--internal" : " node--leaf"))
+      .attr("class", "node")
       .attr("transform", d => `translate(${source.y0},${source.x0})`)
-      // .attr("cursor", "pointer") // Handled by CSS
+      .attr("cursor", "pointer")
       .on("click", (event, d) => {
-        if(d.children){
+        if (d.children) {
           d._children = d.children;
           d.children = null;
           update(d);
-        }else if(d._children){
+        } else if (d._children) {
           d.children = d._children;
           d._children = null;
           update(d);
-        }else{
+        } else {
           openNode(d.data);
         }
       });
 
     nodeEnter.append("circle")
-      .attr("r", 5) // Slightly larger radius
-      // Fill and stroke handled by CSS now
-      .attr("fill", d => (d._children ? "#555" : (d.children ? "#555" : "#999"))); 
-      // Note: Kept inline fill as a fallback or if we want dynamic logic, 
-      // but actually we want CSS to handle it completely. 
-      // Let's remove the inline attrs so CSS variables take over.
-      
-    // Re-select to clear any previous attributes if this was a partial replace, 
-    // but here we are replacing the block. 
-    // Actually, D3 enters need distinct elements. 
-    // Let's stick to the cleaner version:
-
-    /* 
-       We will remove the inline .attr("fill", ...) and .attr("stroke", ...)
-       and let CSS .node circle handle it.
-       However, we might want to distinguish open/closed folders visually if CSS isn't enough.
-       CSS :has() selector isn't fully supported in all outdated contexts but good enough for modern.
-       Alternatively, we can add classes like 'node--closed' or 'node--open'.
-    */
-
-    nodeEnter.select("circle").remove(); // Remove if exists (it shouldn't in enter)
-    
-    nodeEnter.append("circle")
-        .attr("r", 5);
+      .attr("r", 4.5)
+      .attr("fill", d => (d._children ? "#394b66" : (d.children ? "#394b66" : "#1b2230")))
+      .attr("stroke", "#6a7ea6")
+      .attr("stroke-width", 1);
 
     nodeEnter.append("text")
       .attr("dy", "0.32em")
-      .attr("x", d => d.children || d._children ? -10 : 10)
-      .attr("text-anchor", d => d.children || d._children ? "end" : "start")
-      .style("font-size", null) // Controlled by CSS
+      .attr("x", d => d._children ? -8 : 8)
+      .attr("text-anchor", d => d._children ? "end" : "start")
+      .attr("fill", "#e6e6e6")
+      .style("font-size", "12px")
       .text(d => getLocalizedName(d.data));
 
     nodeEnter.append("title")
@@ -502,13 +485,9 @@ function buildTree(data){
     nodeUpdate.transition()
       .duration(duration)
       .attr("transform", d => `translate(${d.y},${d.x})`);
-    
-    // Update classes for open/closed state styling if needed
-    nodeUpdate.attr("class", d => "node" + (d.children ? " node--open" : (d._children ? " node--closed" : " node--leaf")));
 
-    // We can remove the inline styling for circles here too
     nodeUpdate.select("circle")
-       .attr("r", 5); // Ensure size
+      .attr("fill", d => (d._children ? "#394b66" : (d.children ? "#394b66" : "#1b2230")));
 
     const nodeExit = node.exit().transition()
       .duration(duration)
@@ -528,7 +507,7 @@ function buildTree(data){
   update(root);
 
   // Center view a bit
-  svg.call(zoom.transform, d3.zoomIdentity.translate(40, height/2).scale(1));
+  svg.call(zoom.transform, d3.zoomIdentity.translate(40, height / 2).scale(1));
 
   // Return controller object for button handlers
   treeController = {
@@ -553,7 +532,7 @@ function buildTree(data){
   };
 }
 
-async function init(){
+async function init() {
   // Apply saved language preference on load
   applyLanguage(currentLang);
 
@@ -568,7 +547,7 @@ async function init(){
   treeSvg.innerHTML = `<text x="20" y="40" fill="#a7a7a7" font-size="14">${t("loading")}</text>`;
 
   const res = await fetch(DATA_URL);
-  if(!res.ok) throw new Error(`HTTP ${res.status}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
 
   const items = flatten(data);
@@ -587,11 +566,11 @@ async function init(){
 
   searchInput.addEventListener("input", debouncedSearch);
   searchInput.addEventListener("keydown", (e) => {
-    if(e.key === "Enter"){
+    if (e.key === "Enter") {
       e.preventDefault();
       onSearch(); // Immediate search on Enter
     }
-    if(e.key === "Escape"){
+    if (e.key === "Escape") {
       searchInput.value = "";
       onSearch();
       searchInput.blur();
