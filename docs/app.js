@@ -387,8 +387,8 @@ function buildTree(data) {
   // Store initial transform for reset
   const initialTransform = d3.zoomIdentity.translate(40, height / 2).scale(1);
 
-  const dx = 14;
-  const dy = 220;
+  const dx = 26;
+  const dy = 260;
   const tree = d3.tree().nodeSize([dx, dy]);
   const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 
@@ -424,9 +424,6 @@ function buildTree(data) {
           const o = { x: source.x0, y: source.y0 };
           return diagonal({ source: o, target: o });
         })
-        .attr("fill", "none")
-        .attr("stroke", "#2a2f3a")
-        .attr("stroke-width", 1.2)
         .call(enter => enter.transition().duration(duration).attr("d", diagonal)),
       update => update.call(update => update.transition().duration(duration).attr("d", diagonal)),
       exit => exit.call(exit => exit.transition().duration(duration)
@@ -461,16 +458,19 @@ function buildTree(data) {
 
     nodeEnter.append("circle")
       .attr("r", 4.5)
-      .attr("fill", d => (d._children ? "#394b66" : (d.children ? "#394b66" : "#1b2230")))
-      .attr("stroke", "#6a7ea6")
-      .attr("stroke-width", 1);
+      // Fill is handled by CSS, but we set initial class/style if needed or leave to CSS
+      // To distinguish folders from leafs, we can use classes or just keep simple styles here if dynamic
+      .attr("fill", d => (d._children ? "#394b66" : (d.children ? "#394b66" : "#1b2230"))) // Kept for logic but overridden by CSS if we used !important, or specific selectors.
+      // Better: Use styling based on classes. Let's add classes.
+      .attr("class", d => d._children || d.children ? "is-folder" : "is-leaf");
+    // We removed manual stroke/stroke-width to rely on CSS .node circle
 
     nodeEnter.append("text")
       .attr("dy", "0.32em")
       .attr("x", d => d._children ? -8 : 8)
       .attr("text-anchor", d => d._children ? "end" : "start")
-      .attr("fill", "#e6e6e6")
-      .style("font-size", "12px")
+      // .attr("fill", "#e6e6e6") // Removed, handled by CSS
+      // .style("font-size", "12px") // Removed, handled by CSS
       .text(d => getLocalizedName(d.data));
 
     nodeEnter.append("title")
@@ -487,7 +487,8 @@ function buildTree(data) {
       .attr("transform", d => `translate(${d.y},${d.x})`);
 
     nodeUpdate.select("circle")
-      .attr("fill", d => (d._children ? "#394b66" : (d.children ? "#394b66" : "#1b2230")));
+      .attr("fill", d => (d._children ? "#394b66" : (d.children ? "#394b66" : "#1b2230")))
+      .attr("class", d => d._children || d.children ? "is-folder" : "is-leaf");
 
     const nodeExit = node.exit().transition()
       .duration(duration)
