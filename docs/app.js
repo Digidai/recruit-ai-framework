@@ -387,8 +387,8 @@ function buildTree(data) {
   // Store initial transform for reset
   const initialTransform = d3.zoomIdentity.translate(40, height / 2).scale(1);
 
-  const dx = 40;
-  const dy = 260;
+  const dx = 26;
+  const dy = 220;
   const tree = d3.tree().nodeSize([dx, dy]);
   const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 
