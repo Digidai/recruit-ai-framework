@@ -438,11 +438,14 @@ function buildTree(data) {
         update(d);
       });
 
-    nodeEnter.append("circle").attr("r", 4.5).attr("fill", d => d._children ? "#394b66" : d.children ? "#394b66" : "#1b2230");
-    // Folders: [Text] O ──── (text LEFT, circle RIGHT, children branch from circle)
-    // Leaves:  [Text] O      (text LEFT, circle RIGHT, consistent layout)
-    nodeEnter.append("text").attr("dy", "0.32em").attr("x", -10)
-      .attr("text-anchor", "end").text(d => getLocalizedName(d.data));
+    const isFolder = d => d._children || d.children;
+    nodeEnter.append("circle").attr("r", 4.5).attr("fill", d => isFolder(d) ? "#394b66" : "#1b2230");
+    // Folders: [Text] O ──── (text LEFT of circle, children branch RIGHT)
+    // Leaves:  O [Text]      (circle LEFT, text RIGHT)
+    nodeEnter.append("text").attr("dy", "0.32em")
+      .attr("x", d => isFolder(d) ? -10 : 10)
+      .attr("text-anchor", d => isFolder(d) ? "end" : "start")
+      .text(d => getLocalizedName(d.data));
     nodeEnter.append("title").text(d => {
       const path = d.ancestors().reverse().map(x => getLocalizedName(x.data)).join(" / ");
       return path + (d.data.url ? `\n${d.data.url}` : "");
