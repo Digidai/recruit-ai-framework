@@ -373,14 +373,27 @@ function buildTree(data) {
 
   const initialTransform = d3.zoomIdentity.translate(40, height / 2).scale(1);
 
-  // Increased spacing to prevent overlap
-  const dx = 32;  // Vertical spacing between nodes
-  const dy = 280; // Horizontal spacing between levels
-  // More aggressive separation for nodes with different parents
+  // Spacing configuration
+  const dx = 24;  // Base vertical spacing between nodes
+  const dy = 260; // Horizontal spacing between levels
+
+  // Count visible descendants of a node
+  const countVisible = (node) => {
+    if (!node.children) return 1;
+    return node.children.reduce((sum, child) => sum + countVisible(child), 0);
+  };
+
+  // Dynamic separation based on subtree sizes to prevent overlap
   const tree = d3.tree().nodeSize([dx, dy]).separation((a, b) => {
-    if (a.parent === b.parent) return 1;
-    // Nodes with different parents need more space
-    return 2;
+    // For siblings, allocate space based on their subtree sizes
+    if (a.parent === b.parent) {
+      const aSize = countVisible(a);
+      const bSize = countVisible(b);
+      // Minimum 1, scale up based on larger subtree
+      return Math.max(1, Math.sqrt(Math.max(aSize, bSize)) * 0.8);
+    }
+    // Non-siblings need more separation
+    return 2.5;
   });
   const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 
