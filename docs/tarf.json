@@ -133,7 +133,7 @@
                   "name_en": "Google｜JobPosting structured data（Job Search）"
                 },
                 {
-                  "name": "Schema.或g｜工作帖子在g Schema",
+                  "name": "Schema.org｜Job Posting Schema",
                   "type": "url",
                   "url": "https://schema.org/JobPosting",
                   "tags": [
@@ -586,7 +586,7 @@
                   "name_en": "Hireflix"
                 },
                 {
-                  "name": "在terviewstream",
+                  "name": "Interviewstream",
                   "type": "url",
                   "url": "https://www.interviewstream.com/",
                   "tags": [
@@ -836,7 +836,7 @@
                   "name_en": "Paradigm"
                 },
                 {
-                  "name": "Textio｜Inclusive Writ在g",
+                  "name": "Textio｜Inclusive Writing",
                   "type": "url",
                   "url": "https://textio.com/",
                   "tags": [
@@ -981,7 +981,7 @@
                   "name_en": "HBR｜How to Hire"
                 },
                 {
-                  "name": "Schmidt & Hunter｜Validity 的 选择i关于 Methods",
+                  "name": "Schmidt & Hunter｜Validity of Selection Methods",
                   "type": "url",
                   "url": "https://psycnet.apa.org/record/1998-10661-006",
                   "tags": [
@@ -1006,7 +1006,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "列表 的 Cognitive 偏见es（Wikipedia）",
+                  "name": "List of Cognitive Biases（Wikipedia）",
                   "type": "url",
                   "url": "https://en.wikipedia.org/wiki/List_of_cognitive_biases",
                   "tags": [
@@ -1015,7 +1015,7 @@
                   "name_en": "List of Cognitive Biases（Wikipedia）"
                 },
                 {
-                  "name": "Behavi或al Insights Team",
+                  "name": "Behavioral Insights Team",
                   "type": "url",
                   "url": "https://www.bi.team/",
                   "tags": [
@@ -1024,7 +1024,7 @@
                   "name_en": "Behavioral Insights Team"
                 },
                 {
-                  "name": "ideas42（Behavi或al Science）",
+                  "name": "ideas42（Behavioral Science）",
                   "type": "url",
                   "url": "https://www.ideas42.org/",
                   "tags": [
@@ -1042,7 +1042,7 @@
                   "name_en": "BVA Nudge Unit"
                 },
                 {
-                  "name": "Iris Bohnet｜什么 W或ks（性别 Equality）",
+                  "name": "Iris Bohnet｜What Works（Gender Equality）",
                   "type": "url",
                   "url": "https://www.goodreads.com/book/show/27226096-what-works",
                   "tags": [
@@ -1059,7 +1059,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "大 Five Pers关于ality Model",
+                  "name": "Big Five Personality Model",
                   "type": "url",
                   "url": "https://www.psychologytoday.com/us/basics/big-5-personality-traits",
                   "tags": [
@@ -1077,7 +1077,7 @@
                   "name_en": "SIOP（I-O Psychology）"
                 },
                 {
-                  "name": "APA｜Industrial-Organiz在i关于al Psychology",
+                  "name": "APA｜Industrial-Organizational Psychology",
                   "type": "url",
                   "url": "https://www.apa.org/ed/graduate/specialize/industrial",
                   "tags": [
@@ -1086,7 +1086,7 @@
                   "name_en": "APA｜Industrial-Organizational Psychology"
                 },
                 {
-                  "name": "Pers关于nel Psychology J我们的nal",
+                  "name": "Personnel Psychology Journal",
                   "type": "url",
                   "url": "https://onlinelibrary.wiley.com/journal/17446570",
                   "tags": [
@@ -1095,7 +1095,7 @@
                   "name_en": "Personnel Psychology Journal"
                 },
                 {
-                  "name": "J我们的nal 的 应用lied Psychology",
+                  "name": "Journal of Applied Psychology",
                   "type": "url",
                   "url": "https://www.apa.org/pubs/journals/apl",
                   "tags": [
@@ -1343,7 +1343,7 @@
                   "name_en": "Indeed for Employers"
                 },
                 {
-                  "name": "Glassdo或 为 Employers",
+                  "name": "Glassdoor for Employers",
                   "type": "url",
                   "url": "https://www.glassdoor.com/employers/",
                   "tags": [
@@ -1361,7 +1361,7 @@
                   "name_en": "ZipRecruiter"
                 },
                 {
-                  "name": "M关于ster",
+                  "name": "Monster",
                   "type": "url",
                   "url": "https://www.monster.com/",
                   "tags": [
@@ -1548,7 +1548,7 @@
                   "name_en": "DiversityJobs"
                 },
                 {
-                  "name": "Jopwell（Black/L在在o/原生 American）",
+                  "name": "Jopwell（Black/Latino/Native American）",
                   "type": "url",
                   "url": "https://www.jopwell.com/",
                   "tags": [
@@ -1736,7 +1736,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Upw或k",
+                  "name": "Upwork",
                   "type": "url",
                   "url": "https://www.upwork.com/",
                   "tags": [
@@ -1745,7 +1745,7 @@
                   "name_en": "Upwork"
                 },
                 {
-                  "name": "Fiverr Bus在ess",
+                  "name": "Fiverr Business",
                   "type": "url",
                   "url": "https://business.fiverr.com/",
                   "tags": [
@@ -1985,7 +1985,7 @@
                   "name_en": "arXiv (Preprints)"
                 },
                 {
-                  "name": "研究G在e",
+                  "name": "ResearchGate",
                   "type": "url",
                   "url": "https://www.researchgate.net/",
                   "tags": [
@@ -2540,7 +2540,7 @@
                   "name_en": "Heidrick & Struggles"
                 },
                 {
-                  "name": "Russell Reynolds Associ在es",
+                  "name": "Russell Reynolds Associates",
                   "type": "url",
                   "url": "https://www.russellreynolds.com/",
                   "tags": [
@@ -2550,7 +2550,7 @@
                   "name_en": "Russell Reynolds Associates"
                 },
                 {
-                  "name": "Eg关于 Zehnder",
+                  "name": "Egon Zehnder",
                   "type": "url",
                   "url": "https://www.egonzehnder.com/",
                   "tags": [
@@ -2737,7 +2737,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "eF在ancialCareers",
+                  "name": "eFinancialCareers",
                   "type": "url",
                   "url": "https://www.efinancialcareers.com/",
                   "tags": [
@@ -3401,7 +3401,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "W或kable",
+                  "name": "Workable",
                   "type": "url",
                   "url": "https://www.workable.com/",
                   "tags": [
@@ -3442,7 +3442,7 @@
                   "name_en": "Zoho Recruit"
                 },
                 {
-                  "name": "Teamtail或",
+                  "name": "Teamtailor",
                   "type": "url",
                   "url": "https://www.teamtailor.com/",
                   "tags": [
@@ -3719,7 +3719,7 @@
                   "name_en": "Lever API"
                 },
                 {
-                  "name": "W或kday API",
+                  "name": "Workday API",
                   "type": "url",
                   "url": "https://community.workday.com/api",
                   "tags": [
@@ -3739,7 +3739,7 @@
                   "name_en": "SmartRecruiters API"
                 },
                 {
-                  "name": "Ash通过 API",
+                  "name": "Ashby API",
                   "type": "url",
                   "url": "https://developers.ashbyhq.com/",
                   "tags": [
@@ -3777,7 +3777,7 @@
                   "name_en": "Merge.dev (HR API Aggregation)"
                 },
                 {
-                  "name": "F在ch（Employment API）",
+                  "name": "Finch（Employment API）",
                   "type": "url",
                   "url": "https://tryfinch.com/",
                   "tags": [
@@ -3809,7 +3809,7 @@
                   "name_en": "Zapier HR Integrations"
                 },
                 {
-                  "name": "W或k在o HR C关于nect或s",
+                  "name": "Workato HR Connectors",
                   "type": "url",
                   "url": "https://www.workato.com/integrations",
                   "tags": [
@@ -3836,7 +3836,7 @@
                   "name_en": "Sovren Resume Parser API"
                 },
                 {
-                  "name": "Aff在da 恢复 Parser API",
+                  "name": "Affinda Resume Parser API",
                   "type": "url",
                   "url": "https://www.affinda.com/resume-parser",
                   "tags": [
@@ -3856,7 +3856,7 @@
                   "name_en": "Lightcast Skills API"
                 },
                 {
-                  "name": "Textkernel Semantic M在ch在g API",
+                  "name": "Textkernel Semantic Matching API",
                   "type": "url",
                   "url": "https://www.textkernel.com/hr-ai-matching-technology/",
                   "tags": [
@@ -3894,7 +3894,7 @@
                   "name_en": "HR-JSON"
                 },
                 {
-                  "name": "恢复Parser（Pyth关于）",
+                  "name": "ResumeParser（Python）",
                   "type": "url",
                   "url": "https://github.com/OmkarPathak/pyresparser",
                   "tags": [
@@ -3914,7 +3914,7 @@
                   "name_en": "JResumeParser（Java）"
                 },
                 {
-                  "name": "工作lib（机器学习 Pipel在e）",
+                  "name": "Joblib（ML Pipeline）",
                   "type": "url",
                   "url": "https://joblib.readthedocs.io/",
                   "tags": [
@@ -4057,7 +4057,7 @@
                   "name_en": "hireEZ Automated Outreach"
                 },
                 {
-                  "name": "Ash通过 自动化s",
+                  "name": "Ashby Automations",
                   "type": "url",
                   "url": "https://www.ashbyhq.com/product/automations",
                   "tags": [
@@ -4084,7 +4084,7 @@
                   "name_en": "Outreach"
                 },
                 {
-                  "name": "Salesl的t",
+                  "name": "Salesloft",
                   "type": "url",
                   "url": "https://www.salesloft.com/",
                   "tags": [
@@ -4206,7 +4206,7 @@
                   "name_en": "Cronofy｜Interview Scheduling"
                 },
                 {
-                  "name": "现代Loop｜Schedul在g",
+                  "name": "ModernLoop｜Scheduling",
                   "type": "url",
                   "url": "https://www.modernloop.io/",
                   "tags": [
@@ -4216,7 +4216,7 @@
                   "name_en": "ModernLoop｜Scheduling"
                 },
                 {
-                  "name": "Doodle｜Group Schedul在g",
+                  "name": "Doodle｜Group Scheduling",
                   "type": "url",
                   "url": "https://doodle.com/",
                   "tags": [
@@ -4226,7 +4226,7 @@
                   "name_en": "Doodle｜Group Scheduling"
                 },
                 {
-                  "name": "Cal.com｜开放 S我们的ce",
+                  "name": "Cal.com｜Open Source",
                   "type": "url",
                   "url": "https://cal.com/",
                   "tags": [
@@ -4320,7 +4320,7 @@
                   "name_en": "Coda｜Docs & Apps"
                 },
                 {
-                  "name": "Obsidian｜没有te Tak在g",
+                  "name": "Obsidian｜Note Taking",
                   "type": "url",
                   "url": "https://obsidian.md/",
                   "tags": [
@@ -4330,7 +4330,7 @@
                   "name_en": "Obsidian｜Note Taking"
                 },
                 {
-                  "name": "Roam 研究｜Netw或ked Thought",
+                  "name": "Roam Research｜Networked Thought",
                   "type": "url",
                   "url": "https://roamresearch.com/",
                   "tags": [
@@ -4369,7 +4369,7 @@
                   "name_en": "Dux-Soup｜LinkedIn Automation"
                 },
                 {
-                  "name": "ContactOut｜Email 找到er",
+                  "name": "ContactOut｜Email Finder",
                   "type": "url",
                   "url": "https://contactout.com/",
                   "tags": [
@@ -4391,7 +4391,7 @@
                   "name_en": "Lusha｜Contact Data"
                 },
                 {
-                  "name": "Hunter｜Email 找到er",
+                  "name": "Hunter｜Email Finder",
                   "type": "url",
                   "url": "https://hunter.io/",
                   "tags": [
@@ -4402,7 +4402,7 @@
                   "name_en": "Hunter｜Email Finder"
                 },
                 {
-                  "name": "Clearbit C关于nect｜Email",
+                  "name": "Clearbit Connect｜Email",
                   "type": "url",
                   "url": "https://clearbit.com/connect",
                   "tags": [
@@ -4621,7 +4621,7 @@
                   "name_en": "Beamery（Talent CRM / Skills）"
                 },
                 {
-                  "name": "找到em（People Intelligence）",
+                  "name": "Findem（People Intelligence）",
                   "type": "url",
                   "url": "https://www.findem.ai/",
                   "tags": [
@@ -5608,7 +5608,7 @@
                   "name_en": "Themis-ML"
                 },
                 {
-                  "name": "Tens或Flow 公平性 Indic在或s",
+                  "name": "TensorFlow Fairness Indicators",
                   "type": "url",
                   "url": "https://www.tensorflow.org/tfx/guide/fairness_indicators",
                   "tags": [
@@ -5655,7 +5655,7 @@
                   "name_en": "InterpretML（Microsoft）"
                 },
                 {
-                  "name": "Alibi Expla在",
+                  "name": "Alibi Explain",
                   "type": "url",
                   "url": "https://github.com/SeldonIO/alibi",
                   "tags": [
@@ -5832,7 +5832,7 @@
                   "name_en": "OpenAI｜ChatGPT Enterprise"
                 },
                 {
-                  "name": "Anthropic｜Claude 为 W或k",
+                  "name": "Anthropic｜Claude for Work",
                   "type": "url",
                   "url": "https://www.anthropic.com/claude",
                   "tags": [
@@ -6033,7 +6033,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "LangCha在",
+                  "name": "LangChain",
                   "type": "url",
                   "url": "https://www.langchain.com/",
                   "tags": [
@@ -6269,7 +6269,7 @@
                   "name_en": "MIT｜AI Hiring Research"
                 },
                 {
-                  "name": "ACM｜FAccT C关于ference",
+                  "name": "ACM｜FAccT Conference",
                   "type": "url",
                   "url": "https://facctconference.org/",
                   "tags": [
@@ -6529,7 +6529,7 @@
                   "name_en": "FTC FCRA Background Check Guide"
                 },
                 {
-                  "name": "金融时报C｜Employer 背景调查 和 Y我们的 正确s",
+                  "name": "FTC｜Employer Background Checks and Your Rights",
                   "type": "url",
                   "url": "https://consumer.ftc.gov/articles/employer-background-checks-and-your-rights",
                   "tags": [
@@ -6633,7 +6633,7 @@
                   "name_en": "BambooHR Onboarding"
                 },
                 {
-                  "name": "Sapl在g（Kallidus）",
+                  "name": "Sapling（Kallidus）",
                   "type": "url",
                   "url": "https://www.kallidus.com/sapling/",
                   "tags": [
@@ -6653,7 +6653,7 @@
                   "name_en": "Enboarder"
                 },
                 {
-                  "name": "Click Board在g",
+                  "name": "ClickBoarding",
                   "type": "url",
                   "url": "https://www.clickboarding.com/",
                   "tags": [
@@ -6717,7 +6717,7 @@
                   "name_en": "New York｜Pay Transparency Law"
                 },
                 {
-                  "name": "Col或ado｜Equal 薪酬 为 Equal W或k 法案",
+                  "name": "Colorado｜Equal Pay for Equal Work Act",
                   "type": "url",
                   "url": "https://cdle.colorado.gov/equalpaytransparency",
                   "tags": [
@@ -6727,7 +6727,7 @@
                   "name_en": "Colorado｜Equal Pay for Equal Work Act"
                 },
                 {
-                  "name": "Washing到n｜Equal 薪酬 和 Opp或tunities 法案",
+                  "name": "Washington｜Equal Pay and Opportunities Act",
                   "type": "url",
                   "url": "https://lni.wa.gov/workers-rights/wages/equal-pay-opportunities-act/",
                   "tags": [
@@ -6774,7 +6774,7 @@
                   "name_en": "UK｜Gender Pay Gap Reporting"
                 },
                 {
-                  "name": "Australia｜W或kplace 性别 Equality",
+                  "name": "Australia｜Workplace Gender Equality",
                   "type": "url",
                   "url": "https://www.wgea.gov.au/",
                   "tags": [
@@ -6833,7 +6833,7 @@
                   "name_en": "PayScale Pay Equity"
                 },
                 {
-                  "name": "A关于 薪酬公平",
+                  "name": "Aon Pay Equity",
                   "type": "url",
                   "url": "https://humancapital.aon.com/insights/topics/pay-equity",
                   "tags": [
@@ -6985,7 +6985,7 @@
                   "name_en": "CPRA｜California Privacy Rights Act"
                 },
                 {
-                  "name": "Virg在ia CDPA",
+                  "name": "Virginia CDPA",
                   "type": "url",
                   "url": "https://law.lis.virginia.gov/vacodefull/title59.1/chapter53/",
                   "tags": [
@@ -7169,7 +7169,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "DOL（Department 的 Lab或）",
+                  "name": "DOL（Department of Labor）",
                   "type": "url",
                   "url": "https://www.dol.gov/",
                   "tags": [
@@ -7189,7 +7189,7 @@
                   "name_en": "EEOC（Equal Employment Opportunity Commission）"
                 },
                 {
-                  "name": "NLRB（N在i关于al Lab或 Rel在i关于s Board）",
+                  "name": "NLRB（National Labor Relations Board）",
                   "type": "url",
                   "url": "https://www.nlrb.gov/",
                   "tags": [
@@ -7209,7 +7209,7 @@
                   "name_en": "FLSA（Fair Labor Standards Act）"
                 },
                 {
-                  "name": "I-9 Central（W或k Auth或iz在i关于）",
+                  "name": "I-9 Central（Work Authorization）",
                   "type": "url",
                   "url": "https://www.uscis.gov/i-9-central",
                   "tags": [
@@ -7276,7 +7276,7 @@
                   "name_en": "Australia Fair Work"
                 },
                 {
-                  "name": "Canada Lab我们的 代码",
+                  "name": "Canada Labour Code",
                   "type": "url",
                   "url": "https://www.canada.ca/en/services/jobs/workplace/federal-labour-standards.html",
                   "tags": [
@@ -7350,7 +7350,7 @@
                   "name_en": "Littler Mendelson"
                 },
                 {
-                  "name": "Jacks关于 Lewis",
+                  "name": "Jackson Lewis",
                   "type": "url",
                   "url": "https://www.jacksonlewis.com/",
                   "tags": [
@@ -7511,7 +7511,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "N在i关于al Student Clear在ghouse",
+                  "name": "National Student Clearinghouse",
                   "type": "url",
                   "url": "https://www.studentclearinghouse.org/",
                   "tags": [
@@ -7531,7 +7531,7 @@
                   "name_en": "Parchment"
                 },
                 {
-                  "name": "WES（W或ld Educ在i关于 Services）",
+                  "name": "WES（World Education Services）",
                   "type": "url",
                   "url": "https://www.wes.org/",
                   "tags": [
@@ -7767,7 +7767,7 @@
                   "name_en": "O*NET Military Crosswalk"
                 },
                 {
-                  "name": "Military Skills Transl在或（Military.com）",
+                  "name": "Military Skills Translator（Military.com）",
                   "type": "url",
                   "url": "https://www.military.com/skills-translator",
                   "tags": [
@@ -7787,7 +7787,7 @@
                   "name_en": "Skillbridge（DoD）"
                 },
                 {
-                  "name": "Onward 到 Opp或tunity",
+                  "name": "Onward to Opportunity",
                   "type": "url",
                   "url": "https://onward2opportunity.org/",
                   "tags": [
@@ -7824,7 +7824,7 @@
                   "name_en": "Military Friendly Employers"
                 },
                 {
-                  "name": "DOL HIRE Vets Medalli关于",
+                  "name": "DOL HIRE Vets Medallion",
                   "type": "url",
                   "url": "https://www.hirevets.gov/",
                   "tags": [
@@ -7858,7 +7858,7 @@
                   "name_en": "Disability:IN"
                 },
                 {
-                  "name": "Gett在g Hired",
+                  "name": "Getting Hired",
                   "type": "url",
                   "url": "https://www.gettinghired.com/",
                   "tags": [
@@ -7868,7 +7868,7 @@
                   "name_en": "Getting Hired"
                 },
                 {
-                  "name": "Bender C关于sult在g Services",
+                  "name": "Bender Consulting Services",
                   "type": "url",
                   "url": "https://www.benderconsult.com/",
                   "tags": [
@@ -7898,7 +7898,7 @@
                   "name_en": "Inclusively"
                 },
                 {
-                  "name": "Unders到od.或g 工作 资源",
+                  "name": "Understood.org 工作资源",
                   "type": "url",
                   "url": "https://www.understood.org/",
                   "tags": [
@@ -7934,7 +7934,7 @@
                   "name_en": "EEOC｜Disability Discrimination"
                 },
                 {
-                  "name": "Secti关于 503 的 Rehabilit在i关于 法案",
+                  "name": "Section 503 of Rehabilitation Act",
                   "type": "url",
                   "url": "https://www.dol.gov/agencies/ofccp/section-503",
                   "tags": [
@@ -7998,7 +7998,7 @@
                   "name_en": "WCAG Guidelines"
                 },
                 {
-                  "name": "PEAT（Partnership 关于 Employment & Accessible Technology）",
+                  "name": "PEAT（Partnership on Employment & Accessible Technology）",
                   "type": "url",
                   "url": "https://www.peatworks.org/",
                   "tags": [
@@ -8008,7 +8008,7 @@
                   "name_en": "PEAT（Partnership on Employment & Accessible Technology）"
                 },
                 {
-                  "name": "工作 Accommod在i关于 Netw或k（JAN）",
+                  "name": "Job Accommodation Network（JAN）",
                   "type": "url",
                   "url": "https://askjan.org/",
                   "tags": [
@@ -8034,7 +8034,7 @@
                   "name_en": "Specialisterne"
                 },
                 {
-                  "name": "Autism 在 W或k Employer Roundtable",
+                  "name": "Autism at Work Employer Roundtable",
                   "type": "url",
                   "url": "https://disabilityin.org/what-we-do/autism/",
                   "tags": [
@@ -8052,7 +8052,7 @@
                   "name_en": "Microsoft Autism Hiring Program"
                 },
                 {
-                  "name": "SAP Autism 在 W或k",
+                  "name": "SAP Autism at Work",
                   "type": "url",
                   "url": "https://www.sap.com/about/company/diversity/differently-abled.html",
                   "tags": [
@@ -8156,7 +8156,7 @@
                   "name_en": "EEOC｜Pre-Employment Inquiries"
                 },
                 {
-                  "name": "Bus在ess Roundtable｜Sec关于d Chance",
+                  "name": "Business Roundtable｜Second Chance",
                   "type": "url",
                   "url": "https://www.secondchancebusinesscoalition.org/",
                   "tags": [
@@ -8176,7 +8176,7 @@
                   "name_en": "ACLU｜Fair Hiring"
                 },
                 {
-                  "name": "Dave's Killer Bread Found在i关于",
+                  "name": "Dave's Killer Bread Foundation",
                   "type": "url",
                   "url": "https://www.dkbfoundation.org/",
                   "tags": [
@@ -8286,7 +8286,7 @@
                   "name_en": "Recruiter Ethics（LinkedIn）"
                 },
                 {
-                  "name": "APSCo 代码 的 C关于duct",
+                  "name": "APSCo Code of Conduct",
                   "type": "url",
                   "url": "https://www.apsco.org/",
                   "tags": [
@@ -8296,7 +8296,7 @@
                   "name_en": "APSCo Code of Conduct"
                 },
                 {
-                  "name": "REC 代码 的 Practice",
+                  "name": "REC Code of Practice",
                   "type": "url",
                   "url": "https://www.rec.uk.com/",
                   "tags": [
@@ -8341,7 +8341,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Autism@W或k（SAP）",
+                  "name": "Autism@Work（SAP）",
                   "type": "url",
                   "url": "https://www.sap.com/about/careers/your-career/autism-at-work.html",
                   "tags": [
@@ -8361,7 +8361,7 @@
                   "name_en": "Microsoft｜Autism Hiring"
                 },
                 {
-                  "name": "JPM或gan｜Autism 在 W或k",
+                  "name": "JPMorgan｜Autism at Work",
                   "type": "url",
                   "url": "https://www.jpmorganchase.com/about/our-commitment-to-diversity",
                   "tags": [
@@ -8408,7 +8408,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Integr在e Autism Employment",
+                  "name": "Integrate Autism Employment",
                   "type": "url",
                   "url": "https://integrateautism.com/",
                   "tags": [
@@ -8494,7 +8494,7 @@
                   "name_en": "Made By Dyslexia"
                 },
                 {
-                  "name": "Unders到od.org｜W或kplace",
+                  "name": "Understood.org｜Workplace",
                   "type": "url",
                   "url": "https://www.understood.org/en/articles/workplace",
                   "tags": [
@@ -8521,7 +8521,7 @@
                   "name_en": "Texthelp｜Read&Write"
                 },
                 {
-                  "name": "N在ural Reader｜Text 到 Speech",
+                  "name": "Natural Reader｜Text to Speech",
                   "type": "url",
                   "url": "https://www.naturalreaders.com/",
                   "tags": [
@@ -8531,7 +8531,7 @@
                   "name_en": "Natural Reader｜Text to Speech"
                 },
                 {
-                  "name": "Grammarly｜Writ在g 协助ance",
+                  "name": "Grammarly｜Writing Assistance",
                   "type": "url",
                   "url": "https://www.grammarly.com/",
                   "tags": [
@@ -8541,7 +8541,7 @@
                   "name_en": "Grammarly｜Writing Assistance"
                 },
                 {
-                  "name": "Otter.ai｜Transcripti关于",
+                  "name": "Otter.ai｜Transcription",
                   "type": "url",
                   "url": "https://otter.ai/",
                   "tags": [
@@ -8683,7 +8683,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Glassdo或",
+                  "name": "Glassdoor",
                   "type": "url",
                   "url": "https://www.glassdoor.com/",
                   "tags": [
@@ -8770,7 +8770,7 @@
                   "name_en": "The Muse"
                 },
                 {
-                  "name": "Glassdo或 Company 更新s",
+                  "name": "Glassdoor Company Updates",
                   "type": "url",
                   "url": "https://www.glassdoor.com/employers/products/company-updates/",
                   "tags": [
@@ -9050,7 +9050,7 @@
                   "name_en": "Talentegy（Career Site Analytics）"
                 },
                 {
-                  "name": "Recruitics（专业版gramm在ic Ads）",
+                  "name": "Recruitics（Programmatic Ads）",
                   "type": "url",
                   "url": "https://www.recruitics.com/",
                   "tags": [
@@ -9067,7 +9067,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Hem在gway Edit或",
+                  "name": "Hemingway Editor",
                   "type": "url",
                   "url": "https://hemingwayapp.com/",
                   "tags": [
@@ -9076,7 +9076,7 @@
                   "name_en": "Hemingway Editor"
                 },
                 {
-                  "name": "Grammarly Bus在ess",
+                  "name": "Grammarly Business",
                   "type": "url",
                   "url": "https://www.grammarly.com/business",
                   "tags": [
@@ -9251,7 +9251,7 @@
                   ]
                 },
                 {
-                  "name": "Mettl 在线评估",
+                  "name": "Mettl Online Assessment",
                   "name_en": "Mettl｜Online Assessment",
                   "url": "https://mettl.com/",
                   "tags": [
@@ -9662,7 +9662,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Grayscale｜Text在g",
+                  "name": "Grayscale｜Texting",
                   "type": "url",
                   "url": "https://www.grayscaleapp.com/",
                   "tags": [
@@ -9693,7 +9693,7 @@
                   "name_en": "Emissary.ai｜Text Recruiting"
                 },
                 {
-                  "name": "Hireology｜Communic在i关于",
+                  "name": "Hireology｜Communication",
                   "type": "url",
                   "url": "https://hireology.com/",
                   "tags": [
@@ -9804,7 +9804,7 @@
                   "name_en": "HeyGen｜AI Spokesperson"
                 },
                 {
-                  "name": "Descript｜视频 Edit在g",
+                  "name": "Descript｜Video Editing",
                   "type": "url",
                   "url": "https://www.descript.com/",
                   "tags": [
@@ -9832,7 +9832,7 @@
                   "name_en": "VideoMyJob｜Job Videos"
                 },
                 {
-                  "name": "Vimeo｜Bus在ess 视频",
+                  "name": "Vimeo｜Business Video",
                   "type": "url",
                   "url": "https://vimeo.com/",
                   "tags": [
@@ -9842,7 +9842,7 @@
                   "name_en": "Vimeo｜Business Video"
                 },
                 {
-                  "name": "Wistia｜视频 市场在g",
+                  "name": "Wistia｜Video Marketing",
                   "type": "url",
                   "url": "https://wistia.com/",
                   "tags": [
@@ -9915,7 +9915,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "M在terport｜3D T我们的s",
+                  "name": "Matterport｜3D Tours",
                   "type": "url",
                   "url": "https://matterport.com/",
                   "tags": [
@@ -9925,7 +9925,7 @@
                   "name_en": "Matterport｜3D Tours"
                 },
                 {
-                  "name": "Kuula｜360 T我们的s",
+                  "name": "Kuula｜360 Tours",
                   "type": "url",
                   "url": "https://kuula.co/",
                   "tags": [
@@ -9945,7 +9945,7 @@
                   "name_en": "Google Street View｜Virtual Tour"
                 },
                 {
-                  "name": "Roundme｜VR T我们的s",
+                  "name": "Roundme｜VR Tours",
                   "type": "url",
                   "url": "https://roundme.com/",
                   "tags": [
@@ -9955,7 +9955,7 @@
                   "name_en": "Roundme｜VR Tours"
                 },
                 {
-                  "name": "Pano2VR｜虚拟 T我们的s",
+                  "name": "Pano2VR｜Virtual Tours",
                   "type": "url",
                   "url": "https://ggnome.com/pano2vr/",
                   "tags": [
@@ -10087,7 +10087,7 @@
                   "name_en": "Eightfold Talent Management"
                 },
                 {
-                  "name": "W或kday Career Hub",
+                  "name": "Workday Career Hub",
                   "type": "url",
                   "url": "https://www.workday.com/en-us/products/talent-management/career-hub.html",
                   "tags": [
@@ -10211,7 +10211,7 @@
                   "name_en": "Oracle Talent Management"
                 },
                 {
-                  "name": "C或nerst关于e OnDem和",
+                  "name": "Cornerstone OnDemand",
                   "type": "url",
                   "url": "https://www.cornerstoneondemand.com/",
                   "tags": [
@@ -10221,7 +10221,7 @@
                   "name_en": "Cornerstone OnDemand"
                 },
                 {
-                  "name": "SumTotal（C或nerst关于e）",
+                  "name": "SumTotal（Cornerstone）",
                   "type": "url",
                   "url": "https://www.sumtotalsystems.com/",
                   "tags": [
@@ -10400,7 +10400,7 @@
                   "name_en": "Skillsoft"
                 },
                 {
-                  "name": "人才Neur关于（高德纳）",
+                  "name": "TalentNeuron（Gartner）",
                   "type": "url",
                   "url": "https://www.gartner.com/en/human-resources/research/talentneuron",
                   "tags": [
@@ -10414,7 +10414,7 @@
               "name_en": "Skills Mapping / Competency Models"
             },
             {
-              "name": "Successi关于 Wizard",
+              "name": "Succession Wizard",
               "name_en": "Succession Wizard",
               "type": "url",
               "url": "https://successionwizard.net/",
@@ -10455,7 +10455,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Fuel50｜Career P在h在g",
+                  "name": "Fuel50｜Career Pathing",
                   "type": "url",
                   "url": "https://fuel50.com/",
                   "tags": [
@@ -10485,7 +10485,7 @@
                   "name_en": "Paddle HR"
                 },
                 {
-                  "name": "Workday｜Opp或tunity Graph",
+                  "name": "Workday｜Opportunity Graph",
                   "type": "url",
                   "url": "https://www.workday.com/",
                   "tags": [
@@ -10495,7 +10495,7 @@
                   "name_en": "Workday｜Opportunity Graph"
                 },
                 {
-                  "name": "Av在ure｜内部 Mobility",
+                  "name": "Avature｜Internal Mobility",
                   "type": "url",
                   "url": "https://www.avature.net/internal-mobility/",
                   "tags": [
@@ -10512,7 +10512,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Lightcast｜Skills Tax关于omy",
+                  "name": "Lightcast｜Skills Taxonomy",
                   "type": "url",
                   "url": "https://lightcast.io/",
                   "tags": [
@@ -10522,7 +10522,7 @@
                   "name_en": "Lightcast｜Skills Taxonomy"
                 },
                 {
-                  "name": "ESCO｜European Skills Tax关于omy",
+                  "name": "ESCO｜European Skills Taxonomy",
                   "type": "url",
                   "url": "https://esco.ec.europa.eu/",
                   "tags": [
@@ -10651,7 +10651,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Disc或d｜Tech Communities",
+                  "name": "Discord｜Tech Communities",
                   "type": "url",
                   "url": "https://discord.com/",
                   "tags": [
@@ -10661,7 +10661,7 @@
                   "name_en": "Discord｜Tech Communities"
                 },
                 {
-                  "name": "Slack｜专业版fessi关于al Communities",
+                  "name": "Slack｜Professional Communities",
                   "type": "url",
                   "url": "https://slack.com/",
                   "tags": [
@@ -10681,7 +10681,7 @@
                   "name_en": "Circle｜Community Platform"
                 },
                 {
-                  "name": "Mighty Netw或ks｜Community",
+                  "name": "Mighty Networks｜Community",
                   "type": "url",
                   "url": "https://www.mightynetworks.com/",
                   "tags": [
@@ -10701,7 +10701,7 @@
                   "name_en": "Hivebrite｜Alumni & Community"
                 },
                 {
-                  "name": "Graduway｜Alumni Netw或k",
+                  "name": "Graduway｜Alumni Network",
                   "type": "url",
                   "url": "https://www.graduway.com/",
                   "tags": [
@@ -10784,7 +10784,7 @@
                   "name_en": "LinkedIn Alumni｜School Pages"
                 },
                 {
-                  "name": "PeopleGrove｜Career Netw或ks",
+                  "name": "PeopleGrove｜Career Networks",
                   "type": "url",
                   "url": "https://www.peoplegrove.com/",
                   "tags": [
@@ -10811,7 +10811,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "CMX｜Community 专业版fessi关于als",
+                  "name": "CMX｜Community Professionals",
                   "type": "url",
                   "url": "https://cmxhub.com/",
                   "tags": [
@@ -10885,7 +10885,7 @@
                   "name_en": "Asana｜Project Management"
                 },
                 {
-                  "name": "Monday.com｜W或k OS",
+                  "name": "Monday.com｜Work OS",
                   "type": "url",
                   "url": "https://monday.com/",
                   "tags": [
@@ -10905,7 +10905,7 @@
                   "name_en": "Trello｜Kanban Boards"
                 },
                 {
-                  "name": "ClickUp｜所有-在-One",
+                  "name": "ClickUp｜All-in-One",
                   "type": "url",
                   "url": "https://clickup.com/",
                   "tags": [
@@ -10915,7 +10915,7 @@
                   "name_en": "ClickUp｜All-in-One"
                 },
                 {
-                  "name": "L在ear｜Issue 追踪",
+                  "name": "Linear｜Issue Tracking",
                   "type": "url",
                   "url": "https://linear.app/",
                   "tags": [
@@ -10942,7 +10942,7 @@
                   "name_en": "Peakon｜Employee Voice"
                 },
                 {
-                  "name": "更好Up｜Coach在g",
+                  "name": "BetterUp｜Coaching",
                   "type": "url",
                   "url": "https://www.betterup.com/",
                   "tags": [
@@ -11171,7 +11171,7 @@
                   "name_en": "Velocity Global"
                 },
                 {
-                  "name": "全球iz在i关于 Partners (G-P)",
+                  "name": "Globalization Partners (G-P)",
                   "type": "url",
                   "url": "https://www.globalization-partners.com/",
                   "tags": [
@@ -11254,7 +11254,7 @@
                   "name_en": "Remote OK"
                 },
                 {
-                  "name": "We W或k 远程ly",
+                  "name": "We Work Remotely",
                   "type": "url",
                   "url": "https://weworkremotely.com/",
                   "tags": [
@@ -11316,7 +11316,7 @@
               ]
             },
             {
-              "name": "Rem的irst",
+              "name": "Remofirst",
               "name_en": "Remofirst",
               "type": "url",
               "url": "https://www.remofirst.com/",
@@ -11367,7 +11367,7 @@
                   "name_en": "AMS (Alexander Mann Solutions)"
                 },
                 {
-                  "name": "任仕达 S我们的ceright",
+                  "name": "Randstad Sourceright",
                   "type": "url",
                   "url": "https://www.randstadsourceright.com/",
                   "tags": [
@@ -11397,7 +11397,7 @@
                   "name_en": "PeopleScout"
                 },
                 {
-                  "name": "Huds关于 RPO",
+                  "name": "Hudson RPO",
                   "type": "url",
                   "url": "https://hudsonrpo.com/",
                   "tags": [
@@ -11502,7 +11502,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "RPOA（RPO Associ在i关于）",
+                  "name": "RPOA（RPO Association）",
                   "type": "url",
                   "url": "https://www.rpoassociation.org/",
                   "tags": [
@@ -11556,7 +11556,7 @@
               ]
             },
             {
-              "name": "Wils关于HCG",
+              "name": "WilsonHCG",
               "name_en": "WilsonHCG",
               "type": "url",
               "url": "https://www.wilsonhcg.com/",
@@ -11647,7 +11647,7 @@
                   "name_en": "Naukri.com (India)"
                 },
                 {
-                  "name": "FoundIt (M关于ster India)",
+                  "name": "FoundIt (Monster India)",
                   "type": "url",
                   "url": "https://www.foundit.in/",
                   "tags": [
@@ -12085,7 +12085,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Dev.到 工作",
+                  "name": "Dev.to Jobs",
                   "type": "url",
                   "url": "https://dev.to/listings/jobs",
                   "tags": [
@@ -12149,7 +12149,7 @@
                   "name_en": "Stack Overflow Developer Survey"
                 },
                 {
-                  "name": "GitHub Oc到verse",
+                  "name": "GitHub Octoverse",
                   "type": "url",
                   "url": "https://octoverse.github.com/",
                   "tags": [
@@ -12159,7 +12159,7 @@
                   "name_en": "GitHub Octoverse"
                 },
                 {
-                  "name": "JetBra在s 发展er Ecosystem",
+                  "name": "JetBrains Developer Ecosystem",
                   "type": "url",
                   "url": "https://www.jetbrains.com/lp/devecosystem/",
                   "tags": [
@@ -12193,7 +12193,7 @@
               ]
             },
             {
-              "name": "Cod在game 为 W或k",
+              "name": "CodinGame for Work",
               "name_en": "Codingame for Work",
               "type": "url",
               "url": "https://www.codingame.com/work/",
@@ -12354,7 +12354,7 @@
                   "name_en": "A.Team（Tech Teams）"
                 },
                 {
-                  "name": "C在alant（专家版 市场place）",
+                  "name": "Catalant（Expert Marketplace）",
                   "type": "url",
                   "url": "https://www.catalant.com/",
                   "tags": [
@@ -12554,7 +12554,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Trucks到p｜Truck在g 工作",
+                  "name": "Truckstop｜Trucking Jobs",
                   "type": "url",
                   "url": "https://truckstop.com/",
                   "tags": [
@@ -12584,7 +12584,7 @@
                   "name_en": "Hcareers｜Hospitality"
                 },
                 {
-                  "name": "iHireC关于structi关于",
+                  "name": "iHireConstruction",
                   "type": "url",
                   "url": "https://www.ihireconstruction.com/",
                   "tags": [
@@ -12594,7 +12594,7 @@
                   "name_en": "iHireConstruction"
                 },
                 {
-                  "name": "酷Works｜Seas关于al 工作",
+                  "name": "CoolWorks｜Seasonal Jobs",
                   "type": "url",
                   "url": "https://www.coolworks.com/",
                   "tags": [
@@ -12631,7 +12631,7 @@
                   "name_en": "Harri｜Hospitality Tech"
                 },
                 {
-                  "name": "Legi关于 WFM｜H我们的ly",
+                  "name": "Legion WFM｜Hourly",
                   "type": "url",
                   "url": "https://legion.co/",
                   "tags": [
@@ -12651,7 +12651,7 @@
                   "name_en": "Sirenum｜Workforce"
                 },
                 {
-                  "name": "何时 I Work｜Schedul在g",
+                  "name": "When I Work｜Scheduling",
                   "type": "url",
                   "url": "https://wheniwork.com/",
                   "tags": [
@@ -12846,7 +12846,7 @@
               "name_en": "Compensation / Labor Market Data"
             },
             {
-              "name": "Glassdo或 Salaries",
+              "name": "Glassdoor Salaries",
               "name_en": "Glassdoor Salaries",
               "type": "url",
               "url": "https://www.glassdoor.com/Salaries/",
@@ -12994,7 +12994,7 @@
                   "name_en": "LinkedIn Learning｜Recruiting Courses"
                 },
                 {
-                  "name": "AIHR（Academy 到 Innov在e HR）",
+                  "name": "AIHR（Academy to Innovate HR）",
                   "type": "url",
                   "url": "https://www.aihr.com/",
                   "tags": [
@@ -13004,7 +13004,7 @@
                   "name_en": "AIHR（Academy to Innovate HR）"
                 },
                 {
-                  "name": "Josh Bers在 Academy",
+                  "name": "Josh Bersin Academy",
                   "type": "url",
                   "url": "https://joshbersin.com/academy/",
                   "tags": [
@@ -13083,7 +13083,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "HR Technology C关于ference",
+                  "name": "HR Technology Conference",
                   "type": "url",
                   "url": "https://www.hrtechnologyconference.com/",
                   "tags": [
@@ -13092,7 +13092,7 @@
                   "name_en": "HR Technology Conference"
                 },
                 {
-                  "name": "SHRM人力资源协会 Annual C关于ference",
+                  "name": "SHRM Annual Conference",
                   "type": "url",
                   "url": "https://annual.shrm.org/",
                   "tags": [
@@ -13111,7 +13111,7 @@
                   "name_en": "HR Tech Europe"
                 },
                 {
-                  "name": "Unleash W或ld",
+                  "name": "Unleash World",
                   "type": "url",
                   "url": "https://www.unleash.ai/",
                   "tags": [
@@ -13129,7 +13129,7 @@
                   "name_en": "HR Transform"
                 },
                 {
-                  "name": "高德纳 Reimag在eHR",
+                  "name": "Gartner ReimagineHR",
                   "type": "url",
                   "url": "https://www.gartner.com/en/conferences/na/reimagine-hr-us",
                   "tags": [
@@ -13182,7 +13182,7 @@
                   "name_en": "Talent Acquisition Week"
                 },
                 {
-                  "name": "A人才获取P Annual C关于ference",
+                  "name": "ATP Annual Conference",
                   "type": "url",
                   "url": "https://atap.org/",
                   "tags": [
@@ -13218,7 +13218,7 @@
                   "name_en": "Diversity Best Practices"
                 },
                 {
-                  "name": "Out & Equal W或kplace Summit",
+                  "name": "Out & Equal Workplace Summit",
                   "type": "url",
                   "url": "https://outandequal.org/summit/",
                   "tags": [
@@ -13264,7 +13264,7 @@
                   "name_en": "People Analytics World"
                 },
                 {
-                  "name": "Josh Bers在 Irresistible",
+                  "name": "Josh Bersin Irresistible",
                   "type": "url",
                   "url": "https://joshbersin.com/irresistible/",
                   "tags": [
@@ -13421,7 +13421,7 @@
                   "name_en": "HR Technologist"
                 },
                 {
-                  "name": "Pers关于nel Today（UK）",
+                  "name": "Personnel Today（UK）",
                   "type": "url",
                   "url": "https://www.personneltoday.com/",
                   "tags": [
@@ -13431,7 +13431,7 @@
                   "name_en": "Personnel Today（UK）"
                 },
                 {
-                  "name": "HRZ关于e（UK）",
+                  "name": "HRZone（UK）",
                   "type": "url",
                   "url": "https://www.hrzone.com/",
                   "tags": [
@@ -13478,7 +13478,7 @@
                   "name_en": "The Talent Fix（Kris Dunn）"
                 },
                 {
-                  "name": "Er在 Meyer 新闻letter",
+                  "name": "Erin Meyer Newsletter",
                   "type": "url",
                   "url": "https://erinmeyer.com/",
                   "tags": [
@@ -13494,7 +13494,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Josh Bers在（HR Tech）",
+                  "name": "Josh Bersin（HR Tech）",
                   "type": "url",
                   "url": "https://www.youtube.com/@joshbersin",
                   "tags": [
@@ -13543,7 +13543,7 @@
               ]
             },
             {
-              "name": "SHRM人力资源协会 所有 Th在gs W或k",
+              "name": "SHRM All Things Work",
               "name_en": "SHRM All Things Work",
               "type": "url",
               "url": "https://www.shrm.org/hr-today/trends-and-forecasting/podcasts/all-things-work/pages/default.aspx",
@@ -13626,7 +13626,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Greenhouse Sc或ecard 模板",
+                  "name": "Greenhouse Scorecard 模板",
                   "type": "url",
                   "url": "https://www.greenhouse.com/resources/templates/interview-scorecard",
                   "tags": [
@@ -13653,7 +13653,7 @@
                   "name_en": "Notion Interview Templates"
                 },
                 {
-                  "name": "M关于day.com HR 模板",
+                  "name": "Monday.com HR 模板",
                   "type": "url",
                   "url": "https://monday.com/templates/hr",
                   "tags": [
@@ -13723,7 +13723,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Gus到 录用通知书 模板",
+                  "name": "Gusto Offer Letter 模板",
                   "type": "url",
                   "url": "https://gusto.com/resources/offer-letter-template",
                   "tags": [
@@ -13915,7 +13915,7 @@
                   "name_en": "Superset"
                 },
                 {
-                  "name": "Sigma Comput在g",
+                  "name": "Sigma Computing",
                   "type": "url",
                   "url": "https://www.sigmacomputing.com/",
                   "tags": [
@@ -14324,7 +14324,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Beamery Budget Plann在g",
+                  "name": "Beamery Budget Planning",
                   "type": "url",
                   "url": "https://beamery.com/resources/",
                   "tags": [
@@ -14344,7 +14344,7 @@
                   "name_en": "Recruitics ROI Analytics"
                 },
                 {
-                  "name": "应用cast｜专业版gramm在ic ROI",
+                  "name": "Appcast｜Programmatic ROI",
                   "type": "url",
                   "url": "https://www.appcast.io/resources/",
                   "tags": [
@@ -14371,7 +14371,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Beel在e VMS",
+                  "name": "Beeline VMS",
                   "type": "url",
                   "url": "https://www.beeline.com/",
                   "tags": [
@@ -14401,7 +14401,7 @@
                   "name_en": "PRO Unlimited（Magnit）"
                 },
                 {
-                  "name": "VNDLY（W或kday）",
+                  "name": "VNDLY（Workday）",
                   "type": "url",
                   "url": "https://www.vndly.com/",
                   "tags": [
@@ -14444,7 +14444,7 @@
               ]
             },
             {
-              "name": "领英 Cost-Per-Hire Calcul在或",
+              "name": "LinkedIn Cost-Per-Hire Calculator",
               "name_en": "LinkedIn Cost-Per-Hire Calculator",
               "type": "url",
               "url": "https://business.linkedin.com/talent-solutions/resources/talent-strategy/cost-per-hire-calculator",
@@ -14506,7 +14506,7 @@
                   "name_en": "Netflix Culture Deck"
                 },
                 {
-                  "name": "亚马逊 领导力 Pr在ciples",
+                  "name": "Amazon Leadership Principles",
                   "type": "url",
                   "url": "https://www.amazon.jobs/en/principles",
                   "tags": [
@@ -14768,7 +14768,7 @@
                   "name_en": "SHRM Policy Samples"
                 },
                 {
-                  "name": "W或kable 政策 模板",
+                  "name": "Workable 政策 模板",
                   "type": "url",
                   "url": "https://resources.workable.com/company-policies/",
                   "tags": [
@@ -14802,7 +14802,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "C关于fluence（Atlassian）",
+                  "name": "Confluence（Atlassian）",
                   "type": "url",
                   "url": "https://www.atlassian.com/software/confluence",
                   "tags": [
@@ -14911,7 +14911,7 @@
                   "name_en": "AIHR HR Glossary"
                 },
                 {
-                  "name": "W或kable HR 术语表",
+                  "name": "Workable HR 术语表",
                   "type": "url",
                   "url": "https://resources.workable.com/hr-terms/",
                   "tags": [
@@ -15032,7 +15032,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Recruiters Onl在e（Facebook）",
+                  "name": "Recruiters Online（Facebook）",
                   "type": "url",
                   "url": "https://www.facebook.com/groups/recruitersonline/",
                   "tags": [
@@ -15151,7 +15151,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Jobvite｜Recruiter N在i关于",
+                  "name": "Jobvite｜Recruiter Nation",
                   "type": "url",
                   "url": "https://www.jobvite.com/lp/recruiter-nation-report/",
                   "tags": [
@@ -15244,7 +15244,7 @@
                   "name_en": "Aptitude Research｜TA Tech"
                 },
                 {
-                  "name": "Talent Tech Labs｜Innov在i关于",
+                  "name": "Talent Tech Labs｜Innovation",
                   "type": "url",
                   "url": "https://www.talenttechlabs.com/",
                   "tags": [
@@ -15281,7 +15281,7 @@
                   "name_en": "NBER｜Labor Economics"
                 },
                 {
-                  "name": "ILO｜W或ld Employment",
+                  "name": "ILO｜World Employment",
                   "type": "url",
                   "url": "https://www.ilo.org/research",
                   "tags": [
@@ -15291,7 +15291,7 @@
                   "name_en": "ILO｜World Employment"
                 },
                 {
-                  "name": "C或nell｜ILR School",
+                  "name": "Cornell｜ILR School",
                   "type": "url",
                   "url": "https://www.ilr.cornell.edu/",
                   "tags": [
@@ -15318,7 +15318,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "BLS｜Employment St在istics",
+                  "name": "BLS｜Employment Statistics",
                   "type": "url",
                   "url": "https://www.bls.gov/",
                   "tags": [
