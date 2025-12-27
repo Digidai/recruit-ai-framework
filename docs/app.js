@@ -374,8 +374,8 @@ function buildTree(data) {
   const initialTransform = d3.zoomIdentity.translate(40, height / 2).scale(1);
 
   // Spacing configuration
-  const dx = 24;  // Base vertical spacing between nodes
-  const dy = 260; // Horizontal spacing between levels
+  const dx = 22;  // Base vertical spacing between nodes
+  const dy = 320; // Horizontal spacing between levels (needs to fit text width)
 
   // Count visible descendants of a node
   const countVisible = (node) => {
@@ -439,9 +439,10 @@ function buildTree(data) {
       });
 
     nodeEnter.append("circle").attr("r", 4.5).attr("fill", d => d._children ? "#394b66" : d.children ? "#394b66" : "#1b2230");
-    // All text goes to the RIGHT of the node to prevent overlap between different depth levels
-    nodeEnter.append("text").attr("dy", "0.32em").attr("x", 10)
-      .attr("text-anchor", "start").text(d => getLocalizedName(d.data));
+    // Folders: [Text] O ──── (text LEFT, circle RIGHT, children branch from circle)
+    // Leaves:  [Text] O      (text LEFT, circle RIGHT, consistent layout)
+    nodeEnter.append("text").attr("dy", "0.32em").attr("x", -10)
+      .attr("text-anchor", "end").text(d => getLocalizedName(d.data));
     nodeEnter.append("title").text(d => {
       const path = d.ancestors().reverse().map(x => getLocalizedName(x.data)).join(" / ");
       return path + (d.data.url ? `\n${d.data.url}` : "");
