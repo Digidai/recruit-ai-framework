@@ -52,6 +52,31 @@
       <label for="searchInput" class="visually-hidden">搜索工具和资源</label>
       <input id="searchInput" type="search" placeholder="搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）" autocomplete="off" aria-label="搜索工具和资源" data-i18n-placeholder="searchPlaceholder" />
       <button id="btnClear" type="button" title="清空搜索" aria-label="清空搜索" data-i18n="clearBtn">清空</button>
+
+      <!-- View Mode Selector -->
+      <div class="view-selector" role="tablist" aria-label="视图模式">
+        <button type="button" class="view-btn active" data-view="tree" title="D3 树形图" aria-selected="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="8" x2="12" y2="14"/><circle cx="6" cy="19" r="3"/><circle cx="18" cy="19" r="3"/><line x1="12" y1="14" x2="6" y2="16"/><line x1="12" y1="14" x2="18" y2="16"/></svg>
+          <span>树</span>
+        </button>
+        <button type="button" class="view-btn" data-view="accordion" title="手风琴目录">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/><polyline points="9,3 12,6 9,9"/></svg>
+          <span>目录</span>
+        </button>
+        <button type="button" class="view-btn" data-view="table" title="数据表格">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+          <span>表格</span>
+        </button>
+        <button type="button" class="view-btn" data-view="explorer" title="文件浏览器">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/></svg>
+          <span>浏览</span>
+        </button>
+        <button type="button" class="view-btn" data-view="cards" title="卡片网格">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          <span>卡片</span>
+        </button>
+      </div>
+
       <a id="btnJson" class="btnLink" href="tarf.json" download title="下载数据文件" aria-label="下载 tarf.json 数据文件" data-i18n="downloadJson">下载 tarf.json</a>
       <button id="btnLang" type="button" class="btnLink btnLang" title="切换语言 / Switch Language" aria-label="切换语言">
         <span id="langIcon">🌐</span> <span id="langLabel">EN</span>
@@ -72,13 +97,35 @@
   <main class="layout">
     <section class="panel panel--tree">
       <div class="panel__title">
-        <span data-i18n="treeTitle">工具树</span>
-        <div class="zoom-controls">
-          <button type="button" id="btnZoomOut" title="缩小" aria-label="缩小视图">−</button>
-          <button type="button" id="btnZoomReset" title="重置视图" aria-label="重置视图" data-i18n="resetBtn">重置</button>
-          <button type="button" id="btnZoomIn" title="放大" aria-label="放大视图">+</button>
-          <button type="button" id="btnExpandAll" title="展开全部" aria-label="展开全部分类" data-i18n="expandBtn">展开</button>
-          <button type="button" id="btnCollapseAll" title="收起全部" aria-label="收起全部分类" data-i18n="collapseBtn">收起</button>
+        <span id="viewTitle" data-i18n="treeTitle">工具树</span>
+        <div class="view-controls">
+          <!-- Tree controls -->
+          <div id="treeControls" class="zoom-controls">
+            <button type="button" id="btnZoomOut" title="缩小" aria-label="缩小视图">−</button>
+            <button type="button" id="btnZoomReset" title="重置视图" aria-label="重置视图" data-i18n="resetBtn">重置</button>
+            <button type="button" id="btnZoomIn" title="放大" aria-label="放大视图">+</button>
+            <button type="button" id="btnExpandAll" title="展开全部" aria-label="展开全部分类" data-i18n="expandBtn">展开</button>
+            <button type="button" id="btnCollapseAll" title="收起全部" aria-label="收起全部分类" data-i18n="collapseBtn">收起</button>
+          </div>
+          <!-- Accordion controls -->
+          <div id="accordionControls" class="zoom-controls" style="display:none;">
+            <button type="button" id="btnAccExpandAll" title="展开全部" data-i18n="expandBtn">展开</button>
+            <button type="button" id="btnAccCollapseAll" title="收起全部" data-i18n="collapseBtn">收起</button>
+          </div>
+          <!-- Table controls -->
+          <div id="tableControls" class="zoom-controls" style="display:none;">
+            <select id="tableSort" class="table-sort">
+              <option value="name">按名称</option>
+              <option value="category">按分类</option>
+              <option value="tags">按标签</option>
+            </select>
+          </div>
+          <!-- Tag filter for cards/table -->
+          <div id="tagFilter" class="tag-filter" style="display:none;">
+            <select id="tagSelect" multiple class="tag-select">
+              <option value="">全部标签</option>
+            </select>
+          </div>
         </div>
       </div>
       <noscript>
@@ -87,10 +134,59 @@
           <p>您也可以直接 <a href="tarf.json" download>下载 tarf.json 数据文件</a> 查看所有资源。</p>
         </div>
       </noscript>
-      <div id="treeWrap" class="treeWrap">
-        <svg id="treeSvg"></svg>
+
+      <!-- View Containers -->
+      <div id="viewContainer" class="view-container">
+        <!-- 1. D3 Tree View -->
+        <div id="treeView" class="view-content active">
+          <div id="treeWrap" class="treeWrap">
+            <svg id="treeSvg"></svg>
+          </div>
+        </div>
+
+        <!-- 2. Accordion View -->
+        <div id="accordionView" class="view-content">
+          <div id="accordionWrap" class="accordion-wrap"></div>
+        </div>
+
+        <!-- 3. Table View -->
+        <div id="tableView" class="view-content">
+          <div id="tableWrap" class="table-wrap">
+            <table id="dataTable" class="data-table">
+              <thead>
+                <tr>
+                  <th class="th-name">名称</th>
+                  <th class="th-category">分类</th>
+                  <th class="th-tags">标签</th>
+                  <th class="th-url">链接</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 4. File Explorer View -->
+        <div id="explorerView" class="view-content">
+          <div class="explorer-wrap">
+            <div id="explorerTree" class="explorer-tree"></div>
+            <div id="explorerList" class="explorer-list">
+              <div class="explorer-breadcrumb" id="explorerBreadcrumb"></div>
+              <div class="explorer-items" id="explorerItems"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Cards View -->
+        <div id="cardsView" class="view-content">
+          <div id="cardsWrap" class="cards-wrap">
+            <div class="cards-filter" id="cardsFilter"></div>
+            <div class="cards-grid" id="cardsGrid"></div>
+          </div>
+        </div>
       </div>
-      <div class="hint">
+
+      <div class="hint" id="viewHint">
         <ul>
           <li data-i18n="hint1">点击「文件夹」节点展开/收起。</li>
           <li data-i18n="hint2">点击「链接」节点会在新标签页打开。</li>
