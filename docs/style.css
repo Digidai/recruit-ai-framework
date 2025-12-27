@@ -299,7 +299,7 @@ a:hover {
 
 .search-controls {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   padding: 8px 12px;
   align-items: center;
   flex-wrap: wrap;
@@ -307,12 +307,12 @@ a:hover {
 
 .tag-filter-select {
   flex: 1;
-  min-width: 100px;
-  max-width: 180px;
-  padding: 5px 8px;
-  background: var(--tagBg);
+  min-width: 80px;
+  max-width: 140px;
+  padding: 6px 8px;
+  background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   color: var(--text);
   font-size: 12px;
   cursor: pointer;
@@ -327,22 +327,22 @@ a:hover {
   border-color: var(--link);
 }
 
-.export-btn {
-  padding: 4px 8px;
-  font-size: 11px;
-  background: var(--tagBg);
+.search-controls .export-btn {
+  padding: 6px 10px;
+  font-size: 12px;
+  background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 4px;
-  opacity: 0.8;
-  transition: opacity 0.15s, border-color 0.15s;
+  border-radius: 8px;
+  color: var(--muted);
+  transition: color 0.15s, border-color 0.15s;
 }
 
-.export-btn:hover {
-  opacity: 1;
+.search-controls .export-btn:hover {
+  color: var(--text);
   border-color: var(--tagBorder);
 }
 
-.export-btn:disabled {
+.search-controls .export-btn:disabled {
   opacity: 0.4;
   cursor: not-allowed;
 }
