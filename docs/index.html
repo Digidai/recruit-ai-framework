@@ -199,7 +199,19 @@
     <aside class="panel panel--side">
       <div class="panel__title" data-i18n="searchResults">搜索结果</div>
       <div id="resultMeta" class="resultMeta" data-i18n="searchHint">输入关键词开始搜索。</div>
+      <div id="searchControls" class="search-controls">
+        <select id="tagFilterSelect" class="tag-filter-select" title="Filter by tag">
+          <option value="" data-i18n="allTags">全部标签</option>
+        </select>
+        <button id="btnExportCSV" class="btnLink export-btn" title="Export CSV">CSV</button>
+        <button id="btnExportJSON" class="btnLink export-btn" title="Export JSON">JSON</button>
+      </div>
       <ul id="resultList" class="resultList"></ul>
+
+      <details class="panel__details panel__favorites" open>
+        <summary data-i18n="favorites">收藏夹</summary>
+        <div id="favoritesContent" class="favorites-content"></div>
+      </details>
 
       <details class="panel__details panel__stats">
         <summary data-i18n="statsTitle">数据统计</summary>
@@ -227,6 +239,9 @@
       <a href="https://github.com/Digidai/recruit-ai-framework/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
     </p>
   </footer>
+
+  <!-- Screen reader announcements -->
+  <div id="ariaLive" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
 
   <script src="https://d3js.org/d3.v7.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
   <script src="app.js"></script>

@@ -47,12 +47,21 @@ const i18n = {
     matchResults: (match, show) => `匹配 ${match} 条（展示前 ${show} 条）`,
     statsContent: (cats, res, tpl) => `<p><strong>${cats}</strong> 大分类 · <strong>${res}</strong> 条资源 · <strong>${tpl}</strong> 个模板</p>`,
     hotTags: "热门标签：",
-    loadError: (msg) => `加载失败：${msg}。请检查网络连接和本地服务。`,
-    loadErrorTree: "数据加载失败，请刷新页面重试。",
+    loadError: (msg) => `加载失败：${msg}。`,
+    loadErrorTree: "数据加载失败",
     loadFailed: "加载失败",
+    retryBtn: "重试",
     promptQuery: "输入关键词（会替换到 URL 里的 {query}）：",
     allTags: "全部",
     noResults: "没有找到匹配的结果",
+    showInTree: "定位",
+    addFavorite: "收藏",
+    removeFavorite: "取消收藏",
+    favorites: "收藏夹",
+    noFavorites: "暂无收藏",
+    clearFavorites: "清空",
+    filterByTag: "标签筛选：",
+    exportResults: "导出",
     sortByName: "按名称",
     sortByCategory: "按分类",
     sortByTags: "按标签",
@@ -107,12 +116,21 @@ const i18n = {
     matchResults: (match, show) => `${match} matches (showing first ${show})`,
     statsContent: (cats, res, tpl) => `<p><strong>${cats}</strong> Categories · <strong>${res}</strong> Resources · <strong>${tpl}</strong> Templates</p>`,
     hotTags: "Popular tags: ",
-    loadError: (msg) => `Load failed: ${msg}. Check network and local server.`,
-    loadErrorTree: "Data load failed. Please refresh the page.",
+    loadError: (msg) => `Load failed: ${msg}.`,
+    loadErrorTree: "Data load failed",
     loadFailed: "Load failed",
+    retryBtn: "Retry",
     promptQuery: "Enter keywords (will replace {query} in URL):",
     allTags: "All",
     noResults: "No matching results found",
+    showInTree: "Locate",
+    addFavorite: "Add to favorites",
+    removeFavorite: "Remove from favorites",
+    favorites: "Favorites",
+    noFavorites: "No favorites yet",
+    clearFavorites: "Clear",
+    filterByTag: "Filter by tag:",
+    exportResults: "Export",
     sortByName: "By Name",
     sortByCategory: "By Category",
     sortByTags: "By Tags",
@@ -168,7 +186,17 @@ function toggleLanguage() {
   applyLanguage(newLang);
   if (window._appItems) renderResults(window._appItems, searchInput.value || "");
   if (window._appStats) renderStats(window._appStats);
-  renderCurrentView();
+  // Rebuild all views to update language (not just current view)
+  rebuildAllViews();
+}
+
+function rebuildAllViews() {
+  if (!window._appData) return;
+  buildTree(window._appData);
+  buildAccordion(window._appData);
+  buildTable(window._appItems);
+  buildExplorer(window._appData);
+  buildCards(window._appItems, window._appStats);
 }
 
 // ========== DOM Elements ==========
@@ -179,6 +207,21 @@ const resultList = document.getElementById("resultList");
 const treeSvg = document.getElementById("treeSvg");
 const statsContent = document.getElementById("statsContent");
 const viewTitle = document.getElementById("viewTitle");
+const tagFilterSelect = document.getElementById("tagFilterSelect");
+const btnExportCSV = document.getElementById("btnExportCSV");
+const btnExportJSON = document.getElementById("btnExportJSON");
+const ariaLive = document.getElementById("ariaLive");
+
+// Track current search results for export
+let currentSearchResults = [];
+
+// ========== Accessibility ==========
+function announce(message) {
+  if (!ariaLive) return;
+  // Clear first to ensure re-announcement
+  ariaLive.textContent = "";
+  setTimeout(() => { ariaLive.textContent = message; }, 100);
+}
 
 // ========== Utilities ==========
 function debounce(fn, delay) {
@@ -195,6 +238,76 @@ function escapeHtml(str) {
 
 function tagHtml(tag) {
   return `<span class="tag">${escapeHtml(tag)}</span>`;
+}
+
+// ========== Favorites ==========
+function getFavorites() {
+  try {
+    return JSON.parse(localStorage.getItem("favorites") || "[]");
+  } catch { return []; }
+}
+
+function saveFavorites(favs) {
+  try {
+    localStorage.setItem("favorites", JSON.stringify(favs));
+  } catch (e) { console.warn("Failed to save favorites", e); }
+}
+
+function isFavorite(url) {
+  return getFavorites().some(f => f.url === url);
+}
+
+function toggleFavorite(item) {
+  const favs = getFavorites();
+  const idx = favs.findIndex(f => f.url === item.url);
+  if (idx >= 0) {
+    favs.splice(idx, 1);
+  } else {
+    favs.push({ url: item.url, name: item.name, name_en: item.name_en, tags: item.tags, addedAt: new Date().toISOString() });
+  }
+  saveFavorites(favs);
+  renderFavorites();
+  return idx < 0; // returns true if added
+}
+
+function renderFavorites() {
+  const container = document.getElementById("favoritesContent");
+  if (!container) return;
+  const favs = getFavorites();
+  if (favs.length === 0) {
+    container.innerHTML = `<p class="no-favorites">${t("noFavorites")}</p>`;
+    return;
+  }
+  container.innerHTML = `<div class="favorites-header"><span>${favs.length} ${t("favorites").toLowerCase()}</span><button class="btnLink" id="clearFavs">${t("clearFavorites")}</button></div><ul class="favorites-list"></ul>`;
+  const list = container.querySelector(".favorites-list");
+  for (const fav of favs) {
+    const li = document.createElement("li");
+    li.innerHTML = `<span class="fav-name">${escapeHtml(currentLang === "en" && fav.name_en ? fav.name_en : fav.name)}</span><button class="fav-remove" data-url="${escapeHtml(fav.url)}">×</button>`;
+    li.querySelector(".fav-name").addEventListener("click", () => window.open(fav.url, "_blank", "noopener"));
+    li.querySelector(".fav-remove").addEventListener("click", (e) => {
+      e.stopPropagation();
+      const url = e.target.dataset.url;
+      const favs = getFavorites().filter(f => f.url !== url);
+      saveFavorites(favs);
+      renderFavorites();
+      // Update any visible favorite buttons
+      document.querySelectorAll(".favBtn").forEach(btn => {
+        if (btn.dataset.url === url) {
+          btn.textContent = "♡";
+          btn.title = t("addFavorite");
+        }
+      });
+    });
+    list.appendChild(li);
+  }
+  document.getElementById("clearFavs")?.addEventListener("click", () => {
+    saveFavorites([]);
+    renderFavorites();
+    document.querySelectorAll(".favBtn").forEach(btn => {
+      btn.textContent = "♡";
+      btn.title = t("addFavorite");
+    });
+  });
 }
 
 function tagsHtml(tags) {
@@ -286,24 +399,137 @@ function renderStats(stats) {
 
 function renderResults(items, query) {
   resultList.innerHTML = "";
-  if (!query) {
+  const tagFilter = tagFilterSelect?.value || "";
+
+  if (!query && !tagFilter) {
     resultMeta.textContent = t("totalResources", items.length);
+    currentSearchResults = [];
     return;
   }
+
   const q = query.trim().toLowerCase();
-  const hit = items.filter(it => {
-    const searchText = [it.name, it.name_en || "", it.path.join(" / "), (it.path_en || it.path).join(" / "), it.tags.join(" ")].join(" ").toLowerCase();
-    return searchText.includes(q);
-  });
-  resultMeta.textContent = t("matchResults", hit.length, Math.min(MAX_RESULTS, hit.length));
+  let hit = items;
+
+  // Apply text search
+  if (q) {
+    hit = hit.filter(it => {
+      const searchText = [it.name, it.name_en || "", it.path.join(" / "), (it.path_en || it.path).join(" / "), it.tags.join(" ")].join(" ").toLowerCase();
+      return searchText.includes(q);
+    });
+  }
+
+  // Apply tag filter
+  if (tagFilter) {
+    hit = hit.filter(it => it.tags.includes(tagFilter));
+  }
+
+  currentSearchResults = hit;
+  const resultText = t("matchResults", hit.length, Math.min(MAX_RESULTS, hit.length));
+  resultMeta.textContent = resultText;
+  announce(resultText);
+
   for (const it of hit.slice(0, MAX_RESULTS)) {
     const li = document.createElement("li");
     li.tabIndex = 0;
-    li.innerHTML = `<div class="resultTitle"><strong>${escapeHtml(getDisplayName(it))}</strong>${tagsHtml(it.tags)}</div><div class="resultPath">${escapeHtml(getDisplayPath(it).join(" / "))}</div><div class="resultUrl">${escapeHtml(it.url)}</div>`;
+    const isFav = isFavorite(it.url);
+    li.innerHTML = `
+      <div class="resultTitle"><strong>${escapeHtml(getDisplayName(it))}</strong>${tagsHtml(it.tags)}</div>
+      <div class="resultPath">${escapeHtml(getDisplayPath(it).join(" / "))}</div>
+      <div class="resultActions">
+        <span class="resultUrl">${escapeHtml(it.url)}</span>
+        <button class="favBtn" data-url="${escapeHtml(it.url)}" title="${isFav ? t("removeFavorite") : t("addFavorite")}">${isFav ? "♥" : "♡"}</button>
+        <button class="locateBtn" title="${t("showInTree")}">📍</button>
+      </div>`;
+    li.querySelector(".resultUrl").addEventListener("click", (e) => { e.stopPropagation(); openNode(it); });
+    li.querySelector(".favBtn").addEventListener("click", (e) => {
+      e.stopPropagation();
+      const btn = e.target;
+      const added = toggleFavorite(it);
+      btn.textContent = added ? "♥" : "♡";
+      btn.title = added ? t("removeFavorite") : t("addFavorite");
+    });
+    li.querySelector(".locateBtn").addEventListener("click", (e) => {
+      e.stopPropagation();
+      highlightInTree(it.url);
+    });
     li.addEventListener("click", () => openNode(it));
     li.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openNode(it); } });
     resultList.appendChild(li);
   }
+}
+
+// ========== Export Functions ==========
+function escapeCSV(str) {
+  // Escape quotes and handle newlines for CSV
+  return (str || "").replace(/"/g, '""').replace(/[\r\n]+/g, ' ');
+}
+
+function exportToCSV(results) {
+  if (!results.length) return;
+  const headers = ["Name", "Name (EN)", "URL", "Tags", "Category"];
+  const rows = results.map(it => [
+    `"${escapeCSV(it.name)}"`,
+    `"${escapeCSV(it.name_en)}"`,
+    `"${escapeCSV(it.url)}"`,
+    `"${escapeCSV((it.tags || []).join(", "))}"`,
+    `"${escapeCSV((it.path || []).join(" / "))}"`
+  ].join(","));
+  const csv = [headers.join(","), ...rows].join("\n");
+  downloadFile(csv, "search-results.csv", "text/csv;charset=utf-8;");
+}
+
+function exportToJSON(results) {
+  if (!results.length) return;
+  const data = results.map(it => ({
+    name: it.name,
+    name_en: it.name_en,
+    url: it.url,
+    tags: it.tags,
+    category: it.path.join(" / ")
+  }));
+  const json = JSON.stringify(data, null, 2);
+  downloadFile(json, "search-results.json", "application/json");
+}
+
+function downloadFile(content, filename, type) {
+  const blob = new Blob([content], { type });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function populateTagFilter(stats) {
+  if (!tagFilterSelect) return;
+  // Keep the first "All" option and clear the rest
+  while (tagFilterSelect.options.length > 1) {
+    tagFilterSelect.remove(1);
+  }
+  // Add top tags
+  const topTags = Object.entries(stats.tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 30);
+  for (const [tag, count] of topTags) {
+    const opt = document.createElement("option");
+    opt.value = tag;
+    opt.textContent = `${tag} (${count})`;
+    tagFilterSelect.appendChild(opt);
+  }
+}
+
+function highlightInTree(url) {
+  // Switch to tree view if not already
+  if (currentView !== "tree") {
+    switchView("tree");
+  }
+  // Wait for tree to render then highlight
+  setTimeout(() => {
+    if (treeController && treeController.highlightNode) {
+      treeController.highlightNode(url);
+    }
+  }, 100);
 }
 
 // ========== View Switching ==========
@@ -324,12 +550,17 @@ function switchView(view) {
 
   // Update title
   const titles = { tree: "treeTitle", accordion: "accordionTitle", table: "tableTitle", explorer: "explorerTitle", cards: "cardsTitle" };
-  viewTitle.textContent = t(titles[view] || "treeTitle");
+  const viewTitleText = t(titles[view] || "treeTitle");
+  viewTitle.textContent = viewTitleText;
+  announce(viewTitleText);
 
   // Update controls visibility
   document.getElementById("treeControls").style.display = view === "tree" ? "flex" : "none";
   document.getElementById("accordionControls").style.display = view === "accordion" ? "flex" : "none";
   document.getElementById("tableControls").style.display = view === "table" ? "flex" : "none";
+
+  // Update URL
+  updateUrlFromState();
 
   renderCurrentView();
 }
@@ -431,21 +662,83 @@ function buildTree(data) {
       .attr("class", d => `node ${d._children || d.children ? "is-folder" : "is-leaf"}`)
       .attr("transform", `translate(${source.y0},${source.x0})`)
       .attr("cursor", "pointer")
+      .attr("tabindex", 0)
+      .attr("role", d => (d._children || d.children) ? "treeitem" : "link")
+      .attr("aria-expanded", d => d.children ? "true" : d._children ? "false" : null)
       .on("click", (event, d) => {
         if (d.children) { d._children = d.children; d.children = null; }
         else if (d._children) { d.children = d._children; d._children = null; }
         else { openNode(d.data); return; }
         update(d);
+      })
+      .on("keydown", (event, d) => {
+        const key = event.key;
+        if (key === "Enter" || key === " ") {
+          event.preventDefault();
+          if (d.children) { d._children = d.children; d.children = null; update(d); }
+          else if (d._children) { d.children = d._children; d._children = null; update(d); }
+          else { openNode(d.data); }
+        } else if (key === "ArrowRight") {
+          event.preventDefault();
+          if (d._children) { d.children = d._children; d._children = null; update(d); }
+          else if (d.children && d.children.length > 0) {
+            // Focus first child
+            setTimeout(() => {
+              const firstChild = g.selectAll(".node").filter(n => n.parent === d).node();
+              if (firstChild) firstChild.focus();
+            }, 300);
+          }
+        } else if (key === "ArrowLeft") {
+          event.preventDefault();
+          if (d.children) { d._children = d.children; d.children = null; update(d); }
+          else if (d.parent) {
+            // Focus parent
+            const parentNode = g.selectAll(".node").filter(n => n === d.parent).node();
+            if (parentNode) parentNode.focus();
+          }
+        } else if (key === "ArrowDown") {
+          event.preventDefault();
+          // Focus next visible sibling or node
+          const visibleNodes = root.descendants().filter(n => n.x !== undefined);
+          const idx = visibleNodes.indexOf(d);
+          if (idx >= 0 && idx < visibleNodes.length - 1) {
+            const nextNode = g.selectAll(".node").filter(n => n === visibleNodes[idx + 1]).node();
+            if (nextNode) nextNode.focus();
+          }
+        } else if (key === "ArrowUp") {
+          event.preventDefault();
+          // Focus previous visible node
+          const visibleNodes = root.descendants().filter(n => n.x !== undefined);
+          const idx = visibleNodes.indexOf(d);
+          if (idx > 0) {
+            const prevNode = g.selectAll(".node").filter(n => n === visibleNodes[idx - 1]).node();
+            if (prevNode) prevNode.focus();
+          }
+        } else if (key === "Home") {
+          event.preventDefault();
+          const firstNode = g.selectAll(".node").filter(n => n === root).node();
+          if (firstNode) firstNode.focus();
+        } else if (key === "End") {
+          event.preventDefault();
+          const visibleNodes = root.descendants().filter(n => n.x !== undefined);
+          const lastNode = g.selectAll(".node").filter(n => n === visibleNodes[visibleNodes.length - 1]).node();
+          if (lastNode) lastNode.focus();
+        }
       });
 
     const isFolder = d => d._children || d.children;
-    nodeEnter.append("circle").attr("r", 4.5).attr("fill", d => isFolder(d) ? "#394b66" : "#1b2230");
+    const isTemplate = d => d.data.type === "template";
+    nodeEnter.append("circle").attr("r", 4.5)
+      .attr("fill", d => isFolder(d) ? "#394b66" : isTemplate(d) ? "#6b5b95" : "#1b2230")
+      .attr("stroke", d => isTemplate(d) ? "#9b8bb5" : "none")
+      .attr("stroke-width", d => isTemplate(d) ? 1.5 : 0);
     // Folders: [Text] O ──── (text LEFT of circle, children branch RIGHT)
     // Leaves:  O [Text]      (circle LEFT, text RIGHT)
+    // Templates: O ⌨ [Text]  (with keyboard icon indicator)
     nodeEnter.append("text").attr("dy", "0.32em")
       .attr("x", d => isFolder(d) ? -10 : 10)
       .attr("text-anchor", d => isFolder(d) ? "end" : "start")
-      .text(d => getLocalizedName(d.data));
+      .text(d => isTemplate(d) ? "⌨ " + getLocalizedName(d.data) : getLocalizedName(d.data));
     nodeEnter.append("title").text(d => {
       const path = d.ancestors().reverse().map(x => getLocalizedName(x.data)).join(" / ");
       return path + (d.data.url ? `\n${d.data.url}` : "");
@@ -469,7 +762,49 @@ function buildTree(data) {
     zoomOut: () => svg.transition().duration(200).call(zoom.scaleBy, 0.67),
     zoomReset: () => svg.transition().duration(300).call(zoom.transform, initialTransform),
     expandAll: () => { root.descendants().forEach(d => { if (d._children) d.children = d._children; }); update(root); },
-    collapseAll: () => { root.descendants().forEach(d => { if (d.depth >= 1 && d.children) { d._children = d.children; d.children = null; } }); update(root); }
+    collapseAll: () => { root.descendants().forEach(d => { if (d.depth >= 1 && d.children) { d._children = d.children; d.children = null; } }); update(root); },
+    highlightNode: (url) => {
+      // Find node by URL
+      const target = root.descendants().find(d => d.data.url === url);
+      if (!target) return false;
+
+      // Expand all ancestors
+      let node = target;
+      while (node.parent) {
+        node = node.parent;
+        if (node._children) {
+          node.children = node._children;
+          node._children = null;
+        }
+      }
+      update(root);
+
+      // Remove previous highlights
+      g.selectAll(".node").classed("highlighted", false);
+      g.selectAll(".node circle").attr("stroke", d => d.data.type === "template" ? "#9b8bb5" : "none");
+
+      // Highlight target node
+      setTimeout(() => {
+        const targetNode = g.selectAll(".node").filter(d => d.data.url === url);
+        targetNode.classed("highlighted", true);
+        targetNode.select("circle").attr("stroke", "#ffd700").attr("stroke-width", 3);
+
+        // Pan to target
+        const targetData = targetNode.datum();
+        if (targetData) {
+          const transform = d3.zoomIdentity.translate(width / 3 - targetData.y, height / 2 - targetData.x).scale(1);
+          svg.transition().duration(500).call(zoom.transform, transform);
+        }
+
+        // Remove highlight after 3 seconds
+        setTimeout(() => {
+          targetNode.classed("highlighted", false);
+          targetNode.select("circle").attr("stroke", d => d.data.type === "template" ? "#9b8bb5" : "none").attr("stroke-width", d => d.data.type === "template" ? 1.5 : 0);
+        }, 3000);
+      }, 300);
+
+      return true;
+    }
   };
 }
 
@@ -527,15 +862,17 @@ function buildAccordion(data) {
       renderNode(child, wrap);
     }
   }
-
-  // Accordion controls
-  document.getElementById("btnAccExpandAll")?.addEventListener("click", () => {
-    wrap.querySelectorAll(".acc-folder").forEach(f => f.classList.add("open"));
-  });
-  document.getElementById("btnAccCollapseAll")?.addEventListener("click", () => {
-    wrap.querySelectorAll(".acc-folder").forEach(f => f.classList.remove("open"));
-  });
 }
+
+// Accordion controls (bind once)
+document.getElementById("btnAccExpandAll")?.addEventListener("click", () => {
+  const wrap = document.getElementById("accordionWrap");
+  wrap?.querySelectorAll(".acc-folder").forEach(f => f.classList.add("open"));
+});
+document.getElementById("btnAccCollapseAll")?.addEventListener("click", () => {
+  const wrap = document.getElementById("accordionWrap");
+  wrap?.querySelectorAll(".acc-folder").forEach(f => f.classList.remove("open"));
+});
 
 // ========== 3. Table View ==========
 function buildTable(items) {
@@ -802,6 +1139,50 @@ function buildCards(items, stats) {
   renderCards();
 }
 
+// ========== Deep Linking ==========
+function getUrlParams() {
+  const hash = window.location.hash.slice(1);
+  const params = {};
+  for (const part of hash.split("&")) {
+    const idx = part.indexOf("=");
+    if (idx > 0) {
+      const key = part.slice(0, idx);
+      const val = part.slice(idx + 1);
+      if (val) params[key] = decodeURIComponent(val);
+    }
+  }
+  return params;
+}
+
+function setUrlParams(params) {
+  const parts = [];
+  for (const [key, val] of Object.entries(params)) {
+    if (val) parts.push(`${key}=${encodeURIComponent(val)}`);
+  }
+  const hash = parts.length > 0 ? "#" + parts.join("&") : "";
+  if (window.location.hash !== hash) {
+    history.replaceState(null, "", hash || window.location.pathname);
+  }
+}
+
+function updateUrlFromState() {
+  const params = {};
+  if (searchInput.value) params.search = searchInput.value;
+  if (tagFilterSelect?.value) params.tag = tagFilterSelect.value;
+  if (currentView !== "tree") params.view = currentView;
+  setUrlParams(params);
+}
+
+function applyUrlParams() {
+  const params = getUrlParams();
+  if (params.search) searchInput.value = params.search;
+  if (params.tag && tagFilterSelect) tagFilterSelect.value = params.tag;
+  if (params.view && ["tree", "accordion", "table", "explorer", "cards"].includes(params.view)) {
+    currentView = params.view;
+    localStorage.setItem("view", currentView);
+  }
+}
+
 // ========== Initialize ==========
 async function init() {
   applyLanguage(currentLang);
@@ -828,21 +1209,43 @@ async function init() {
   window._appStats = stats;
 
   renderStats(stats);
+  renderFavorites();
+  populateTagFilter(stats);
 
-  // Search
-  const onSearch = () => renderResults(items, searchInput.value || "");
+  // Apply URL params before initializing views
+  applyUrlParams();
+
+  // Search with URL update
+  const onSearch = () => {
+    renderResults(items, searchInput.value || "");
+    updateUrlFromState();
+  };
   const debouncedSearch = debounce(onSearch, DEBOUNCE_MS);
   searchInput.addEventListener("input", debouncedSearch);
   searchInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") { e.preventDefault(); onSearch(); }
-    if (e.key === "Escape") { searchInput.value = ""; onSearch(); searchInput.blur(); }
+    if (e.key === "Escape") { searchInput.value = ""; if (tagFilterSelect) tagFilterSelect.value = ""; onSearch(); searchInput.blur(); }
   });
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "/" && document.activeElement !== searchInput) { e.preventDefault(); searchInput.focus(); }
   });
 
-  btnClear.addEventListener("click", () => { searchInput.value = ""; onSearch(); searchInput.focus(); });
+  btnClear.addEventListener("click", () => { searchInput.value = ""; if (tagFilterSelect) tagFilterSelect.value = ""; onSearch(); searchInput.focus(); });
+
+  // Tag filter with URL update
+  tagFilterSelect?.addEventListener("change", onSearch);
+
+  // Handle browser back/forward
+  window.addEventListener("hashchange", () => {
+    applyUrlParams();
+    onSearch();
+    switchView(currentView);
+  });
+
+  // Export buttons
+  btnExportCSV?.addEventListener("click", () => exportToCSV(currentSearchResults));
+  btnExportJSON?.addEventListener("click", () => exportToJSON(currentSearchResults));
 
   // Tree controls
   document.getElementById("btnZoomIn")?.addEventListener("click", () => treeController?.zoomIn());
@@ -856,9 +1259,28 @@ async function init() {
   onSearch();
 }
 
-init().catch(err => {
+function showError(err) {
   console.error(err);
-  resultMeta.textContent = t("loadError", err.message || "Unknown error");
+  resultMeta.innerHTML = `${t("loadError", err.message || "Unknown error")} <button id="retryBtn" class="btnLink">${t("retryBtn")}</button>`;
   treeSvg.innerHTML = `<text x="20" y="40" fill="#e6e6e6" font-size="14">${t("loadErrorTree")}</text>`;
   if (statsContent) statsContent.innerHTML = t("loadFailed");
-});
+  document.getElementById("retryBtn")?.addEventListener("click", () => {
+    resultMeta.textContent = t("loading");
+    init().catch(showError);
+  });
+}
+
+init().catch(showError);
+
+// ========== Service Worker Registration ==========
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then((registration) => {
+        console.log('SW registered:', registration.scope);
+      })
+      .catch((err) => {
+        console.log('SW registration failed:', err);
+      });
+  });
+}
