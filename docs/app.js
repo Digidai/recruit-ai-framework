@@ -56,6 +56,7 @@ const i18n = {
     sortByName: "按名称",
     sortByCategory: "按分类",
     sortByTags: "按标签",
+    itemsCount: (n) => `${n} 项`,
     viewTree: "树",
     viewAccordion: "目录",
     viewTable: "表格",
@@ -115,6 +116,7 @@ const i18n = {
     sortByName: "By Name",
     sortByCategory: "By Category",
     sortByTags: "By Tags",
+    itemsCount: (n) => `${n} items`,
     viewTree: "Tree",
     viewAccordion: "List",
     viewTable: "Table",
@@ -656,7 +658,7 @@ function buildExplorer(data) {
         </div>
         <div class="exp-list-info">
           <div class="exp-list-name">${escapeHtml(getLocalizedName(folder))}</div>
-          <div class="exp-list-url">${countChildren(folder)} 项</div>
+          <div class="exp-list-url">${t("itemsCount", countChildren(folder))}</div>
         </div>
       `;
       div.addEventListener("click", () => {

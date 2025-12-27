@@ -485,8 +485,6 @@
               "children": [
                 {
                   "name": "HireVue（AI 视频面试）",
-                  "type": "url",
-                  "url": "https://www.hirevue.com/",
                   "tags": [
                     "Interview",
                     "AI",
@@ -494,6 +492,16 @@
                   ],
                   "name_en": "HireVue (AI Video Interview)",
                   "children": [
+                    {
+                      "name": "HireVue（AI 视频面试）",
+                      "url": "https://www.hirevue.com/",
+                      "tags": [
+                        "Interview",
+                        "AI",
+                        "P"
+                      ],
+                      "name_en": "HireVue (AI Video Interview)"
+                    },
                     {
                       "name": "Spark Hire AI 视频面试",
                       "name_en": "Spark Hire｜AI Video Interviews",
@@ -1577,13 +1585,19 @@
                 },
                 {
                   "name": "Hirepurpose（退伍军人招聘）",
-                  "type": "url",
-                  "url": "https://www.hirepurpose.com/",
                   "tags": [
                     "DEI"
                   ],
                   "name_en": "Hirepurpose (Veteran Recruiting)",
                   "children": [
+                    {
+                      "name": "Hirepurpose（退伍军人招聘）",
+                      "url": "https://www.hirepurpose.com/",
+                      "tags": [
+                        "DEI"
+                      ],
+                      "name_en": "Hirepurpose (Veteran Recruiting)"
+                    },
                     {
                       "name": "USAJOBS｜Veterans（联邦职位）",
                       "name_en": "USAJOBS | Veterans (Federal Jobs)",
