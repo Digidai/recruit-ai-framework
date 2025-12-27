@@ -56,6 +56,16 @@ const i18n = {
     sortByName: "按名称",
     sortByCategory: "按分类",
     sortByTags: "按标签",
+    viewTree: "树",
+    viewAccordion: "目录",
+    viewTable: "表格",
+    viewExplorer: "浏览",
+    viewCards: "卡片",
+    viewTreeTitle: "D3 树形图",
+    viewAccordionTitle: "手风琴目录",
+    viewTableTitle: "数据表格",
+    viewExplorerTitle: "文件浏览器",
+    viewCardsTitle: "卡片网格",
   },
   en: {
     subtitle: "A maintainable data-driven Recruitment & AI Hiring tool map, inspired by OSINT Framework.",
@@ -105,6 +115,16 @@ const i18n = {
     sortByName: "By Name",
     sortByCategory: "By Category",
     sortByTags: "By Tags",
+    viewTree: "Tree",
+    viewAccordion: "List",
+    viewTable: "Table",
+    viewExplorer: "Explorer",
+    viewCards: "Cards",
+    viewTreeTitle: "D3 Tree View",
+    viewAccordionTitle: "Accordion List",
+    viewTableTitle: "Data Table",
+    viewExplorerTitle: "File Explorer",
+    viewCardsTitle: "Card Grid",
   }
 };
 
@@ -134,6 +154,10 @@ function applyLanguage(lang) {
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     const key = el.getAttribute("data-i18n-placeholder");
     if (i18n[currentLang][key]) el.placeholder = i18n[currentLang][key];
+  });
+  document.querySelectorAll("[data-i18n-title]").forEach(el => {
+    const key = el.getAttribute("data-i18n-title");
+    if (i18n[currentLang][key]) el.title = i18n[currentLang][key];
   });
 }
 
