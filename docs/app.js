@@ -426,8 +426,9 @@ function buildTree(data) {
       });
 
     nodeEnter.append("circle").attr("r", 4.5).attr("fill", d => d._children ? "#394b66" : d.children ? "#394b66" : "#1b2230");
-    nodeEnter.append("text").attr("dy", "0.32em").attr("x", d => (d._children || d.children) ? -8 : 8)
-      .attr("text-anchor", d => (d._children || d.children) ? "end" : "start").text(d => getLocalizedName(d.data));
+    // All text goes to the RIGHT of the node to prevent overlap between different depth levels
+    nodeEnter.append("text").attr("dy", "0.32em").attr("x", 10)
+      .attr("text-anchor", "start").text(d => getLocalizedName(d.data));
     nodeEnter.append("title").text(d => {
       const path = d.ancestors().reverse().map(x => getLocalizedName(x.data)).join(" / ");
       return path + (d.data.url ? `\n${d.data.url}` : "");
