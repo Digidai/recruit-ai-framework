@@ -374,9 +374,14 @@ function buildTree(data) {
   const initialTransform = d3.zoomIdentity.translate(40, height / 2).scale(1);
 
   // Increased spacing to prevent overlap
-  const dx = 28;  // Vertical spacing
-  const dy = 240; // Horizontal spacing
-  const tree = d3.tree().nodeSize([dx, dy]).separation((a, b) => a.parent === b.parent ? 1 : 1.2);
+  const dx = 32;  // Vertical spacing between nodes
+  const dy = 280; // Horizontal spacing between levels
+  // More aggressive separation for nodes with different parents
+  const tree = d3.tree().nodeSize([dx, dy]).separation((a, b) => {
+    if (a.parent === b.parent) return 1;
+    // Nodes with different parents need more space
+    return 2;
+  });
   const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 
   function update(source) {
