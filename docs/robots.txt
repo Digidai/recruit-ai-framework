@@ -3,6 +3,33 @@
 
 User-agent: *
 Allow: /
+Crawl-delay: 1
+
+# Disallow specific paths if any
+# Disallow: /private/
 
 # Sitemap
 Sitemap: https://digidai.github.io/recruit-ai-framework/sitemap.xml
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Popular AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /

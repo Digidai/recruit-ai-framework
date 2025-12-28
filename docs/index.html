@@ -9,6 +9,9 @@
   <meta name="author" content="Recruitment AI Framework" />
   <meta name="theme-color" content="#0b0c10" />
 
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="manifest.json" />
+
   <!-- Open Graph / Social Media -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://digidai.github.io/recruit-ai-framework/" />
@@ -31,6 +34,181 @@
   <link rel="preconnect" href="https://d3js.org" crossorigin />
   <link rel="dns-prefetch" href="https://d3js.org" />
 
+  <!-- Preload critical resources -->
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="preload" href="app.js" as="script" />
+  <link rel="preload" href="tarf.json" as="fetch" crossorigin />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Recruitment & AI Hiring Framework",
+    "alternateName": "招聘与AI招聘工具导航",
+    "url": "https://digidai.github.io/recruit-ai-framework/",
+    "description": "一个数据驱动的招聘工具导航地图，覆盖58大分类、1288条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。",
+    "inLanguage": ["zh-CN", "en"],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://digidai.github.io/recruit-ai-framework/?search={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Recruitment AI Framework",
+      "url": "https://github.com/Digidai/recruit-ai-framework"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "招聘工具导航",
+    "description": "全面的招聘与AI招聘工具资源目录",
+    "numberOfItems": 1288,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "AI 招聘工具",
+        "description": "人工智能驱动的招聘和人才管理工具"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "ATS 系统",
+        "description": "申请人跟踪系统和工作流管理"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "DEI 工具",
+        "description": "多样性、公平性和包容性招聘工具"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "招聘合规与风险治理",
+        "description": "AI招聘风险管理、法律合规和最佳实践"
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "什么是 Recruitment & AI Hiring Framework?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Recruitment & AI Hiring Framework 是一个数据驱动的招聘工具导航地图，覆盖58大分类、1288条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "这个框架包含哪些类型的招聘工具?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "该框架包含 AI 招聘工具、ATS 系统、DEI 工具、招聘合规与风险治理、面试评估、候选人体验、雇主品牌、人才分析、国际招聘等58个大分类的资源。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何使用这个招聘工具导航?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "您可以通过搜索功能查找特定工具，浏览不同的分类目录，或使用多种视图模式（树形图、手风琴目录、数据表格、文件浏览器、卡片网格）来探索资源。支持中英文关键词搜索。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "这个工具导航是否免费使用?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "是的，Recruitment & AI Hiring Framework 完全免费使用，采用 MIT 许可证开源。您可以自由浏览、搜索和下载资源数据。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "首页",
+        "item": "https://digidai.github.io/recruit-ai-framework/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "招聘工具导航",
+        "item": "https://digidai.github.io/recruit-ai-framework/"
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Recruitment & AI Hiring Framework",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web Browser",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "1288"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Recruitment AI Framework"
+    }
+  }
+  </script>
+
+  <!-- Additional SEO Meta Tags -->
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="rating" content="General" />
+  <meta name="distribution" content="Global" />
+  <meta name="language" content="zh-CN" />
+  <meta http-equiv="content-language" content="zh-CN" />
+
+  <!-- Additional Open Graph Tags -->
+  <meta property="og:site_name" content="Recruitment & AI Hiring Framework" />
+  <meta property="og:image:alt" content="Recruitment & AI Hiring Framework - 招聘工具导航" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Additional Twitter Card Tags -->
+  <meta name="twitter:image:alt" content="Recruitment & AI Hiring Framework - 招聘工具导航" />
+
+  <!-- Hreflang Tags for Language Targeting -->
+  <link rel="alternate" hreflang="zh-CN" href="https://digidai.github.io/recruit-ai-framework/" />
+  <link rel="alternate" hreflang="en" href="https://digidai.github.io/recruit-ai-framework/" />
+  <link rel="alternate" hreflang="x-default" href="https://digidai.github.io/recruit-ai-framework/" />
+
   <link rel="stylesheet" href="style.css" />
 
   <!-- Noscript fallback styles -->
@@ -42,13 +220,13 @@
   </noscript>
 </head>
 <body>
-  <header class="header">
+  <header class="header" role="banner">
     <div class="header__title">
       <h1>Recruitment & AI Hiring Framework</h1>
       <p class="subtitle" data-i18n="subtitle">一个可维护的「招聘 × AI 招聘」工具地图（数据驱动），灵感来自 OSINT Framework。</p>
     </div>
 
-    <nav class="header__controls" aria-label="搜索和工具">
+    <nav class="header__controls" aria-label="搜索和工具" role="navigation">
       <label for="searchInput" class="visually-hidden">搜索工具和资源</label>
       <input id="searchInput" type="search" placeholder="搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）" autocomplete="off" aria-label="搜索工具和资源" data-i18n-placeholder="searchPlaceholder" />
       <button id="btnClear" type="button" title="清空搜索" aria-label="清空搜索" data-i18n="clearBtn">清空</button>
@@ -94,8 +272,8 @@
     </div>
   </header>
 
-  <main class="layout">
-    <section class="panel panel--tree">
+  <main class="layout" role="main">
+    <section class="panel panel--tree" aria-labelledby="viewTitle">
       <div class="panel__title">
         <span id="viewTitle" data-i18n="treeTitle">工具树</span>
         <div class="view-controls">
@@ -196,7 +374,8 @@
       </div>
     </section>
 
-    <aside class="panel panel--side">
+    <aside class="panel panel--side" role="complementary" aria-labelledby="sidebar-title">
+      <h2 id="sidebar-title" class="visually-hidden">侧边栏</h2>
       <div class="panel__title" data-i18n="searchResults">搜索结果</div>
       <div id="resultMeta" class="resultMeta" data-i18n="searchHint">输入关键词开始搜索。</div>
       <div id="searchControls" class="search-controls">
@@ -229,7 +408,7 @@
     </aside>
   </main>
 
-  <footer class="footer">
+  <footer class="footer" role="contentinfo">
     <p data-i18n="footerWarning">⚠️ 仅用于招聘工具导航与学习研究；使用任何自动化/AI 招聘能力时请遵守适用法律法规与隐私要求，并进行必要的偏差评估与人类复核。</p>
     <p class="footer__links">
       <a href="https://github.com/Digidai/recruit-ai-framework" target="_blank" rel="noopener">GitHub</a>

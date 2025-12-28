@@ -1,0 +1,44 @@
+{
+  "name": "Recruitment & AI Hiring Framework",
+  "short_name": "Recruit AI Framework",
+  "description": "一个数据驱动的招聘工具导航地图，覆盖58大分类、1288条资源，包含AI招聘风险治理、DEI、神经多样性等专项。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0c10",
+  "theme_color": "#0b0c10",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://digidai.github.io/recruit-ai-framework/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://digidai.github.io/recruit-ai-framework/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"],
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "scope": "/",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "搜索工具",
+      "short_name": "搜索",
+      "description": "搜索招聘工具和资源",
+      "url": "/?search",
+      "icons": [
+        {
+          "src": "https://digidai.github.io/recruit-ai-framework/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
