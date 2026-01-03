@@ -115,6 +115,28 @@
                     "US"
                   ],
                   "name_en": "OFCCP｜Internet Applicant Final Rule"
+                },
+                {
+                  "name": "NYC AEDT偏见审计法规",
+                  "name_en": "NYC AEDT Bias Audit Regulation",
+                  "type": "url",
+                  "url": "https://rules.cityofnewyork.us/rule/automated-employment-decision-tools/",
+                  "tags": [
+                    "Compliance",
+                    "NYC",
+                    "Bias Audit"
+                  ]
+                },
+                {
+                  "name": "加州CCPA自动化决策规则",
+                  "name_en": "California CCPA ADMT Regulations",
+                  "type": "url",
+                  "url": "https://cppa.ca.gov/regulations/",
+                  "tags": [
+                    "Compliance",
+                    "California",
+                    "Privacy"
+                  ]
                 }
               ],
               "name_en": "Compliance: Selection/Assessment/Interviewing"
@@ -857,6 +879,50 @@
                     "Video",
                     "AI",
                     "Speed"
+                  ]
+                },
+                {
+                  "name": "Zoom招聘面试（视频会议）",
+                  "name_en": "Zoom for Recruiting",
+                  "type": "url",
+                  "url": "https://explore.zoom.us/en/products/meetings/",
+                  "tags": [
+                    "Video",
+                    "Meeting",
+                    "Enterprise"
+                  ]
+                },
+                {
+                  "name": "Microsoft Teams面试（协作招聘）",
+                  "name_en": "Microsoft Teams for Interviews",
+                  "type": "url",
+                  "url": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+                  "tags": [
+                    "Video",
+                    "Collaboration",
+                    "Enterprise"
+                  ]
+                },
+                {
+                  "name": "interviewstream（视频面试平台）",
+                  "name_en": "interviewstream (Video Interview Platform)",
+                  "type": "url",
+                  "url": "https://interviewstream.com/",
+                  "tags": [
+                    "Video",
+                    "Async",
+                    "Enterprise"
+                  ]
+                },
+                {
+                  "name": "Recright（视频招聘平台）",
+                  "name_en": "Recright (Video Recruiting Platform)",
+                  "type": "url",
+                  "url": "https://recright.com/",
+                  "tags": [
+                    "Video",
+                    "Async",
+                    "Europe"
                   ]
                 }
               ],
@@ -2246,6 +2312,39 @@
                     "AI",
                     "Video"
                   ]
+                },
+                {
+                  "name": "SmartDreamers（招聘营销自动化）",
+                  "name_en": "SmartDreamers (Recruitment Marketing Automation)",
+                  "type": "url",
+                  "url": "https://www.smartdreamers.com/",
+                  "tags": [
+                    "Marketing",
+                    "Automation",
+                    "Employer Brand"
+                  ]
+                },
+                {
+                  "name": "Cliquify（雇主品牌展示）",
+                  "name_en": "Cliquify (Employer Branding Platform)",
+                  "type": "url",
+                  "url": "https://cliquify.me/",
+                  "tags": [
+                    "Branding",
+                    "Video",
+                    "Culture"
+                  ]
+                },
+                {
+                  "name": "Shazamme（招聘网站构建器）",
+                  "name_en": "Shazamme (Recruitment Website Builder)",
+                  "type": "url",
+                  "url": "https://www.shazamme.com/",
+                  "tags": [
+                    "Marketing",
+                    "Career Site",
+                    "SEO"
+                  ]
                 }
               ],
               "name_en": "Recruitment Marketing Platforms"
@@ -2291,6 +2390,17 @@
                     "P"
                   ],
                   "name_en": "Catalant (Consulting Talent)"
+                },
+                {
+                  "name": "Andela（非洲技术人才）",
+                  "name_en": "Andela (African Tech Talent)",
+                  "type": "url",
+                  "url": "https://andela.com/",
+                  "tags": [
+                    "Freelance",
+                    "Tech",
+                    "Africa"
+                  ]
                 }
               ],
               "name_en": "Freelance / Gig Platforms"
@@ -2333,6 +2443,17 @@
               "tags": [
                 "Advertising",
                 "AI"
+              ]
+            },
+            {
+              "name": "Jobbio（人才市场）",
+              "name_en": "Jobbio (Talent Marketplace)",
+              "type": "url",
+              "url": "https://jobbio.com/",
+              "tags": [
+                "Job Board",
+                "Marketing",
+                "Employer Brand"
               ]
             }
           ],
@@ -2774,6 +2895,17 @@
                     "Boolean",
                     "Chrome"
                   ]
+                },
+                {
+                  "name": "Evaboot（Sales Navigator导出）",
+                  "name_en": "Evaboot (Sales Navigator Export)",
+                  "type": "url",
+                  "url": "https://evaboot.com/",
+                  "tags": [
+                    "Sourcing",
+                    "LinkedIn",
+                    "Export"
+                  ]
                 }
               ],
               "name_en": "LinkedIn X-Ray"
@@ -3116,6 +3248,28 @@
                     "Intern"
                   ],
                   "name_en": "Chegg Internships"
+                },
+                {
+                  "name": "GradConnection（澳洲校园招聘）",
+                  "name_en": "GradConnection (Australia Campus Recruiting)",
+                  "type": "url",
+                  "url": "https://au.gradconnection.com/",
+                  "tags": [
+                    "Campus",
+                    "Australia",
+                    "Graduate"
+                  ]
+                },
+                {
+                  "name": "Prospects.ac.uk（英国毕业生就业）",
+                  "name_en": "Prospects UK (Graduate Careers)",
+                  "type": "url",
+                  "url": "https://www.prospects.ac.uk/",
+                  "tags": [
+                    "Campus",
+                    "UK",
+                    "Graduate"
+                  ]
                 }
               ],
               "name_en": "Campus Recruiting Platforms (International)"
@@ -3505,6 +3659,50 @@
                     "P"
                   ],
                   "name_en": "ExecuNet"
+                },
+                {
+                  "name": "N2Growth（高管猎头）",
+                  "name_en": "N2Growth (Executive Search)",
+                  "type": "url",
+                  "url": "https://www.n2growth.com/",
+                  "tags": [
+                    "Executive",
+                    "Board",
+                    "C-Suite"
+                  ]
+                },
+                {
+                  "name": "Chief Jobs（C级职位平台）",
+                  "name_en": "Chief Jobs (C-Suite Job Board)",
+                  "type": "url",
+                  "url": "https://www.chiefjobs.com/",
+                  "tags": [
+                    "Executive",
+                    "Job Board",
+                    "C-Suite"
+                  ]
+                },
+                {
+                  "name": "BlueSteps（AESC高管网络）",
+                  "name_en": "BlueSteps (AESC Executive Network)",
+                  "type": "url",
+                  "url": "https://www.bluesteps.com/",
+                  "tags": [
+                    "Executive",
+                    "Network",
+                    "AESC"
+                  ]
+                },
+                {
+                  "name": "ExecThread（高管私密职位）",
+                  "name_en": "ExecThread (Executive Private Network)",
+                  "type": "url",
+                  "url": "https://www.execthread.com/",
+                  "tags": [
+                    "Executive",
+                    "Private",
+                    "Director"
+                  ]
                 }
               ],
               "name_en": "Board / C-Suite Recruiting"
@@ -4451,6 +4649,17 @@
                     "P"
                   ],
                   "name_en": "Gulu Recruiting System"
+                },
+                {
+                  "name": "iSmartRecruit（亚洲ATS）",
+                  "name_en": "iSmartRecruit (Asia ATS)",
+                  "type": "url",
+                  "url": "https://www.ismartrecruit.com/",
+                  "tags": [
+                    "ATS",
+                    "Asia",
+                    "AI"
+                  ]
                 }
               ],
               "name_en": "ATS (China)"
@@ -4695,6 +4904,28 @@
                 "ATS",
                 "SMB",
                 "Design"
+              ]
+            },
+            {
+              "name": "Freshteam（团队招聘工具）",
+              "name_en": "Freshteam (Team Recruiting Tool)",
+              "type": "url",
+              "url": "https://www.freshworks.com/hrms/",
+              "tags": [
+                "ATS",
+                "Collaboration",
+                "Free Tier"
+              ]
+            },
+            {
+              "name": "Comeet（协作招聘平台）",
+              "name_en": "Comeet (Collaborative Hiring Platform)",
+              "type": "url",
+              "url": "https://www.comeet.com/",
+              "tags": [
+                "ATS",
+                "Collaboration",
+                "SMB"
               ]
             }
           ],
@@ -5776,6 +6007,28 @@
                     "Free",
                     "DEI"
                   ]
+                },
+                {
+                  "name": "GoHire（职位描述生成器）",
+                  "name_en": "GoHire (Job Description Generator)",
+                  "type": "url",
+                  "url": "https://gohire.io/",
+                  "tags": [
+                    "AI",
+                    "JD Writing",
+                    "ATS"
+                  ]
+                },
+                {
+                  "name": "Recruitee JD Templates（职位模板库）",
+                  "name_en": "Recruitee JD Templates (Job Description Library)",
+                  "type": "url",
+                  "url": "https://recruitee.com/job-descriptions",
+                  "tags": [
+                    "Templates",
+                    "JD Writing",
+                    "Free"
+                  ]
                 }
               ],
               "name_en": "JD Writing / Recruiting Copy"
@@ -5823,6 +6076,50 @@
                     "P"
                   ],
                   "name_en": "Ideal"
+                },
+                {
+                  "name": "AmazingHiring（技术人才搜索）",
+                  "name_en": "AmazingHiring (Tech Talent Search)",
+                  "type": "url",
+                  "url": "https://amazinghiring.com/",
+                  "tags": [
+                    "Sourcing",
+                    "Technical",
+                    "AI"
+                  ]
+                },
+                {
+                  "name": "Talentful（嵌入式招聘）",
+                  "name_en": "Talentful (Embedded Recruiting)",
+                  "type": "url",
+                  "url": "https://www.talentful.com/",
+                  "tags": [
+                    "AI",
+                    "Sourcing",
+                    "Embedded"
+                  ]
+                },
+                {
+                  "name": "Talent.io（欧洲科技招聘）",
+                  "name_en": "Talent.io (European Tech Recruiting)",
+                  "type": "url",
+                  "url": "https://www.talent.io/",
+                  "tags": [
+                    "AI",
+                    "Marketplace",
+                    "Europe"
+                  ]
+                },
+                {
+                  "name": "HackerRank Sourcing（技术人才发现）",
+                  "name_en": "HackerRank Sourcing (Tech Talent Discovery)",
+                  "type": "url",
+                  "url": "https://www.hackerrank.com/products/developer-sourcing/",
+                  "tags": [
+                    "AI",
+                    "Sourcing",
+                    "Technical"
+                  ]
                 }
               ],
               "name_en": "Smart Sourcing / Talent Matching"
@@ -5910,6 +6207,61 @@
                     "Engagement",
                     "AI"
                   ]
+                },
+                {
+                  "name": "Phenom X+ Chatbot（人才体验聊天机器人）",
+                  "name_en": "Phenom X+ Chatbot (Talent Experience Bot)",
+                  "type": "url",
+                  "url": "https://www.phenom.com/chatbot",
+                  "tags": [
+                    "AI",
+                    "Chatbot",
+                    "Enterprise"
+                  ]
+                },
+                {
+                  "name": "AllyO（端到端招聘AI）",
+                  "name_en": "AllyO (End-to-End Recruiting AI)",
+                  "type": "url",
+                  "url": "https://www.allyo.com/",
+                  "tags": [
+                    "AI",
+                    "Chatbot",
+                    "Automation"
+                  ]
+                },
+                {
+                  "name": "Talkpush（高容量招聘聊天）",
+                  "name_en": "Talkpush (High-Volume Recruiting Chat)",
+                  "type": "url",
+                  "url": "https://talkpush.com/",
+                  "tags": [
+                    "AI",
+                    "Chatbot",
+                    "High Volume"
+                  ]
+                },
+                {
+                  "name": "JobPal（多渠道招聘聊天）",
+                  "name_en": "JobPal (Multi-Channel Recruiting Chat)",
+                  "type": "url",
+                  "url": "https://www.jobpal.ai/",
+                  "tags": [
+                    "AI",
+                    "Chatbot",
+                    "Multi-Channel"
+                  ]
+                },
+                {
+                  "name": "Dialpad AI（智能语音通话）",
+                  "name_en": "Dialpad AI (AI-Powered Voice)",
+                  "type": "url",
+                  "url": "https://www.dialpad.com/",
+                  "tags": [
+                    "AI",
+                    "Communication",
+                    "Voice"
+                  ]
                 }
               ],
               "name_en": "AI Candidate Communication / Chatbot"
@@ -5992,6 +6344,50 @@
                     "Screening",
                     "Reference"
                   ]
+                },
+                {
+                  "name": "Skima AI（AI简历筛选）",
+                  "name_en": "Skima AI (AI Resume Screening)",
+                  "type": "url",
+                  "url": "https://www.skima.ai/",
+                  "tags": [
+                    "AI",
+                    "Resume",
+                    "Screening"
+                  ]
+                },
+                {
+                  "name": "CVViZ（AI简历解析器）",
+                  "name_en": "CVViZ (AI Resume Parser)",
+                  "type": "url",
+                  "url": "https://cvviz.com/",
+                  "tags": [
+                    "AI",
+                    "Resume",
+                    "Parsing"
+                  ]
+                },
+                {
+                  "name": "Sovren（HR文档AI）",
+                  "name_en": "Sovren (HR Document AI)",
+                  "type": "url",
+                  "url": "https://www.sovren.com/",
+                  "tags": [
+                    "AI",
+                    "Resume",
+                    "Matching"
+                  ]
+                },
+                {
+                  "name": "ResumeParser.ai（简历解析服务）",
+                  "name_en": "ResumeParser.ai (Resume Parsing Service)",
+                  "type": "url",
+                  "url": "https://resumeparser.ai/",
+                  "tags": [
+                    "AI",
+                    "Resume",
+                    "API"
+                  ]
                 }
               ],
               "name_en": "AI Resume Parsing / Screening"
@@ -6048,6 +6444,39 @@
                   "tags": [
                     "Assessment",
                     "Enterprise"
+                  ]
+                },
+                {
+                  "name": "Glider AI（技能评估平台）",
+                  "name_en": "Glider AI (Skills Assessment Platform)",
+                  "type": "url",
+                  "url": "https://glider.ai/",
+                  "tags": [
+                    "AI",
+                    "Assessment",
+                    "Skills"
+                  ]
+                },
+                {
+                  "name": "Korn Ferry Assessment（领导力评估）",
+                  "name_en": "Korn Ferry Assessment (Leadership Assessment)",
+                  "type": "url",
+                  "url": "https://www.kornferry.com/solutions/products/assessments",
+                  "tags": [
+                    "AI",
+                    "Assessment",
+                    "Leadership"
+                  ]
+                },
+                {
+                  "name": "Prevue HR（员工潜力评估）",
+                  "name_en": "Prevue HR (Employee Potential Assessment)",
+                  "type": "url",
+                  "url": "https://www.prevuehr.com/",
+                  "tags": [
+                    "AI",
+                    "Assessment",
+                    "Predictive"
                   ]
                 }
               ],
@@ -6117,6 +6546,28 @@
                   "tags": [
                     "Analytics",
                     "Enterprise"
+                  ]
+                },
+                {
+                  "name": "Dataiku HR Analytics（HR数据科学）",
+                  "name_en": "Dataiku HR Analytics",
+                  "type": "url",
+                  "url": "https://www.dataiku.com/solutions/hr-analytics/",
+                  "tags": [
+                    "AI",
+                    "Analytics",
+                    "Data Science"
+                  ]
+                },
+                {
+                  "name": "Peakon（员工参与度分析）",
+                  "name_en": "Peakon (Employee Engagement Analytics)",
+                  "type": "url",
+                  "url": "https://www.workday.com/en-us/products/employee-voice/overview.html",
+                  "tags": [
+                    "AI",
+                    "Analytics",
+                    "Engagement"
                   ]
                 }
               ],
@@ -6576,6 +7027,28 @@
                     "Data"
                   ],
                   "name_en": "AI Incident Database"
+                },
+                {
+                  "name": "oxethica AI审计工具",
+                  "name_en": "oxethica AI Audit Tool",
+                  "type": "url",
+                  "url": "https://www.oxethica.com/",
+                  "tags": [
+                    "AI Audit",
+                    "Transparency",
+                    "Compliance"
+                  ]
+                },
+                {
+                  "name": "Centraleyes AI合规工具",
+                  "name_en": "Centraleyes AI Compliance Tools",
+                  "type": "url",
+                  "url": "https://www.centraleyes.com/",
+                  "tags": [
+                    "Compliance",
+                    "GRC",
+                    "Automation"
+                  ]
                 }
               ],
               "name_en": "Transparency / Documentation"
@@ -6619,6 +7092,39 @@
                     "Community"
                   ],
                   "name_en": "Partnership on AI"
+                },
+                {
+                  "name": "英国政府AI招聘责任指南",
+                  "name_en": "UK Government Responsible AI in Recruitment",
+                  "type": "url",
+                  "url": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide",
+                  "tags": [
+                    "AI Ethics",
+                    "Government",
+                    "UK"
+                  ]
+                },
+                {
+                  "name": "Oleeo AI治理计划指南",
+                  "name_en": "Oleeo AI Governance Plan Guide",
+                  "type": "url",
+                  "url": "https://www.oleeo.com/blog/how-to-create-an-ai-governance-plan-for-recruitment/",
+                  "tags": [
+                    "AI Ethics",
+                    "Governance",
+                    "Framework"
+                  ]
+                },
+                {
+                  "name": "TRAPS框架（可信责任AI）",
+                  "name_en": "TRAPS Framework (Trusted Responsible AI)",
+                  "type": "url",
+                  "url": "https://aisera.com/platform/aisera-trust-center/",
+                  "tags": [
+                    "AI Ethics",
+                    "Framework",
+                    "Security"
+                  ]
                 }
               ],
               "name_en": "Responsible AI Guidelines"
@@ -7033,6 +7539,39 @@
                     "HRM"
                   ],
                   "type": "url"
+                },
+                {
+                  "name": "MintHCM（开源HCM）",
+                  "name_en": "MintHCM (Open Source HCM)",
+                  "type": "url",
+                  "url": "https://minthcm.org/",
+                  "tags": [
+                    "Open Source",
+                    "HCM",
+                    "Self-Hosted"
+                  ]
+                },
+                {
+                  "name": "Frappe HR（开源HR系统）",
+                  "name_en": "Frappe HR (Open Source HR)",
+                  "type": "url",
+                  "url": "https://frappehr.com/",
+                  "tags": [
+                    "Open Source",
+                    "HRIS",
+                    "Python"
+                  ]
+                },
+                {
+                  "name": "Sentrifugo（开源HRM）",
+                  "name_en": "Sentrifugo (Open Source HRM)",
+                  "type": "url",
+                  "url": "https://www.sentrifugo.com/",
+                  "tags": [
+                    "Open Source",
+                    "HRM",
+                    "Self-Hosted"
+                  ]
                 }
               ],
               "name_en": "Recruiting / HR Open Source Projects"
@@ -7497,6 +8036,17 @@
                     "Video",
                     "Screening"
                   ]
+                },
+                {
+                  "name": "Knockri（无偏见AI面试）",
+                  "name_en": "Knockri (Bias-Free AI Interview)",
+                  "type": "url",
+                  "url": "https://knockri.com/",
+                  "tags": [
+                    "AI",
+                    "Video",
+                    "Bias-Free"
+                  ]
                 }
               ],
               "name_en": "AI Video Interview"
@@ -7545,6 +8095,61 @@
                     "AI",
                     "Interview",
                     "Screening"
+                  ]
+                },
+                {
+                  "name": "Honeit面试智能平台",
+                  "name_en": "Honeit Interview Intelligence Platform",
+                  "type": "url",
+                  "url": "https://www.honeit.com/",
+                  "tags": [
+                    "AI",
+                    "Interview",
+                    "Recording"
+                  ]
+                },
+                {
+                  "name": "Promap AI（面试Copilot）",
+                  "name_en": "Promap AI (Interview Copilot)",
+                  "type": "url",
+                  "url": "https://www.promap.ai/",
+                  "tags": [
+                    "AI",
+                    "Copilot",
+                    "Follow-up"
+                  ]
+                },
+                {
+                  "name": "Interview Sidekick（AI面试辅助）",
+                  "name_en": "Interview Sidekick (AI Interview Helper)",
+                  "type": "url",
+                  "url": "https://interviewsidekick.com/",
+                  "tags": [
+                    "AI",
+                    "Assistant",
+                    "Practice"
+                  ]
+                },
+                {
+                  "name": "Verve AI Copilot（实时面试支持）",
+                  "name_en": "Verve AI Copilot (Real-Time Interview Support)",
+                  "type": "url",
+                  "url": "https://www.vervecopilot.com/",
+                  "tags": [
+                    "AI",
+                    "Copilot",
+                    "Real-Time"
+                  ]
+                },
+                {
+                  "name": "Beyz AI（面试问答库）",
+                  "name_en": "Beyz AI (Interview Q&A Database)",
+                  "type": "url",
+                  "url": "https://beyz.ai/",
+                  "tags": [
+                    "AI",
+                    "Q&A",
+                    "Practice"
                   ]
                 }
               ],
@@ -7595,6 +8200,50 @@
                     "Psychometric",
                     "EQ",
                     "Gamification"
+                  ]
+                },
+                {
+                  "name": "AssessFirst（预测招聘）",
+                  "name_en": "AssessFirst (Predictive Recruiting)",
+                  "type": "url",
+                  "url": "https://www.assessfirst.com/",
+                  "tags": [
+                    "Psychometric",
+                    "AI",
+                    "Predictive"
+                  ]
+                },
+                {
+                  "name": "Aon Assessment（全球评估）",
+                  "name_en": "Aon Assessment Solutions",
+                  "type": "url",
+                  "url": "https://assessment.aon.com/",
+                  "tags": [
+                    "Psychometric",
+                    "Enterprise",
+                    "Global"
+                  ]
+                },
+                {
+                  "name": "INVIEWS（AI心理测评）",
+                  "name_en": "INVIEWS (AI Psychometric Assessment)",
+                  "type": "url",
+                  "url": "https://inviews.io/",
+                  "tags": [
+                    "Psychometric",
+                    "AI",
+                    "Analytics"
+                  ]
+                },
+                {
+                  "name": "AON Cut-e（人才评估）",
+                  "name_en": "AON Cut-e (Talent Assessment)",
+                  "type": "url",
+                  "url": "https://assessment.aon.com/cut-e/",
+                  "tags": [
+                    "Psychometric",
+                    "Enterprise",
+                    "Global"
                   ]
                 }
               ],
@@ -7653,6 +8302,72 @@
                     "Global"
                   ],
                   "name_en": "World Economic Forum｜Future of Jobs"
+                },
+                {
+                  "name": "HBR AI招聘公平性研究",
+                  "name_en": "HBR AI and Fairness in Hiring Research",
+                  "type": "url",
+                  "url": "https://hbr.org/topic/subject/artificial-intelligence",
+                  "tags": [
+                    "Research",
+                    "HBR",
+                    "Fairness"
+                  ]
+                },
+                {
+                  "name": "arXiv AI招聘公平性综述",
+                  "name_en": "arXiv Fairness in AI-Driven Recruitment",
+                  "type": "url",
+                  "url": "https://arxiv.org/list/cs.CY/recent",
+                  "tags": [
+                    "Research",
+                    "Academic",
+                    "Fairness"
+                  ]
+                },
+                {
+                  "name": "LinkedIn Future of Recruiting报告",
+                  "name_en": "LinkedIn Future of Recruiting Report",
+                  "type": "url",
+                  "url": "https://business.linkedin.com/talent-solutions/resources/future-of-recruiting",
+                  "tags": [
+                    "Research",
+                    "LinkedIn",
+                    "Trends"
+                  ]
+                },
+                {
+                  "name": "Nature AI招聘伦理研究",
+                  "name_en": "Nature AI Recruitment Ethics Research",
+                  "type": "url",
+                  "url": "https://www.nature.com/subjects/artificial-intelligence",
+                  "tags": [
+                    "Research",
+                    "Academic",
+                    "Ethics"
+                  ]
+                },
+                {
+                  "name": "Frontiers心理学AI招聘研究",
+                  "name_en": "Frontiers Psychology AI Hiring Research",
+                  "type": "url",
+                  "url": "https://www.frontiersin.org/journals/psychology",
+                  "tags": [
+                    "Research",
+                    "Psychology",
+                    "Academic"
+                  ]
+                },
+                {
+                  "name": "TestGorilla技能招聘报告",
+                  "name_en": "TestGorilla State of Skills-Based Hiring Report",
+                  "type": "url",
+                  "url": "https://www.testgorilla.com/skills-based-hiring/",
+                  "tags": [
+                    "Research",
+                    "Report",
+                    "Skills"
+                  ]
                 }
               ],
               "name_en": "AI Interview Research"
@@ -7704,6 +8419,72 @@
                     "Assessment"
                   ],
                   "type": "url"
+                },
+                {
+                  "name": "Woven（技术面试平台）",
+                  "name_en": "Woven (Technical Interview Platform)",
+                  "type": "url",
+                  "url": "https://www.woven.com/",
+                  "tags": [
+                    "AI",
+                    "Coding",
+                    "Assessment"
+                  ]
+                },
+                {
+                  "name": "InCruiter（AI编程评估）",
+                  "name_en": "InCruiter (AI Coding Assessment)",
+                  "type": "url",
+                  "url": "https://incruiter.com/",
+                  "tags": [
+                    "Coding",
+                    "AI",
+                    "Virtual"
+                  ]
+                },
+                {
+                  "name": "Interview Coder（技术面试AI）",
+                  "name_en": "Interview Coder (Technical Interview AI)",
+                  "type": "url",
+                  "url": "https://www.interviewcoder.co/",
+                  "tags": [
+                    "Coding",
+                    "AI",
+                    "Assistant"
+                  ]
+                },
+                {
+                  "name": "HireHunch（技术面试平台）",
+                  "name_en": "HireHunch (Technical Interview Platform)",
+                  "type": "url",
+                  "url": "https://hirehunch.com/",
+                  "tags": [
+                    "Coding",
+                    "Interview",
+                    "AI"
+                  ]
+                },
+                {
+                  "name": "Utkrusht AI（技术面试AI）",
+                  "name_en": "Utkrusht AI (Technical Interview AI)",
+                  "type": "url",
+                  "url": "https://utkrusht.ai/",
+                  "tags": [
+                    "Coding",
+                    "AI",
+                    "CTO"
+                  ]
+                },
+                {
+                  "name": "Intervue.io（技术评估平台）",
+                  "name_en": "Intervue.io (Technical Assessment Platform)",
+                  "type": "url",
+                  "url": "https://www.intervue.io/",
+                  "tags": [
+                    "Coding",
+                    "Assessment",
+                    "AI"
+                  ]
                 }
               ],
               "type": "folder"
@@ -7757,6 +8538,83 @@
                 "AI"
               ],
               "type": "url"
+            },
+            {
+              "name": "HiringBranch（软技能AI评估）",
+              "name_en": "HiringBranch (Soft Skills AI Assessment)",
+              "type": "url",
+              "url": "https://www.hiringbranch.com/",
+              "tags": [
+                "AI",
+                "Soft Skills",
+                "Assessment"
+              ]
+            },
+            {
+              "name": "WeCReateProblems（AI评估指南）",
+              "name_en": "WeCreateProblems (AI Assessment Guide)",
+              "type": "url",
+              "url": "https://www.wecreateproblems.com/",
+              "tags": [
+                "AI",
+                "Guide",
+                "Assessment"
+              ]
+            },
+            {
+              "name": "Vettio（AI心理评估）",
+              "name_en": "Vettio (AI Psychometric Assessment)",
+              "type": "url",
+              "url": "https://vettio.com/",
+              "tags": [
+                "AI",
+                "Psychometric",
+                "Unbiased"
+              ]
+            },
+            {
+              "name": "LockedIn AI（AI面试助手）",
+              "name_en": "LockedIn AI (AI Interview Assistant)",
+              "type": "url",
+              "url": "https://www.lockedinai.com/",
+              "tags": [
+                "AI",
+                "Assistant",
+                "Multilingual"
+              ]
+            },
+            {
+              "name": "JobTwine（AI面试Copilot）",
+              "name_en": "JobTwine (AI Interview Copilot)",
+              "type": "url",
+              "url": "https://www.jobtwine.com/",
+              "tags": [
+                "AI",
+                "Copilot",
+                "Hiring"
+              ]
+            },
+            {
+              "name": "Pesto Tech（AI面试平台）",
+              "name_en": "Pesto Tech (AI Interview Platform)",
+              "type": "url",
+              "url": "https://pesto.tech/",
+              "tags": [
+                "AI",
+                "Interview",
+                "Tech"
+              ]
+            },
+            {
+              "name": "Qureos（AI招聘指南）",
+              "name_en": "Qureos (AI Hiring Guide)",
+              "type": "url",
+              "url": "https://www.qureos.com/",
+              "tags": [
+                "AI",
+                "Guide",
+                "Career"
+              ]
             }
           ],
           "name_en": "AI Interview & Assessment Technology"
@@ -8294,6 +9152,17 @@
                     "CA"
                   ],
                   "name_en": "Canada｜Pay Equity Act"
+                },
+                {
+                  "name": "EU AI Act高风险分类指南",
+                  "name_en": "EU AI Act High-Risk Classification Guide",
+                  "type": "url",
+                  "url": "https://artificialintelligenceact.eu/high-risk-ai-systems/",
+                  "tags": [
+                    "Regulation",
+                    "EU",
+                    "High-Risk"
+                  ]
                 }
               ],
               "name_en": "EU / International Regulations"
@@ -8343,6 +9212,28 @@
                     "P"
                   ],
                   "name_en": "Aon Pay Equity"
+                },
+                {
+                  "name": "PayAnalytics by beqom",
+                  "name_en": "PayAnalytics by beqom (Pay Gap Analysis)",
+                  "type": "url",
+                  "url": "https://www.payanalytics.com/",
+                  "tags": [
+                    "Pay Equity",
+                    "Analytics",
+                    "EU"
+                  ]
+                },
+                {
+                  "name": "Trusaic PayParity（薪酬透明）",
+                  "name_en": "Trusaic PayParity (Pay Transparency)",
+                  "type": "url",
+                  "url": "https://trusaic.com/payparity/",
+                  "tags": [
+                    "Pay Equity",
+                    "ESG",
+                    "Reporting"
+                  ]
                 }
               ],
               "name_en": "Pay Equity Tools"
@@ -8517,6 +9408,17 @@
                     "US"
                   ],
                   "name_en": "IAPP｜US State Privacy Legislation Tracker"
+                },
+                {
+                  "name": "SmartRecruiters CCPA合规（招聘隐私）",
+                  "name_en": "SmartRecruiters CCPA Compliance",
+                  "type": "url",
+                  "url": "https://www.smartrecruiters.com/resources/ccpa/",
+                  "tags": [
+                    "Privacy",
+                    "CCPA",
+                    "ATS"
+                  ]
                 }
               ],
               "name_en": "US Data Privacy Laws"
@@ -8625,6 +9527,28 @@
                     "P"
                   ],
                   "name_en": "Securiti.ai"
+                },
+                {
+                  "name": "SecurePrivacy（隐私合规自动化）",
+                  "name_en": "SecurePrivacy (Privacy Compliance Automation)",
+                  "type": "url",
+                  "url": "https://secureprivacy.ai/",
+                  "tags": [
+                    "Privacy",
+                    "Automation",
+                    "GDPR"
+                  ]
+                },
+                {
+                  "name": "Vault Verify（招聘数据安全）",
+                  "name_en": "Vault Verify (Recruiting Data Security)",
+                  "type": "url",
+                  "url": "https://www.vaultverify.com/",
+                  "tags": [
+                    "Privacy",
+                    "Verification",
+                    "Security"
+                  ]
                 }
               ],
               "name_en": "Privacy Compliance Tools"
@@ -8922,6 +9846,28 @@
                     "CN"
                   ],
                   "name_en": "China Legal Service Network"
+                },
+                {
+                  "name": "中国劳动法全文（官方法规）",
+                  "name_en": "China Labor Law Full Text",
+                  "type": "url",
+                  "url": "http://www.npc.gov.cn/npc/c2191/c2201/c19845/",
+                  "tags": [
+                    "China",
+                    "Labor Law",
+                    "Official"
+                  ]
+                },
+                {
+                  "name": "NNRoad中国招聘指南（实操指南）",
+                  "name_en": "NNRoad China Hiring Guide",
+                  "type": "url",
+                  "url": "https://nnroad.com/blog/hire-workers-in-china/",
+                  "tags": [
+                    "China",
+                    "Hiring",
+                    "Guide"
+                  ]
                 }
               ],
               "name_en": "China Labor Law"
@@ -9298,6 +10244,28 @@
                     "Guide"
                   ],
                   "type": "url"
+                },
+                {
+                  "name": "TurboCheck（招聘反欺诈）",
+                  "name_en": "TurboCheck (Recruiting Fraud Detection)",
+                  "type": "url",
+                  "url": "https://turbocheck.com/",
+                  "tags": [
+                    "Fraud",
+                    "Detection",
+                    "Verification"
+                  ]
+                },
+                {
+                  "name": "Shareable背景核查",
+                  "name_en": "Shareable Background Checks",
+                  "type": "url",
+                  "url": "https://www.shareable.com/",
+                  "tags": [
+                    "Fraud",
+                    "Background",
+                    "Verification"
+                  ]
                 }
               ],
               "type": "folder"
@@ -9331,6 +10299,28 @@
                 "Background Check",
                 "Compliance",
                 "US"
+              ]
+            },
+            {
+              "name": "Equifax工作验证（就业数据）",
+              "name_en": "Equifax Workforce Solutions",
+              "type": "url",
+              "url": "https://workforce.equifax.com/",
+              "tags": [
+                "Verification",
+                "Employment",
+                "Data"
+              ]
+            },
+            {
+              "name": "Sumsub就业验证（身份验证）",
+              "name_en": "Sumsub Employment Verification",
+              "type": "url",
+              "url": "https://sumsub.com/",
+              "tags": [
+                "Verification",
+                "Identity",
+                "Global"
               ]
             }
           ],
@@ -9477,6 +10467,50 @@
                     "US"
                   ],
                   "name_en": "Onward to Opportunity"
+                },
+                {
+                  "name": "Military.com技能翻译器（军转民）",
+                  "name_en": "Military.com Skills Translator",
+                  "type": "url",
+                  "url": "https://www.military.com/veteran-jobs/skills-translator/",
+                  "tags": [
+                    "Veteran",
+                    "Skills",
+                    "Translator"
+                  ]
+                },
+                {
+                  "name": "O*NET军事技能交叉（职业匹配）",
+                  "name_en": "O*NET Military Skills Crosswalk",
+                  "type": "url",
+                  "url": "https://www.onetonline.org/crosswalk/",
+                  "tags": [
+                    "Veteran",
+                    "O*NET",
+                    "Crosswalk"
+                  ]
+                },
+                {
+                  "name": "My Next Move退伍军人版（职业探索）",
+                  "name_en": "My Next Move for Veterans",
+                  "type": "url",
+                  "url": "https://www.mynextmove.org/vets/",
+                  "tags": [
+                    "Veteran",
+                    "Career",
+                    "DOL"
+                  ]
+                },
+                {
+                  "name": "VA for Vets职业中心（退伍军人服务）",
+                  "name_en": "VA for Vets Career Center",
+                  "type": "url",
+                  "url": "https://www.vaforvets.va.gov/",
+                  "tags": [
+                    "Veteran",
+                    "VA",
+                    "Career"
+                  ]
                 }
               ],
               "name_en": "Military Skills Translation"
@@ -9514,6 +10548,17 @@
                     "US"
                   ],
                   "name_en": "DOL HIRE Vets Medallion"
+                },
+                {
+                  "name": "Blue Signal退伍军人招聘",
+                  "name_en": "Blue Signal Veteran Recruiting",
+                  "type": "url",
+                  "url": "https://bluesignal.com/recruiting-industries/veteran/",
+                  "tags": [
+                    "Veteran",
+                    "Search",
+                    "Skills Translation"
+                  ]
                 }
               ],
               "name_en": "Veteran Recruiting Certifications"
@@ -9933,6 +10978,17 @@
                     "Bias",
                     "Platform"
                   ]
+                },
+                {
+                  "name": "Humantic AI（行为分析）",
+                  "name_en": "Humantic AI (Behavioral Analysis)",
+                  "type": "url",
+                  "url": "https://humantic.ai/",
+                  "tags": [
+                    "AI",
+                    "Personality",
+                    "Bias-Aware"
+                  ]
                 }
               ],
               "name_en": "Recruiting Bias Detection"
@@ -9979,6 +11035,28 @@
                   "tags": [
                     "AI Ethics",
                     "Certification"
+                  ]
+                },
+                {
+                  "name": "Mitratech AI伦理指南（招聘AI伦理）",
+                  "name_en": "Mitratech AI Ethics Guide",
+                  "type": "url",
+                  "url": "https://mitratech.com/",
+                  "tags": [
+                    "Ethics",
+                    "AI",
+                    "Compliance"
+                  ]
+                },
+                {
+                  "name": "Index.dev公平招聘指南（偏见检测）",
+                  "name_en": "Index.dev Fair Hiring Guide",
+                  "type": "url",
+                  "url": "https://www.index.dev/blog/ai-platforms-fair-impartial-hiring",
+                  "tags": [
+                    "Ethics",
+                    "Fairness",
+                    "Guide"
                   ]
                 }
               ],
@@ -10027,6 +11105,28 @@
                     "UK"
                   ],
                   "name_en": "REC Code of Practice"
+                },
+                {
+                  "name": "SHRM招聘伦理准则（行业标准）",
+                  "name_en": "SHRM Recruiting Ethics Guidelines",
+                  "type": "url",
+                  "url": "https://www.shrm.org/topics-tools/topics/ethics",
+                  "tags": [
+                    "Ethics",
+                    "SHRM",
+                    "Standards"
+                  ]
+                },
+                {
+                  "name": "ASA道德规范（人才机构）",
+                  "name_en": "ASA Code of Ethics (Staffing)",
+                  "type": "url",
+                  "url": "https://americanstaffing.net/",
+                  "tags": [
+                    "Ethics",
+                    "Staffing",
+                    "Association"
+                  ]
                 }
               ],
               "name_en": "Recruiting Code of Ethics"
@@ -10199,6 +11299,39 @@
                     "Staffing",
                     "Temp",
                     "Global"
+                  ]
+                },
+                {
+                  "name": "Aerotek（专业人力资源）",
+                  "name_en": "Aerotek (Professional Staffing)",
+                  "type": "url",
+                  "url": "https://www.aerotek.com/",
+                  "tags": [
+                    "Staffing",
+                    "Professional",
+                    "Engineering"
+                  ]
+                },
+                {
+                  "name": "Kelly Services（人力资源服务）",
+                  "name_en": "Kelly Services (Workforce Solutions)",
+                  "type": "url",
+                  "url": "https://www.kellyservices.us/",
+                  "tags": [
+                    "Staffing",
+                    "Temporary",
+                    "Enterprise"
+                  ]
+                },
+                {
+                  "name": "Spherion（灵活人力派遣）",
+                  "name_en": "Spherion (Flexible Staffing)",
+                  "type": "url",
+                  "url": "https://www.spherion.com/",
+                  "tags": [
+                    "Staffing",
+                    "Temp-to-Hire",
+                    "Flexible"
                   ]
                 }
               ],
@@ -10597,6 +11730,28 @@
                     "Tech"
                   ],
                   "name_en": "Built In"
+                },
+                {
+                  "name": "Wonderkind（程序化招聘）",
+                  "name_en": "Wonderkind (Programmatic Recruiting)",
+                  "type": "url",
+                  "url": "https://www.wonderkind.com/",
+                  "tags": [
+                    "Marketing",
+                    "Social",
+                    "Programmatic"
+                  ]
+                },
+                {
+                  "name": "JobTarget（招聘广告分发）",
+                  "name_en": "JobTarget (Job Ad Distribution)",
+                  "type": "url",
+                  "url": "https://www.jobtarget.com/",
+                  "tags": [
+                    "Marketing",
+                    "Distribution",
+                    "Aggregator"
+                  ]
                 }
               ],
               "name_en": "Recruitment Marketing Content"
@@ -10694,6 +11849,39 @@
                     "P"
                   ],
                   "name_en": "Google Meet"
+                },
+                {
+                  "name": "Whereby（简易视频会议）",
+                  "name_en": "Whereby (Simple Video Meetings)",
+                  "type": "url",
+                  "url": "https://whereby.com/",
+                  "tags": [
+                    "Video",
+                    "Meeting",
+                    "No Download"
+                  ]
+                },
+                {
+                  "name": "Webex Meetings（企业视频）",
+                  "name_en": "Webex Meetings (Enterprise Video)",
+                  "type": "url",
+                  "url": "https://www.webex.com/video-conferencing",
+                  "tags": [
+                    "Video",
+                    "Enterprise",
+                    "Cisco"
+                  ]
+                },
+                {
+                  "name": "Around（AI视频协作）",
+                  "name_en": "Around (AI Video Collaboration)",
+                  "type": "url",
+                  "url": "https://www.around.co/",
+                  "tags": [
+                    "Video",
+                    "AI",
+                    "Collaboration"
+                  ]
                 }
               ],
               "name_en": "Video Interview Platforms"
@@ -10901,6 +12089,17 @@
                 "Automation",
                 "AI"
               ]
+            },
+            {
+              "name": "Veritone虚拟招聘会",
+              "name_en": "Veritone Virtual Career Fair",
+              "type": "url",
+              "url": "https://veritone.com/solutions/human-resources/",
+              "tags": [
+                "Virtual",
+                "Career Fair",
+                "AI"
+              ]
             }
           ],
           "name_en": "Remote Interviews & Virtual Recruiting"
@@ -10942,6 +12141,28 @@
                     "P"
                   ],
                   "name_en": "Recruitics（Programmatic Ads）"
+                },
+                {
+                  "name": "Stories Incorporated（员工故事）",
+                  "name_en": "Stories Incorporated (Employee Stories)",
+                  "type": "url",
+                  "url": "https://storiesincorporated.com/",
+                  "tags": [
+                    "Marketing",
+                    "Stories",
+                    "Video"
+                  ]
+                },
+                {
+                  "name": "Seenit（员工生成内容）",
+                  "name_en": "Seenit (Employee-Generated Content)",
+                  "type": "url",
+                  "url": "https://seenit.io/",
+                  "tags": [
+                    "Marketing",
+                    "UGC",
+                    "Video"
+                  ]
                 }
               ],
               "name_en": "Recruitment Marketing Platforms"
@@ -11166,6 +12387,28 @@
                   "tags": [
                     "Gamification",
                     "Psychometric"
+                  ]
+                },
+                {
+                  "name": "Cognisess（认知游戏评估）",
+                  "name_en": "Cognisess (Cognitive Game Assessment)",
+                  "type": "url",
+                  "url": "https://cognisess.com/",
+                  "tags": [
+                    "Gamification",
+                    "Cognitive",
+                    "AI"
+                  ]
+                },
+                {
+                  "name": "Harver游戏化（体验式评估）",
+                  "name_en": "Harver Gamified Assessments",
+                  "type": "url",
+                  "url": "https://harver.com/solutions/assessments/",
+                  "tags": [
+                    "Gamification",
+                    "Experience",
+                    "High-Volume"
                   ]
                 }
               ],
@@ -11607,6 +12850,17 @@
                 "DAM",
                 "Brand"
               ]
+            },
+            {
+              "name": "Figma招聘模板（设计协作）",
+              "name_en": "Figma Recruiting Templates",
+              "type": "url",
+              "url": "https://www.figma.com/community/tag/recruiting/files",
+              "tags": [
+                "Design",
+                "Templates",
+                "Collaboration"
+              ]
             }
           ],
           "name_en": "Recruiting Visual & Brand Design"
@@ -11708,6 +12962,28 @@
                     "CRM",
                     "Search",
                     "Staffing"
+                  ]
+                },
+                {
+                  "name": "Jobvite人才CRM（人才库）",
+                  "name_en": "Jobvite Talent CRM",
+                  "type": "url",
+                  "url": "https://www.jobvite.com/products/evolve-talent-acquisition-suite/",
+                  "tags": [
+                    "CRM",
+                    "Talent Pool",
+                    "Enterprise"
+                  ]
+                },
+                {
+                  "name": "VanillaHR（人才管道）",
+                  "name_en": "VanillaHR (Talent Pipeline)",
+                  "type": "url",
+                  "url": "https://www.vanillahr.com/",
+                  "tags": [
+                    "CRM",
+                    "Pipeline",
+                    "SMB"
                   ]
                 }
               ],
@@ -11814,6 +13090,17 @@
                     "Survey",
                     "China"
                   ]
+                },
+                {
+                  "name": "Typeform候选人反馈（互动调查）",
+                  "name_en": "Typeform Candidate Feedback",
+                  "type": "url",
+                  "url": "https://www.typeform.com/surveys/candidate-experience-survey/",
+                  "tags": [
+                    "CX",
+                    "Survey",
+                    "Interactive"
+                  ]
                 }
               ],
               "name_en": "Candidate Experience"
@@ -11858,6 +13145,17 @@
                 "CRM",
                 "Enterprise",
                 "Marketing"
+              ]
+            },
+            {
+              "name": "Talention CRM（候选人CRM）",
+              "name_en": "Talention CRM (Candidate CRM)",
+              "type": "url",
+              "url": "https://www.talention.com/",
+              "tags": [
+                "CRM",
+                "Marketing",
+                "Nurture"
               ]
             }
           ],
@@ -11980,6 +13278,17 @@
                     "Social"
                   ],
                   "name_en": "TikTok｜Recruiting Content"
+                },
+                {
+                  "name": "PlayPlay（视频创作平台）",
+                  "name_en": "PlayPlay (Video Creation Platform)",
+                  "type": "url",
+                  "url": "https://playplay.com/",
+                  "tags": [
+                    "Video",
+                    "Creation",
+                    "Easy"
+                  ]
                 }
               ],
               "name_en": "Recruiting Video Platforms"
@@ -12027,6 +13336,28 @@
                     "EB",
                     "Video",
                     "AI"
+                  ]
+                },
+                {
+                  "name": "StoryPrompt（员工故事收集）",
+                  "name_en": "StoryPrompt (Employee Story Collection)",
+                  "type": "url",
+                  "url": "https://storyprompt.com/",
+                  "tags": [
+                    "Stories",
+                    "Collection",
+                    "Authentic"
+                  ]
+                },
+                {
+                  "name": "Jamyr by Recruitics（招聘视频平台）",
+                  "name_en": "Jamyr by Recruitics (Recruitment Video)",
+                  "type": "url",
+                  "url": "https://www.recruitics.com/jamyr",
+                  "tags": [
+                    "Stories",
+                    "Video",
+                    "EB"
                   ]
                 }
               ],
@@ -12677,6 +14008,17 @@
                 "Skills",
                 "AI",
                 "Mobility"
+              ]
+            },
+            {
+              "name": "Succession HR（继任规划）",
+              "name_en": "SuccessionHR (Succession Planning)",
+              "type": "url",
+              "url": "https://www.successionhr.com/",
+              "tags": [
+                "Succession",
+                "Planning",
+                "Talent"
               ]
             }
           ],
@@ -14710,6 +16052,28 @@
                     "Practice",
                     "Free"
                   ]
+                },
+                {
+                  "name": "HackerEarth（技术评估招聘）",
+                  "name_en": "HackerEarth (Tech Assessment Recruiting)",
+                  "type": "url",
+                  "url": "https://www.hackerearth.com/recruit/",
+                  "tags": [
+                    "Technical",
+                    "Coding",
+                    "Assessment"
+                  ]
+                },
+                {
+                  "name": "Brokee（技术面试平台）",
+                  "name_en": "Brokee (Tech Interview Platform)",
+                  "type": "url",
+                  "url": "https://brokee.io/",
+                  "tags": [
+                    "Technical",
+                    "Interview",
+                    "Coding"
+                  ]
                 }
               ],
               "type": "folder"
@@ -14774,6 +16138,17 @@
                 "Technical",
                 "Startup",
                 "Free"
+              ]
+            },
+            {
+              "name": "daily.dev Recruiter（开发者招聘）",
+              "name_en": "daily.dev Recruiter (Developer Recruiting)",
+              "type": "url",
+              "url": "https://recruiter.daily.dev/",
+              "tags": [
+                "Tech",
+                "Developer",
+                "Community"
               ]
             }
           ],
@@ -17329,6 +18704,17 @@
                 "AI",
                 "Sourcing"
               ]
+            },
+            {
+              "name": "JobsPikr（劳动力数据分析）",
+              "name_en": "JobsPikr (Workforce Data Analytics)",
+              "type": "url",
+              "url": "https://www.jobspikr.com/",
+              "tags": [
+                "Intelligence",
+                "Data",
+                "Market"
+              ]
             }
           ],
           "name_en": "Talent Market Intelligence & Competitive Analysis"
@@ -18487,6 +19873,28 @@
                 "资源",
                 "Community"
               ]
+            },
+            {
+              "name": "eCornell招聘课程（康奈尔大学）",
+              "name_en": "eCornell Recruiting Program",
+              "type": "url",
+              "url": "https://ecornell.cornell.edu/certificates/human-resources/recruiting-and-talent-acquisition/",
+              "tags": [
+                "Training",
+                "Cornell",
+                "Certificate"
+              ]
+            },
+            {
+              "name": "AIHR人才获取认证",
+              "name_en": "AIHR Talent Acquisition Certification",
+              "type": "url",
+              "url": "https://www.aihr.com/courses/talent-acquisition-certificate-program/",
+              "tags": [
+                "Certification",
+                "TA",
+                "Online"
+              ]
             }
           ],
           "name_en": "Recruiting Career Development"
@@ -18622,6 +20030,28 @@
                     "Marketplace"
                   ],
                   "name_en": "HRWins｜Vendor Analysis"
+                },
+                {
+                  "name": "Draup人才智能（AI劳动力分析）",
+                  "name_en": "Draup Talent Intelligence (AI Workforce Analytics)",
+                  "type": "url",
+                  "url": "https://draup.com/talent/",
+                  "tags": [
+                    "Analytics",
+                    "AI",
+                    "Market Intelligence"
+                  ]
+                },
+                {
+                  "name": "Randstad人才洞察",
+                  "name_en": "Randstad Talent Intelligence",
+                  "type": "url",
+                  "url": "https://www.randstadenterprise.com/expertise/talent-intelligence/",
+                  "tags": [
+                    "Intelligence",
+                    "Market",
+                    "Enterprise"
+                  ]
                 }
               ],
               "name_en": "Industry Analysis"
