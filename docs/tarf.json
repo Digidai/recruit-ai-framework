@@ -6029,6 +6029,61 @@
                     "JD Writing",
                     "Free"
                   ]
+                },
+                {
+                  "name": "Indeed AI职位描述（智能JD生成）",
+                  "name_en": "Indeed AI Job Description Generator",
+                  "type": "url",
+                  "url": "https://www.indeed.com/hire/c/info/job-description-generator",
+                  "tags": [
+                    "AI",
+                    "JD Writing",
+                    "Free"
+                  ]
+                },
+                {
+                  "name": "Narrato（AI内容工作流）",
+                  "name_en": "Narrato (AI Content Workflow)",
+                  "type": "url",
+                  "url": "https://narrato.io/",
+                  "tags": [
+                    "AI",
+                    "JD Writing",
+                    "Content"
+                  ]
+                },
+                {
+                  "name": "Recooty（智能招聘软件）",
+                  "name_en": "Recooty (Smart Hiring Software)",
+                  "type": "url",
+                  "url": "https://www.recooty.com/",
+                  "tags": [
+                    "AI",
+                    "JD Writing",
+                    "ATS"
+                  ]
+                },
+                {
+                  "name": "LogicBalls JD生成器（多类型职位）",
+                  "name_en": "LogicBalls JD Generator",
+                  "type": "url",
+                  "url": "https://logicballs.com/tools/job-description-generator",
+                  "tags": [
+                    "AI",
+                    "JD Writing",
+                    "Free Tool"
+                  ]
+                },
+                {
+                  "name": "Dweet AI（职位描述秒生成）",
+                  "name_en": "Dweet AI (Instant JD Generator)",
+                  "type": "url",
+                  "url": "https://www.dweet.com/tools/ai-job-description-generator",
+                  "tags": [
+                    "AI",
+                    "JD Writing",
+                    "Gender Neutral"
+                  ]
                 }
               ],
               "name_en": "JD Writing / Recruiting Copy"
@@ -6119,6 +6174,50 @@
                     "AI",
                     "Sourcing",
                     "Technical"
+                  ]
+                },
+                {
+                  "name": "Arya by Leoforce（AI招聘助手）",
+                  "name_en": "Arya by Leoforce (AI Recruiting Assistant)",
+                  "type": "url",
+                  "url": "https://leoforce.com/arya/",
+                  "tags": [
+                    "AI",
+                    "Sourcing",
+                    "80+ Channels"
+                  ]
+                },
+                {
+                  "name": "Juicebox/PeopleGPT（AI人才搜索）",
+                  "name_en": "Juicebox/PeopleGPT (AI Talent Search)",
+                  "type": "url",
+                  "url": "https://juicebox.ai/",
+                  "tags": [
+                    "AI",
+                    "Sourcing",
+                    "800M+ Profiles"
+                  ]
+                },
+                {
+                  "name": "GoPerfect（AI招聘软件）",
+                  "name_en": "GoPerfect (AI Hiring Software)",
+                  "type": "url",
+                  "url": "https://www.goperfect.com/",
+                  "tags": [
+                    "AI",
+                    "Sourcing",
+                    "Matching"
+                  ]
+                },
+                {
+                  "name": "LinkedIn Hiring Assistant（AI招聘助理）",
+                  "name_en": "LinkedIn Hiring Assistant",
+                  "type": "url",
+                  "url": "https://www.linkedin.com/business/talent/blog/product-tips/hiring-assistant",
+                  "tags": [
+                    "AI",
+                    "Sourcing",
+                    "LinkedIn"
                   ]
                 }
               ],
@@ -6262,6 +6361,50 @@
                     "Communication",
                     "Voice"
                   ]
+                },
+                {
+                  "name": "SmartRecruiters Winston（生成式AI聊天）",
+                  "name_en": "SmartRecruiters Winston Chat (Generative AI)",
+                  "type": "url",
+                  "url": "https://www.smartrecruiters.com/recruiting-software/ai-chatbot/",
+                  "tags": [
+                    "AI",
+                    "Chatbot",
+                    "Multilingual"
+                  ]
+                },
+                {
+                  "name": "PreScreenAI（AI预筛选聊天）",
+                  "name_en": "PreScreenAI (AI Pre-Screening Chat)",
+                  "type": "url",
+                  "url": "https://prescreenai.com/",
+                  "tags": [
+                    "AI",
+                    "Chatbot",
+                    "Screening"
+                  ]
+                },
+                {
+                  "name": "iCIMS Digital Assistant（数字招聘助理）",
+                  "name_en": "iCIMS Digital Assistant",
+                  "type": "url",
+                  "url": "https://www.icims.com/products/icims-digital-assistant/",
+                  "tags": [
+                    "AI",
+                    "Chatbot",
+                    "Enterprise"
+                  ]
+                },
+                {
+                  "name": "Workday Recruiter Agent（AI招聘代理）",
+                  "name_en": "Workday Recruiter Agent",
+                  "type": "url",
+                  "url": "https://www.workday.com/en-us/products/platform/ai.html",
+                  "tags": [
+                    "AI",
+                    "Agent",
+                    "Enterprise"
+                  ]
                 }
               ],
               "name_en": "AI Candidate Communication / Chatbot"
@@ -6388,6 +6531,39 @@
                     "Resume",
                     "API"
                   ]
+                },
+                {
+                  "name": "Ducknowl（AI简历筛选）",
+                  "name_en": "Ducknowl (AI Resume Screening)",
+                  "type": "url",
+                  "url": "https://ducknowl.com/",
+                  "tags": [
+                    "AI",
+                    "Resume",
+                    "300ms Parsing"
+                  ]
+                },
+                {
+                  "name": "Recrew AI（简历解析优化）",
+                  "name_en": "Recrew AI (Resume Parsing)",
+                  "type": "url",
+                  "url": "https://www.recrew.ai/",
+                  "tags": [
+                    "AI",
+                    "Resume",
+                    "Automation"
+                  ]
+                },
+                {
+                  "name": "CVShelf（AI简历筛选）",
+                  "name_en": "CVShelf (AI Resume Screening)",
+                  "type": "url",
+                  "url": "https://cvshelf.com/",
+                  "tags": [
+                    "AI",
+                    "Resume",
+                    "Screening"
+                  ]
                 }
               ],
               "name_en": "AI Resume Parsing / Screening"
@@ -6477,6 +6653,17 @@
                     "AI",
                     "Assessment",
                     "Predictive"
+                  ]
+                },
+                {
+                  "name": "VidCruiter（企业视频面试）",
+                  "name_en": "VidCruiter (Enterprise Video Interview)",
+                  "type": "url",
+                  "url": "https://www.vidcruiter.com/",
+                  "tags": [
+                    "AI",
+                    "Interview",
+                    "Enterprise"
                   ]
                 }
               ],
@@ -6569,6 +6756,28 @@
                     "Analytics",
                     "Engagement"
                   ]
+                },
+                {
+                  "name": "Paylocity（HR分析模块）",
+                  "name_en": "Paylocity (HR Analytics Module)",
+                  "type": "url",
+                  "url": "https://www.paylocity.com/",
+                  "tags": [
+                    "AI",
+                    "Analytics",
+                    "Predictive"
+                  ]
+                },
+                {
+                  "name": "Aura Workforce Analytics（人力分析）",
+                  "name_en": "Aura (Workforce Analytics)",
+                  "type": "url",
+                  "url": "https://getaura.ai/",
+                  "tags": [
+                    "AI",
+                    "Analytics",
+                    "Workforce"
+                  ]
                 }
               ],
               "name_en": "Recruiting Data Analytics / Insights"
@@ -6648,6 +6857,50 @@
                 "Review"
               ],
               "type": "url"
+            },
+            {
+              "name": "Radancy（智能人才平台）",
+              "name_en": "Radancy (Intelligent Talent Platform)",
+              "type": "url",
+              "url": "https://radancy.com/",
+              "tags": [
+                "AI",
+                "TRM",
+                "Enterprise"
+              ]
+            },
+            {
+              "name": "Clinch（招聘营销平台）",
+              "name_en": "Clinch (Recruitment Marketing)",
+              "type": "url",
+              "url": "https://clinch.io/",
+              "tags": [
+                "AI",
+                "Marketing",
+                "Career Site"
+              ]
+            },
+            {
+              "name": "Recruitics（招聘营销分析）",
+              "name_en": "Recruitics (Recruitment Marketing Analytics)",
+              "type": "url",
+              "url": "https://recruitics.com/",
+              "tags": [
+                "AI",
+                "Marketing",
+                "Analytics"
+              ]
+            },
+            {
+              "name": "Wintro（AI员工推荐）",
+              "name_en": "Wintro (AI Employee Referrals)",
+              "type": "url",
+              "url": "https://www.wintro.ai/",
+              "tags": [
+                "AI",
+                "Referral",
+                "LinkedIn"
+              ]
             }
           ],
           "name_en": "AI Recruiting Tools"
