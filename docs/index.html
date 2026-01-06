@@ -1,428 +1,793 @@
 <!doctype html>
 <html lang="zh-CN" id="htmlRoot">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Recruitment & AI Hiring Framework - 招聘与AI招聘工具导航</title>
-  <meta name="description" content="一个数据驱动的招聘工具导航地图，覆盖58大分类、1810条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。" />
-  <meta name="keywords" content="招聘,AI招聘,人才招聘,ATS,招聘工具,HR科技,招聘合规,AI风险治理,Recruitment,Hiring,HR Tech" />
-  <meta name="author" content="Recruitment AI Framework" />
-  <meta name="theme-color" content="#0b0c10" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>Recruitment & AI Hiring Framework - 招聘与AI招聘工具导航</title>
+        <meta
+            name="description"
+            content="一个数据驱动的招聘工具导航地图，覆盖69大分类、1810条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。"
+        />
+        <meta
+            name="keywords"
+            content="招聘,AI招聘,人才招聘,ATS,招聘工具,HR科技,招聘合规,AI风险治理,Recruitment,Hiring,HR Tech"
+        />
+        <meta name="author" content="Recruitment AI Framework" />
+        <meta name="theme-color" content="#0b0c10" />
 
-  <!-- Web App Manifest -->
-  <link rel="manifest" href="manifest.json" />
+        <!-- Web App Manifest -->
+        <link rel="manifest" href="manifest.json" />
 
-  <!-- Open Graph / Social Media -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://digidai.github.io/recruit-ai-framework/" />
-  <meta property="og:title" content="Recruitment & AI Hiring Framework" />
-  <meta property="og:description" content="招聘与AI招聘工具导航地图 - 58大分类、1810条资源，覆盖AI招聘风险治理与合规" />
-  <meta property="og:locale" content="zh_CN" />
+        <!-- Open Graph / Social Media -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://digidai.github.io/recruit-ai-framework/"
+        />
+        <meta property="og:title" content="Recruitment & AI Hiring Framework" />
+        <meta
+            property="og:description"
+            content="招聘与AI招聘工具导航地图 - 69大分类、1810条资源，覆盖AI招聘风险治理与合规"
+        />
+        <meta property="og:locale" content="zh_CN" />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Recruitment & AI Hiring Framework" />
-  <meta name="twitter:description" content="招聘与AI招聘工具导航地图 - 58大分类、1810条资源" />
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary" />
+        <meta
+            name="twitter:title"
+            content="Recruitment & AI Hiring Framework"
+        />
+        <meta
+            name="twitter:description"
+            content="招聘与AI招聘工具导航地图 - 69大分类、1810条资源"
+        />
 
-  <!-- Favicon (using data URI for simplicity) -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>" />
+        <!-- Favicon (using data URI for simplicity) -->
+        <link
+            rel="icon"
+            href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>"
+        />
 
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://digidai.github.io/recruit-ai-framework/" />
+        <!-- Canonical URL -->
+        <link
+            rel="canonical"
+            href="https://digidai.github.io/recruit-ai-framework/"
+        />
 
-  <!-- Performance: preconnect to CDN -->
-  <link rel="preconnect" href="https://d3js.org" crossorigin />
-  <link rel="dns-prefetch" href="https://d3js.org" />
+        <!-- Performance: preconnect to CDN -->
+        <link rel="preconnect" href="https://d3js.org" crossorigin />
+        <link rel="dns-prefetch" href="https://d3js.org" />
 
-  <!-- Preload critical resources -->
-  <link rel="preload" href="style.css" as="style" />
-  <link rel="preload" href="app.js" as="script" />
-  <link rel="preload" href="tarf.json" as="fetch" crossorigin />
+        <!-- Preload critical resources -->
+        <link rel="preload" href="style.css" as="style" />
+        <link rel="preload" href="app.js" as="script" />
+        <link rel="preload" href="tarf.json" as="fetch" crossorigin />
 
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Recruitment & AI Hiring Framework",
-    "alternateName": "招聘与AI招聘工具导航",
-    "url": "https://digidai.github.io/recruit-ai-framework/",
-    "description": "一个数据驱动的招聘工具导航地图，覆盖58大分类、1810条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。",
-    "inLanguage": ["zh-CN", "en"],
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://digidai.github.io/recruit-ai-framework/?search={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Recruitment AI Framework",
-      "url": "https://github.com/Digidai/recruit-ai-framework"
-    }
-  }
-  </script>
+        <!-- Structured Data (JSON-LD) -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Recruitment & AI Hiring Framework",
+                "alternateName": "招聘与AI招聘工具导航",
+                "url": "https://digidai.github.io/recruit-ai-framework/",
+                "description": "一个数据驱动的招聘工具导航地图，覆盖69大分类、1810条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。",
+                "inLanguage": ["zh-CN", "en"],
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://digidai.github.io/recruit-ai-framework/?search={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Recruitment AI Framework",
+                    "url": "https://github.com/Digidai/recruit-ai-framework"
+                }
+            }
+        </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "招聘工具导航",
-    "description": "全面的招聘与AI招聘工具资源目录",
-    "numberOfItems": 1810,
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "AI 招聘工具",
-        "description": "人工智能驱动的招聘和人才管理工具"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "ATS 系统",
-        "description": "申请人跟踪系统和工作流管理"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "DEI 工具",
-        "description": "多样性、公平性和包容性招聘工具"
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "招聘合规与风险治理",
-        "description": "AI招聘风险管理、法律合规和最佳实践"
-      }
-    ]
-  }
-  </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "name": "招聘工具导航",
+                "description": "全面的招聘与AI招聘工具资源目录",
+                "numberOfItems": 1810,
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "AI 招聘工具",
+                        "description": "人工智能驱动的招聘和人才管理工具"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "ATS 系统",
+                        "description": "申请人跟踪系统和工作流管理"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "DEI 工具",
+                        "description": "多样性、公平性和包容性招聘工具"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "name": "招聘合规与风险治理",
+                        "description": "AI招聘风险管理、法律合规和最佳实践"
+                    }
+                ]
+            }
+        </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "什么是 Recruitment & AI Hiring Framework?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Recruitment & AI Hiring Framework 是一个数据驱动的招聘工具导航地图，覆盖58大分类、1810条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "这个框架包含哪些类型的招聘工具?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "该框架包含 AI 招聘工具、ATS 系统、DEI 工具、招聘合规与风险治理、面试评估、候选人体验、雇主品牌、人才分析、国际招聘等58个大分类的资源。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "如何使用这个招聘工具导航?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "您可以通过搜索功能查找特定工具，浏览不同的分类目录，或使用多种视图模式（树形图、手风琴目录、数据表格、文件浏览器、卡片网格）来探索资源。支持中英文关键词搜索。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "这个工具导航是否免费使用?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "是的，Recruitment & AI Hiring Framework 完全免费使用，采用 MIT 许可证开源。您可以自由浏览、搜索和下载资源数据。"
-        }
-      }
-    ]
-  }
-  </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "什么是 Recruitment & AI Hiring Framework?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Recruitment & AI Hiring Framework 是一个数据驱动的招聘工具导航地图，覆盖69大分类、1810条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。"
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "这个框架包含哪些类型的招聘工具?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "该框架包含 AI 招聘工具、ATS 系统、DEI 工具、招聘合规与风险治理、面试评估、候选人体验、雇主品牌、人才分析、国际招聘等58个大分类的资源。"
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "如何使用这个招聘工具导航?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "您可以通过搜索功能查找特定工具，浏览不同的分类目录，或使用多种视图模式（树形图、手风琴目录、数据表格、文件浏览器、卡片网格）来探索资源。支持中英文关键词搜索。"
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "这个工具导航是否免费使用?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "是的，Recruitment & AI Hiring Framework 完全免费使用，采用 MIT 许可证开源。您可以自由浏览、搜索和下载资源数据。"
+                        }
+                    }
+                ]
+            }
+        </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "首页",
-        "item": "https://digidai.github.io/recruit-ai-framework/"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "招聘工具导航",
-        "item": "https://digidai.github.io/recruit-ai-framework/"
-      }
-    ]
-  }
-  </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "首页",
+                        "item": "https://digidai.github.io/recruit-ai-framework/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "招聘工具导航",
+                        "item": "https://digidai.github.io/recruit-ai-framework/"
+                    }
+                ]
+            }
+        </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Recruitment & AI Hiring Framework",
-    "applicationCategory": "BusinessApplication",
-    "operatingSystem": "Web Browser",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.8",
-      "ratingCount": "1810"
-    },
-    "author": {
-      "@type": "Organization",
-      "name": "Recruitment AI Framework"
-    }
-  }
-  </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "Recruitment & AI Hiring Framework",
+                "applicationCategory": "BusinessApplication",
+                "operatingSystem": "Web Browser",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "ratingCount": "1810"
+                },
+                "author": {
+                    "@type": "Organization",
+                    "name": "Recruitment AI Framework"
+                }
+            }
+        </script>
 
-  <!-- Additional SEO Meta Tags -->
-  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-  <meta name="googlebot" content="index, follow" />
-  <meta name="rating" content="General" />
-  <meta name="distribution" content="Global" />
-  <meta name="language" content="zh-CN" />
-  <meta http-equiv="content-language" content="zh-CN" />
+        <!-- Additional SEO Meta Tags -->
+        <meta
+            name="robots"
+            content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="rating" content="General" />
+        <meta name="distribution" content="Global" />
+        <meta name="language" content="zh-CN" />
+        <meta http-equiv="content-language" content="zh-CN" />
 
-  <!-- Additional Open Graph Tags -->
-  <meta property="og:site_name" content="Recruitment & AI Hiring Framework" />
-  <meta property="og:image:alt" content="Recruitment & AI Hiring Framework - 招聘工具导航" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+        <!-- Additional Open Graph Tags -->
+        <meta
+            property="og:site_name"
+            content="Recruitment & AI Hiring Framework"
+        />
+        <meta
+            property="og:image:alt"
+            content="Recruitment & AI Hiring Framework - 招聘工具导航"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
 
-  <!-- Additional Twitter Card Tags -->
-  <meta name="twitter:image:alt" content="Recruitment & AI Hiring Framework - 招聘工具导航" />
+        <!-- Additional Twitter Card Tags -->
+        <meta
+            name="twitter:image:alt"
+            content="Recruitment & AI Hiring Framework - 招聘工具导航"
+        />
 
-  <!-- Hreflang Tags for Language Targeting -->
-  <link rel="alternate" hreflang="zh-CN" href="https://digidai.github.io/recruit-ai-framework/" />
-  <link rel="alternate" hreflang="en" href="https://digidai.github.io/recruit-ai-framework/" />
-  <link rel="alternate" hreflang="x-default" href="https://digidai.github.io/recruit-ai-framework/" />
+        <!-- Hreflang Tags for Language Targeting -->
+        <link
+            rel="alternate"
+            hreflang="zh-CN"
+            href="https://digidai.github.io/recruit-ai-framework/"
+        />
+        <link
+            rel="alternate"
+            hreflang="en"
+            href="https://digidai.github.io/recruit-ai-framework/"
+        />
+        <link
+            rel="alternate"
+            hreflang="x-default"
+            href="https://digidai.github.io/recruit-ai-framework/"
+        />
 
-  <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" />
 
-  <!-- Noscript fallback styles -->
-  <noscript>
-    <style>
-      .treeWrap, .zoom-controls, #searchInput, #btnClear { display: none !important; }
-      .noscript-msg { padding: 20px; color: #e6e6e6; text-align: center; }
-    </style>
-  </noscript>
-</head>
-<body>
-  <header class="header" role="banner">
-    <div class="header__title">
-      <h1>Recruitment & AI Hiring Framework</h1>
-      <p class="subtitle" data-i18n="subtitle">一个可维护的「招聘 × AI 招聘」工具地图（数据驱动），灵感来自 OSINT Framework。</p>
-    </div>
-
-    <nav class="header__controls" aria-label="搜索和工具" role="navigation">
-      <label for="searchInput" class="visually-hidden">搜索工具和资源</label>
-      <input id="searchInput" type="search" placeholder="搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）" autocomplete="off" aria-label="搜索工具和资源" data-i18n-placeholder="searchPlaceholder" />
-      <button id="btnClear" type="button" title="清空搜索" aria-label="清空搜索" data-i18n="clearBtn">清空</button>
-
-      <!-- View Mode Selector -->
-      <div class="view-selector" role="tablist" aria-label="视图模式">
-        <button type="button" class="view-btn active" data-view="tree" data-i18n-title="viewTreeTitle" title="D3 树形图" aria-selected="true">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="5" r="3"/><line x1="12" y1="8" x2="12" y2="14"/><circle cx="6" cy="19" r="3"/><circle cx="18" cy="19" r="3"/><line x1="12" y1="14" x2="6" y2="16"/><line x1="12" y1="14" x2="18" y2="16"/></svg>
-          <span data-i18n="viewTree">树</span>
-        </button>
-        <button type="button" class="view-btn" data-view="accordion" data-i18n-title="viewAccordionTitle" title="手风琴目录">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/><polyline points="9,3 12,6 9,9"/></svg>
-          <span data-i18n="viewAccordion">目录</span>
-        </button>
-        <button type="button" class="view-btn" data-view="table" data-i18n-title="viewTableTitle" title="数据表格">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
-          <span data-i18n="viewTable">表格</span>
-        </button>
-        <button type="button" class="view-btn" data-view="explorer" data-i18n-title="viewExplorerTitle" title="文件浏览器">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="18" rx="1"/><rect x="14" y="3" width="7" height="18" rx="1"/></svg>
-          <span data-i18n="viewExplorer">浏览</span>
-        </button>
-        <button type="button" class="view-btn" data-view="cards" data-i18n-title="viewCardsTitle" title="卡片网格">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
-          <span data-i18n="viewCards">卡片</span>
-        </button>
-      </div>
-
-      <a id="btnJson" class="btnLink" href="tarf.json" download title="下载数据文件" aria-label="下载 tarf.json 数据文件" data-i18n="downloadJson">下载 tarf.json</a>
-      <button id="btnLang" type="button" class="btnLink btnLang" title="切换语言 / Switch Language" aria-label="切换语言">
-        <span id="langIcon">🌐</span> <span id="langLabel">EN</span>
-      </button>
-    </nav>
-
-    <div class="legend">
-      <span class="legend__item"><span class="tag">R</span> <span data-i18n="legendR">需要注册/登录</span></span>
-      <span class="legend__item"><span class="tag">P</span> <span data-i18n="legendP">付费/商用</span></span>
-      <span class="legend__item"><span class="tag">O</span> <span data-i18n="legendO">开源</span></span>
-      <span class="legend__item"><span class="tag">M</span> <span data-i18n="legendM">模板链接（会提示输入 query）</span></span>
-      <span class="legend__item"><span class="tag">PDF</span> <span data-i18n="legendPDF">PDF 资源</span></span>
-      <span class="legend__item"><span class="tag">Law</span> <span data-i18n="legendLaw">法规/监管页面</span></span>
-      <span class="legend__item"><span class="tag">Framework</span> <span data-i18n="legendFramework">框架/标准</span></span>
-    </div>
-  </header>
-
-  <main class="layout" role="main">
-    <section class="panel panel--tree" aria-labelledby="viewTitle">
-      <div class="panel__title">
-        <span id="viewTitle" data-i18n="treeTitle">工具树</span>
-        <div class="view-controls">
-          <!-- Tree controls -->
-          <div id="treeControls" class="zoom-controls">
-            <button type="button" id="btnZoomOut" title="缩小" aria-label="缩小视图">−</button>
-            <button type="button" id="btnZoomReset" title="重置视图" aria-label="重置视图" data-i18n="resetBtn">重置</button>
-            <button type="button" id="btnZoomIn" title="放大" aria-label="放大视图">+</button>
-            <button type="button" id="btnExpandAll" title="展开全部" aria-label="展开全部分类" data-i18n="expandBtn">展开</button>
-            <button type="button" id="btnCollapseAll" title="收起全部" aria-label="收起全部分类" data-i18n="collapseBtn">收起</button>
-          </div>
-          <!-- Accordion controls -->
-          <div id="accordionControls" class="zoom-controls" style="display:none;">
-            <button type="button" id="btnAccExpandAll" title="展开全部" data-i18n="expandBtn">展开</button>
-            <button type="button" id="btnAccCollapseAll" title="收起全部" data-i18n="collapseBtn">收起</button>
-          </div>
-          <!-- Table controls -->
-          <div id="tableControls" class="zoom-controls" style="display:none;">
-            <select id="tableSort" class="table-sort">
-              <option value="name">按名称</option>
-              <option value="category">按分类</option>
-              <option value="tags">按标签</option>
-            </select>
-          </div>
-          <!-- Tag filter for cards/table -->
-          <div id="tagFilter" class="tag-filter" style="display:none;">
-            <select id="tagSelect" multiple class="tag-select">
-              <option value="">全部标签</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <noscript>
-        <div class="noscript-msg">
-          <p>本站需要 JavaScript 支持。请启用 JavaScript 后刷新页面。</p>
-          <p>您也可以直接 <a href="tarf.json" download>下载 tarf.json 数据文件</a> 查看所有资源。</p>
-        </div>
-      </noscript>
-
-      <!-- View Containers -->
-      <div id="viewContainer" class="view-container">
-        <!-- 1. D3 Tree View -->
-        <div id="treeView" class="view-content active">
-          <div id="treeWrap" class="treeWrap">
-            <svg id="treeSvg"></svg>
-          </div>
-        </div>
-
-        <!-- 2. Accordion View -->
-        <div id="accordionView" class="view-content">
-          <div id="accordionWrap" class="accordion-wrap"></div>
-        </div>
-
-        <!-- 3. Table View -->
-        <div id="tableView" class="view-content">
-          <div id="tableWrap" class="table-wrap">
-            <table id="dataTable" class="data-table">
-              <thead>
-                <tr>
-                  <th class="th-name">名称</th>
-                  <th class="th-category">分类</th>
-                  <th class="th-tags">标签</th>
-                  <th class="th-url">链接</th>
-                </tr>
-              </thead>
-              <tbody id="tableBody"></tbody>
-            </table>
-          </div>
-        </div>
-
-        <!-- 4. File Explorer View -->
-        <div id="explorerView" class="view-content">
-          <div class="explorer-wrap">
-            <div id="explorerTree" class="explorer-tree"></div>
-            <div id="explorerList" class="explorer-list">
-              <div class="explorer-breadcrumb" id="explorerBreadcrumb"></div>
-              <div class="explorer-items" id="explorerItems"></div>
+        <!-- Noscript fallback styles -->
+        <noscript>
+            <style>
+                .treeWrap,
+                .zoom-controls,
+                #searchInput,
+                #btnClear {
+                    display: none !important;
+                }
+                .noscript-msg {
+                    padding: 20px;
+                    color: #e6e6e6;
+                    text-align: center;
+                }
+            </style>
+        </noscript>
+    </head>
+    <body>
+        <header class="header" role="banner">
+            <div class="header__title">
+                <h1>Recruitment & AI Hiring Framework</h1>
+                <p class="subtitle" data-i18n="subtitle">
+                    一个可维护的「招聘 × AI 招聘」工具地图（数据驱动），灵感来自
+                    OSINT Framework。
+                </p>
             </div>
-          </div>
-        </div>
 
-        <!-- 5. Cards View -->
-        <div id="cardsView" class="view-content">
-          <div id="cardsWrap" class="cards-wrap">
-            <div class="cards-filter" id="cardsFilter"></div>
-            <div class="cards-grid" id="cardsGrid"></div>
-          </div>
-        </div>
-      </div>
+            <nav
+                class="header__controls"
+                aria-label="搜索和工具"
+                role="navigation"
+            >
+                <label for="searchInput" class="visually-hidden"
+                    >搜索工具和资源</label
+                >
+                <input
+                    id="searchInput"
+                    type="search"
+                    placeholder="搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）"
+                    autocomplete="off"
+                    aria-label="搜索工具和资源"
+                    data-i18n-placeholder="searchPlaceholder"
+                />
+                <button
+                    id="btnClear"
+                    type="button"
+                    title="清空搜索"
+                    aria-label="清空搜索"
+                    data-i18n="clearBtn"
+                >
+                    清空
+                </button>
 
-      <div class="hint" id="viewHint">
-        <ul>
-          <li data-i18n="hint1">点击「文件夹」节点展开/收起。</li>
-          <li data-i18n="hint2">点击「链接」节点会在新标签页打开。</li>
-          <li data-i18n-html="hint3">点击带 <span class="tag">M</span> 的节点会弹窗让你输入关键词，并把关键词替换进 URL 里的 <code>{query}</code>。</li>
-          <li data-i18n-html="hint4"><kbd>/</kbd> 聚焦搜索框，<kbd>Esc</kbd> 清空搜索。</li>
-        </ul>
-      </div>
-    </section>
+                <!-- View Mode Selector -->
+                <div class="view-selector" role="tablist" aria-label="视图模式">
+                    <button
+                        type="button"
+                        class="view-btn active"
+                        data-view="tree"
+                        data-i18n-title="viewTreeTitle"
+                        title="D3 树形图"
+                        aria-selected="true"
+                    >
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <circle cx="12" cy="5" r="3" />
+                            <line x1="12" y1="8" x2="12" y2="14" />
+                            <circle cx="6" cy="19" r="3" />
+                            <circle cx="18" cy="19" r="3" />
+                            <line x1="12" y1="14" x2="6" y2="16" />
+                            <line x1="12" y1="14" x2="18" y2="16" />
+                        </svg>
+                        <span data-i18n="viewTree">树</span>
+                    </button>
+                    <button
+                        type="button"
+                        class="view-btn"
+                        data-view="accordion"
+                        data-i18n-title="viewAccordionTitle"
+                        title="手风琴目录"
+                    >
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                            <polyline points="9,3 12,6 9,9" />
+                        </svg>
+                        <span data-i18n="viewAccordion">目录</span>
+                    </button>
+                    <button
+                        type="button"
+                        class="view-btn"
+                        data-view="table"
+                        data-i18n-title="viewTableTitle"
+                        title="数据表格"
+                    >
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <line x1="3" y1="9" x2="21" y2="9" />
+                            <line x1="3" y1="15" x2="21" y2="15" />
+                            <line x1="9" y1="3" x2="9" y2="21" />
+                        </svg>
+                        <span data-i18n="viewTable">表格</span>
+                    </button>
+                    <button
+                        type="button"
+                        class="view-btn"
+                        data-view="explorer"
+                        data-i18n-title="viewExplorerTitle"
+                        title="文件浏览器"
+                    >
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <rect x="3" y="3" width="7" height="18" rx="1" />
+                            <rect x="14" y="3" width="7" height="18" rx="1" />
+                        </svg>
+                        <span data-i18n="viewExplorer">浏览</span>
+                    </button>
+                    <button
+                        type="button"
+                        class="view-btn"
+                        data-view="cards"
+                        data-i18n-title="viewCardsTitle"
+                        title="卡片网格"
+                    >
+                        <svg
+                            width="16"
+                            height="16"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <rect x="3" y="3" width="7" height="7" rx="1" />
+                            <rect x="14" y="3" width="7" height="7" rx="1" />
+                            <rect x="3" y="14" width="7" height="7" rx="1" />
+                            <rect x="14" y="14" width="7" height="7" rx="1" />
+                        </svg>
+                        <span data-i18n="viewCards">卡片</span>
+                    </button>
+                </div>
 
-    <aside class="panel panel--side" role="complementary" aria-labelledby="sidebar-title">
-      <h2 id="sidebar-title" class="visually-hidden">侧边栏</h2>
-      <div class="panel__title" data-i18n="searchResults">搜索结果</div>
-      <div id="resultMeta" class="resultMeta" data-i18n="searchHint">输入关键词开始搜索。</div>
-      <div id="searchControls" class="search-controls">
-        <select id="tagFilterSelect" class="tag-filter-select" data-i18n-title="filterByTag">
-          <option value="" data-i18n="allTags">全部标签</option>
-        </select>
-        <button id="btnExportCSV" class="btnLink export-btn" data-i18n-title="exportCSV">CSV</button>
-        <button id="btnExportJSON" class="btnLink export-btn" data-i18n-title="exportJSON">JSON</button>
-      </div>
-      <ul id="resultList" class="resultList"></ul>
+                <a
+                    id="btnJson"
+                    class="btnLink"
+                    href="tarf.json"
+                    download
+                    title="下载数据文件"
+                    aria-label="下载 tarf.json 数据文件"
+                    data-i18n="downloadJson"
+                    >下载 tarf.json</a
+                >
+                <button
+                    id="btnLang"
+                    type="button"
+                    class="btnLink btnLang"
+                    title="切换语言 / Switch Language"
+                    aria-label="切换语言"
+                >
+                    <span id="langIcon">🌐</span> <span id="langLabel">EN</span>
+                </button>
+            </nav>
 
-      <details class="panel__details panel__favorites" open>
-        <summary data-i18n="favorites">收藏夹</summary>
-        <div id="favoritesContent" class="favorites-content"></div>
-      </details>
+            <div class="legend">
+                <span class="legend__item"
+                    ><span class="tag">R</span>
+                    <span data-i18n="legendR">需要注册/登录</span></span
+                >
+                <span class="legend__item"
+                    ><span class="tag">P</span>
+                    <span data-i18n="legendP">付费/商用</span></span
+                >
+                <span class="legend__item"
+                    ><span class="tag">O</span>
+                    <span data-i18n="legendO">开源</span></span
+                >
+                <span class="legend__item"
+                    ><span class="tag">M</span>
+                    <span data-i18n="legendM"
+                        >模板链接（会提示输入 query）</span
+                    ></span
+                >
+                <span class="legend__item"
+                    ><span class="tag">PDF</span>
+                    <span data-i18n="legendPDF">PDF 资源</span></span
+                >
+                <span class="legend__item"
+                    ><span class="tag">Law</span>
+                    <span data-i18n="legendLaw">法规/监管页面</span></span
+                >
+                <span class="legend__item"
+                    ><span class="tag">Framework</span>
+                    <span data-i18n="legendFramework">框架/标准</span></span
+                >
+            </div>
+        </header>
 
-      <details class="panel__details panel__stats">
-        <summary data-i18n="statsTitle">数据统计</summary>
-        <div id="statsContent" class="stats-content" data-i18n="loading">加载中...</div>
-      </details>
+        <main class="layout" role="main">
+            <section class="panel panel--tree" aria-labelledby="viewTitle">
+                <div class="panel__title">
+                    <span id="viewTitle" data-i18n="treeTitle">工具树</span>
+                    <div class="view-controls">
+                        <!-- Tree controls -->
+                        <div id="treeControls" class="zoom-controls">
+                            <button
+                                type="button"
+                                id="btnZoomOut"
+                                title="缩小"
+                                aria-label="缩小视图"
+                            >
+                                −
+                            </button>
+                            <button
+                                type="button"
+                                id="btnZoomReset"
+                                title="重置视图"
+                                aria-label="重置视图"
+                                data-i18n="resetBtn"
+                            >
+                                重置
+                            </button>
+                            <button
+                                type="button"
+                                id="btnZoomIn"
+                                title="放大"
+                                aria-label="放大视图"
+                            >
+                                +
+                            </button>
+                            <button
+                                type="button"
+                                id="btnExpandAll"
+                                title="展开全部"
+                                aria-label="展开全部分类"
+                                data-i18n="expandBtn"
+                            >
+                                展开
+                            </button>
+                            <button
+                                type="button"
+                                id="btnCollapseAll"
+                                title="收起全部"
+                                aria-label="收起全部分类"
+                                data-i18n="collapseBtn"
+                            >
+                                收起
+                            </button>
+                        </div>
+                        <!-- Accordion controls -->
+                        <div
+                            id="accordionControls"
+                            class="zoom-controls"
+                            style="display: none"
+                        >
+                            <button
+                                type="button"
+                                id="btnAccExpandAll"
+                                title="展开全部"
+                                data-i18n="expandBtn"
+                            >
+                                展开
+                            </button>
+                            <button
+                                type="button"
+                                id="btnAccCollapseAll"
+                                title="收起全部"
+                                data-i18n="collapseBtn"
+                            >
+                                收起
+                            </button>
+                        </div>
+                        <!-- Table controls -->
+                        <div
+                            id="tableControls"
+                            class="zoom-controls"
+                            style="display: none"
+                        >
+                            <select id="tableSort" class="table-sort">
+                                <option value="name">按名称</option>
+                                <option value="category">按分类</option>
+                                <option value="tags">按标签</option>
+                            </select>
+                        </div>
+                        <!-- Tag filter for cards/table -->
+                        <div
+                            id="tagFilter"
+                            class="tag-filter"
+                            style="display: none"
+                        >
+                            <select id="tagSelect" multiple class="tag-select">
+                                <option value="">全部标签</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <noscript>
+                    <div class="noscript-msg">
+                        <p>
+                            本站需要 JavaScript 支持。请启用 JavaScript
+                            后刷新页面。
+                        </p>
+                        <p>
+                            您也可以直接
+                            <a href="tarf.json" download
+                                >下载 tarf.json 数据文件</a
+                            >
+                            查看所有资源。
+                        </p>
+                    </div>
+                </noscript>
 
-      <details class="panel__details" open>
-        <summary data-i18n="howToExtend">如何扩展</summary>
-        <ol>
-          <li data-i18n-html="extend1">编辑 <code>docs/tarf.json</code>（添加/修改节点）。</li>
-          <li data-i18n-html="extend2">本地预览：在项目根目录运行 <code>python -m http.server 8000</code>，然后打开 <code>http://localhost:8000/docs/</code>。</li>
-          <li data-i18n-html="extend3">发布：把 <code>docs/</code> 作为静态站点部署（GitHub Pages / Cloudflare Pages / Vercel 等）。</li>
-        </ol>
-      </details>
-    </aside>
-  </main>
+                <!-- View Containers -->
+                <div id="viewContainer" class="view-container">
+                    <!-- 1. D3 Tree View -->
+                    <div id="treeView" class="view-content active">
+                        <div id="treeWrap" class="treeWrap">
+                            <svg id="treeSvg"></svg>
+                        </div>
+                    </div>
 
-  <footer class="footer" role="contentinfo">
-    <p data-i18n="footerWarning">⚠️ 仅用于招聘工具导航与学习研究；使用任何自动化/AI 招聘能力时请遵守适用法律法规与隐私要求，并进行必要的偏差评估与人类复核。</p>
-    <p class="footer__links">
-      <a href="https://github.com/Digidai/recruit-ai-framework" target="_blank" rel="noopener">GitHub</a>
-      <span>·</span>
-      <a href="https://github.com/Digidai/recruit-ai-framework/issues" target="_blank" rel="noopener" data-i18n="reportIssue">反馈问题</a>
-      <span>·</span>
-      <a href="https://github.com/Digidai/recruit-ai-framework/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
-    </p>
-  </footer>
+                    <!-- 2. Accordion View -->
+                    <div id="accordionView" class="view-content">
+                        <div id="accordionWrap" class="accordion-wrap"></div>
+                    </div>
 
-  <!-- Screen reader announcements -->
-  <div id="ariaLive" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+                    <!-- 3. Table View -->
+                    <div id="tableView" class="view-content">
+                        <div id="tableWrap" class="table-wrap">
+                            <table id="dataTable" class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th class="th-name">名称</th>
+                                        <th class="th-category">分类</th>
+                                        <th class="th-tags">标签</th>
+                                        <th class="th-url">链接</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="tableBody"></tbody>
+                            </table>
+                        </div>
+                    </div>
 
-  <script src="https://d3js.org/d3.v7.min.js" integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i" crossorigin="anonymous"></script>
-  <script src="app.js"></script>
-</body>
+                    <!-- 4. File Explorer View -->
+                    <div id="explorerView" class="view-content">
+                        <div class="explorer-wrap">
+                            <div id="explorerTree" class="explorer-tree"></div>
+                            <div id="explorerList" class="explorer-list">
+                                <div
+                                    class="explorer-breadcrumb"
+                                    id="explorerBreadcrumb"
+                                ></div>
+                                <div
+                                    class="explorer-items"
+                                    id="explorerItems"
+                                ></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Cards View -->
+                    <div id="cardsView" class="view-content">
+                        <div id="cardsWrap" class="cards-wrap">
+                            <div class="cards-filter" id="cardsFilter"></div>
+                            <div class="cards-grid" id="cardsGrid"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hint" id="viewHint">
+                    <ul>
+                        <li data-i18n="hint1">点击「文件夹」节点展开/收起。</li>
+                        <li data-i18n="hint2">
+                            点击「链接」节点会在新标签页打开。
+                        </li>
+                        <li data-i18n-html="hint3">
+                            点击带
+                            <span class="tag">M</span>
+                            的节点会弹窗让你输入关键词，并把关键词替换进 URL
+                            里的 <code>{query}</code>。
+                        </li>
+                        <li data-i18n-html="hint4">
+                            <kbd>/</kbd> 聚焦搜索框，<kbd>Esc</kbd> 清空搜索。
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <aside
+                class="panel panel--side"
+                role="complementary"
+                aria-labelledby="sidebar-title"
+            >
+                <h2 id="sidebar-title" class="visually-hidden">侧边栏</h2>
+                <div class="panel__title" data-i18n="searchResults">
+                    搜索结果
+                </div>
+                <div id="resultMeta" class="resultMeta" data-i18n="searchHint">
+                    输入关键词开始搜索。
+                </div>
+                <div id="searchControls" class="search-controls">
+                    <select
+                        id="tagFilterSelect"
+                        class="tag-filter-select"
+                        data-i18n-title="filterByTag"
+                    >
+                        <option value="" data-i18n="allTags">全部标签</option>
+                    </select>
+                    <button
+                        id="btnExportCSV"
+                        class="btnLink export-btn"
+                        data-i18n-title="exportCSV"
+                    >
+                        CSV
+                    </button>
+                    <button
+                        id="btnExportJSON"
+                        class="btnLink export-btn"
+                        data-i18n-title="exportJSON"
+                    >
+                        JSON
+                    </button>
+                </div>
+                <ul id="resultList" class="resultList"></ul>
+
+                <details class="panel__details panel__favorites" open>
+                    <summary data-i18n="favorites">收藏夹</summary>
+                    <div id="favoritesContent" class="favorites-content"></div>
+                </details>
+
+                <details class="panel__details panel__stats">
+                    <summary data-i18n="statsTitle">数据统计</summary>
+                    <div
+                        id="statsContent"
+                        class="stats-content"
+                        data-i18n="loading"
+                    >
+                        加载中...
+                    </div>
+                </details>
+
+                <details class="panel__details" open>
+                    <summary data-i18n="howToExtend">如何扩展</summary>
+                    <ol>
+                        <li data-i18n-html="extend1">
+                            编辑 <code>docs/tarf.json</code>（添加/修改节点）。
+                        </li>
+                        <li data-i18n-html="extend2">
+                            本地预览：在项目根目录运行
+                            <code>python -m http.server 8000</code>，然后打开
+                            <code>http://localhost:8000/docs/</code>。
+                        </li>
+                        <li data-i18n-html="extend3">
+                            发布：把 <code>docs/</code> 作为静态站点部署（GitHub
+                            Pages / Cloudflare Pages / Vercel 等）。
+                        </li>
+                    </ol>
+                </details>
+            </aside>
+        </main>
+
+        <footer class="footer" role="contentinfo">
+            <p data-i18n="footerWarning">
+                ⚠️ 仅用于招聘工具导航与学习研究；使用任何自动化/AI
+                招聘能力时请遵守适用法律法规与隐私要求，并进行必要的偏差评估与人类复核。
+            </p>
+            <p class="footer__links">
+                <a
+                    href="https://github.com/Digidai/recruit-ai-framework"
+                    target="_blank"
+                    rel="noopener"
+                    >GitHub</a
+                >
+                <span>·</span>
+                <a
+                    href="https://github.com/Digidai/recruit-ai-framework/issues"
+                    target="_blank"
+                    rel="noopener"
+                    data-i18n="reportIssue"
+                    >反馈问题</a
+                >
+                <span>·</span>
+                <a
+                    href="https://github.com/Digidai/recruit-ai-framework/blob/main/LICENSE"
+                    target="_blank"
+                    rel="noopener"
+                    >MIT License</a
+                >
+            </p>
+        </footer>
+
+        <!-- Screen reader announcements -->
+        <div
+            id="ariaLive"
+            class="visually-hidden"
+            aria-live="polite"
+            aria-atomic="true"
+        ></div>
+
+        <script
+            src="https://d3js.org/d3.v7.min.js"
+            integrity="sha384-CjloA8y00+1SDAUkjs099PVfnY2KmDC2BZnws9kh8D/lX1s46w6EPhpXdqMfjK6i"
+            crossorigin="anonymous"
+        ></script>
+        <script src="app.js"></script>
+    </body>
 </html>
