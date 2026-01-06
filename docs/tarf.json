@@ -719,14 +719,19 @@
                     {
                       "name": "Metaview（AI 面试助手）",
                       "name_en": "Metaview (AI Interview Assistant)",
-                      "type": "url",
-                      "url": "https://www.metaview.ai/",
-                      "tags": [
-                        "AI",
-                        "Notes",
-                        "P"
-                      ],
+                      "type": "folder",
                       "children": [
+                        {
+                          "name": "Metaview（AI 面试助手）",
+                          "name_en": "Metaview (AI Interview Assistant)",
+                          "type": "url",
+                          "url": "https://www.metaview.ai/",
+                          "tags": [
+                            "AI",
+                            "Notes",
+                            "P"
+                          ]
+                        },
                         {
                           "name": "BarRaiser（AI 面试协作）",
                           "name_en": "BarRaiser (AI Interview Copilot)",
@@ -1563,13 +1568,18 @@
                 {
                   "name": "Phenom 候选人体验平台",
                   "name_en": "Phenom｜Candidate Experience Platform",
-                  "url": "https://www.phenom.com/candidate-experience",
-                  "tags": [
-                    "AI",
-                    "P"
-                  ],
-                  "type": "url",
+                  "type": "folder",
                   "children": [
+                    {
+                      "name": "Phenom 候选人体验平台",
+                      "name_en": "Phenom｜Candidate Experience Platform",
+                      "type": "url",
+                      "url": "https://www.phenom.com/candidate-experience",
+                      "tags": [
+                        "AI",
+                        "P"
+                      ]
+                    },
                     {
                       "name": "Phenom（人才体验平台）",
                       "name_en": "Phenom (Talent Experience Platform)",
@@ -12528,14 +12538,19 @@
               "children": [
                 {
                   "name": "Canva（设计工具）",
-                  "type": "url",
-                  "url": "https://www.canva.com/",
-                  "tags": [
-                    "Design",
-                    "P"
-                  ],
+                  "type": "folder",
                   "name_en": "Canva (Design Tool)",
                   "children": [
+                    {
+                      "name": "Canva（设计工具）",
+                      "name_en": "Canva (Design Tool)",
+                      "type": "url",
+                      "url": "https://www.canva.com/",
+                      "tags": [
+                        "Design",
+                        "P"
+                      ]
+                    },
                     {
                       "name": "Adobe Express（快速设计）",
                       "name_en": "Adobe Express (Quick Design)",
