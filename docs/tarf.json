@@ -786,6 +786,40 @@
                         "AI",
                         "Remote"
                       ]
+                    },
+                    {
+                      "name": "Pluely（开源 AI 视频面试）",
+                      "name_en": "Pluely (Open Source AI Video Interview)",
+                      "type": "url",
+                      "url": "https://pluely.com/",
+                      "tags": [
+                        "AI",
+                        "O",
+                        "GitHub"
+                      ]
+                    },
+                    {
+                      "name": "StealthCoder（面试辅助 Chrome 扩展）",
+                      "name_en": "StealthCoder (Interview Assistant Chrome Extension)",
+                      "type": "url",
+                      "url": "https://github.com/RaheesAhmed/StealthCoder",
+                      "tags": [
+                        "AI",
+                        "O",
+                        "GitHub",
+                        "Extension"
+                      ]
+                    },
+                    {
+                      "name": "OpenInterviewCoder（不可检测 AI 助手）",
+                      "name_en": "OpenInterviewCoder (Undetectable AI Assistant)",
+                      "type": "url",
+                      "url": "https://openinterviewcoder.com/",
+                      "tags": [
+                        "AI",
+                        "O",
+                        "GitHub"
+                      ]
                     }
                   ],
                   "type": "folder"
@@ -1808,6 +1842,45 @@
             "Template",
             "HR",
             "流程"
+          ]
+        },
+        {
+          "name": "技术面试指南",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Karat｜Technical Interview 指南（2024）",
+              "type": "url",
+              "url": "https://karat.com/guide-to-technical-interviews/",
+              "tags": [
+                "Guide",
+                "Technical Interview",
+                "2024"
+              ],
+              "name_en": "Karat | Your Guide to Technical Interviews (2024)"
+            },
+            {
+              "name": "Design Gurus｜Coding Interview Prep 2025",
+              "type": "url",
+              "url": "https://www.designgurus.io/blog/coding-interview-prep-in-2024",
+              "tags": [
+                "Guide",
+                "2025",
+                "Coding Interview"
+              ],
+              "name_en": "Design Gurus | Coding Interview Prep in 2025"
+            },
+            {
+              "name": "FullScale｜Remote Technical Interview 终极指南",
+              "type": "url",
+              "url": "https://fullscale.io/blog/remote-technical-interview-process/",
+              "tags": [
+                "Guide",
+                "Remote",
+                "Technical Interview"
+              ],
+              "name_en": "FullScale | The Ultimate Guide to Remote Technical Interview Process"
+            }
           ]
         }
       ]
@@ -4451,6 +4524,69 @@
             }
           ],
           "name_en": "Industry Vertical Recruiting"
+        },
+        {
+          "name": "Sourcing 策略",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Kula｜2024's Must-Know Candidate Sourcing Strategies for Recruiters",
+              "type": "url",
+              "url": "https://www.kula.ai/blog/candidate-sourcing-strategies",
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "2024"
+              ],
+              "name_en": "Kula | 2024's Must-Know Candidate Sourcing Strategies for Recruiters"
+            },
+            {
+              "name": "LupaHire｜10 Candidate Sourcing Strategies to Build a Top Talent Pipeline（2025）",
+              "type": "url",
+              "url": "https://www.lupahire.com/blog/candidate-sourcing-strategies",
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "2025"
+              ],
+              "name_en": "LupaHire | 10 Candidate Sourcing Strategies to Build a Top Talent Pipeline (2025)"
+            },
+            {
+              "name": "QX Global Group｜Top Innovative Candidate Sourcing Strategies for 2024",
+              "type": "url",
+              "url": "https://qxglobalgroup.com/rs/uk/blog/candidate-sourcing-strategies",
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "2024"
+              ],
+              "name_en": "QX Global Group | Top Innovative Candidate Sourcing Strategies for 2024"
+            },
+            {
+              "name": "OneUpSales｜22 Best Recruitment Sourcing Strategies For Agencies 2025",
+              "type": "url",
+              "url": "https://oneupsales.com/blog/top-recruitment-sourcing-strategies",
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "2025",
+                "Agency"
+              ],
+              "name_en": "OneUpSales | 22 Best Recruitment Sourcing Strategies For Agencies 2025"
+            },
+            {
+              "name": "NurtureBox｜Best Practices to Source Candidates in 2024",
+              "type": "url",
+              "url": "https://www.nurturebox.ai/blog/candidate-sourcing-best-parctices",
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "2024",
+                "Best Practices"
+              ],
+              "name_en": "NurtureBox | Best Practices to Source Candidates in 2024"
+            }
+          ]
         }
       ]
     },
@@ -4658,6 +4794,27 @@
                     "P"
                   ],
                   "name_en": "Teamtailor"
+                },
+                {
+                  "name": "Applicantz（免费 ATS）",
+                  "name_en": "Applicantz (Free ATS)",
+                  "type": "url",
+                  "url": "https://applicantz.io/",
+                  "tags": [
+                    "ATS",
+                    "Free"
+                  ]
+                },
+                {
+                  "name": "AvaHR（AI 职位评分 ATS）",
+                  "name_en": "AvaHR (AI Job Scoring ATS)",
+                  "type": "url",
+                  "url": "https://avahr.com/",
+                  "tags": [
+                    "ATS",
+                    "AI",
+                    "P"
+                  ]
                 }
               ],
               "name_en": "ATS (SMB)"
@@ -4931,6 +5088,17 @@
                     "Scheduling",
                     "API"
                   ]
+                },
+                {
+                  "name": "Guide（AI 智能排期）",
+                  "name_en": "Guide (AI Smart Scheduling)",
+                  "type": "url",
+                  "url": "https://www.guide.co/",
+                  "tags": [
+                    "AI",
+                    "P",
+                    "Automation"
+                  ]
                 }
               ],
               "name_en": "Interview Scheduling Tools"
@@ -5079,6 +5247,26 @@
                     "Dev"
                   ],
                   "name_en": "BambooHR API"
+                },
+                {
+                  "name": "APIJobs（全球职位 API）",
+                  "name_en": "APIJobs (Global Job Board API)",
+                  "type": "url",
+                  "url": "https://apijobs.dev/",
+                  "tags": [
+                    "API",
+                    "P"
+                  ]
+                },
+                {
+                  "name": "Arbeitnow Free Job API（欧洲职位 API）",
+                  "name_en": "Arbeitnow Free Job API (European Job API)",
+                  "type": "url",
+                  "url": "https://www.arbeitnow.com/api/job-board-api",
+                  "tags": [
+                    "API",
+                    "Free"
+                  ]
                 }
               ],
               "name_en": "Job Board APIs"
@@ -5197,6 +5385,17 @@
                     "P"
                   ],
                   "name_en": "HrFlow.ai（AI HR API）"
+                },
+                {
+                  "name": "ResumeParser API（AI 简历解析 API）",
+                  "name_en": "ResumeParser API (AI Resume Parsing API)",
+                  "type": "url",
+                  "url": "https://resumeparserapi.com/",
+                  "tags": [
+                    "API",
+                    "AI",
+                    "P"
+                  ]
                 }
               ],
               "name_en": "Resume / Skills APIs"
@@ -5265,6 +5464,17 @@
                     "API",
                     "Assessment",
                     "Soft Skills"
+                  ]
+                },
+                {
+                  "name": "PEACH AI（候选人搜索 API）",
+                  "name_en": "PEACH AI (Candidate Sourcing API)",
+                  "type": "url",
+                  "url": "https://peach.ai/",
+                  "tags": [
+                    "API",
+                    "AI",
+                    "P"
                   ]
                 }
               ],
@@ -5981,6 +6191,173 @@
             }
           ],
           "name_en": "Recruiting Efficiency & Productivity Tools"
+        },
+        {
+          "name": "招聘自动化工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Mokahr｜Top 10 Recruitment Automation Software 2024",
+              "type": "url",
+              "url": "https://www.mokahr.io/myblog/top-10-recruitment-automation-software-2024/",
+              "tags": [
+                "Tools",
+                "Automation",
+                "2024"
+              ],
+              "name_en": "Mokahr | Top 10 Recruitment Automation Software Tools for 2024"
+            },
+            {
+              "name": "Convin｜AI Recruiting Tools in 2025：有效招聘的最佳解决方案",
+              "type": "url",
+              "url": "https://convin.ai/blog/ai-recruiting-tools-in-2025-best-solutions-for-effective-hiring",
+              "tags": [
+                "Tools",
+                "AI",
+                "2025"
+              ],
+              "name_en": "Convin | AI Recruiting Tools in 2025: Best Solutions for Effective Hiring"
+            },
+            {
+              "name": "SkillPanel｜The Best Remote Hiring Platforms 2024",
+              "type": "url",
+              "url": "https://skillpanel.com/blog/remote-hiring-platforms/",
+              "tags": [
+                "Tools",
+                "Remote Hiring",
+                "2024"
+              ],
+              "name_en": "SkillPanel | The Best Remote Hiring Platform Choices for Your Business (2024)"
+            },
+            {
+              "name": "HRLineup｜Top 10 Virtual Hiring Tools in 2025",
+              "type": "url",
+              "url": "https://www.hrlineup.com/top-virtual-hiring-tools/",
+              "tags": [
+                "Tools",
+                "Virtual Hiring",
+                "2025"
+              ],
+              "name_en": "HRLineup | Top 10 Virtual Hiring Tools in 2025"
+            }
+          ]
+        },
+        {
+          "name": "候选人测评",
+          "type": "folder",
+          "children": [
+            {
+              "name": "HackerEarth｜Top 9 Pre-Employment Assessment Tools for 2025",
+              "type": "url",
+              "url": "https://www.hackerearth.com/blog/pre-employment-assessment-tools",
+              "tags": [
+                "Tools",
+                "Assessment",
+                "2025"
+              ],
+              "name_en": "HackerEarth | Top 9 Pre-Employment Assessment Tools for 2025"
+            },
+            {
+              "name": "Testlify｜Top 25 Employment Assessment Tools in 2025",
+              "type": "url",
+              "url": "https://testlify.com/top-employment-assessment-tools/",
+              "tags": [
+                "Tools",
+                "Assessment",
+                "2025"
+              ],
+              "name_en": "Testlify | Top 25 Employment Assessment Tools in 2025"
+            },
+            {
+              "name": "Vervoe｜The Ultimate Guide To Pre-Employment Testing For Hiring Success 2025",
+              "type": "url",
+              "url": "https://vervoe.com/the-ultimate-guide-to-pre-employment-testing-for-hiring-success-in-2025/",
+              "tags": [
+                "Guide",
+                "Assessment",
+                "2025"
+              ],
+              "name_en": "Vervoe | The Ultimate Guide To Pre-Employment Testing For Hiring Success 2025"
+            },
+            {
+              "name": "SelectSoftwareReviews｜The 14 Best Video Interview Software Platforms of 2025",
+              "type": "url",
+              "url": "https://www.selectsoftwarereviews.com/buyer-guide/best-video-interview-software",
+              "tags": [
+                "Tools",
+                "Video Interview",
+                "2025"
+              ],
+              "name_en": "SelectSoftwareReviews | The 14 Best Video Interview Software Platforms of 2025"
+            },
+            {
+              "name": "Hirevire｜Top 10 Video Interviewing Platforms for 2025",
+              "type": "url",
+              "url": "https://hirevire.com/blog/best-video-interviewing-platform",
+              "tags": [
+                "Tools",
+                "Video Interview",
+                "2025"
+              ],
+              "name_en": "Hirevire | Top 10 Video Interviewing Platforms for 2025"
+            },
+            {
+              "name": "Willo｜6 of the Best Video Recruiting Platforms for 2024",
+              "type": "url",
+              "url": "https://www.willo.video/blog/6-of-the-best-video-recruiting-platforms-for-2024",
+              "tags": [
+                "Tools",
+                "Video Interview",
+                "2024"
+              ],
+              "name_en": "Willo | 6 of the Best Video Recruiting Platforms for 2024"
+            },
+            {
+              "name": "Zappy｜Top 10 AI-Powered Video Interview Software of 2024",
+              "type": "url",
+              "url": "https://blogs.zappyhire.com/post/top-ai-powered-video-interview-software/",
+              "tags": [
+                "Tools",
+                "Video Interview",
+                "AI",
+                "2024"
+              ],
+              "name_en": "Zappy | Top 10 AI-Powered Video Interview Software of 2024"
+            },
+            {
+              "name": "HeroHunt｜Top 2024 Recruitment CRM Systems (including ATS)",
+              "type": "url",
+              "url": "https://www.herohunt.ai/blog/top-recruitment-crm-systems-ats",
+              "tags": [
+                "Tools",
+                "CRM",
+                "2024"
+              ],
+              "name_en": "HeroHunt | Top 2024 Recruitment CRM Systems (including ATS)"
+            },
+            {
+              "name": "ATZ CRM｜11 Best Recruitment CRM Software for 2024",
+              "type": "url",
+              "url": "https://atzcrm.com/blog/11-best-recruitment-crm-software",
+              "tags": [
+                "Tools",
+                "CRM",
+                "2024"
+              ],
+              "name_en": "ATZ CRM | 11 Best Recruitment CRM Software for 2024"
+            },
+            {
+              "name": "Workello｜Top 12 Recruitment CRM Software in 2024",
+              "type": "url",
+              "url": "https://workello.com/recruitment-crm-software/",
+              "tags": [
+                "Tools",
+                "CRM",
+                "2024"
+              ],
+              "name_en": "Workello | Top 12 Recruitment CRM Software in 2024"
+            }
+          ]
         }
       ]
     },
@@ -6624,6 +7001,26 @@
                     "AI",
                     "Resume",
                     "Screening"
+                  ]
+                },
+                {
+                  "name": "HiPeople AI Resume Screening（AI 简历筛选）",
+                  "name_en": "HiPeople AI Resume Screening",
+                  "type": "url",
+                  "url": "https://hipeople.io",
+                  "tags": [
+                    "AI",
+                    "P"
+                  ]
+                },
+                {
+                  "name": "Searchlight（AI 候选人筛选）",
+                  "name_en": "Searchlight (AI Candidate Screening)",
+                  "type": "url",
+                  "url": "https://www.searchlight.ai/",
+                  "tags": [
+                    "AI",
+                    "P"
                   ]
                 }
               ],
@@ -8109,6 +8506,40 @@
                     "Tool"
                   ],
                   "name_en": "InterviewAI"
+                },
+                {
+                  "name": "Pluely（开源 AI 视频面试）",
+                  "name_en": "Pluely (Open Source AI Video Interview)",
+                  "type": "url",
+                  "url": "https://pluely.com/",
+                  "tags": [
+                    "AI",
+                    "O",
+                    "GitHub"
+                  ]
+                },
+                {
+                  "name": "StealthCoder（面试辅助 Chrome 扩展）",
+                  "name_en": "StealthCoder (Interview Assistant Chrome Extension)",
+                  "type": "url",
+                  "url": "https://github.com/RaheesAhmed/StealthCoder",
+                  "tags": [
+                    "AI",
+                    "O",
+                    "GitHub",
+                    "Extension"
+                  ]
+                },
+                {
+                  "name": "OpenInterviewCoder（不可检测 AI 助手）",
+                  "name_en": "OpenInterviewCoder (Undetectable AI Assistant)",
+                  "type": "url",
+                  "url": "https://openinterviewcoder.com/",
+                  "tags": [
+                    "AI",
+                    "O",
+                    "GitHub"
+                  ]
                 }
               ],
               "name_en": "AI Interview / Mock Interview"
@@ -8932,6 +9363,56 @@
             }
           ],
           "name_en": "AI Interview & Assessment Technology"
+        },
+        {
+          "name": "AI 工具与平台",
+          "type": "folder",
+          "children": [
+            {
+              "name": "BCG｜AI Is Changing Recruitment（2025趋势）",
+              "type": "url",
+              "url": "https://www.bcg.com/publications/2025/ai-changing-recruitment",
+              "tags": [
+                "Research",
+                "2025",
+                "AI"
+              ],
+              "name_en": "BCG | How AI Is Changing Recruitment (2025 Trends)"
+            },
+            {
+              "name": "HeroHunt｜AI Recruitment 2025 深度专家指南",
+              "type": "url",
+              "url": "https://www.herohunt.ai/blog/ai-recruitment-2025-the-extremely-in-depth-expert-guide-10k-words",
+              "tags": [
+                "Guide",
+                "2025",
+                "Comprehensive"
+              ],
+              "name_en": "HeroHunt | AI Recruitment 2025: The Extremely In-Depth Expert Guide"
+            },
+            {
+              "name": "Testlify｜AI in Recruitment 2024：优缺点与最佳实践",
+              "type": "url",
+              "url": "https://testlify.com/ai-in-recruitment/",
+              "tags": [
+                "Guide",
+                "Best Practices",
+                "2024"
+              ],
+              "name_en": "Testlify | AI in Recruitment 2024: Pros, Cons, and Best Practices"
+            },
+            {
+              "name": "Homans｜AI in Recruitment 2025：招聘未来解读",
+              "type": "url",
+              "url": "https://homans.ai/blog/ai-in-recruitment-2025-future-of-hiring-explained/",
+              "tags": [
+                "Guide",
+                "2025",
+                "Trends"
+              ],
+              "name_en": "Homans | AI in Recruitment 2025: Future of Hiring Explained"
+            }
+          ]
         }
       ]
     },
@@ -11515,6 +11996,30 @@
                 "DEI",
                 "Guide"
               ]
+            },
+            {
+              "name": "FairLens（AI 偏差检测与匿名化）",
+              "name_en": "FairLens (AI Bias Detection & Anonymization)",
+              "type": "url",
+              "url": "https://github.com/Bhagyesh1207/Fairlens",
+              "tags": [
+                "AI",
+                "DEI",
+                "O",
+                "GitHub"
+              ]
+            },
+            {
+              "name": "Fair Hire Quest（开源公平招聘）",
+              "name_en": "Fair Hire Quest (Open Source Fair Hiring)",
+              "type": "url",
+              "url": "https://github.com/fawadahmad0272/fair-hire-quest",
+              "tags": [
+                "AI",
+                "DEI",
+                "O",
+                "GitHub"
+              ]
             }
           ],
           "name_en": "Recruiting Ethics & Fair Hiring"
@@ -11786,6 +12291,46 @@
             }
           ],
           "name_en": "Neurodiversity Recruiting"
+        },
+        {
+          "name": "DEI 战略与工具",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Qandle｜DEI Hiring：策略与最佳实践（2025）",
+              "type": "url",
+              "url": "https://www.qandle.com/blog/dei-hiring-in-the-workplace/",
+              "tags": [
+                "Guide",
+                "DEI",
+                "Best Practices",
+                "2025"
+              ],
+              "name_en": "Qandle | DEI Hiring in the Workplace: Strategies & Best Practices"
+            },
+            {
+              "name": "CIPD｜Inclusive recruitment：雇主指南（2024）",
+              "type": "url",
+              "url": "https://www.cipd.org/en/knowledge/guides/inclusive-employers/",
+              "tags": [
+                "Guide",
+                "Inclusion",
+                "2024"
+              ],
+              "name_en": "CIPD | Inclusive Recruitment: Guide for Employers (2024)"
+            },
+            {
+              "name": "LeoForce｜Effective Diversity Recruiting Strategies 2024",
+              "type": "url",
+              "url": "https://leoforce.com/guides/diversity-recruitment-strategy/",
+              "tags": [
+                "Guide",
+                "Diversity",
+                "2024"
+              ],
+              "name_en": "LeoForce | Effective Diversity Recruiting Strategies That Work in 2024"
+            }
+          ]
         }
       ]
     },
@@ -13236,6 +13781,39 @@
                     "Career Site",
                     "Platform"
                   ]
+                },
+                {
+                  "name": "HireLab Career Site Builder（AI 转换 JD 为页面）",
+                  "name_en": "HireLab Career Site Builder (AI Transforms JD to Page)",
+                  "type": "url",
+                  "url": "https://hirelab.io/career-site/",
+                  "tags": [
+                    "AI",
+                    "P",
+                    "Builder"
+                  ]
+                },
+                {
+                  "name": "Talenteria Career Site Builder",
+                  "name_en": "Talenteria Career Site Builder",
+                  "type": "url",
+                  "url": "https://www.talenteria.com/site-building",
+                  "tags": [
+                    "AI",
+                    "P",
+                    "Builder"
+                  ]
+                },
+                {
+                  "name": "Gem Career Sites（HappyDance）",
+                  "name_en": "Gem Career Sites (HappyDance)",
+                  "type": "url",
+                  "url": "https://www.gem.com/product/career-sites",
+                  "tags": [
+                    "AI",
+                    "P",
+                    "ATS"
+                  ]
                 }
               ],
               "name_en": "Career Site Design"
@@ -13860,6 +14438,143 @@
             }
           ],
           "name_en": "Recruiting Video & Multimedia"
+        },
+        {
+          "name": "候选人体验优化",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Phenom｜Employer Branding Strategy Playbook（2025）",
+              "type": "url",
+              "url": "https://www.phenom.com/blog/employer-branding-strategy-guide",
+              "tags": [
+                "Guide",
+                "Employer Branding",
+                "2025",
+                "EVP"
+              ],
+              "name_en": "Phenom | The Must-Have Employer Branding Playbook: EVP, ROI"
+            },
+            {
+              "name": "BetterWay｜Employer Brand Strategy Guide 2024：10个经过验证的策略",
+              "type": "url",
+              "url": "https://www.betterway.dev/posts/mastering-your-employer-brand-strategy-10-proven-tactics-for-2024",
+              "tags": [
+                "Guide",
+                "Employer Branding",
+                "2024",
+                "Tactics"
+              ],
+              "name_en": "BetterWay | Employer Brand Strategy Guide 2024: 10 Proven Tactics"
+            },
+            {
+              "name": "Universum｜Employer Branding NOW 2024 调研报告",
+              "type": "url",
+              "url": "https://universumglobal.com/resources/news-press/employer-branding-now-2024/",
+              "tags": [
+                "Report",
+                "Employer Branding",
+                "2024",
+                "Research"
+              ],
+              "name_en": "Universum | Employer Branding NOW 2024 Survey Report"
+            },
+            {
+              "name": "Social Talent｜How to Build the Perfect Candidate Experience（2024）",
+              "type": "url",
+              "url": "https://www.socialtalent.com/interviewing/how-to-build-the-perfect-candidate-experience",
+              "tags": [
+                "Guide",
+                "Candidate Experience",
+                "2024"
+              ],
+              "name_en": "Social Talent | How to Build the Perfect Candidate Experience (2024)"
+            },
+            {
+              "name": "HackerEarth｜Candidate Experience Best Practices 2025",
+              "type": "url",
+              "url": "https://www.hackerearth.com/blog/candidate-experience-best-practices-to-elevate-your-recruitment-process-in-2025",
+              "tags": [
+                "Guide",
+                "Candidate Experience",
+                "2025",
+                "Best Practices"
+              ],
+              "name_en": "HackerEarth | Candidate Experience Best Practices to Elevate Your Recruitment Process in 2025"
+            }
+          ]
+        },
+        {
+          "name": "招聘营销",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Wonderkind｜Recruitment Marketing: The Ultimate Guide for 2024",
+              "type": "url",
+              "url": "https://www.wonderkind.com/blog/recruitment-marketing-ultimate-guide",
+              "tags": [
+                "Guide",
+                "Marketing",
+                "2024"
+              ],
+              "name_en": "Wonderkind | Recruitment Marketing: The Ultimate Guide for 2024"
+            },
+            {
+              "name": "JOIN｜11 Essential Recruitment Marketing Strategies for 2024",
+              "type": "url",
+              "url": "https://join.com/recruitment-hr-blog/recruitment-marketing-strategies",
+              "tags": [
+                "Guide",
+                "Marketing",
+                "2024"
+              ],
+              "name_en": "JOIN | 11 Essential Recruitment Marketing Strategies for 2024"
+            },
+            {
+              "name": "Rally Recruitment Marketing｜2025 Guide to Building an Effective Recruitment Marketing Strategy",
+              "type": "url",
+              "url": "https://rallyrecruitmentmarketing.com/2024/12/recruitment-marketing-strategy-guide-for-2025/",
+              "tags": [
+                "Guide",
+                "Marketing",
+                "2025"
+              ],
+              "name_en": "Rally Recruitment Marketing | 2025 Guide to Building an Effective Recruitment Marketing Strategy"
+            },
+            {
+              "name": "Outhire｜What is Recruitment Marketing? The Ultimate Guide for 2024",
+              "type": "url",
+              "url": "https://outhire.ai/blog/what-is-recruitment-marketing",
+              "tags": [
+                "Guide",
+                "Marketing",
+                "2024"
+              ],
+              "name_en": "Outhire | What is Recruitment Marketing? The Ultimate Guide for 2024"
+            },
+            {
+              "name": "Recruitics｜7 Recruitment Marketing Trends We Saw in 2024",
+              "type": "url",
+              "url": "https://info.recruitics.com/blog/7-recruitment-marketing-trends-we-saw-in-2024",
+              "tags": [
+                "Trends",
+                "Marketing",
+                "2024"
+              ],
+              "name_en": "Recruitics | 7 Recruitment Marketing Trends We Saw in 2024"
+            },
+            {
+              "name": "Universum｜Recruitment Marketing: Definition, Strategies, and Career Insights（2024）",
+              "type": "url",
+              "url": "https://universumglobal.com/resources/blog/recruitment-marketing/",
+              "tags": [
+                "Guide",
+                "Marketing",
+                "2024"
+              ],
+              "name_en": "Universum | Recruitment Marketing: Definition, Strategies, and Career Insights (2024)"
+            }
+          ]
         }
       ]
     },
@@ -14127,6 +14842,97 @@
               "type": "url",
               "url": "https://referralrock.com/blog/employee-referral-software/",
               "tags": []
+            },
+            {
+              "name": "Toggl｜15 Creative Employee Referral Program Ideas for 2024",
+              "type": "url",
+              "url": "https://toggl.com/blog/employee-referral-program-ideas",
+              "tags": [
+                "Guide",
+                "Referral Program",
+                "2024"
+              ],
+              "name_en": "Toggl | 15 Creative Employee Referral Program Ideas for 2024"
+            },
+            {
+              "name": "Kredily｜How to Build an Effective Employee Referral Program in 2024",
+              "type": "url",
+              "url": "https://kredily.com/how-to-build-an-effective-employee-referral-program-in-2024/",
+              "tags": [
+                "Guide",
+                "Referral Program",
+                "2024"
+              ],
+              "name_en": "Kredily | How to Build an Effective Employee Referral Program in 2024"
+            },
+            {
+              "name": "Recruitee｜Employee Referral Programs: Definition, Benefits and Best Practices（2025）",
+              "type": "url",
+              "url": "https://recruitee.com/blog/employee-referrals",
+              "tags": [
+                "Guide",
+                "Referral Program",
+                "2025"
+              ],
+              "name_en": "Recruitee | Employee Referral Programs: Definition, Benefits and Best Practices (2025)"
+            },
+            {
+              "name": "Scavify｜17 Amazing Virtual Onboarding Ideas for 2024",
+              "type": "url",
+              "url": "https://www.scavify.com/blog/virtual-onboarding-ideas",
+              "tags": [
+                "Guide",
+                "Onboarding",
+                "2024",
+                "Virtual"
+              ],
+              "name_en": "Scavify | 17 Amazing Virtual Onboarding Ideas for 2024"
+            },
+            {
+              "name": "Lingio｜25 Essential Employee Onboarding Practices for 2024",
+              "type": "url",
+              "url": "https://www.lingio.com/blog/onboarding-best-practices",
+              "tags": [
+                "Guide",
+                "Onboarding",
+                "2024"
+              ],
+              "name_en": "Lingio | 25 Essential Employee Onboarding Practices for 2024"
+            },
+            {
+              "name": "Cooleaf｜Virtual Onboarding: 10 Tips for Welcoming Remote Employees",
+              "type": "url",
+              "url": "https://www.cooleaf.com/blog/virtual-onboarding-7-tips-for-welcoming-remote-employees",
+              "tags": [
+                "Guide",
+                "Onboarding",
+                "Virtual"
+              ],
+              "name_en": "Cooleaf | Virtual Onboarding: 10 Tips for Welcoming Remote Employees"
+            },
+            {
+              "name": "Connecteam｜12 Virtual Onboarding Best Practices for an Effective Process",
+              "type": "url",
+              "url": "https://connecteam.com/e-virtual-onboarding/",
+              "tags": [
+                "Guide",
+                "Onboarding",
+                "Virtual",
+                "Best Practices"
+              ],
+              "name_en": "Connecteam | 12 Virtual Onboarding Best Practices for an Effective Process"
+            },
+            {
+              "name": "Deel｜How Google Onboards New Hires (And How You Can Too)（2025）",
+              "type": "url",
+              "url": "https://www.deel.com/blog/employee-onboarding-at-google/",
+              "tags": [
+                "Guide",
+                "Onboarding",
+                "2025",
+                "Case Study"
+              ],
+              "name_en": "Deel | How Google Onboards New Hires (And How You Can Too) (2025)"
             }
           ],
           "name_en": "Employee Referrals"
@@ -15399,6 +16205,36 @@
                     "P"
                   ],
                   "name_en": "Multiplier"
+                },
+                {
+                  "name": "Playroll（初创公司 EOR）",
+                  "name_en": "Playroll (Startup EOR)",
+                  "type": "url",
+                  "url": "https://www.playroll.com/",
+                  "tags": [
+                    "EOR",
+                    "P"
+                  ]
+                },
+                {
+                  "name": "Pilot（美国创业公司 EOR）",
+                  "name_en": "Pilot (US Startup EOR)",
+                  "type": "url",
+                  "url": "https://www.pilot.co/",
+                  "tags": [
+                    "EOR",
+                    "P"
+                  ]
+                },
+                {
+                  "name": "Via Work（拉美与东欧 EOR）",
+                  "name_en": "Via Work (LATAM & Eastern Europe EOR)",
+                  "type": "url",
+                  "url": "https://www.via.work/",
+                  "tags": [
+                    "EOR",
+                    "P"
+                  ]
                 }
               ],
               "name_en": "EOR (Employer of Record) Services"
@@ -17259,6 +18095,72 @@
             }
           ],
           "name_en": "Blue-Collar & Frontline Recruiting"
+        },
+        {
+          "name": "跨境招聘",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Velocity Global｜Cross-Border Hiring: 7 Steps for Global Employers（2025）",
+              "type": "url",
+              "url": "https://velocityglobal.com/resources/blog/cross-border-hiring/",
+              "tags": [
+                "Guide",
+                "Global Hiring",
+                "2025",
+                "Cross-Border"
+              ],
+              "name_en": "Velocity Global | Cross-Border Hiring: 7 Steps for Global Employers (2025)"
+            },
+            {
+              "name": "Deel｜How to Hire Internationally: A Guide to Global Recruitment（2025）",
+              "type": "url",
+              "url": "https://www.deel.com/blog/how-to-hire-internationally/",
+              "tags": [
+                "Guide",
+                "Global Hiring",
+                "2025",
+                "Compliance"
+              ],
+              "name_en": "Deel | How to Hire Internationally: A Guide to Global Recruitment (2025)"
+            },
+            {
+              "name": "Tern Group｜The Future of International Recruitment: Trends and Predictions 2025-2028",
+              "type": "url",
+              "url": "https://www.tern-group.com/blog/the-future-of-international-recruitment-trends-and-predictions",
+              "tags": [
+                "Research",
+                "2025",
+                "Global Hiring",
+                "Trends"
+              ],
+              "name_en": "Tern Group | The Future of International Recruitment: Trends and Predictions 2025-2028"
+            },
+            {
+              "name": "HeroHunt｜Recruiting and Sponsoring Visa-Eligible International Talent（2025指南）",
+              "type": "url",
+              "url": "https://www.herohunt.ai/blog/recruiting-and-sponsoring-visa-eligible-international-talent",
+              "tags": [
+                "Guide",
+                "2025",
+                "Visa Sponsorship",
+                "Global Hiring"
+              ],
+              "name_en": "HeroHunt | Recruiting and Sponsoring Visa-Eligible International Talent (2025 Guide)"
+            },
+            {
+              "name": "Oyster｜Global Work Without Borders: Insights on International Employment 2025",
+              "type": "url",
+              "url": "https://www.actupool.com/en/news/die-aktuarinnen/global-work-without-borders-insights-international-employment-oyster-2025",
+              "tags": [
+                "Report",
+                "2025",
+                "Global Hiring",
+                "Remote"
+              ],
+              "name_en": "Oyster | Global Work Without Borders: Insights on International Employment 2025"
+            }
+          ]
         }
       ]
     },
@@ -17890,6 +18792,28 @@
                     "Conference"
                   ],
                   "name_en": "ATAP Annual Conference"
+                },
+                {
+                  "name": "HR Technology Conference 2026",
+                  "name_en": "HR Technology Conference 2026",
+                  "type": "url",
+                  "url": "https://www.hrtechnologyconference.com",
+                  "tags": [
+                    "Conference",
+                    "Event",
+                    "HR Tech"
+                  ]
+                },
+                {
+                  "name": "SHRM Annual Conference & Expo 2026",
+                  "name_en": "SHRM Annual Conference & Expo 2026",
+                  "type": "url",
+                  "url": "https://annual.shrm.org",
+                  "tags": [
+                    "Conference",
+                    "Event",
+                    "SHRM"
+                  ]
                 }
               ],
               "name_en": "Recruiting / Sourcing Conferences"
@@ -17960,6 +18884,17 @@
                     "Conference",
                     "Leadership"
                   ]
+                },
+                {
+                  "name": "SHRM BLUEPRINT 2025（DEI 会议）",
+                  "name_en": "SHRM BLUEPRINT 2025 (DEI Conference)",
+                  "type": "url",
+                  "url": "https://conference.shrm.org/blueprint",
+                  "tags": [
+                    "Conference",
+                    "DEI",
+                    "Event"
+                  ]
                 }
               ],
               "name_en": "DEI / Diversity Conferences"
@@ -18005,6 +18940,17 @@
                     "Conference"
                   ],
                   "name_en": "Josh Bersin Irresistible"
+                },
+                {
+                  "name": "The AI+HI Project 2026",
+                  "name_en": "The AI+HI Project 2026",
+                  "type": "url",
+                  "url": "https://conference.shrm.org/ai-hi-project",
+                  "tags": [
+                    "Conference",
+                    "AI",
+                    "Event"
+                  ]
                 }
               ],
               "name_en": "AI / Future of Work Conferences"
@@ -20809,6 +21755,57 @@
             }
           ],
           "name_en": "Recruiting Industry Research & Reports"
+        },
+        {
+          "name": "招聘指标与KPI",
+          "type": "folder",
+          "children": [
+            {
+              "name": "Skima｜10个 Recruitment KPIs 必须在2024追踪",
+              "type": "url",
+              "url": "https://skima.ai/blog/industry-trends-and-insights/10-recruitment-kpis-to-track-in-2024",
+              "tags": [
+                "Metrics",
+                "KPIs",
+                "2024"
+              ],
+              "name_en": "Skima | 10 Recruitment KPIs to Definitely Track in 2024"
+            },
+            {
+              "name": "Bryq｜Recruitment Metrics 2024 综合指南",
+              "type": "url",
+              "url": "https://www.bryq.com/blog/recruitment-metrics-comprehensive-guide",
+              "tags": [
+                "Guide",
+                "Metrics",
+                "2024"
+              ],
+              "name_en": "Bryq | Recruitment Metrics: A Comprehensive Guide for 2024"
+            },
+            {
+              "name": "Recruitee｜Data-Driven Recruitment 成功指南（2025）",
+              "type": "url",
+              "url": "https://recruitee.com/blog/data-driven-recruitment",
+              "tags": [
+                "Guide",
+                "Data-Driven",
+                "2025"
+              ],
+              "name_en": "Recruitee | How to Use Data-Driven Recruitment for Hiring Success (2025)"
+            },
+            {
+              "name": "Fullstack Recruiter｜Power of Data：Recruiting Metrics 2024 Success",
+              "type": "url",
+              "url": "https://newsletter.fullstackrecruiter.net/p/recruiting-metrics-2024",
+              "tags": [
+                "Guide",
+                "Metrics",
+                "2024",
+                "Data"
+              ],
+              "name_en": "Fullstack Recruiter | Power of Data: Recruiting Metrics for 2024 Success"
+            }
+          ]
         }
       ]
     }
