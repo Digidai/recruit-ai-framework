@@ -1,0 +1,100 @@
+name: Auto Update Sitemap
+
+# 触发条件:
+# 1. 每周一上午 9 点自动运行
+# 2. 手动触发
+# 3. 当 tarf.json 文件更新时
+on:
+  schedule:
+    # 每周一上午 9:00 (UTC) 运行
+    - cron: '0 9 * * 1'
+
+  workflow_dispatch:  # 允许手动触发
+
+  push:
+    paths:
+      - 'docs/tarf.json'
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate sitemap
+        run: |
+          python scripts/generate_sitemap.py
+        shell: bash
+
+      - name: Check if sitemap changed
+        id: check_changes
+        run: |
+          if git diff --quiet docs/sitemap.xml; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes to sitemap"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "✅ Sitemap has been updated"
+          fi
+        shell: bash
+
+      - name: Show sitemap statistics
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          echo "📊 Sitemap Statistics:"
+          grep -c "<url>" docs/sitemap.xml || echo "0"
+          echo ""
+          echo "🔍 First 10 URLs:"
+          grep "<loc>" docs/sitemap.xml | head -10
+        shell: bash
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/sitemap.xml
+          git commit -m "🤖 Auto-update sitemap [skip ci]"
+          git push
+        shell: bash
+
+      - name: Notify Google of sitemap update
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          echo "🔔 Notifying Google of sitemap update..."
+          # 向 Google 提交 sitemap
+          response=$(curl -s -X GET "https://www.google.com/ping?sitemap=https://digidai.github.io/recruit-ai-framework/sitemap.xml")
+          echo "Google response: $response"
+          echo "✅ Sitemap submitted to Google"
+        shell: bash
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## 📋 Sitemap Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.check_changes.outputs.changed }}" == "true" ]; then
+            echo "✅ **Status**: Sitemap updated successfully" >> $GITHUB_STEP_SUMMARY
+            echo "📅 **Date**: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+            url_count=$(grep -c "<url>" docs/sitemap.xml || echo "0")
+            echo "📊 **Total URLs**: $url_count" >> $GITHUB_STEP_SUMMARY
+            echo "🔔 **Google**: Notified of update" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️ **Status**: No changes detected" >> $GITHUB_STEP_SUMMARY
+            echo "📅 **Date**: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+          fi
+        shell: bash
