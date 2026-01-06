@@ -26,3 +26,17 @@ npm-debug.log*
 # Temporary files
 *.tmp
 *.temp
+
+# Backup files
+docs/tarf_backup_*.json
+docs/tarf_before_*.json
+docs/tarf_*_update.json
+docs/tarf_final.json
+
+# Local scripts
+fix_*.py
+create_icons.py
+comprehensive_check.py
+
+# Claude Code
+.claude/
