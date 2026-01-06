@@ -3176,6 +3176,50 @@
                 "Sourcing",
                 "Verification"
               ]
+            },
+            {
+              "name": "LinkedHelper X-Ray 搜索指南",
+              "name_en": "LinkedHelper X-Ray Search Guide",
+              "type": "url",
+              "url": "https://www.linkedhelper.com/blog/linkedin-xray-search/",
+              "tags": []
+            },
+            {
+              "name": "SalesRobot X-Ray 搜索指南",
+              "name_en": "SalesRobot X-Ray Search Guide",
+              "type": "url",
+              "url": "https://www.salesrobot.co/blogs/linkedin-xray-search",
+              "tags": []
+            },
+            {
+              "name": "RecruitRyte Boolean 搜索指南",
+              "name_en": "RecruitRyte Boolean Search Guide",
+              "type": "url",
+              "url": "https://recruitryte.com/blog/mastering-boolean-search-linkedin-x-ray-searches-guide/",
+              "tags": []
+            },
+            {
+              "name": "FidForward X-Ray 搜索教程",
+              "name_en": "FidForward X-Ray Search Tutorial",
+              "type": "url",
+              "url": "https://fidforward.com/blog/xray_search/",
+              "tags": []
+            },
+            {
+              "name": "PCRecruiter X-Ray 搜索未来",
+              "name_en": "PCRecruiter The Future of X-Ray Search",
+              "type": "url",
+              "url": "https://www.pcrecruiter.net/site/2024/04/09/death-of-x-ray-search-for-recruiters/",
+              "tags": []
+            },
+            {
+              "name": "Udemy Boolean 搜索课程",
+              "name_en": "Udemy Boolean Search Course",
+              "type": "url",
+              "url": "https://www.udemy.com/course/talent-sourcing/",
+              "tags": [
+                "P"
+              ]
             }
           ],
           "name_en": "Search Templates (X-Ray/Boolean)"
@@ -3716,6 +3760,13 @@
                 }
               ],
               "name_en": "Board / C-Suite Recruiting"
+            },
+            {
+              "name": "高管猎头公司列表（维基百科）",
+              "name_en": "List of Executive Search Firms (Wikipedia)",
+              "type": "url",
+              "url": "https://en.wikipedia.org/wiki/List_of_executive_search_firms",
+              "tags": []
             }
           ],
           "name_en": "Executive Search"
@@ -10441,16 +10492,6 @@
                     "Verification",
                     "Employment"
                   ]
-                },
-                {
-                  "name": "Experian Verify（就业验证）",
-                  "name_en": "Experian Verify (Employment Verification)",
-                  "type": "url",
-                  "url": "https://www.experian.com/employer-services",
-                  "tags": [
-                    "Verification",
-                    "Employment"
-                  ]
                 }
               ],
               "name_en": "Employment Verification"
@@ -10825,6 +10866,27 @@
                 }
               ],
               "name_en": "Veteran Recruiting Certifications"
+            },
+            {
+              "name": "VetJobs（退伍军人职位市场）",
+              "name_en": "VetJobs (Veteran Jobs Marketplace)",
+              "type": "url",
+              "url": "https://vetjobs.org/",
+              "tags": []
+            },
+            {
+              "name": "Hire Veterans（退伍军人职位）",
+              "name_en": "Hire Veterans (Veteran Jobs)",
+              "type": "url",
+              "url": "https://hireveterans.com/",
+              "tags": []
+            },
+            {
+              "name": "Military.com 顶级雇主 2025",
+              "name_en": "Military.com Top Veteran Employers 2025",
+              "type": "url",
+              "url": "https://www.military.com/veteran-jobs/top-25-veteran-employers-2025.html",
+              "tags": []
             }
           ],
           "name_en": "Veteran Recruiting"
@@ -11119,6 +11181,15 @@
                     "神经多样性",
                     "Platform",
                     "人才"
+                  ]
+                },
+                {
+                  "name": "TaleroAI 未来招聘愿景",
+                  "name_en": "TaleroAI Future of Recruitment",
+                  "type": "url",
+                  "url": "https://taleroai.com/2025/04/06/the-future-of-recruitment-ai-gamification-taleros-vision/",
+                  "tags": [
+                    "AI"
                   ]
                 }
               ],
@@ -12604,6 +12675,46 @@
                 }
               ],
               "name_en": "Content Creation Tools"
+            },
+            {
+              "name": "Rally Inside（AI 招聘营销平台）",
+              "name_en": "Rally Inside (AI Recruitment Marketing Platform)",
+              "type": "url",
+              "url": "https://www.rallyinside.io/",
+              "tags": [
+                "AI"
+              ]
+            },
+            {
+              "name": "Beamery（人才 CRM 与营销）",
+              "name_en": "Beamery (Talent CRM & Marketing)",
+              "type": "url",
+              "url": "https://www.beamery.com/",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            },
+            {
+              "name": "SHRM 2025 招聘营销趋势",
+              "name_en": "SHRM Recruitment Marketing Trends 2025",
+              "type": "url",
+              "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/recruitment-marketing-trends-2025-ai-employer-branding",
+              "tags": []
+            },
+            {
+              "name": "Vouch 雇主品牌指南 2025",
+              "name_en": "Vouch Employer Branding Guide 2025",
+              "type": "url",
+              "url": "https://vouchfor.com/blog/employer-branding-guide",
+              "tags": []
+            },
+            {
+              "name": "Recruiterflow 招聘营销指南",
+              "name_en": "Recruiterflow Recruitment Marketing Guide",
+              "type": "url",
+              "url": "https://recruiterflow.com/blog/recruitment-marketing/",
+              "tags": []
             }
           ],
           "name_en": "Recruitment Marketing & Content Creation"
@@ -12846,6 +12957,59 @@
                 "Gamification",
                 "Assessment",
                 "Cognitive"
+              ]
+            },
+            {
+              "name": "HR Play（HR 游戏化博客）",
+              "name_en": "HR Play (HR Gamification Blog)",
+              "type": "url",
+              "url": "https://www.hr-play.com/",
+              "tags": []
+            },
+            {
+              "name": "HR Play 招聘游戏化案例研究",
+              "name_en": "HR Play Gamification Case Studies",
+              "type": "url",
+              "url": "https://www.hr-play.com/blog/gamification-in-recruitment-case-studies-in-recruitment-gamification",
+              "tags": []
+            },
+            {
+              "name": "Recruitics AR 招聘革命",
+              "name_en": "Recruitics AR Recruitment Revolution",
+              "type": "url",
+              "url": "https://info.recruitics.com/blog/how-augmented-reality-is-revolutionizing-recruitment-and-candidate-assessments",
+              "tags": []
+            },
+            {
+              "name": "PeopleScout VR 候选人体验",
+              "name_en": "PeopleScout VR Candidate Experience",
+              "type": "url",
+              "url": "https://www.peoplescout.com/insights/virtual-reality-enhancing-experience/",
+              "tags": []
+            },
+            {
+              "name": "SuperAGI 游戏化 AI 评估指南",
+              "name_en": "SuperAGI Gamification in AI Assessments",
+              "type": "url",
+              "url": "https://superagi.com/gamification-in-ai-skill-assessments-boosting-candidate-engagement-and-accuracy-in-2025/",
+              "tags": [
+                "AI"
+              ]
+            },
+            {
+              "name": "4 Corner 游戏化招聘指南",
+              "name_en": "4 Corner Gamification in Recruiting",
+              "type": "url",
+              "url": "https://www.4cornerresources.com/blog/how-can-gamification-be-used-for-more-effective-recruiting/",
+              "tags": []
+            },
+            {
+              "name": "AptaHire 游戏化评估",
+              "name_en": "AptaHire Gamified Assessments",
+              "type": "url",
+              "url": "https://aptahire.ai/gamified-assessments-modern-recruitment/",
+              "tags": [
+                "AI"
               ]
             }
           ],
@@ -13210,16 +13374,6 @@
                     "CRM"
                   ],
                   "name_en": "Greenhouse｜Nurture"
-                },
-                {
-                  "name": "Lever｜培养",
-                  "type": "url",
-                  "url": "https://www.lever.co/nurture",
-                  "tags": [
-                    "P",
-                    "CRM"
-                  ],
-                  "name_en": "Lever｜Nurture"
                 },
                 {
                   "name": "Crelate（招聘CRM）",
@@ -13687,6 +13841,22 @@
                 }
               ],
               "name_en": "Virtual Office Tours"
+            },
+            {
+              "name": "HeroHunt VR 招聘趋势",
+              "name_en": "HeroHunt VR in Recruitment Trends",
+              "type": "url",
+              "url": "https://www.herohunt.ai/blog/virtual-reality-vr-in-recruitment",
+              "tags": [
+                "AI"
+              ]
+            },
+            {
+              "name": "Bolt-On VR 游戏化评估指南",
+              "name_en": "Bolt-On VR & Gamified Assessments",
+              "type": "url",
+              "url": "https://bolt-onrecruitment.com/mastering-virtual-reality-and-gamified-assessments/",
+              "tags": []
             }
           ],
           "name_en": "Recruiting Video & Multimedia"
@@ -13932,6 +14102,31 @@
                 "Referral",
                 "Platform"
               ]
+            },
+            {
+              "name": "G2 员工推荐软件评测",
+              "name_en": "G2 Employee Referral Software Reviews",
+              "type": "url",
+              "url": "https://www.g2.com/categories/employee-referral",
+              "tags": [
+                "R"
+              ]
+            },
+            {
+              "name": "Gartner 员工推荐管理评测",
+              "name_en": "Gartner Employee Referral Management Reviews",
+              "type": "url",
+              "url": "https://www.gartner.com/reviews/market/employee-referral-management",
+              "tags": [
+                "R"
+              ]
+            },
+            {
+              "name": "Referral Rock 员工推荐指南",
+              "name_en": "Referral Rock Employee Referral Guide",
+              "type": "url",
+              "url": "https://referralrock.com/blog/employee-referral-software/",
+              "tags": []
             }
           ],
           "name_en": "Employee Referrals"
@@ -14349,6 +14544,15 @@
                     "Mobility",
                     "Platform"
                   ]
+                },
+                {
+                  "name": "Gartner 内部人才市场评测",
+                  "name_en": "Gartner Internal Talent Marketplaces Reviews",
+                  "type": "url",
+                  "url": "https://www.gartner.com/reviews/market/internal-talent-marketplaces",
+                  "tags": [
+                    "R"
+                  ]
                 }
               ],
               "name_en": "Internal Mobility Platforms"
@@ -14731,6 +14935,51 @@
                 }
               ],
               "name_en": "Community Operations"
+            },
+            {
+              "name": "Consider（人才情报平台）",
+              "name_en": "Consider (Talent Intelligence Platform)",
+              "type": "url",
+              "url": "https://consider.com/",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            },
+            {
+              "name": "TalentGuard（人才智能平台）",
+              "name_en": "TalentGuard (Talent Intelligence Platform)",
+              "type": "url",
+              "url": "https://www.talentguard.com/talent-intelligence-platform",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            },
+            {
+              "name": "Softgarden 人才社区指南",
+              "name_en": "Softgarden Talent Community Guide",
+              "type": "url",
+              "url": "https://softgarden.com/en/magazine/glossary/talent-community/",
+              "tags": []
+            },
+            {
+              "name": "TalentNet（人才社区平台）",
+              "name_en": "TalentNet (Talent Community Platform)",
+              "type": "url",
+              "url": "https://talentnet.com/products/",
+              "tags": [
+                "P"
+              ]
+            },
+            {
+              "name": "MokaHR AI 人才库发现平台指南",
+              "name_en": "MokaHR AI Talent Pool Rediscovery Guide",
+              "type": "url",
+              "url": "https://www.mokahr.io/articles/en/the-best-ai-powered-talent-pool-rediscovery-platform",
+              "tags": [
+                "AI"
+              ]
             }
           ],
           "name_en": "Talent Communities & Talent Pool Building"
@@ -14996,6 +15245,62 @@
                 }
               ],
               "type": "folder"
+            },
+            {
+              "name": "Recruitee 协作招聘功能",
+              "name_en": "Recruitee Collaborative Hiring",
+              "type": "url",
+              "url": "https://recruitee.com/collaborative-hiring",
+              "tags": [
+                "P"
+              ]
+            },
+            {
+              "name": "Zappyhire 协作招聘功能",
+              "name_en": "Zappyhire Collaborative Hiring Features",
+              "type": "url",
+              "url": "https://www.zappyhire.com/features/collaborative-hiring",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            },
+            {
+              "name": "Manatal 协作功能",
+              "name_en": "Manatal Collaboration Features",
+              "type": "url",
+              "url": "https://www.manatal.com/features/collaboration-and-team-management",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            },
+            {
+              "name": "MokaHR 实时协作平台指南",
+              "name_en": "MokaHR Real-Time Collaboration Guide",
+              "type": "url",
+              "url": "https://www.mokahr.io/articles/en/the-best-real-time-hiring-collaboration-platform",
+              "tags": [
+                "AI"
+              ]
+            },
+            {
+              "name": "Applicantz 协作招聘",
+              "name_en": "Applicantz Collaborative Hiring",
+              "type": "url",
+              "url": "https://applicantz.io/collaborative-hiring/",
+              "tags": [
+                "O"
+              ]
+            },
+            {
+              "name": "GetApp 协作招聘软件",
+              "name_en": "GetApp Recruiting Software with Collaboration",
+              "type": "url",
+              "url": "https://www.getapp.com/hr-employee-management-software/recruitment/f/collaboration-tools/",
+              "tags": [
+                "R"
+              ]
             }
           ],
           "name_en": "Recruiting Collaboration & Team Management"
@@ -15250,6 +15555,13 @@
                 "AI",
                 "Fast"
               ]
+            },
+            {
+              "name": "Salary.com 2025 创新招聘理念",
+              "name_en": "Salary.com Innovative Recruitment Ideas 2025",
+              "type": "url",
+              "url": "https://www.salary.com/resources/hr-glossary/top-10-innovative-recruitment-ideas-hr-needs-to-know-in-2025",
+              "tags": []
             }
           ],
           "name_en": "Global Hiring & Remote Teams"
@@ -16913,6 +17225,37 @@
                 }
               ],
               "name_en": "Volume Hiring Tools"
+            },
+            {
+              "name": "Chattr（小时工 AI 招聘）",
+              "name_en": "Chattr (Hourly Hiring AI)",
+              "type": "url",
+              "url": "https://chattr.ai/",
+              "tags": [
+                "AI",
+                "P"
+              ]
+            },
+            {
+              "name": "Fountain 一线招聘指南",
+              "name_en": "Fountain Frontline Hiring Guide",
+              "type": "url",
+              "url": "https://www.fountain.com/frontline-hiring",
+              "tags": []
+            },
+            {
+              "name": "Talroo 一线员工指数",
+              "name_en": "Talroo Frontline Worker Index",
+              "type": "url",
+              "url": "https://www.talroo.com/talroo-frontline-worker-index/",
+              "tags": []
+            },
+            {
+              "name": "iCIMS 一线招聘报告 2025",
+              "name_en": "iCIMS State of Frontline Hiring Report 2025",
+              "type": "url",
+              "url": "https://www.icims.com/company/newsroom/2025stateoffrontlinehiringreport/",
+              "tags": []
             }
           ],
           "name_en": "Blue-Collar & Frontline Recruiting"
@@ -17124,6 +17467,33 @@
                 "Compensation",
                 "Equity",
                 "Startup"
+              ]
+            },
+            {
+              "name": "Radford McLagan 薪酬数据库",
+              "name_en": "Radford McLagan Compensation Database (Aon)",
+              "type": "url",
+              "url": "https://www.aon.com/en/capabilities/human-capital-analytics/radford-mclagan-compensation-database",
+              "tags": [
+                "P"
+              ]
+            },
+            {
+              "name": "Carta Total Compensation",
+              "name_en": "Carta Total Compensation",
+              "type": "url",
+              "url": "https://carta.com/learn/startups/compensation/benchmarking/",
+              "tags": [
+                "P"
+              ]
+            },
+            {
+              "name": "Gartner 薪酬管理软件评测",
+              "name_en": "Gartner Compensation Management Software Reviews",
+              "type": "url",
+              "url": "https://www.gartner.com/reviews/market/compensation-management-software",
+              "tags": [
+                "R"
               ]
             }
           ],
@@ -17995,16 +18365,6 @@
                   "tags": [
                     "YouTube",
                     "Recruiting"
-                  ]
-                },
-                {
-                  "name": "Josh Bersin YouTube（HR 分析）",
-                  "name_en": "Josh Bersin YouTube (HR Analytics)",
-                  "type": "url",
-                  "url": "https://www.youtube.com/@JoshBersin",
-                  "tags": [
-                    "YouTube",
-                    "Expert"
                   ]
                 }
               ],
@@ -20110,17 +20470,6 @@
               "name_en": "Compensation Benchmarks"
             },
             {
-              "name": "SHRM Certification｜HR认证项目",
-              "name_en": "SHRM Certification | HR Certification Programs",
-              "type": "url",
-              "url": "https://www.shrm.org/certification/",
-              "tags": [
-                "Certification",
-                "SHRM",
-                "HR"
-              ]
-            },
-            {
               "name": "HRD｜人力资源董事社区",
               "name_en": "HRD | HR Directors Community",
               "type": "url",
@@ -20426,16 +20775,6 @@
               "tags": [
                 "Research",
                 "McKinsey"
-              ]
-            },
-            {
-              "name": "McKinsey People & Organization",
-              "name_en": "McKinsey People & Organization",
-              "type": "url",
-              "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance",
-              "tags": [
-                "Research",
-                "Consulting"
               ]
             },
             {
