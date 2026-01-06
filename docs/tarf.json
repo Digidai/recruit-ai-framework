@@ -1881,7 +1881,8 @@
               ],
               "name_en": "FullScale | The Ultimate Guide to Remote Technical Interview Process"
             }
-          ]
+          ],
+          "name_en": "Technical Interview Guides"
         }
       ]
     },
@@ -3255,35 +3256,55 @@
               "name_en": "LinkedHelper X-Ray Search Guide",
               "type": "url",
               "url": "https://www.linkedhelper.com/blog/linkedin-xray-search/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "X-Ray"
+              ]
             },
             {
               "name": "SalesRobot X-Ray 搜索指南",
               "name_en": "SalesRobot X-Ray Search Guide",
               "type": "url",
               "url": "https://www.salesrobot.co/blogs/linkedin-xray-search",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "X-Ray"
+              ]
             },
             {
               "name": "RecruitRyte Boolean 搜索指南",
               "name_en": "RecruitRyte Boolean Search Guide",
               "type": "url",
               "url": "https://recruitryte.com/blog/mastering-boolean-search-linkedin-x-ray-searches-guide/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "Boolean"
+              ]
             },
             {
               "name": "FidForward X-Ray 搜索教程",
               "name_en": "FidForward X-Ray Search Tutorial",
               "type": "url",
               "url": "https://fidforward.com/blog/xray_search/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "X-Ray"
+              ]
             },
             {
               "name": "PCRecruiter X-Ray 搜索未来",
               "name_en": "PCRecruiter The Future of X-Ray Search",
               "type": "url",
               "url": "https://www.pcrecruiter.net/site/2024/04/09/death-of-x-ray-search-for-recruiters/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Sourcing",
+                "X-Ray"
+              ]
             },
             {
               "name": "Udemy Boolean 搜索课程",
@@ -3839,7 +3860,10 @@
               "name_en": "List of Executive Search Firms (Wikipedia)",
               "type": "url",
               "url": "https://en.wikipedia.org/wiki/List_of_executive_search_firms",
-              "tags": []
+              "tags": [
+                "Reference",
+                "Executive Search"
+              ]
             }
           ],
           "name_en": "Executive Search"
@@ -4586,7 +4610,8 @@
               ],
               "name_en": "NurtureBox | Best Practices to Source Candidates in 2024"
             }
-          ]
+          ],
+          "name_en": "Sourcing Strategies"
         }
       ]
     },
@@ -6240,7 +6265,8 @@
               ],
               "name_en": "HRLineup | Top 10 Virtual Hiring Tools in 2025"
             }
-          ]
+          ],
+          "name_en": "Recruitment Automation Tools"
         },
         {
           "name": "候选人测评",
@@ -6357,7 +6383,8 @@
               ],
               "name_en": "Workello | Top 12 Recruitment CRM Software in 2024"
             }
-          ]
+          ],
+          "name_en": "Candidate Assessment"
         }
       ]
     },
@@ -8506,40 +8533,6 @@
                     "Tool"
                   ],
                   "name_en": "InterviewAI"
-                },
-                {
-                  "name": "Pluely（开源 AI 视频面试）",
-                  "name_en": "Pluely (Open Source AI Video Interview)",
-                  "type": "url",
-                  "url": "https://pluely.com/",
-                  "tags": [
-                    "AI",
-                    "O",
-                    "GitHub"
-                  ]
-                },
-                {
-                  "name": "StealthCoder（面试辅助 Chrome 扩展）",
-                  "name_en": "StealthCoder (Interview Assistant Chrome Extension)",
-                  "type": "url",
-                  "url": "https://github.com/RaheesAhmed/StealthCoder",
-                  "tags": [
-                    "AI",
-                    "O",
-                    "GitHub",
-                    "Extension"
-                  ]
-                },
-                {
-                  "name": "OpenInterviewCoder（不可检测 AI 助手）",
-                  "name_en": "OpenInterviewCoder (Undetectable AI Assistant)",
-                  "type": "url",
-                  "url": "https://openinterviewcoder.com/",
-                  "tags": [
-                    "AI",
-                    "O",
-                    "GitHub"
-                  ]
                 }
               ],
               "name_en": "AI Interview / Mock Interview"
@@ -9412,7 +9405,8 @@
               ],
               "name_en": "Homans | AI in Recruitment 2025: Future of Hiring Explained"
             }
-          ]
+          ],
+          "name_en": "AI Tools & Platforms"
         }
       ]
     },
@@ -11353,21 +11347,33 @@
               "name_en": "VetJobs (Veteran Jobs Marketplace)",
               "type": "url",
               "url": "https://vetjobs.org/",
-              "tags": []
+              "tags": [
+                "Job Board",
+                "Veterans",
+                "US"
+              ]
             },
             {
               "name": "Hire Veterans（退伍军人职位）",
               "name_en": "Hire Veterans (Veteran Jobs)",
               "type": "url",
               "url": "https://hireveterans.com/",
-              "tags": []
+              "tags": [
+                "Job Board",
+                "Veterans",
+                "US"
+              ]
             },
             {
               "name": "Military.com 顶级雇主 2025",
               "name_en": "Military.com Top Veteran Employers 2025",
               "type": "url",
               "url": "https://www.military.com/veteran-jobs/top-25-veteran-employers-2025.html",
-              "tags": []
+              "tags": [
+                "Job Board",
+                "Veterans",
+                "US"
+              ]
             }
           ],
           "name_en": "Veteran Recruiting"
@@ -12330,7 +12336,8 @@
               ],
               "name_en": "LeoForce | Effective Diversity Recruiting Strategies That Work in 2024"
             }
-          ]
+          ],
+          "name_en": "DEI Strategy & Tools"
         }
       ]
     },
@@ -13245,21 +13252,31 @@
               "name_en": "SHRM Recruitment Marketing Trends 2025",
               "type": "url",
               "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/recruitment-marketing-trends-2025-ai-employer-branding",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Trends",
+                "Research"
+              ]
             },
             {
               "name": "Vouch 雇主品牌指南 2025",
               "name_en": "Vouch Employer Branding Guide 2025",
               "type": "url",
               "url": "https://vouchfor.com/blog/employer-branding-guide",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Employer Branding"
+              ]
             },
             {
               "name": "Recruiterflow 招聘营销指南",
               "name_en": "Recruiterflow Recruitment Marketing Guide",
               "type": "url",
               "url": "https://recruiterflow.com/blog/recruitment-marketing/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Recruitment Marketing"
+              ]
             }
           ],
           "name_en": "Recruitment Marketing & Content Creation"
@@ -13509,28 +13526,44 @@
               "name_en": "HR Play (HR Gamification Blog)",
               "type": "url",
               "url": "https://www.hr-play.com/",
-              "tags": []
+              "tags": [
+                "Blog",
+                "Gamification",
+                "HR Tech"
+              ]
             },
             {
               "name": "HR Play 招聘游戏化案例研究",
               "name_en": "HR Play Gamification Case Studies",
               "type": "url",
               "url": "https://www.hr-play.com/blog/gamification-in-recruitment-case-studies-in-recruitment-gamification",
-              "tags": []
+              "tags": [
+                "Blog",
+                "Gamification",
+                "HR Tech"
+              ]
             },
             {
               "name": "Recruitics AR 招聘革命",
               "name_en": "Recruitics AR Recruitment Revolution",
               "type": "url",
               "url": "https://info.recruitics.com/blog/how-augmented-reality-is-revolutionizing-recruitment-and-candidate-assessments",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Innovation",
+                "AR/VR"
+              ]
             },
             {
               "name": "PeopleScout VR 候选人体验",
               "name_en": "PeopleScout VR Candidate Experience",
               "type": "url",
               "url": "https://www.peoplescout.com/insights/virtual-reality-enhancing-experience/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Innovation",
+                "AR/VR"
+              ]
             },
             {
               "name": "SuperAGI 游戏化 AI 评估指南",
@@ -13546,7 +13579,10 @@
               "name_en": "4 Corner Gamification in Recruiting",
               "type": "url",
               "url": "https://www.4cornerresources.com/blog/how-can-gamification-be-used-for-more-effective-recruiting/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Gamification"
+              ]
             },
             {
               "name": "AptaHire 游戏化评估",
@@ -14434,7 +14470,11 @@
               "name_en": "Bolt-On VR & Gamified Assessments",
               "type": "url",
               "url": "https://bolt-onrecruitment.com/mastering-virtual-reality-and-gamified-assessments/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Innovation",
+                "AR/VR"
+              ]
             }
           ],
           "name_en": "Recruiting Video & Multimedia"
@@ -14502,7 +14542,8 @@
               ],
               "name_en": "HackerEarth | Candidate Experience Best Practices to Elevate Your Recruitment Process in 2025"
             }
-          ]
+          ],
+          "name_en": "Candidate Experience Optimization"
         },
         {
           "name": "招聘营销",
@@ -14574,7 +14615,8 @@
               ],
               "name_en": "Universum | Recruitment Marketing: Definition, Strategies, and Career Insights (2024)"
             }
-          ]
+          ],
+          "name_en": "Recruitment Marketing"
         }
       ]
     },
@@ -14841,7 +14883,10 @@
               "name_en": "Referral Rock Employee Referral Guide",
               "type": "url",
               "url": "https://referralrock.com/blog/employee-referral-software/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Employee Referral"
+              ]
             },
             {
               "name": "Toggl｜15 Creative Employee Referral Program Ideas for 2024",
@@ -15767,7 +15812,10 @@
               "name_en": "Softgarden Talent Community Guide",
               "type": "url",
               "url": "https://softgarden.com/en/magazine/glossary/talent-community/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Talent Community"
+              ]
             },
             {
               "name": "TalentNet（人才社区平台）",
@@ -16397,7 +16445,10 @@
               "name_en": "Salary.com Innovative Recruitment Ideas 2025",
               "type": "url",
               "url": "https://www.salary.com/resources/hr-glossary/top-10-innovative-recruitment-ideas-hr-needs-to-know-in-2025",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Innovation"
+              ]
             }
           ],
           "name_en": "Global Hiring & Remote Teams"
@@ -18077,21 +18128,33 @@
               "name_en": "Fountain Frontline Hiring Guide",
               "type": "url",
               "url": "https://www.fountain.com/frontline-hiring",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Frontline",
+                "Hiring"
+              ]
             },
             {
               "name": "Talroo 一线员工指数",
               "name_en": "Talroo Frontline Worker Index",
               "type": "url",
               "url": "https://www.talroo.com/talroo-frontline-worker-index/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Frontline",
+                "Hiring"
+              ]
             },
             {
               "name": "iCIMS 一线招聘报告 2025",
               "name_en": "iCIMS State of Frontline Hiring Report 2025",
               "type": "url",
               "url": "https://www.icims.com/company/newsroom/2025stateoffrontlinehiringreport/",
-              "tags": []
+              "tags": [
+                "Guide",
+                "Frontline",
+                "Hiring"
+              ]
             }
           ],
           "name_en": "Blue-Collar & Frontline Recruiting"
@@ -18160,7 +18223,8 @@
               ],
               "name_en": "Oyster | Global Work Without Borders: Insights on International Employment 2025"
             }
-          ]
+          ],
+          "name_en": "Cross-border Recruitment"
         }
       ]
     },
@@ -21805,7 +21869,8 @@
               ],
               "name_en": "Fullstack Recruiter | Power of Data: Recruiting Metrics for 2024 Success"
             }
-          ]
+          ],
+          "name_en": "Recruitment Metrics & KPIs"
         }
       ]
     }
