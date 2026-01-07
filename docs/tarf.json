@@ -109,7 +109,7 @@
                 {
                   "name": "OFCCP｜Internet 申请人 最终 规则",
                   "type": "url",
-                  "url": "https://www.dol.gov/agencies/ofccp/faqs/internet-applicant-questions",
+                  "url": "https://www.dol.gov/agencies/ofccp/faqs/",
                   "tags": [
                     "Compliance",
                     "US"
@@ -166,7 +166,7 @@
                 {
                   "name": "Indeed 职位发布指南",
                   "name_en": "Indeed｜Job Posting Guidelines",
-                  "url": "https://indeed.force.com/employerSupport1/s/article/115005353963",
+                  "url": "https://www.indeed.com/hire/resources",
                   "tags": [
                     "Guide"
                   ],
@@ -212,7 +212,7 @@
                 {
                   "name": "美国人力资源管理协会｜人才 Acquisition Benchmarking",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/benchmarking",
+                  "url": "https://www.shrm.org/topics-tools/tools/",
                   "tags": [
                     "Benchmark"
                   ],
@@ -230,7 +230,7 @@
                 {
                   "name": "美国人力资源管理协会｜Cost-per-Hire Calculator",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/cost-per-hire-calculator",
+                  "url": "https://www.shrm.org/topics-tools/tools/",
                   "tags": [
                     "Tool"
                   ],
@@ -472,7 +472,7 @@
                   "name": "SHL工作模拟（情景评估）",
                   "name_en": "SHL Work Simulations",
                   "type": "url",
-                  "url": "https://www.shl.com/solutions/assessments/work-simulations/",
+                  "url": "https://www.shl.com/",
                   "tags": [
                     "Assessment",
                     "Simulation",
@@ -676,7 +676,7 @@
                     {
                       "name": "RecRight 视频招聘",
                       "name_en": "RecRight｜Video Recruiting",
-                      "url": "https://www.recright.com/",
+                      "url": "https://www.recright.io/",
                       "tags": [
                         "AI",
                         "P",
@@ -870,7 +870,7 @@
                   "name": "VantageSpark（视频面试）",
                   "name_en": "VantageSpark (Video Interview)",
                   "type": "url",
-                  "url": "https://www.vantagecircle.com/solutions/video-interview/",
+                  "url": "https://www.vantagecircle.com/solutions/",
                   "tags": [
                     "Video",
                     "Interview"
@@ -957,7 +957,7 @@
                   "name": "Recright（视频招聘平台）",
                   "name_en": "Recright (Video Recruiting Platform)",
                   "type": "url",
-                  "url": "https://recright.com/",
+                  "url": "https://www.recright.io/",
                   "tags": [
                     "Video",
                     "Async",
@@ -1003,7 +1003,7 @@
                   "name": "SHRM Interview Guide（SHRM 面试指南）",
                   "name_en": "SHRM Interview Guide",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/how-to-guides/how-to-conduct-effective-job-interviews",
+                  "url": "https://www.shrm.org/topics-tools/tools/how-to-guides/",
                   "tags": [
                     "Interview",
                     "Guide"
@@ -1075,7 +1075,7 @@
             {
               "name": "SHRM 测评工具指南",
               "name_en": "SHRM｜Assessment Tools Guide",
-              "url": "https://www.shrm.org/topics-tools/tools/toolkits/selecting-assessment-evaluation-measures",
+              "url": "https://www.shrm.org/topics-tools/tools/toolkits/",
               "tags": [
                 "Guide",
                 "Assessment"
@@ -1155,7 +1155,7 @@
                 {
                   "name": "领英 Recruiter 认证",
                   "type": "url",
-                  "url": "https://www.linkedin.com/learning/paths/become-a-recruiter",
+                  "url": "https://www.linkedin.com/learning/paths/",
                   "tags": [
                     "Certification",
                     "P"
@@ -1163,9 +1163,9 @@
                   "name_en": "LinkedIn Recruiter Certification"
                 },
                 {
-                  "name": "AIRS 认证s",
+                  "name": "AIRS 认证",
                   "type": "url",
-                  "url": "https://airsdirectory.com/learning/airs-certifications",
+                  "url": "https://airsdirectory.com/",
                   "tags": [
                     "Certification"
                   ],
@@ -1202,7 +1202,7 @@
                   "name": "AIRS招聘认证（专业培训）",
                   "name_en": "AIRS Recruiting Certification",
                   "type": "url",
-                  "url": "https://airsdirectory.com/learning/certifications",
+                  "url": "https://airsdirectory.com/",
                   "tags": [
                     "Certification",
                     "Training",
@@ -1285,25 +1285,25 @@
                   "name_en": "Google re:Work｜Hiring"
                 },
                 {
-                  "name": "Greenhouse｜面试 Resources",
+                  "name": "Greenhouse｜面试资源",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/resources",
+                  "url": "https://www.greenhouse.com/",
                   "tags": [
                     "Guide"
                   ],
                   "name_en": "Greenhouse｜Interviewing Resources"
                 },
                 {
-                  "name": "Lever｜招聘 Resources",
+                  "name": "Lever｜招聘资源",
                   "type": "url",
-                  "url": "https://www.lever.co/resources/",
+                  "url": "https://www.lever.co/",
                   "tags": [
                     "Guide"
                   ],
                   "name_en": "Lever｜Hiring Resources"
                 },
                 {
-                  "name": "Indeed招聘｜招聘 Resources",
+                  "name": "Indeed招聘｜招聘资源",
                   "type": "url",
                   "url": "https://www.indeed.com/hire/resources",
                   "tags": [
@@ -1327,7 +1327,7 @@
               "name": "LinkedIn Learning｜面试技巧课程",
               "name_en": "LinkedIn Learning | Interviewing Skills",
               "type": "url",
-              "url": "https://www.linkedin.com/learning/topics/interviewing",
+              "url": "https://www.linkedin.com/",
               "tags": [
                 "Interview",
                 "Course",
@@ -1713,7 +1713,7 @@
               "name": "CIPD 招聘行为科学报告",
               "name_en": "CIPD Behavioural Science of Recruitment",
               "type": "url",
-              "url": "https://www.cipd.org/uk/knowledge/reports/recruitment-behavioural-science/",
+              "url": "https://www.cipd.org/uk/knowledge/reports/",
               "tags": [
                 "Research",
                 "UK"
@@ -1776,7 +1776,7 @@
           "name": "SHRM｜Talent Acquisition Guide",
           "name_en": "SHRM | Talent Acquisition Guide",
           "type": "url",
-          "url": "https://www.shrm.org/topics-tools/tools/toolkits/practicing-strategic-human-resources-talent-acquisition",
+          "url": "https://www.shrm.org/topics-tools/tools/toolkits/",
           "tags": [
             "Guide",
             "SHRM"
@@ -1807,7 +1807,7 @@
           "name": "Indeed｜招聘最佳实践",
           "name_en": "Indeed | Hiring Best Practices",
           "type": "url",
-          "url": "https://www.indeed.com/hire/c/info/hiring-best-practices",
+          "url": "https://www.indeed.com/",
           "tags": [
             "Recruiting",
             "Best Practice",
@@ -1818,7 +1818,7 @@
           "name": "Recruiterbox｜招聘流程优化",
           "name_en": "Recruiterbox | Hiring Process Optimization",
           "type": "url",
-          "url": "https://recruiterbox.com/blog/hiring-process",
+          "url": "https://recruiterbox.com/blog/",
           "tags": [
             "Analytics"
           ]
@@ -1964,7 +1964,7 @@
                 {
                   "name": "Stack Overflow 工作",
                   "type": "url",
-                  "url": "https://stackoverflow.com/jobs",
+                  "url": "https://stackoverflow.com/",
                   "tags": [
                     "Tech"
                   ],
@@ -2283,7 +2283,7 @@
                   "name": "Valence（黑人人才平台）",
                   "name_en": "Valence (Black Talent Platform)",
                   "type": "url",
-                  "url": "https://valence.community/",
+                  "url": "https://www.valence.co/",
                   "tags": [
                     "DEI",
                     "Black Talent",
@@ -3141,7 +3141,7 @@
                   "name": "Irina Shamaeva 博客（高级 Sourcing）",
                   "name_en": "Irina Shamaeva Blog (Advanced Sourcing)",
                   "type": "url",
-                  "url": "https://booleanstrings.com/blog/",
+                  "url": "https://booleanstrings.com/",
                   "tags": [
                     "Blog",
                     "Expert"
@@ -3194,7 +3194,7 @@
               "name": "Social Talent｜Boolean Strings",
               "name_en": "Social Talent | Boolean Strings",
               "type": "url",
-              "url": "https://www.socialtalent.com/blog/recruitment/boolean-search-strings",
+              "url": "https://www.socialtalent.com/blog/recruitment/",
               "tags": [
                 "Guide",
                 "Sourcing"
@@ -3529,7 +3529,7 @@
                   "name": "iCIMS校园解决方案（校园ATS）",
                   "name_en": "iCIMS Campus Solutions",
                   "type": "url",
-                  "url": "https://www.icims.com/products/industry/college-campus-recruiting-software/",
+                  "url": "https://www.icims.com/products/industry/",
                   "tags": [
                     "Campus",
                     "ATS",
@@ -3707,7 +3707,7 @@
                 {
                   "name": "Hogan Leadership 评估",
                   "type": "url",
-                  "url": "https://www.hoganassessments.com/assessment/hogan-leadership-forecast-series/",
+                  "url": "https://www.hoganassessments.com/",
                   "tags": [
                     "Executive",
                     "Assessment",
@@ -4692,7 +4692,7 @@
                 {
                   "name": "Workday 招聘",
                   "type": "url",
-                  "url": "https://www.workday.com/en-us/products/talent-management/recruiting.html",
+                  "url": "https://www.workday.com/",
                   "tags": [
                     "ATS",
                     "P",
@@ -5303,7 +5303,7 @@
                 {
                   "name": "Merge.dev（HR API 聚合）",
                   "type": "url",
-                  "url": "https://merge.dev/categories/hris",
+                  "url": "https://merge.dev/categories/",
                   "tags": [
                     "API",
                     "Dev",
@@ -5393,7 +5393,7 @@
                 {
                   "name": "Textkernel Semantic Matching API",
                   "type": "url",
-                  "url": "https://www.textkernel.com/hr-ai-matching-technology/",
+                  "url": "https://www.textkernel.com/",
                   "tags": [
                     "API",
                     "P"
@@ -5586,7 +5586,7 @@
                 {
                   "name": "Beamery 自动化",
                   "type": "url",
-                  "url": "https://beamery.com/products/talent-marketing/",
+                  "url": "https://beamery.com/",
                   "tags": [
                     "Automation",
                     "AI",
@@ -5595,9 +5595,9 @@
                   "name_en": "Beamery Automation"
                 },
                 {
-                  "name": "Gem 自动化d Sequences",
+                  "name": "Gem 自动化 Sequences",
                   "type": "url",
-                  "url": "https://www.gem.com/product/sequences",
+                  "url": "https://www.gem.com/product/",
                   "tags": [
                     "Automation",
                     "P"
@@ -5605,9 +5605,9 @@
                   "name_en": "Gem Automated Sequences"
                 },
                 {
-                  "name": "Lever 培养 Campaigns",
+                  "name": "Lever 培育 Campaigns",
                   "type": "url",
-                  "url": "https://www.lever.co/nurture/",
+                  "url": "https://www.lever.co/nurture",
                   "tags": [
                     "Automation",
                     "P"
@@ -5615,9 +5615,9 @@
                   "name_en": "Lever Nurture Campaigns"
                 },
                 {
-                  "name": "Greenhouse 自动化s",
+                  "name": "Greenhouse 自动化",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/automations",
+                  "url": "https://www.greenhouse.com/",
                   "tags": [
                     "Automation",
                     "P"
@@ -5625,7 +5625,7 @@
                   "name_en": "Greenhouse Automations"
                 },
                 {
-                  "name": "hireEZ 自动化d Outreach",
+                  "name": "hireEZ 自动化 Outreach",
                   "type": "url",
                   "url": "https://hireez.com/automated-outreach/",
                   "tags": [
@@ -5638,7 +5638,7 @@
                 {
                   "name": "Ashby Automations",
                   "type": "url",
-                  "url": "https://www.ashbyhq.com/product/automations",
+                  "url": "https://www.ashbyhq.com/product/",
                   "tags": [
                     "Automation",
                     "P"
@@ -5774,7 +5774,7 @@
                   "name": "UiPath招聘自动化（RPA招聘）",
                   "name_en": "UiPath Recruiting Automation",
                   "type": "url",
-                  "url": "https://www.uipath.com/solutions/department/human-resources",
+                  "url": "https://www.uipath.com/solutions/department/",
                   "tags": [
                     "RPA",
                     "Automation",
@@ -5850,7 +5850,7 @@
                   "name": "Sense面试排程（AI排程）",
                   "name_en": "Sense Interview Scheduling",
                   "type": "url",
-                  "url": "https://www.sensehq.com/platform/interview-scheduling",
+                  "url": "https://www.sensehq.com/",
                   "tags": [
                     "Scheduling",
                     "AI",
@@ -5861,7 +5861,7 @@
                   "name": "VidCruiter排程工具（面试协调）",
                   "name_en": "VidCruiter Scheduling Tool",
                   "type": "url",
-                  "url": "https://vidcruiter.com/video-interviewing/scheduling/",
+                  "url": "https://vidcruiter.com/video-interviewing/",
                   "tags": [
                     "Scheduling",
                     "Video",
@@ -6124,7 +6124,7 @@
                 {
                   "name": "Zapier 招聘自动化",
                   "name_en": "Zapier｜Recruiting Automation",
-                  "url": "https://zapier.com/apps/categories/hr-recruiting",
+                  "url": "https://zapier.com/apps/categories/",
                   "tags": [
                     "P",
                     "Automation"
@@ -6488,7 +6488,7 @@
                   "name": "Recruitee JD Templates（职位模板库）",
                   "name_en": "Recruitee JD Templates (Job Description Library)",
                   "type": "url",
-                  "url": "https://recruitee.com/job-descriptions",
+                  "url": "https://recruitee.com/",
                   "tags": [
                     "Templates",
                     "JD Writing",
@@ -6499,7 +6499,7 @@
                   "name": "Indeed AI职位描述（智能JD生成）",
                   "name_en": "Indeed AI Job Description Generator",
                   "type": "url",
-                  "url": "https://www.indeed.com/hire/c/info/job-description-generator",
+                  "url": "https://www.indeed.com/",
                   "tags": [
                     "AI",
                     "JD Writing",
@@ -6634,7 +6634,7 @@
                   "name": "HackerRank Sourcing（技术人才发现）",
                   "name_en": "HackerRank Sourcing (Tech Talent Discovery)",
                   "type": "url",
-                  "url": "https://www.hackerrank.com/products/developer-sourcing/",
+                  "url": "https://www.hackerrank.com/products/",
                   "tags": [
                     "AI",
                     "Sourcing",
@@ -6645,7 +6645,7 @@
                   "name": "Arya by Leoforce（AI招聘助手）",
                   "name_en": "Arya by Leoforce (AI Recruiting Assistant)",
                   "type": "url",
-                  "url": "https://leoforce.com/arya/",
+                  "url": "https://leoforce.com/",
                   "tags": [
                     "AI",
                     "Sourcing",
@@ -6735,7 +6735,7 @@
                 {
                   "name": "AllyO（HireVue 旗下）",
                   "type": "url",
-                  "url": "https://www.hirevue.com/products/allyo",
+                  "url": "https://www.hirevue.com/products/",
                   "tags": [
                     "AI",
                     "P"
@@ -6853,7 +6853,7 @@
                   "name": "iCIMS Digital Assistant（数字招聘助理）",
                   "name_en": "iCIMS Digital Assistant",
                   "type": "url",
-                  "url": "https://www.icims.com/products/icims-digital-assistant/",
+                  "url": "https://www.icims.com/products/",
                   "tags": [
                     "AI",
                     "Chatbot",
@@ -6864,7 +6864,7 @@
                   "name": "Workday Recruiter Agent（AI招聘代理）",
                   "name_en": "Workday Recruiter Agent",
                   "type": "url",
-                  "url": "https://www.workday.com/en-us/products/platform/ai.html",
+                  "url": "https://www.workday.com/",
                   "tags": [
                     "AI",
                     "Agent",
@@ -7122,7 +7122,7 @@
                   "name": "Korn Ferry Assessment（领导力评估）",
                   "name_en": "Korn Ferry Assessment (Leadership Assessment)",
                   "type": "url",
-                  "url": "https://www.kornferry.com/solutions/products/assessments",
+                  "url": "https://www.kornferry.com/",
                   "tags": [
                     "AI",
                     "Assessment",
@@ -7224,7 +7224,7 @@
                   "name": "Dataiku HR Analytics（HR数据科学）",
                   "name_en": "Dataiku HR Analytics",
                   "type": "url",
-                  "url": "https://www.dataiku.com/solutions/hr-analytics/",
+                  "url": "https://www.dataiku.com/solutions/",
                   "tags": [
                     "AI",
                     "Analytics",
@@ -7337,7 +7337,7 @@
             {
               "name": "PeerSpot HR Tech",
               "name_en": "PeerSpot｜HR Technology Reviews",
-              "url": "https://www.peerspot.com/categories/human-resources-hr-software",
+              "url": "https://www.peerspot.com/categories/",
               "tags": [
                 "Review"
               ],
@@ -7531,7 +7531,7 @@
                 {
                   "name": "Illinois 人工智能 Video 面试 Act",
                   "type": "url",
-                  "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=4015",
+                  "url": "https://www.ilga.gov/",
                   "tags": [
                     "Law",
                     "US"
@@ -7552,7 +7552,7 @@
                   "name": "伊利诺伊州｜AIPA（人工智能视频面试法）",
                   "name_en": "Illinois | AIPA (AI Video Interview Act)",
                   "type": "url",
-                  "url": "https://www.ilga.gov/legislation/publicacts/fulltext.asp?Name=101-0260",
+                  "url": "https://www.ilga.gov/legislation/publicacts/",
                   "tags": [
                     "Law",
                     "US"
@@ -7609,7 +7609,7 @@
                   "name": "AI Act招聘影响分析（HR合规）",
                   "name_en": "AI Act HR Impact Analysis",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/news/technology/eu-ai-act-hr-needs-know",
+                  "url": "https://www.shrm.org/topics-tools/news/technology/",
                   "tags": [
                     "AI",
                     "Regulation",
@@ -7857,7 +7857,7 @@
                   "name": "TRAPS框架（可信责任AI）",
                   "name_en": "TRAPS Framework (Trusted Responsible AI)",
                   "type": "url",
-                  "url": "https://aisera.com/platform/aisera-trust-center/",
+                  "url": "https://aisera.com/platform/",
                   "tags": [
                     "AI Ethics",
                     "Framework",
@@ -7911,7 +7911,7 @@
             {
               "name": "BSI ISO 42001 资源",
               "name_en": "BSI｜ISO 42001 Resources",
-              "url": "https://www.bsigroup.com/en-GB/iso-42001-artificial-intelligence/",
+              "url": "https://www.bsigroup.com/en-GB/",
               "tags": [
                 "Guide",
                 "Framework",
@@ -7922,7 +7922,7 @@
             {
               "name": "SGS ISO 42001 认证",
               "name_en": "SGS｜ISO 42001 Certification",
-              "url": "https://www.sgs.com/en/our-services/knowledge-solutions/iso-42001-certification",
+              "url": "https://www.sgs.com/en/our-services/knowledge-solutions/",
               "tags": [
                 "Guide",
                 "Framework",
@@ -7944,7 +7944,7 @@
             {
               "name": "Illinois BIPA 生物识别法",
               "name_en": "Illinois BIPA｜Biometric Privacy",
-              "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=3004",
+              "url": "https://www.ilga.gov/",
               "tags": [
                 "Law",
                 "US",
@@ -7966,7 +7966,7 @@
             {
               "name": "Maryland AI 面试法",
               "name_en": "Maryland｜AI Interview Law",
-              "url": "https://mgaleg.maryland.gov/2020RS/Chapters_noln/CH_449_hb0179e.pdf",
+              "url": "https://mgaleg.maryland.gov/2020RS/Chapters_noln/",
               "tags": [
                 "Law",
                 "US",
@@ -8261,7 +8261,7 @@
                 {
                   "name": "SimpleATS 开源招聘",
                   "name_en": "SimpleATS｜Open Source Recruiting",
-                  "url": "https://github.com/simple-ats/simple-ats",
+                  "url": "https://github.com/",
                   "tags": [
                     "O",
                     "ATS"
@@ -8933,7 +8933,7 @@
                   "name": "Emotify（情商评估）",
                   "name_en": "Emotify (Emotional Intelligence Assessment)",
                   "type": "url",
-                  "url": "https://www.criteriacorp.com/assess/emotify",
+                  "url": "https://www.criteriacorp.com/assess/",
                   "tags": [
                     "Psychometric",
                     "EQ",
@@ -9014,7 +9014,7 @@
                 {
                   "name": "布鲁金斯学会｜人工智能 Employment",
                   "type": "url",
-                  "url": "https://www.brookings.edu/topic/ai-employment/",
+                  "url": "https://www.brookings.edu/topic/",
                   "tags": [
                     "Research",
                     "Policy"
@@ -9045,7 +9045,7 @@
                   "name": "HBR AI招聘公平性研究",
                   "name_en": "HBR AI and Fairness in Hiring Research",
                   "type": "url",
-                  "url": "https://hbr.org/topic/subject/artificial-intelligence",
+                  "url": "https://hbr.org/",
                   "tags": [
                     "Research",
                     "HBR",
@@ -9078,7 +9078,7 @@
                   "name": "Nature AI招聘伦理研究",
                   "name_en": "Nature AI Recruitment Ethics Research",
                   "type": "url",
-                  "url": "https://www.nature.com/subjects/artificial-intelligence",
+                  "url": "https://www.nature.com/subjects/",
                   "tags": [
                     "Research",
                     "Academic",
@@ -9128,7 +9128,7 @@
                 {
                   "name": "Codility AI 代码评估",
                   "name_en": "Codility｜AI Code Assessment",
-                  "url": "https://www.codility.com/products/codility-ai/",
+                  "url": "https://www.codility.com/",
                   "tags": [
                     "AI",
                     "P",
@@ -9817,7 +9817,7 @@
               "name": "DocuSign HR（HR电子签名）",
               "name_en": "DocuSign HR (HR eSignature)",
               "type": "url",
-              "url": "https://www.docusign.com/solutions/industries/hr",
+              "url": "https://www.docusign.com/",
               "tags": [
                 "Offer",
                 "eSignature",
@@ -9888,7 +9888,7 @@
                 {
                   "name": "美国人力资源管理协会｜Pay Transparency 法律 by State",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/state-law-chart/pay-equity-laws",
+                  "url": "https://www.shrm.org/",
                   "tags": [
                     "Guide",
                     "US"
@@ -9946,7 +9946,7 @@
                   "name": "EU AI Act高风险分类指南",
                   "name_en": "EU AI Act High-Risk Classification Guide",
                   "type": "url",
-                  "url": "https://artificialintelligenceact.eu/high-risk-ai-systems/",
+                  "url": "https://artificialintelligenceact.eu/",
                   "tags": [
                     "Regulation",
                     "EU",
@@ -9985,7 +9985,7 @@
                 {
                   "name": "薪酬扩展 薪酬公平",
                   "type": "url",
-                  "url": "https://www.payscale.com/products/pay-equity/",
+                  "url": "https://www.payscale.com/products/",
                   "tags": [
                     "Comp",
                     "P"
@@ -9995,7 +9995,7 @@
                 {
                   "name": "Aon Pay Equity",
                   "type": "url",
-                  "url": "https://humancapital.aon.com/insights/topics/pay-equity",
+                  "url": "https://humancapital.aon.com/",
                   "tags": [
                     "Comp",
                     "P"
@@ -10073,7 +10073,7 @@
             {
               "name": "薪酬透明法规追踪",
               "name_en": "Pay Transparency Law Tracker",
-              "url": "https://www.payscale.com/research-and-insights/pay-transparency-laws/",
+              "url": "https://www.payscale.com/research-and-insights/",
               "tags": [
                 "Law",
                 "US",
@@ -10125,7 +10125,7 @@
                 {
                   "name": "CNIL｜招聘 & 通用数据保护条例（France）",
                   "type": "url",
-                  "url": "https://www.cnil.fr/en/recruitment",
+                  "url": "https://www.cnil.fr/en/",
                   "tags": [
                     "Guide",
                     "EU"
@@ -10349,7 +10349,7 @@
                 {
                   "name": "美国人力资源管理协会｜候选人 数据 留任",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/news/hr-magazine/how-long-keep-employee-records",
+                  "url": "https://www.shrm.org/topics-tools/news/hr-magazine/",
                   "tags": [
                     "Guide"
                   ],
@@ -10358,7 +10358,7 @@
                 {
                   "name": "Greenhouse｜通用数据保护条例 合规",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/guidance/gdpr-compliance",
+                  "url": "https://www.greenhouse.com/guidance/",
                   "tags": [
                     "Guide"
                   ],
@@ -10367,7 +10367,7 @@
                 {
                   "name": "Lever｜数据 隐私",
                   "type": "url",
-                  "url": "https://www.lever.co/blog/lever-gdpr-compliance/",
+                  "url": "https://www.lever.co/blog/",
                   "tags": [
                     "Guide"
                   ],
@@ -10696,7 +10696,7 @@
                   "name_en": "Fisher Phillips"
                 },
                 {
-                  "name": "SHRM 法律 Resources",
+                  "name": "SHRM 法律资源",
                   "type": "url",
                   "url": "https://www.shrm.org/topics-tools/employment-law-compliance",
                   "tags": [
@@ -10721,7 +10721,7 @@
             {
               "name": "EEOC AI 与残障指南",
               "name_en": "EEOC｜AI & Disability Guide",
-              "url": "https://www.eeoc.gov/laws/guidance/americans-disabilities-act-and-use-software-algorithms-and-artificial-intelligence",
+              "url": "https://www.eeoc.gov/laws",
               "tags": [
                 "Law",
                 "US",
@@ -10733,7 +10733,7 @@
             {
               "name": "EEOC 自动化工具指南",
               "name_en": "EEOC｜Automated Tools Guidance",
-              "url": "https://www.eeoc.gov/newsroom/eeoc-releases-new-resource-artificial-intelligence-and-title-vii",
+              "url": "https://www.eeoc.gov/newsroom/",
               "tags": [
                 "Law",
                 "US",
@@ -10988,7 +10988,7 @@
                 {
                   "name": "SHRM 简历欺诈识别指南",
                   "name_en": "SHRM｜Resume Fraud Detection Guide",
-                  "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/how-to-spot-resume-fraud",
+                  "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/",
                   "tags": [
                     "Guide",
                     "Best Practice"
@@ -10998,7 +10998,7 @@
                 {
                   "name": "HireRight 背景调查与验证",
                   "name_en": "HireRight｜Background Verification",
-                  "url": "https://www.hireright.com/solutions/resume-verification",
+                  "url": "https://www.hireright.com/solutions/",
                   "tags": [
                     "P",
                     "Verification"
@@ -11008,7 +11008,7 @@
                 {
                   "name": "Checkr 资质验证",
                   "name_en": "Checkr｜Credential Verification",
-                  "url": "https://checkr.com/resources/articles/credential-verification",
+                  "url": "https://checkr.com/",
                   "tags": [
                     "P",
                     "Verification"
@@ -11605,7 +11605,7 @@
                 {
                   "name": "Autism at Work Employer Roundtable",
                   "type": "url",
-                  "url": "https://disabilityin.org/what-we-do/autism/",
+                  "url": "https://disabilityin.org/",
                   "tags": [
                     "Neurodiversity"
                   ],
@@ -11716,7 +11716,7 @@
                 {
                   "name": "美国平等就业机会委员会｜Pre-Employment Inquiries",
                   "type": "url",
-                  "url": "https://www.eeoc.gov/pre-employment-inquiries",
+                  "url": "https://www.eeoc.gov/",
                   "tags": [
                     "Compliance",
                     "US"
@@ -11736,7 +11736,7 @@
                 {
                   "name": "ACLU｜公平 招聘",
                   "type": "url",
-                  "url": "https://www.aclu.org/issues/smart-justice/mass-incarceration/fair-hiring",
+                  "url": "https://www.aclu.org/issues/smart-justice/mass-incarceration/",
                   "tags": [
                     "Fair Chance",
                     "US"
@@ -11890,7 +11890,7 @@
                 {
                   "name": "SHRM Code of 道德",
                   "type": "url",
-                  "url": "https://www.shrm.org/about/code-of-ethics",
+                  "url": "https://www.shrm.org/about/",
                   "tags": [
                     "Ethics",
                     "Standard"
@@ -11900,7 +11900,7 @@
                 {
                   "name": "Recruiter 道德（LinkedIn）",
                   "type": "url",
-                  "url": "https://www.linkedin.com/learning/recruiting-ethics",
+                  "url": "https://www.linkedin.com/learning/",
                   "tags": [
                     "Ethics",
                     "Training"
@@ -11931,7 +11931,7 @@
                   "name": "SHRM招聘伦理准则（行业标准）",
                   "name_en": "SHRM Recruiting Ethics Guidelines",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/topics/ethics",
+                  "url": "https://www.shrm.org/topics-tools/topics/",
                   "tags": [
                     "Ethics",
                     "SHRM",
@@ -11956,7 +11956,7 @@
               "name": "Fair Chance Business Pledge｜公平机会商业承诺",
               "name_en": "Fair Chance Business Pledge | Fair Chance Hiring",
               "type": "url",
-              "url": "https://www.whitehouse.gov/the-press-office/2016/04/11/fact-sheet-white-house-launches-fair-chance-business-pledge",
+              "url": "https://www.whitehouse.gov/",
               "tags": [
                 "Fair Chance",
                 "Program",
@@ -11967,7 +11967,7 @@
               "name": "SHRM Getting Talent Back to Work｜返岗计划",
               "name_en": "SHRM Getting Talent Back to Work | Reentry Program",
               "type": "url",
-              "url": "https://www.shrm.org/about/together-forward-work/second-chance-employment",
+              "url": "https://www.shrm.org/",
               "tags": [
                 "Fair Chance",
                 "SHRM"
@@ -12061,7 +12061,7 @@
                 {
                   "name": "JPMorgan｜Autism at Work",
                   "type": "url",
-                  "url": "https://www.jpmorganchase.com/about/our-commitment-to-diversity",
+                  "url": "https://www.jpmorganchase.com/about/",
                   "tags": [
                     "Neurodiversity",
                     "Finance"
@@ -12071,7 +12071,7 @@
                 {
                   "name": "安永｜Neuro-Diverse CoE",
                   "type": "url",
-                  "url": "https://www.ey.com/en_us/diversity-inclusiveness",
+                  "url": "https://www.ey.com/en_us/",
                   "tags": [
                     "Neurodiversity",
                     "Consulting"
@@ -12207,9 +12207,9 @@
                   "name_en": "Deloitte｜Neurodiversity"
                 },
                 {
-                  "name": "美国人力资源管理协会｜Neurodiversity Resources",
+                  "name": "美国人力资源管理协会｜神经多样性资源",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/topics/inclusion-diversity/neurodiversity",
+                  "url": "https://www.shrm.org/topics-tools/topics/inclusion-diversity/",
                   "tags": [
                     "Resource",
                     "HR"
@@ -12357,7 +12357,7 @@
                 {
                   "name": "Paradox Olivia 候选人体验",
                   "name_en": "Paradox Olivia｜Candidate Experience",
-                  "url": "https://www.paradox.ai/olivia",
+                  "url": "https://www.paradox.ai/",
                   "tags": [
                     "AI",
                     "P"
@@ -12406,7 +12406,7 @@
                 {
                   "name": "Glassdoor 雇主品牌",
                   "type": "url",
-                  "url": "https://www.glassdoor.com/employers/products/employer-branding/",
+                  "url": "https://www.glassdoor.com/",
                   "tags": [
                     "EB",
                     "P"
@@ -12416,7 +12416,7 @@
                 {
                   "name": "LinkedIn 雇主品牌",
                   "type": "url",
-                  "url": "https://business.linkedin.com/talent-solutions/employer-branding",
+                  "url": "https://business.linkedin.com/talent-solutions/",
                   "tags": [
                     "EB",
                     "P"
@@ -12590,7 +12590,7 @@
                 {
                   "name": "Glassdoor Company Updates",
                   "type": "url",
-                  "url": "https://www.glassdoor.com/employers/products/company-updates/",
+                  "url": "https://www.glassdoor.com/",
                   "tags": [
                     "Content",
                     "P"
@@ -12600,7 +12600,7 @@
                 {
                   "name": "领英 Life Pages",
                   "type": "url",
-                  "url": "https://business.linkedin.com/talent-solutions/company-pages/life-tab",
+                  "url": "https://business.linkedin.com/",
                   "tags": [
                     "Content",
                     "P"
@@ -12980,7 +12980,7 @@
               "name": "Veritone虚拟招聘会",
               "name_en": "Veritone Virtual Career Fair",
               "type": "url",
-              "url": "https://veritone.com/solutions/human-resources/",
+              "url": "https://veritone.com/solutions/",
               "tags": [
                 "Virtual",
                 "Career Fair",
@@ -13324,7 +13324,7 @@
                   "name": "Talegent（人才评估）",
                   "name_en": "Talegent (Talent Assessment)",
                   "type": "url",
-                  "url": "https://www.talegent.com/",
+                  "url": "https://talegent.com/",
                   "tags": [
                     "Gamification",
                     "Psychometric"
@@ -13345,7 +13345,7 @@
                   "name": "Harver游戏化（体验式评估）",
                   "name_en": "Harver Gamified Assessments",
                   "type": "url",
-                  "url": "https://harver.com/solutions/assessments/",
+                  "url": "https://harver.com/",
                   "tags": [
                     "Gamification",
                     "Experience",
@@ -13504,7 +13504,7 @@
               "name": "MindmetriQ（游戏化评估）",
               "name_en": "MindmetriQ (Gamified Assessment)",
               "type": "url",
-              "url": "https://www.testpartnership.com/assessments/mindmetriq.html",
+              "url": "https://www.testpartnership.com/",
               "tags": [
                 "Gamification",
                 "Psychometric"
@@ -13733,7 +13733,7 @@
                 {
                   "name": "领英｜Career Pages",
                   "type": "url",
-                  "url": "https://business.linkedin.com/talent-solutions/career-pages",
+                  "url": "https://business.linkedin.com/talent-solutions/",
                   "tags": [
                     "P",
                     "Social"
@@ -13771,7 +13771,7 @@
                 {
                   "name": "Recruitee｜招聘网站 构建er",
                   "type": "url",
-                  "url": "https://recruitee.com/career-site",
+                  "url": "https://recruitee.com/",
                   "tags": [
                     "P",
                     "Website"
@@ -13791,7 +13791,7 @@
                 {
                   "name": "Webflow｜招聘网站 模板",
                   "type": "url",
-                  "url": "https://webflow.com/templates/tag/jobs",
+                  "url": "https://webflow.com/",
                   "tags": [
                     "Website",
                     "Template"
@@ -13922,7 +13922,7 @@
                 {
                   "name": "Avature｜客户关系管理",
                   "type": "url",
-                  "url": "https://www.avature.net/crm/",
+                  "url": "https://www.avature.net/crm",
                   "tags": [
                     "P",
                     "CRM",
@@ -13972,7 +13972,7 @@
                 {
                   "name": "Recruitee｜人才 Pool",
                   "type": "url",
-                  "url": "https://recruitee.com/talent-pool",
+                  "url": "https://recruitee.com/",
                   "tags": [
                     "P",
                     "Talent Pool"
@@ -14004,7 +14004,7 @@
                   "name": "Jobvite人才CRM（人才库）",
                   "name_en": "Jobvite Talent CRM",
                   "type": "url",
-                  "url": "https://www.jobvite.com/products/evolve-talent-acquisition-suite/",
+                  "url": "https://www.jobvite.com/products/",
                   "tags": [
                     "CRM",
                     "Talent Pool",
@@ -14042,7 +14042,7 @@
                 {
                   "name": "TextRecruit｜SMS 招聘",
                   "type": "url",
-                  "url": "https://www.icims.com/products/textrecruit/",
+                  "url": "https://www.icims.com/products/",
                   "tags": [
                     "P",
                     "SMS"
@@ -14074,7 +14074,7 @@
                   "name": "TextRecruit（短信招聘）",
                   "name_en": "TextRecruit (SMS Recruiting)",
                   "type": "url",
-                  "url": "https://www.icims.com/products/talent-cloud-platform/engage/text-engagement/",
+                  "url": "https://www.icims.com/",
                   "tags": [
                     "SMS",
                     "Automation"
@@ -14090,7 +14090,7 @@
                 {
                   "name": "SurveyMonkey｜C和E 模板",
                   "type": "url",
-                  "url": "https://www.surveymonkey.com/mp/candidate-experience-survey-template/",
+                  "url": "https://www.surveymonkey.com/mp/",
                   "tags": [
                     "Survey",
                     "Template"
@@ -14131,7 +14131,7 @@
                   "name": "Typeform候选人反馈（互动调查）",
                   "name_en": "Typeform Candidate Feedback",
                   "type": "url",
-                  "url": "https://www.typeform.com/surveys/candidate-experience-survey/",
+                  "url": "https://www.typeform.com/surveys/",
                   "tags": [
                     "CX",
                     "Survey",
@@ -14155,7 +14155,7 @@
               "name": "Talemetry（招聘营销 CRM）",
               "name_en": "Talemetry (Recruitment Marketing CRM)",
               "type": "url",
-              "url": "https://www.jobvite.com/products/talemetry/",
+              "url": "https://www.jobvite.com/products/",
               "tags": [
                 "CRM",
                 "Marketing"
@@ -14176,7 +14176,7 @@
               "name": "iCIMS Talent Cloud CRM（人才云）",
               "name_en": "iCIMS Talent Cloud CRM",
               "type": "url",
-              "url": "https://www.icims.com/products/talent-cloud-crm/",
+              "url": "https://www.icims.com/products/",
               "tags": [
                 "CRM",
                 "Enterprise",
@@ -14346,7 +14346,7 @@
                 {
                   "name": "领英｜员工 Stories",
                   "type": "url",
-                  "url": "https://www.linkedin.com/company/",
+                  "url": "https://www.linkedin.com/",
                   "tags": [
                     "Free",
                     "Social"
@@ -14389,7 +14389,7 @@
                   "name": "Jamyr by Recruitics（招聘视频平台）",
                   "name_en": "Jamyr by Recruitics (Recruitment Video)",
                   "type": "url",
-                  "url": "https://www.recruitics.com/jamyr",
+                  "url": "https://www.recruitics.com/",
                   "tags": [
                     "Stories",
                     "Video",
@@ -14656,7 +14656,7 @@
                 {
                   "name": "RolePoint（iCIMS 旗下）",
                   "type": "url",
-                  "url": "https://www.icims.com/products/talent-cloud-platform/rolepoint/",
+                  "url": "https://www.icims.com/products/talent-cloud-platform/",
                   "tags": [
                     "Referral",
                     "P"
@@ -14737,7 +14737,7 @@
                 {
                   "name": "Workday Career Hub",
                   "type": "url",
-                  "url": "https://www.workday.com/en-us/products/talent-management/career-hub.html",
+                  "url": "https://www.workday.com/",
                   "tags": [
                     "Mobility",
                     "P"
@@ -14834,7 +14834,7 @@
               "name": "工作vite Refer",
               "name_en": "Jobvite Refer",
               "type": "url",
-              "url": "https://www.jobvite.com/products/refer/",
+              "url": "https://www.jobvite.com/products/",
               "tags": [
                 "Referral",
                 "ATS"
@@ -15165,7 +15165,7 @@
                 {
                   "name": "Lucidchart｜9-Box 模板",
                   "type": "url",
-                  "url": "https://www.lucidchart.com/pages/templates/9-box",
+                  "url": "https://www.lucidchart.com/pages/templates/",
                   "tags": [
                     "Tool"
                   ],
@@ -15521,7 +15521,7 @@
                 {
                   "name": "Greenhouse 招聘系统｜内推系统",
                   "type": "url",
-                  "url": "https://www.greenhouse.io/referrals",
+                  "url": "https://www.greenhouse.io/",
                   "tags": [
                     "P",
                     "ATS"
@@ -15542,7 +15542,7 @@
                   "name": "RolePoint/iCIMS（企业推荐）",
                   "name_en": "RolePoint/iCIMS (Enterprise Referrals)",
                   "type": "url",
-                  "url": "https://www.icims.com/products/talent-cloud-platform/engage/",
+                  "url": "https://www.icims.com/products/talent-cloud-platform/",
                   "tags": [
                     "Referral",
                     "Enterprise"
@@ -15644,7 +15644,7 @@
                   "name": "Lever Nurture（人才培育）",
                   "name_en": "Lever Nurture (Talent Nurturing)",
                   "type": "url",
-                  "url": "https://www.lever.co/platform/nurture/",
+                  "url": "https://www.lever.co/",
                   "tags": [
                     "CRM",
                     "Nurture"
@@ -15700,7 +15700,7 @@
                 {
                   "name": "领英｜School Pages",
                   "type": "url",
-                  "url": "https://www.linkedin.com/school/",
+                  "url": "https://www.linkedin.com/",
                   "tags": [
                     "Free",
                     "Alumni"
@@ -15993,7 +15993,7 @@
                 {
                   "name": "Greenhouse 团队协作功能",
                   "name_en": "Greenhouse｜Team Collaboration",
-                  "url": "https://www.greenhouse.com/features/collaboration",
+                  "url": "https://www.greenhouse.com/features/",
                   "tags": [
                     "P",
                     "Collaboration"
@@ -16003,7 +16003,7 @@
                 {
                   "name": "Lever 协作招聘",
                   "name_en": "Lever｜Collaborative Hiring",
-                  "url": "https://www.lever.co/features/collaborative-hiring/",
+                  "url": "https://www.lever.co/",
                   "tags": [
                     "P",
                     "Collaboration"
@@ -16023,7 +16023,7 @@
                 {
                   "name": "Asana 招聘项目管理",
                   "name_en": "Asana｜Recruiting Project Management",
-                  "url": "https://asana.com/uses/recruiting",
+                  "url": "https://asana.com/uses/",
                   "tags": [
                     "P",
                     "Collaboration"
@@ -16070,7 +16070,7 @@
                 {
                   "name": "Microsoft Teams HR 解决方案",
                   "name_en": "Microsoft Teams｜HR Solutions",
-                  "url": "https://www.microsoft.com/en-us/microsoft-teams/human-resources",
+                  "url": "https://www.microsoft.com/en-us/microsoft-teams/",
                   "tags": [
                     "P",
                     "Communication"
@@ -16080,7 +16080,7 @@
                 {
                   "name": "Calendly 面试安排",
                   "name_en": "Calendly｜Interview Scheduling",
-                  "url": "https://calendly.com/features/teams",
+                  "url": "https://calendly.com/features/",
                   "tags": [
                     "P",
                     "Scheduling"
@@ -16304,7 +16304,7 @@
                 {
                   "name": "Letsdeel Contractor（承包商管理）",
                   "type": "url",
-                  "url": "https://www.deel.com/payroll/contractors/",
+                  "url": "https://www.deel.com/payroll/",
                   "tags": [
                     "Contingent",
                     "P"
@@ -16474,7 +16474,7 @@
                 {
                   "name": "光辉国际 RPO",
                   "type": "url",
-                  "url": "https://www.kornferry.com/solutions/talent-acquisition/rpo",
+                  "url": "https://www.kornferry.com/solutions/talent-acquisition/",
                   "tags": [
                     "RPO",
                     "P"
@@ -17323,7 +17323,7 @@
                 {
                   "name": "Dev.to Jobs",
                   "type": "url",
-                  "url": "https://dev.to/listings/jobs",
+                  "url": "https://dev.to/listings/",
                   "tags": [
                     "Tech",
                     "Community"
@@ -17421,7 +17421,7 @@
                 {
                   "name": "JetBrains Developer Ecosystem",
                   "type": "url",
-                  "url": "https://www.jetbrains.com/lp/devecosystem/",
+                  "url": "https://www.jetbrains.com/",
                   "tags": [
                     "Tech",
                     "Report"
@@ -18035,7 +18035,7 @@
                 {
                   "name": "Sirenum｜劳动力",
                   "type": "url",
-                  "url": "https://www.bullhorn.com/sirenum/",
+                  "url": "https://www.bullhorn.com/",
                   "tags": [
                     "P",
                     "WFM"
@@ -18072,7 +18072,7 @@
                 {
                   "name": "Jobvite 批量招聘",
                   "name_en": "Jobvite｜High-Volume Recruiting",
-                  "url": "https://www.jobvite.com/high-volume-hiring/",
+                  "url": "https://www.jobvite.com/",
                   "tags": [
                     "P",
                     "ATS"
@@ -18082,7 +18082,7 @@
                 {
                   "name": "SmartRecruiters 批量招聘",
                   "name_en": "SmartRecruiters｜Volume Hiring",
-                  "url": "https://www.smartrecruiters.com/solutions/volume-hiring/",
+                  "url": "https://www.smartrecruiters.com/solutions/",
                   "tags": [
                     "P",
                     "ATS"
@@ -18340,7 +18340,7 @@
                 {
                   "name": "美世｜全球 薪酬 数据",
                   "type": "url",
-                  "url": "https://www.mercer.com/solutions/talent-and-rewards/compensation-and-benchmarking/",
+                  "url": "https://www.mercer.com/solutions/talent-and-rewards/",
                   "tags": [
                     "Comp",
                     "P"
@@ -18594,7 +18594,7 @@
                 {
                   "name": "Coursera｜People 分析",
                   "type": "url",
-                  "url": "https://www.coursera.org/specializations/people-analytics",
+                  "url": "https://www.coursera.org/specializations/",
                   "tags": [
                     "Course"
                   ],
@@ -18623,7 +18623,7 @@
                 {
                   "name": "Josh Bersin Academy",
                   "type": "url",
-                  "url": "https://joshbersin.com/academy/",
+                  "url": "https://joshbersin.com/",
                   "tags": [
                     "Course",
                     "P"
@@ -18712,7 +18712,7 @@
               "name": "SHRM Learning System（HR 学习）",
               "name_en": "SHRM Learning System (HR Learning)",
               "type": "url",
-              "url": "https://www.shrm.org/credentials-education/shrm-learning-system",
+              "url": "https://www.shrm.org/",
               "tags": [
                 "Learning",
                 "Certification"
@@ -18732,7 +18732,7 @@
               "name": "Coursera HR Courses（HR 课程）",
               "name_en": "Coursera HR Courses",
               "type": "url",
-              "url": "https://www.coursera.org/browse/business/human-resource-management",
+              "url": "https://www.coursera.org/browse/business/",
               "tags": [
                 "Learning",
                 "University"
@@ -18814,7 +18814,7 @@
                 {
                   "name": "LinkedIn 人才 Connect",
                   "type": "url",
-                  "url": "https://business.linkedin.com/talent-solutions/events/talent-connect",
+                  "url": "https://business.linkedin.com/talent-solutions/events/",
                   "tags": [
                     "Conference"
                   ],
@@ -18909,7 +18909,7 @@
                 {
                   "name": "Out & Equal Workplace Summit",
                   "type": "url",
-                  "url": "https://outandequal.org/summit/",
+                  "url": "https://outandequal.org/",
                   "tags": [
                     "Conference",
                     "DEI"
@@ -19083,7 +19083,7 @@
                 {
                   "name": "招聘 Brainfood Podcast",
                   "type": "url",
-                  "url": "https://www.recruitingbrainfood.com/podcast/",
+                  "url": "https://www.recruitingbrainfood.com/",
                   "tags": [
                     "Podcast"
                   ],
@@ -19324,7 +19324,7 @@
                 {
                   "name": "Josh Bersin（HR Tech）",
                   "type": "url",
-                  "url": "https://www.youtube.com/@joshbersin",
+                  "url": "https://www.youtube.com/",
                   "tags": [
                     "YouTube"
                   ],
@@ -19333,7 +19333,7 @@
                 {
                   "name": "SHRM人力资源协会（HR 资源）",
                   "type": "url",
-                  "url": "https://www.youtube.com/@ABORADOR",
+                  "url": "https://www.youtube.com/",
                   "tags": [
                     "YouTube"
                   ],
@@ -19342,7 +19342,7 @@
                 {
                   "name": "LinkedIn 人才 解决方案 (2)",
                   "type": "url",
-                  "url": "https://www.youtube.com/@LinkedInTalentSolutions",
+                  "url": "https://www.youtube.com/",
                   "tags": [
                     "YouTube"
                   ],
@@ -19361,7 +19361,7 @@
                   "name": "SHRM YouTube（HR 视频）",
                   "name_en": "SHRM YouTube (HR Videos)",
                   "type": "url",
-                  "url": "https://www.youtube.com/@ABORDSHRM",
+                  "url": "https://www.youtube.com/",
                   "tags": [
                     "YouTube",
                     "HR"
@@ -19371,7 +19371,7 @@
                   "name": "Recruiting Brainfood YouTube",
                   "name_en": "Recruiting Brainfood YouTube",
                   "type": "url",
-                  "url": "https://www.youtube.com/@RecruitingBrainfood",
+                  "url": "https://www.youtube.com/",
                   "tags": [
                     "YouTube",
                     "Recruiting"
@@ -19384,7 +19384,7 @@
               "name": "人才 Cast (2)",
               "name_en": "Talent Cast",
               "type": "url",
-              "url": "https://www.intoo.com/resources/podcasts/",
+              "url": "https://www.intoo.com/",
               "tags": [
                 "Podcast",
                 "Talent"
@@ -19394,7 +19394,7 @@
               "name": "SHRM All Things Work",
               "name_en": "SHRM All Things Work",
               "type": "url",
-              "url": "https://www.shrm.org/hr-today/trends-and-forecasting/podcasts/all-things-work/pages/default.aspx",
+              "url": "https://www.shrm.org/",
               "tags": [
                 "Podcast",
                 "SHRM"
@@ -19424,7 +19424,7 @@
               "name": "Talent Acquisition Leaders Podcast",
               "name_en": "Talent Acquisition Leaders Podcast",
               "type": "url",
-              "url": "https://www.sagemarkhr.com/podcast",
+              "url": "https://www.sagemarkhr.com/",
               "tags": [
                 "Podcast",
                 "TA"
@@ -19496,7 +19496,7 @@
                 {
                   "name": "Indeed 职位描述 Templates",
                   "type": "url",
-                  "url": "https://www.indeed.com/hire/job-description-templates",
+                  "url": "https://www.indeed.com/hire/",
                   "tags": [
                     "Template"
                   ],
@@ -19523,7 +19523,7 @@
                 {
                   "name": "Glassdoor 职位描述 Templates",
                   "type": "url",
-                  "url": "https://www.glassdoor.com/employers/blog/job-description-templates/",
+                  "url": "https://www.glassdoor.com/employers/blog/",
                   "tags": [
                     "Template"
                   ],
@@ -19558,7 +19558,7 @@
                 {
                   "name": "Greenhouse Scorecard 模板",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/resources/templates/interview-scorecard",
+                  "url": "https://www.greenhouse.com/",
                   "tags": [
                     "Template"
                   ],
@@ -19567,7 +19567,7 @@
                 {
                   "name": "Lever 面试 Kit 模板",
                   "type": "url",
-                  "url": "https://www.lever.co/resources/templates/interview-kit",
+                  "url": "https://www.lever.co/",
                   "tags": [
                     "Template"
                   ],
@@ -19576,7 +19576,7 @@
                 {
                   "name": "Notion 面试 Templates",
                   "type": "url",
-                  "url": "https://www.notion.so/templates/category/hr-recruiting",
+                  "url": "https://www.notion.so/templates/category/",
                   "tags": [
                     "Template"
                   ],
@@ -19585,7 +19585,7 @@
                 {
                   "name": "Monday.com HR 模板",
                   "type": "url",
-                  "url": "https://monday.com/templates/hr",
+                  "url": "https://monday.com/templates/",
                   "tags": [
                     "Template"
                   ],
@@ -19614,7 +19614,7 @@
                   "name": "Greenhouse Scorecards（评分卡功能）",
                   "name_en": "Greenhouse Scorecards",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/features/scorecards",
+                  "url": "https://www.greenhouse.com/features/",
                   "tags": [
                     "Scorecard",
                     "ATS"
@@ -19624,7 +19624,7 @@
                   "name": "Workable Interview Evaluation（面试评估）",
                   "name_en": "Workable Interview Evaluation",
                   "type": "url",
-                  "url": "https://resources.workable.com/interview-evaluation-form",
+                  "url": "https://resources.workable.com/",
                   "tags": [
                     "Scorecard",
                     "Free"
@@ -19640,7 +19640,7 @@
                 {
                   "name": "Ashby 招聘 指标 指南",
                   "type": "url",
-                  "url": "https://www.ashbyhq.com/resources/recruiting-metrics",
+                  "url": "https://www.ashbyhq.com/resources/",
                   "tags": [
                     "Template",
                     "Guide"
@@ -19650,7 +19650,7 @@
                 {
                   "name": "Greenhouse 招聘 指标",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/resources/templates/recruiting-metrics",
+                  "url": "https://www.greenhouse.com/",
                   "tags": [
                     "Template"
                   ],
@@ -19659,7 +19659,7 @@
                 {
                   "name": "Tableau HR 仪表板 模板",
                   "type": "url",
-                  "url": "https://www.tableau.com/solutions/human-resources",
+                  "url": "https://www.tableau.com/solutions/",
                   "tags": [
                     "Template",
                     "P"
@@ -19679,7 +19679,7 @@
                   "name": "Workable Recruiting Reports（招聘报告）",
                   "name_en": "Workable Recruiting Reports",
                   "type": "url",
-                  "url": "https://www.workable.com/recruiting-reports",
+                  "url": "https://www.workable.com/",
                   "tags": [
                     "Reporting",
                     "ATS"
@@ -19689,7 +19689,7 @@
                   "name": "Greenhouse Reporting（招聘报告）",
                   "name_en": "Greenhouse Reporting",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/features/reporting",
+                  "url": "https://www.greenhouse.com/features/",
                   "tags": [
                     "Reporting",
                     "ATS"
@@ -19724,7 +19724,7 @@
                 {
                   "name": "Rocket 法律yer Employment 模板",
                   "type": "url",
-                  "url": "https://www.rocketlawyer.com/business-and-contracts/employers-and-hr/employment-letters",
+                  "url": "https://www.rocketlawyer.com/business-and-contracts/employers-and-hr/",
                   "tags": [
                     "Template"
                   ],
@@ -19733,7 +19733,7 @@
                 {
                   "name": "P和aDoc HR 模板",
                   "type": "url",
-                  "url": "https://www.pandadoc.com/hr-templates/",
+                  "url": "https://www.pandadoc.com/",
                   "tags": [
                     "Template",
                     "P"
@@ -19759,7 +19759,7 @@
                 {
                   "name": "SHRM 入职培训 清单",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/onboarding-resource-center",
+                  "url": "https://www.shrm.org/topics-tools/tools/",
                   "tags": [
                     "Template"
                   ],
@@ -19955,7 +19955,7 @@
                 {
                   "name": "美国人力资源管理协会｜招聘 指标",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/recruiting-metrics-really-matter",
+                  "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/",
                   "tags": [
                     "Guide"
                   ],
@@ -19964,7 +19964,7 @@
                 {
                   "name": "Greenhouse｜招聘 指标",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/blog/recruiting-metrics",
+                  "url": "https://www.greenhouse.com/blog/",
                   "tags": [
                     "Guide"
                   ],
@@ -19982,7 +19982,7 @@
                 {
                   "name": "Gem｜招聘 Benchmarks",
                   "type": "url",
-                  "url": "https://www.gem.com/resources/recruiting-benchmarks",
+                  "url": "https://www.gem.com/resources/",
                   "tags": [
                     "Report"
                   ],
@@ -20007,7 +20007,7 @@
                 {
                   "name": "AIHR People 分析 Certificate",
                   "type": "url",
-                  "url": "https://www.aihr.com/courses/people-analytics/",
+                  "url": "https://www.aihr.com/courses/",
                   "tags": [
                     "Course",
                     "P"
@@ -20017,7 +20017,7 @@
                 {
                   "name": "MIT Sloan People 分析",
                   "type": "url",
-                  "url": "https://executive.mit.edu/course/people-analytics/",
+                  "url": "https://executive.mit.edu/course/",
                   "tags": [
                     "Course",
                     "P"
@@ -20049,7 +20049,7 @@
               "name": "Visier People Analytics（人员分析平台）",
               "name_en": "Visier People Analytics Platform",
               "type": "url",
-              "url": "https://www.visier.com/solutions/people-analytics/",
+              "url": "https://www.visier.com/solutions/",
               "tags": [
                 "Analytics",
                 "AI",
@@ -20255,7 +20255,7 @@
                 {
                   "name": "LinkedIn 全球 人才 趋势",
                   "type": "url",
-                  "url": "https://business.linkedin.com/talent-solutions/resources/talent-strategy/global-talent-trends",
+                  "url": "https://business.linkedin.com/talent-solutions/resources/talent-strategy/",
                   "tags": [
                     "Report"
                   ],
@@ -20368,7 +20368,7 @@
                 {
                   "name": "美国人力资源管理协会｜Cost-Per-Hire Calculator",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/calculators",
+                  "url": "https://www.shrm.org/topics-tools/tools/",
                   "tags": [
                     "Calculator"
                   ],
@@ -20377,7 +20377,7 @@
                 {
                   "name": "Workable｜Cost Per Hire 指南",
                   "type": "url",
-                  "url": "https://resources.workable.com/cost-per-hire",
+                  "url": "https://resources.workable.com/",
                   "tags": [
                     "Guide"
                   ],
@@ -20386,7 +20386,7 @@
                 {
                   "name": "SHRM 招聘成本计算器",
                   "name_en": "SHRM｜Cost-per-Hire Calculator",
-                  "url": "https://www.shrm.org/topics-tools/tools/calculators/cost-per-hire",
+                  "url": "https://www.shrm.org/",
                   "tags": [
                     "Tool",
                     "ROI"
@@ -20396,7 +20396,7 @@
                 {
                   "name": "LinkedIn 人才解决方案 ROI",
                   "name_en": "LinkedIn｜Talent Solutions ROI",
-                  "url": "https://business.linkedin.com/talent-solutions/roi-calculator",
+                  "url": "https://business.linkedin.com/talent-solutions/",
                   "tags": [
                     "Tool",
                     "ROI"
@@ -20406,7 +20406,7 @@
                 {
                   "name": "Workday 招聘分析",
                   "name_en": "Workday｜Recruiting Analytics",
-                  "url": "https://www.workday.com/en-us/products/human-capital-management/recruiting.html",
+                  "url": "https://www.workday.com/",
                   "tags": [
                     "P",
                     "Analytics"
@@ -20423,7 +20423,7 @@
                 {
                   "name": "ANSI Cost-per-Hire 标准",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/hr-answers/what-difference-between-shrm-ansi-cost-per-hire-standard",
+                  "url": "https://www.shrm.org/topics-tools/tools/hr-answers/",
                   "tags": [
                     "Standard"
                   ],
@@ -20432,7 +20432,7 @@
                 {
                   "name": "领英｜Quality of Hire",
                   "type": "url",
-                  "url": "https://business.linkedin.com/talent-solutions/resources/talent-strategy/quality-of-hire",
+                  "url": "https://business.linkedin.com/talent-solutions/resources/talent-strategy/",
                   "tags": [
                     "Guide"
                   ],
@@ -20441,7 +20441,7 @@
                 {
                   "name": "Greenhouse｜Quality of Hire 指标",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/blog/quality-of-hire",
+                  "url": "https://www.greenhouse.com/blog/",
                   "tags": [
                     "Guide"
                   ],
@@ -20451,7 +20451,7 @@
                   "name": "SHRM人力资本基准（行业基准）",
                   "name_en": "SHRM Human Capital Benchmarking",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/research/human-capital-benchmarking",
+                  "url": "https://www.shrm.org/topics-tools/research/",
                   "tags": [
                     "ROI",
                     "Benchmarking",
@@ -20462,7 +20462,7 @@
                   "name": "SHRM招聘成本计算器（成本分析）",
                   "name_en": "SHRM Cost-Per-Hire Calculator",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/calculators/cost-hire-calculator",
+                  "url": "https://www.shrm.org/",
                   "tags": [
                     "ROI",
                     "Calculator",
@@ -20489,7 +20489,7 @@
                 {
                   "name": "Recruitics ROI 分析",
                   "type": "url",
-                  "url": "https://www.recruitics.com/analytics/",
+                  "url": "https://www.recruitics.com/",
                   "tags": [
                     "Tool",
                     "P"
@@ -20509,7 +20509,7 @@
                 {
                   "name": "Gem｜Pipeline 分析",
                   "type": "url",
-                  "url": "https://www.gem.com/product/analytics",
+                  "url": "https://www.gem.com/product/",
                   "tags": [
                     "Tool",
                     "P"
@@ -20570,7 +20570,7 @@
               "name": "HR 指标 Service (SHRM)",
               "name_en": "HR Metrics Service (SHRM)",
               "type": "url",
-              "url": "https://www.shrm.org/hr-today/trends-and-forecasting/research-and-surveys/pages/human-capital-benchmarking-service.aspx",
+              "url": "https://www.shrm.org/",
               "tags": [
                 "Benchmark",
                 "SHRM"
@@ -20587,10 +20587,10 @@
               ]
             },
             {
-              "name": "Visier 基准s",
+              "name": "Visier 基准",
               "name_en": "Visier Benchmarks",
               "type": "url",
-              "url": "https://www.visier.com/benchmarks/",
+              "url": "https://www.visier.com/",
               "tags": [
                 "Benchmark",
                 "Analytics"
@@ -20600,7 +20600,7 @@
               "name": "LinkedIn Cost-Per-Hire Calculator",
               "name_en": "LinkedIn Cost-Per-Hire Calculator",
               "type": "url",
-              "url": "https://business.linkedin.com/talent-solutions/resources/talent-strategy/cost-per-hire-calculator",
+              "url": "https://business.linkedin.com/talent-solutions/resources/talent-strategy/",
               "tags": [
                 "Calculator",
                 "Free"
@@ -20610,7 +20610,7 @@
               "name": "Greenhouse 招聘 指标 (2)",
               "name_en": "Greenhouse Recruiting Metrics",
               "type": "url",
-              "url": "https://www.greenhouse.com/guidance/what-are-recruiting-metrics",
+              "url": "https://www.greenhouse.com/guidance/",
               "tags": [
                 "Guide",
                 "Analytics"
@@ -20620,7 +20620,7 @@
               "name": "SHRM Benchmarking｜HR指标基准",
               "name_en": "SHRM Benchmarking | HR Metrics Benchmarks",
               "type": "url",
-              "url": "https://www.shrm.org/resourcesandtools/business-solutions/Pages/benchmarking-service.aspx",
+              "url": "https://www.shrm.org/",
               "tags": [
                 "基准",
                 "Analytics",
@@ -20775,7 +20775,7 @@
                 {
                   "name": "字节跳动招聘",
                   "type": "url",
-                  "url": "https://jobs.bytedance.com/",
+                  "url": "https://joinbytedance.com/",
                   "tags": [
                     "Case",
                     "CN",
@@ -20848,7 +20848,7 @@
                 {
                   "name": "麦肯锡｜人才",
                   "type": "url",
-                  "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/",
+                  "url": "https://www.mckinsey.com/capabilities/",
                   "tags": [
                     "Case",
                     "Research"
@@ -20868,7 +20868,7 @@
                 {
                   "name": "BCG｜People Strategy",
                   "type": "url",
-                  "url": "https://www.bcg.com/capabilities/people-strategy",
+                  "url": "https://www.bcg.com/capabilities/",
                   "tags": [
                     "Case",
                     "Research"
@@ -20879,7 +20879,7 @@
                   "name": "LinkedIn Talent Solutions案例（客户故事）",
                   "name_en": "LinkedIn Talent Solutions Case Studies",
                   "type": "url",
-                  "url": "https://business.linkedin.com/talent-solutions/customer-stories",
+                  "url": "https://business.linkedin.com/talent-solutions/",
                   "tags": [
                     "Case Study",
                     "LinkedIn",
@@ -20890,7 +20890,7 @@
                   "name": "Greenhouse客户故事（招聘案例）",
                   "name_en": "Greenhouse Customer Stories",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/customers",
+                  "url": "https://www.greenhouse.com/",
                   "tags": [
                     "Case Study",
                     "ATS",
@@ -20904,7 +20904,7 @@
               "name": "HubSpot Culture Code｜HubSpot文化准则",
               "name_en": "HubSpot Culture Code | HubSpot Culture Guide",
               "type": "url",
-              "url": "https://www.hubspot.com/company/culture",
+              "url": "https://www.hubspot.com/company/",
               "tags": [
                 "HubSpot",
                 "Culture",
@@ -20915,7 +20915,7 @@
               "name": "Stripe Atlas｜创业公司招聘指南",
               "name_en": "Stripe Atlas | Startup Hiring Guide",
               "type": "url",
-              "url": "https://stripe.com/atlas/guides/hiring",
+              "url": "https://stripe.com/atlas/guides/",
               "tags": [
                 "Finance",
                 "Startup",
@@ -21056,7 +21056,7 @@
                 {
                   "name": "Greenhouse｜招聘 Process 指南",
                   "type": "url",
-                  "url": "https://www.greenhouse.com/resources/guides/",
+                  "url": "https://www.greenhouse.com/",
                   "tags": [
                     "SOP"
                   ],
@@ -21084,7 +21084,7 @@
                   "name": "SHRM Recruitment Process（招聘流程）",
                   "name_en": "SHRM Recruitment Process Guide",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/toolkits/practising-strategic-human-resources-recruitment-selection",
+                  "url": "https://www.shrm.org/topics-tools/tools/toolkits/",
                   "tags": [
                     "SOP",
                     "Guide"
@@ -21104,7 +21104,7 @@
                   "name": "Process Street Recruiting（招聘清单）",
                   "name_en": "Process Street Recruiting Checklists",
                   "type": "url",
-                  "url": "https://www.process.st/checklist-templates/hr-recruiting/",
+                  "url": "https://www.process.st/",
                   "tags": [
                     "SOP",
                     "Checklist"
@@ -21159,7 +21159,7 @@
                   "name": "Indeed招聘词典（求职术语）",
                   "name_en": "Indeed Hiring Glossary",
                   "type": "url",
-                  "url": "https://www.indeed.com/career-advice/career-development/hiring-terminology",
+                  "url": "https://www.indeed.com/career-advice/career-development/",
                   "tags": [
                     "Glossary",
                     "Hiring",
@@ -21224,7 +21224,7 @@
                 {
                   "name": "TA Career 框架（Ashby）",
                   "type": "url",
-                  "url": "https://www.ashbyhq.com/resources/recruiting-career-framework",
+                  "url": "https://www.ashbyhq.com/resources/",
                   "tags": [
                     "Career"
                   ],
@@ -21233,7 +21233,7 @@
                 {
                   "name": "招聘 Career Levels（Gem）",
                   "type": "url",
-                  "url": "https://www.gem.com/blog/recruiting-career-levels",
+                  "url": "https://www.gem.com/blog/",
                   "tags": [
                     "Career"
                   ],
@@ -21242,7 +21242,7 @@
                 {
                   "name": "美国人力资源管理协会｜HR Career Navigator",
                   "type": "url",
-                  "url": "https://www.shrm.org/credentials/career-navigator",
+                  "url": "https://www.shrm.org/credentials/",
                   "tags": [
                     "Career"
                   ],
@@ -21252,7 +21252,7 @@
                   "name": "Talent Acquisition Career Path指南（职业规划）",
                   "name_en": "TA Career Path Guide",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/career-navigator",
+                  "url": "https://www.shrm.org/topics-tools/tools/",
                   "tags": [
                     "Career",
                     "TA",
@@ -21289,7 +21289,7 @@
                 {
                   "name": "ATAP 人才 Acquisition Certification",
                   "type": "url",
-                  "url": "https://atap.org/certification/",
+                  "url": "https://atap.org/",
                   "tags": [
                     "Certification"
                   ],
@@ -21432,7 +21432,7 @@
                 {
                   "name": "美国人力资源管理协会｜HR 薪资 数据",
                   "type": "url",
-                  "url": "https://www.shrm.org/topics-tools/tools/hr-salaries",
+                  "url": "https://www.shrm.org/topics-tools/tools/",
                   "tags": [
                     "Compensation"
                   ],
@@ -21450,7 +21450,7 @@
                 {
                   "name": "LinkedIn 薪资 Insights",
                   "type": "url",
-                  "url": "https://www.linkedin.com/salary/",
+                  "url": "https://www.linkedin.com/",
                   "tags": [
                     "Compensation"
                   ],
@@ -21516,7 +21516,7 @@
               "name": "AIHR人才获取认证",
               "name_en": "AIHR Talent Acquisition Certification",
               "type": "url",
-              "url": "https://www.aihr.com/courses/talent-acquisition-certificate-program/",
+              "url": "https://www.aihr.com/courses/",
               "tags": [
                 "Certification",
                 "TA",
@@ -21537,7 +21537,7 @@
                 {
                   "name": "Jobvite｜Recruiter Nation",
                   "type": "url",
-                  "url": "https://www.jobvite.com/lp/recruiter-nation-report/",
+                  "url": "https://www.jobvite.com/",
                   "tags": [
                     "Report"
                   ],
@@ -21690,7 +21690,7 @@
                 {
                   "name": "美国国家经济研究局｜Labor Economics",
                   "type": "url",
-                  "url": "https://www.nber.org/topics/labor-studies",
+                  "url": "https://www.nber.org/topics/",
                   "tags": [
                     "Academic",
                     "Research"
