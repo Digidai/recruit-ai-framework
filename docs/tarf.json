@@ -124,7 +124,7 @@
                   "tags": [
                     "Compliance",
                     "NYC",
-                    "Bias Audit"
+                    "Bias-Audit"
                   ]
                 },
                 {
@@ -487,7 +487,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Pymetrics (Harver)（神经科学游戏）",
+                  "name": "Pymetrics （Harver）神经科学游戏）",
                   "type": "url",
                   "url": "https://www.pymetrics.ai/",
                   "tags": [
@@ -1586,7 +1586,7 @@
                   "url": "https://www.thetalentboard.org/",
                   "tags": [
                     "Research",
-                    "Best Practice"
+                    "Best-Practice"
                   ],
                   "type": "url"
                 },
@@ -1759,7 +1759,7 @@
           "url": "https://rework.withgoogle.com/guides/hiring/steps/introduction/",
           "tags": [
             "Guide",
-            "Best Practice"
+            "Best-Practice"
           ]
         },
         {
@@ -1800,7 +1800,7 @@
           "tags": [
             "流程",
             "Guide",
-            "Best Practice"
+            "Best-Practice"
           ]
         },
         {
@@ -1810,7 +1810,7 @@
           "url": "https://www.indeed.com/",
           "tags": [
             "Recruiting",
-            "Best Practice",
+            "Best-Practice",
             "Guide"
           ]
         },
@@ -1854,7 +1854,7 @@
               "url": "https://karat.com/guide-to-technical-interviews/",
               "tags": [
                 "Guide",
-                "Technical Interview",
+                "Technical-Interview",
                 "2024"
               ],
               "name_en": "Karat | Your Guide to Technical Interviews (2024)"
@@ -1866,7 +1866,7 @@
               "tags": [
                 "Guide",
                 "2025",
-                "Coding Interview"
+                "Coding-Interview"
               ],
               "name_en": "Design Gurus | Coding Interview Prep in 2025"
             },
@@ -1877,7 +1877,7 @@
               "tags": [
                 "Guide",
                 "Remote",
-                "Technical Interview"
+                "Technical-Interview"
               ],
               "name_en": "FullScale | The Ultimate Guide to Remote Technical Interview Process"
             }
@@ -2234,7 +2234,7 @@
                       "url": "https://vetjobs.com/",
                       "tags": [
                         "Veteran",
-                        "Job Board"
+                        "Job-Board"
                       ]
                     }
                   ],
@@ -2265,7 +2265,7 @@
                   "url": "https://diversity.com/",
                   "tags": [
                     "DEI",
-                    "Job Board"
+                    "Job-Board"
                   ]
                 },
                 {
@@ -2286,7 +2286,7 @@
                   "url": "https://www.valence.co/",
                   "tags": [
                     "DEI",
-                    "Black Talent",
+                    "Black-Talent",
                     "Community"
                   ]
                 }
@@ -2405,7 +2405,7 @@
                   "tags": [
                     "Marketing",
                     "Automation",
-                    "Employer Brand"
+                    "Employer-Brand"
                   ]
                 },
                 {
@@ -2426,7 +2426,7 @@
                   "url": "https://www.shazamme.com/",
                   "tags": [
                     "Marketing",
-                    "Career Site",
+                    "Career-Site",
                     "SEO"
                   ]
                 }
@@ -2495,7 +2495,7 @@
               "type": "url",
               "url": "https://www.glassdoor.com/Job/",
               "tags": [
-                "Job Board",
+                "Job-Board",
                 "Review"
               ]
             },
@@ -2505,7 +2505,7 @@
               "type": "url",
               "url": "https://www.simplyhired.com/",
               "tags": [
-                "Job Board"
+                "Job-Board"
               ]
             },
             {
@@ -2514,7 +2514,7 @@
               "type": "url",
               "url": "https://business.linkedin.com/talent-solutions/post-jobs",
               "tags": [
-                "Job Board",
+                "Job-Board",
                 "LinkedIn",
                 "P"
               ]
@@ -2535,9 +2535,9 @@
               "type": "url",
               "url": "https://jobbio.com/",
               "tags": [
-                "Job Board",
+                "Job-Board",
                 "Marketing",
-                "Employer Brand"
+                "Employer-Brand"
               ]
             }
           ],
@@ -2711,7 +2711,7 @@
                   "url": "https://producthire.net/",
                   "tags": [
                     "Product",
-                    "Job Board"
+                    "Job-Board"
                   ]
                 },
                 {
@@ -3474,7 +3474,7 @@
                   "tags": [
                     "Campus",
                     "China",
-                    "Job Board"
+                    "Job-Board"
                   ]
                 }
               ],
@@ -3590,7 +3590,7 @@
               "tags": [
                 "Campus",
                 "DEI",
-                "Early Career"
+                "Early-Career"
               ]
             },
             {
@@ -3826,7 +3826,7 @@
                   "url": "https://www.chiefjobs.com/",
                   "tags": [
                     "Executive",
-                    "Job Board",
+                    "Job-Board",
                     "C-Suite"
                   ]
                 },
@@ -3862,7 +3862,7 @@
               "url": "https://en.wikipedia.org/wiki/List_of_executive_search_firms",
               "tags": [
                 "Reference",
-                "Executive Search"
+                "Executive-Search"
               ]
             }
           ],
@@ -4606,7 +4606,7 @@
                 "Guide",
                 "Sourcing",
                 "2024",
-                "Best Practices"
+                "Best-Practices"
               ],
               "name_en": "NurtureBox | Best Practices to Source Candidates in 2024"
             }
@@ -4948,7 +4948,7 @@
                   "url": "https://www.opencats.org/",
                   "tags": [
                     "ATS",
-                    "Open Source"
+                    "Open-Source"
                   ]
                 },
                 {
@@ -4958,7 +4958,7 @@
                   "url": "https://www.orangehrm.com/",
                   "tags": [
                     "HRIS",
-                    "Open Source"
+                    "Open-Source"
                   ]
                 },
                 {
@@ -4968,7 +4968,7 @@
                   "url": "https://www.candidats.io/",
                   "tags": [
                     "ATS",
-                    "Open Source"
+                    "Open-Source"
                   ]
                 }
               ],
@@ -5168,7 +5168,7 @@
               "tags": [
                 "ATS",
                 "Collaboration",
-                "Free Tier"
+                "Free-Tier"
               ]
             },
             {
@@ -5488,7 +5488,7 @@
                   "tags": [
                     "API",
                     "Assessment",
-                    "Soft Skills"
+                    "Soft-Skills"
                   ]
                 },
                 {
@@ -5527,7 +5527,7 @@
                   "name_en": "Zapier (Workflow Automation)"
                 },
                 {
-                  "name": "Make (Integromat)（可视化自动化）",
+                  "name": "Make （Integromat）可视化自动化）",
                   "type": "url",
                   "url": "https://www.make.com/",
                   "tags": [
@@ -6249,7 +6249,7 @@
               "url": "https://skillpanel.com/blog/remote-hiring-platforms/",
               "tags": [
                 "Tools",
-                "Remote Hiring",
+                "Remote-Hiring",
                 "2024"
               ],
               "name_en": "SkillPanel | The Best Remote Hiring Platform Choices for Your Business (2024)"
@@ -6260,7 +6260,7 @@
               "url": "https://www.hrlineup.com/top-virtual-hiring-tools/",
               "tags": [
                 "Tools",
-                "Virtual Hiring",
+                "Virtual-Hiring",
                 "2025"
               ],
               "name_en": "HRLineup | Top 10 Virtual Hiring Tools in 2025"
@@ -6311,7 +6311,7 @@
               "url": "https://www.selectsoftwarereviews.com/buyer-guide/best-video-interview-software",
               "tags": [
                 "Tools",
-                "Video Interview",
+                "Video-Interview",
                 "2025"
               ],
               "name_en": "SelectSoftwareReviews | The 14 Best Video Interview Software Platforms of 2025"
@@ -6322,7 +6322,7 @@
               "url": "https://hirevire.com/blog/best-video-interviewing-platform",
               "tags": [
                 "Tools",
-                "Video Interview",
+                "Video-Interview",
                 "2025"
               ],
               "name_en": "Hirevire | Top 10 Video Interviewing Platforms for 2025"
@@ -6333,7 +6333,7 @@
               "url": "https://www.willo.video/blog/6-of-the-best-video-recruiting-platforms-for-2024",
               "tags": [
                 "Tools",
-                "Video Interview",
+                "Video-Interview",
                 "2024"
               ],
               "name_en": "Willo | 6 of the Best Video Recruiting Platforms for 2024"
@@ -6344,7 +6344,7 @@
               "url": "https://blogs.zappyhire.com/post/top-ai-powered-video-interview-software/",
               "tags": [
                 "Tools",
-                "Video Interview",
+                "Video-Interview",
                 "AI",
                 "2024"
               ],
@@ -6480,7 +6480,7 @@
                   "url": "https://gohire.io/",
                   "tags": [
                     "AI",
-                    "JD Writing",
+                    "JD-Writing",
                     "ATS"
                   ]
                 },
@@ -6491,7 +6491,7 @@
                   "url": "https://recruitee.com/",
                   "tags": [
                     "Templates",
-                    "JD Writing",
+                    "JD-Writing",
                     "Free"
                   ]
                 },
@@ -6502,7 +6502,7 @@
                   "url": "https://www.indeed.com/",
                   "tags": [
                     "AI",
-                    "JD Writing",
+                    "JD-Writing",
                     "Free"
                   ]
                 },
@@ -6513,7 +6513,7 @@
                   "url": "https://narrato.io/",
                   "tags": [
                     "AI",
-                    "JD Writing",
+                    "JD-Writing",
                     "Content"
                   ]
                 },
@@ -6524,7 +6524,7 @@
                   "url": "https://www.recooty.com/",
                   "tags": [
                     "AI",
-                    "JD Writing",
+                    "JD-Writing",
                     "ATS"
                   ]
                 },
@@ -6535,8 +6535,8 @@
                   "url": "https://logicballs.com/tools/job-description-generator",
                   "tags": [
                     "AI",
-                    "JD Writing",
-                    "Free Tool"
+                    "JD-Writing",
+                    "Free-Tool"
                   ]
                 },
                 {
@@ -6546,8 +6546,8 @@
                   "url": "https://www.dweet.com/tools/ai-job-description-generator",
                   "tags": [
                     "AI",
-                    "JD Writing",
-                    "Gender Neutral"
+                    "JD-Writing",
+                    "Gender-Neutral"
                   ]
                 }
               ],
@@ -6649,7 +6649,7 @@
                   "tags": [
                     "AI",
                     "Sourcing",
-                    "80+ Channels"
+                    "80+-Channels"
                   ]
                 },
                 {
@@ -6660,7 +6660,7 @@
                   "tags": [
                     "AI",
                     "Sourcing",
-                    "800M+ Profiles"
+                    "800M+-Profiles"
                   ]
                 },
                 {
@@ -6802,7 +6802,7 @@
                   "tags": [
                     "AI",
                     "Chatbot",
-                    "High Volume"
+                    "High-Volume"
                   ]
                 },
                 {
@@ -7005,7 +7005,7 @@
                   "tags": [
                     "AI",
                     "Resume",
-                    "300ms Parsing"
+                    "300ms-Parsing"
                   ]
                 },
                 {
@@ -7228,7 +7228,7 @@
                   "tags": [
                     "AI",
                     "Analytics",
-                    "Data Science"
+                    "Data-Science"
                   ]
                 },
                 {
@@ -7362,7 +7362,7 @@
               "tags": [
                 "AI",
                 "Marketing",
-                "Career Site"
+                "Career-Site"
               ]
             },
             {
@@ -7690,7 +7690,7 @@
                   "url": "https://aif360.mybluemix.net/",
                   "tags": [
                     "AI",
-                    "Open Source"
+                    "Open-Source"
                   ]
                 },
                 {
@@ -7700,7 +7700,7 @@
                   "url": "https://fairlearn.org/",
                   "tags": [
                     "AI",
-                    "Open Source"
+                    "Open-Source"
                   ]
                 },
                 {
@@ -7772,7 +7772,7 @@
                   "type": "url",
                   "url": "https://www.oxethica.com/",
                   "tags": [
-                    "AI Audit",
+                    "AI-Audit",
                     "Transparency",
                     "Compliance"
                   ]
@@ -7837,7 +7837,7 @@
                   "type": "url",
                   "url": "https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide",
                   "tags": [
-                    "AI Ethics",
+                    "AI-Ethics",
                     "Government",
                     "UK"
                   ]
@@ -7848,7 +7848,7 @@
                   "type": "url",
                   "url": "https://www.oleeo.com/blog/how-to-create-an-ai-governance-plan-for-recruitment/",
                   "tags": [
-                    "AI Ethics",
+                    "AI-Ethics",
                     "Governance",
                     "Framework"
                   ]
@@ -7859,7 +7859,7 @@
                   "type": "url",
                   "url": "https://aisera.com/platform/",
                   "tags": [
-                    "AI Ethics",
+                    "AI-Ethics",
                     "Framework",
                     "Security"
                   ]
@@ -8227,7 +8227,7 @@
                   "url": "https://shap.readthedocs.io/",
                   "tags": [
                     "XAI",
-                    "Open Source",
+                    "Open-Source",
                     "ML"
                   ]
                 }
@@ -8284,7 +8284,7 @@
                   "type": "url",
                   "url": "https://minthcm.org/",
                   "tags": [
-                    "Open Source",
+                    "Open-Source",
                     "HCM",
                     "Self-Hosted"
                   ]
@@ -8295,7 +8295,7 @@
                   "type": "url",
                   "url": "https://frappehr.com/",
                   "tags": [
-                    "Open Source",
+                    "Open-Source",
                     "HRIS",
                     "Python"
                   ]
@@ -8306,7 +8306,7 @@
                   "type": "url",
                   "url": "https://www.sentrifugo.com/",
                   "tags": [
-                    "Open Source",
+                    "Open-Source",
                     "HRM",
                     "Self-Hosted"
                   ]
@@ -8320,7 +8320,7 @@
               "type": "url",
               "url": "https://github.com/linkedin/LiFT",
               "tags": [
-                "Open Source",
+                "Open-Source",
                 "LinkedIn"
               ]
             },
@@ -8330,7 +8330,7 @@
               "type": "url",
               "url": "https://responsibleaitoolbox.ai/",
               "tags": [
-                "Open Source",
+                "Open-Source",
                 "Enterprise"
               ]
             },
@@ -8340,7 +8340,7 @@
               "type": "url",
               "url": "https://github.com/SeldonIO/alibi-detect",
               "tags": [
-                "Open Source",
+                "Open-Source",
                 "AI"
               ]
             },
@@ -8448,7 +8448,7 @@
                   "name_en": "Mercor (Platform)"
                 },
                 {
-                  "name": "Juicebox (PeopleGPT)（AI 人才搜索）",
+                  "name": "Juicebox （PeopleGPT）AI 人才搜索）",
                   "type": "url",
                   "url": "https://www.juicebox.ai/",
                   "tags": [
@@ -9284,7 +9284,7 @@
               "url": "https://www.hiringbranch.com/",
               "tags": [
                 "AI",
-                "Soft Skills",
+                "Soft-Skills",
                 "Assessment"
               ]
             },
@@ -9389,7 +9389,7 @@
               "url": "https://testlify.com/ai-in-recruitment/",
               "tags": [
                 "Guide",
-                "Best Practices",
+                "Best-Practices",
                 "2024"
               ],
               "name_en": "Testlify | AI in Recruitment 2024: Pros, Cons, and Best Practices"
@@ -9579,7 +9579,7 @@
                   "tags": [
                     "Compliance",
                     "FCRA",
-                    "Background Check"
+                    "Background-Check"
                   ]
                 },
                 {
@@ -9588,7 +9588,7 @@
                   "type": "url",
                   "url": "https://www.privateeyesbackgroundchecks.com/",
                   "tags": [
-                    "Background Check",
+                    "Background-Check",
                     "Guide",
                     "Compliance"
                   ]
@@ -10008,7 +10008,7 @@
                   "type": "url",
                   "url": "https://www.payanalytics.com/",
                   "tags": [
-                    "Pay Equity",
+                    "Pay-Equity",
                     "Analytics",
                     "EU"
                   ]
@@ -10019,7 +10019,7 @@
                   "type": "url",
                   "url": "https://trusaic.com/payparity/",
                   "tags": [
-                    "Pay Equity",
+                    "Pay-Equity",
                     "ESG",
                     "Reporting"
                   ]
@@ -10264,7 +10264,7 @@
                   "url": "https://practiceguides.chambers.com/practice-guides/data-protection-privacy-2025/china",
                   "tags": [
                     "China",
-                    "Data Privacy",
+                    "Data-Privacy",
                     "Legal"
                   ]
                 }
@@ -10643,7 +10643,7 @@
                   "url": "http://www.npc.gov.cn/npc/c2191/c2201/c19845/",
                   "tags": [
                     "China",
-                    "Labor Law",
+                    "Labor-Law",
                     "Official"
                   ]
                 },
@@ -10991,7 +10991,7 @@
                   "url": "https://www.shrm.org/topics-tools/news/talent-acquisition/",
                   "tags": [
                     "Guide",
-                    "Best Practice"
+                    "Best-Practice"
                   ],
                   "type": "url"
                 },
@@ -11065,7 +11065,7 @@
               "type": "url",
               "url": "https://www.springverify.com/",
               "tags": [
-                "Background Check",
+                "Background-Check",
                 "India"
               ]
             },
@@ -11075,7 +11075,7 @@
               "type": "url",
               "url": "https://www.infomart-usa.com/",
               "tags": [
-                "Background Check",
+                "Background-Check",
                 "Compliance",
                 "US"
               ]
@@ -11167,7 +11167,7 @@
                   "url": "https://www.military.com/veteran-jobs",
                   "tags": [
                     "Veteran",
-                    "Job Board"
+                    "Job-Board"
                   ]
                 },
                 {
@@ -11187,7 +11187,7 @@
                   "url": "https://www.militaryhire.com/",
                   "tags": [
                     "Veteran",
-                    "Job Board"
+                    "Job-Board"
                   ]
                 },
                 {
@@ -11336,7 +11336,7 @@
                   "tags": [
                     "Veteran",
                     "Search",
-                    "Skills Translation"
+                    "Skills-Translation"
                   ]
                 }
               ],
@@ -11348,7 +11348,7 @@
               "type": "url",
               "url": "https://vetjobs.org/",
               "tags": [
-                "Job Board",
+                "Job-Board",
                 "Veterans",
                 "US"
               ]
@@ -11359,7 +11359,7 @@
               "type": "url",
               "url": "https://hireveterans.com/",
               "tags": [
-                "Job Board",
+                "Job-Board",
                 "Veterans",
                 "US"
               ]
@@ -11370,7 +11370,7 @@
               "type": "url",
               "url": "https://www.military.com/veteran-jobs/top-25-veteran-employers-2025.html",
               "tags": [
-                "Job Board",
+                "Job-Board",
                 "Veterans",
                 "US"
               ]
@@ -11452,7 +11452,7 @@
                   "url": "https://abilityjobs.com/",
                   "tags": [
                     "Disability",
-                    "Job Board"
+                    "Job-Board"
                   ]
                 },
                 {
@@ -11698,7 +11698,7 @@
                   "type": "url",
                   "url": "https://bantheboxcampaign.org/",
                   "tags": [
-                    "Fair Chance",
+                    "Fair-Chance",
                     "US"
                   ],
                   "name_en": "Ban the Box Campaign"
@@ -11708,7 +11708,7 @@
                   "type": "url",
                   "url": "https://www.nelp.org/campaign/ensuring-fair-chance-to-work/",
                   "tags": [
-                    "Fair Chance",
+                    "Fair-Chance",
                     "US"
                   ],
                   "name_en": "NELP｜Fair Chance Hiring"
@@ -11728,7 +11728,7 @@
                   "type": "url",
                   "url": "https://www.secondchancebusinesscoalition.org/",
                   "tags": [
-                    "Fair Chance",
+                    "Fair-Chance",
                     "US"
                   ],
                   "name_en": "Business Roundtable｜Second Chance"
@@ -11738,7 +11738,7 @@
                   "type": "url",
                   "url": "https://www.aclu.org/issues/smart-justice/mass-incarceration/",
                   "tags": [
-                    "Fair Chance",
+                    "Fair-Chance",
                     "US"
                   ],
                   "name_en": "ACLU｜Fair Hiring"
@@ -11748,7 +11748,7 @@
                   "type": "url",
                   "url": "https://www.dkbfoundation.org/",
                   "tags": [
-                    "Fair Chance",
+                    "Fair-Chance",
                     "US"
                   ],
                   "name_en": "Dave's Killer Bread Foundation"
@@ -11854,7 +11854,7 @@
                   "type": "url",
                   "url": "https://www.responsible.ai/",
                   "tags": [
-                    "AI Ethics",
+                    "AI-Ethics",
                     "Certification"
                   ]
                 },
@@ -11958,7 +11958,7 @@
               "type": "url",
               "url": "https://www.whitehouse.gov/",
               "tags": [
-                "Fair Chance",
+                "Fair-Chance",
                 "Program",
                 "Policy"
               ]
@@ -11969,7 +11969,7 @@
               "type": "url",
               "url": "https://www.shrm.org/",
               "tags": [
-                "Fair Chance",
+                "Fair-Chance",
                 "SHRM"
               ]
             },
@@ -12309,7 +12309,7 @@
               "tags": [
                 "Guide",
                 "DEI",
-                "Best Practices",
+                "Best-Practices",
                 "2025"
               ],
               "name_en": "Qandle | DEI Hiring in the Workplace: Strategies & Best Practices"
@@ -12669,7 +12669,7 @@
               "type": "url",
               "url": "https://www.careersitecloud.com/",
               "tags": [
-                "Career Site",
+                "Career-Site",
                 "P"
               ]
             },
@@ -12744,7 +12744,7 @@
                   "tags": [
                     "Video",
                     "Meeting",
-                    "No Download"
+                    "No-Download"
                   ]
                 },
                 {
@@ -12983,7 +12983,7 @@
               "url": "https://veritone.com/solutions/",
               "tags": [
                 "Virtual",
-                "Career Fair",
+                "Career-Fair",
                 "AI"
               ]
             }
@@ -13265,7 +13265,7 @@
               "url": "https://vouchfor.com/blog/employer-branding-guide",
               "tags": [
                 "Guide",
-                "Employer Branding"
+                "Employer-Branding"
               ]
             },
             {
@@ -13275,7 +13275,7 @@
               "url": "https://recruiterflow.com/blog/recruitment-marketing/",
               "tags": [
                 "Guide",
-                "Recruitment Marketing"
+                "Recruitment-Marketing"
               ]
             }
           ],
@@ -13529,7 +13529,7 @@
               "tags": [
                 "Blog",
                 "Gamification",
-                "HR Tech"
+                "HR-Tech"
               ]
             },
             {
@@ -13540,7 +13540,7 @@
               "tags": [
                 "Blog",
                 "Gamification",
-                "HR Tech"
+                "HR-Tech"
               ]
             },
             {
@@ -13756,7 +13756,7 @@
                   "type": "url",
                   "url": "https://www.canva.com/templates/social-media/",
                   "tags": [
-                    "Social Media",
+                    "Social-Media",
                     "Design",
                     "Templates"
                   ]
@@ -13804,7 +13804,7 @@
                   "type": "url",
                   "url": "https://recruitrooster.com/",
                   "tags": [
-                    "Career Site",
+                    "Career-Site",
                     "Design"
                   ]
                 },
@@ -13814,7 +13814,7 @@
                   "type": "url",
                   "url": "https://careersitecloud.com/",
                   "tags": [
-                    "Career Site",
+                    "Career-Site",
                     "Platform"
                   ]
                 },
@@ -13975,7 +13975,7 @@
                   "url": "https://recruitee.com/",
                   "tags": [
                     "P",
-                    "Talent Pool"
+                    "Talent-Pool"
                   ],
                   "name_en": "Recruitee｜Talent Pool"
                 },
@@ -14007,7 +14007,7 @@
                   "url": "https://www.jobvite.com/products/",
                   "tags": [
                     "CRM",
-                    "Talent Pool",
+                    "Talent-Pool",
                     "Enterprise"
                   ]
                 },
@@ -14489,7 +14489,7 @@
               "url": "https://www.phenom.com/blog/employer-branding-strategy-guide",
               "tags": [
                 "Guide",
-                "Employer Branding",
+                "Employer-Branding",
                 "2025",
                 "EVP"
               ],
@@ -14501,7 +14501,7 @@
               "url": "https://www.betterway.dev/posts/mastering-your-employer-brand-strategy-10-proven-tactics-for-2024",
               "tags": [
                 "Guide",
-                "Employer Branding",
+                "Employer-Branding",
                 "2024",
                 "Tactics"
               ],
@@ -14513,7 +14513,7 @@
               "url": "https://universumglobal.com/resources/news-press/employer-branding-now-2024/",
               "tags": [
                 "Report",
-                "Employer Branding",
+                "Employer-Branding",
                 "2024",
                 "Research"
               ],
@@ -14525,7 +14525,7 @@
               "url": "https://www.socialtalent.com/interviewing/how-to-build-the-perfect-candidate-experience",
               "tags": [
                 "Guide",
-                "Candidate Experience",
+                "Candidate-Experience",
                 "2024"
               ],
               "name_en": "Social Talent | How to Build the Perfect Candidate Experience (2024)"
@@ -14536,9 +14536,9 @@
               "url": "https://www.hackerearth.com/blog/candidate-experience-best-practices-to-elevate-your-recruitment-process-in-2025",
               "tags": [
                 "Guide",
-                "Candidate Experience",
+                "Candidate-Experience",
                 "2025",
-                "Best Practices"
+                "Best-Practices"
               ],
               "name_en": "HackerEarth | Candidate Experience Best Practices to Elevate Your Recruitment Process in 2025"
             }
@@ -14885,7 +14885,7 @@
               "url": "https://referralrock.com/blog/employee-referral-software/",
               "tags": [
                 "Guide",
-                "Employee Referral"
+                "Employee-Referral"
               ]
             },
             {
@@ -14894,7 +14894,7 @@
               "url": "https://toggl.com/blog/employee-referral-program-ideas",
               "tags": [
                 "Guide",
-                "Referral Program",
+                "Referral-Program",
                 "2024"
               ],
               "name_en": "Toggl | 15 Creative Employee Referral Program Ideas for 2024"
@@ -14905,7 +14905,7 @@
               "url": "https://kredily.com/how-to-build-an-effective-employee-referral-program-in-2024/",
               "tags": [
                 "Guide",
-                "Referral Program",
+                "Referral-Program",
                 "2024"
               ],
               "name_en": "Kredily | How to Build an Effective Employee Referral Program in 2024"
@@ -14916,7 +14916,7 @@
               "url": "https://recruitee.com/blog/employee-referrals",
               "tags": [
                 "Guide",
-                "Referral Program",
+                "Referral-Program",
                 "2025"
               ],
               "name_en": "Recruitee | Employee Referral Programs: Definition, Benefits and Best Practices (2025)"
@@ -14963,19 +14963,19 @@
                 "Guide",
                 "Onboarding",
                 "Virtual",
-                "Best Practices"
+                "Best-Practices"
               ],
               "name_en": "Connecteam | 12 Virtual Onboarding Best Practices for an Effective Process"
             },
             {
-              "name": "Deel｜How Google Onboards New Hires (And How You Can Too)（2025）",
+              "name": "Deel｜How Google Onboards New Hires （And How You Can Too）（2025）",
               "type": "url",
               "url": "https://www.deel.com/blog/employee-onboarding-at-google/",
               "tags": [
                 "Guide",
                 "Onboarding",
                 "2025",
-                "Case Study"
+                "Case-Study"
               ],
               "name_en": "Deel | How Google Onboards New Hires (And How You Can Too) (2025)"
             }
@@ -15814,7 +15814,7 @@
               "url": "https://softgarden.com/en/magazine/glossary/talent-community/",
               "tags": [
                 "Guide",
-                "Talent Community"
+                "Talent-Community"
               ]
             },
             {
@@ -16985,7 +16985,7 @@
                   "url": "https://www.bumeran.com.ar/",
                   "tags": [
                     "LATAM",
-                    "Job Board",
+                    "Job-Board",
                     "R"
                   ]
                 },
@@ -17843,7 +17843,7 @@
                   "url": "https://www.jobstack.com/",
                   "tags": [
                     "Hourly",
-                    "Daily Pay"
+                    "Daily-Pay"
                   ]
                 }
               ],
@@ -17906,7 +17906,7 @@
                   "url": "https://www.58.com/",
                   "tags": [
                     "CN",
-                    "Job Board"
+                    "Job-Board"
                   ],
                   "name_en": "58.com Blue-Collar Recruiting"
                 },
@@ -17951,7 +17951,7 @@
                   "url": "https://truckstop.com/",
                   "tags": [
                     "Logistics",
-                    "Job Board"
+                    "Job-Board"
                   ],
                   "name_en": "Truckstop｜Trucking Jobs"
                 },
@@ -17961,7 +17961,7 @@
                   "url": "https://www.alltruckjobs.com/",
                   "tags": [
                     "Logistics",
-                    "Job Board"
+                    "Job-Board"
                   ],
                   "name_en": "AllTruckJobs"
                 },
@@ -17971,7 +17971,7 @@
                   "url": "https://www.hcareers.com/",
                   "tags": [
                     "Hospitality",
-                    "Job Board"
+                    "Job-Board"
                   ],
                   "name_en": "Hcareers｜Hospitality"
                 },
@@ -17981,7 +17981,7 @@
                   "url": "https://www.ihireconstruction.com/",
                   "tags": [
                     "Vertical",
-                    "Job Board"
+                    "Job-Board"
                   ],
                   "name_en": "iHireConstruction"
                 },
@@ -17991,7 +17991,7 @@
                   "url": "https://www.coolworks.com/",
                   "tags": [
                     "Hourly",
-                    "Job Board"
+                    "Job-Board"
                   ],
                   "name_en": "CoolWorks｜Seasonal Jobs"
                 },
@@ -18001,7 +18001,7 @@
                   "url": "https://www.retailcareersnow.com/",
                   "tags": [
                     "Retail",
-                    "Job Board"
+                    "Job-Board"
                   ],
                   "name_en": "RetailCareersNow"
                 }
@@ -18169,7 +18169,7 @@
               "url": "https://velocityglobal.com/resources/blog/cross-border-hiring/",
               "tags": [
                 "Guide",
-                "Global Hiring",
+                "Global-Hiring",
                 "2025",
                 "Cross-Border"
               ],
@@ -18181,7 +18181,7 @@
               "url": "https://www.deel.com/blog/how-to-hire-internationally/",
               "tags": [
                 "Guide",
-                "Global Hiring",
+                "Global-Hiring",
                 "2025",
                 "Compliance"
               ],
@@ -18194,7 +18194,7 @@
               "tags": [
                 "Research",
                 "2025",
-                "Global Hiring",
+                "Global-Hiring",
                 "Trends"
               ],
               "name_en": "Tern Group | The Future of International Recruitment: Trends and Predictions 2025-2028"
@@ -18206,8 +18206,8 @@
               "tags": [
                 "Guide",
                 "2025",
-                "Visa Sponsorship",
-                "Global Hiring"
+                "Visa-Sponsorship",
+                "Global-Hiring"
               ],
               "name_en": "HeroHunt | Recruiting and Sponsoring Visa-Eligible International Talent (2025 Guide)"
             },
@@ -18218,7 +18218,7 @@
               "tags": [
                 "Report",
                 "2025",
-                "Global Hiring",
+                "Global-Hiring",
                 "Remote"
               ],
               "name_en": "Oyster | Global Work Without Borders: Insights on International Employment 2025"
@@ -18865,7 +18865,7 @@
                   "tags": [
                     "Conference",
                     "Event",
-                    "HR Tech"
+                    "HR-Tech"
                   ]
                 },
                 {
@@ -19036,7 +19036,7 @@
               "url": "https://www.transformconference.co/",
               "tags": [
                 "Conference",
-                "Future of Work"
+                "Future-of-Work"
               ]
             },
             {
@@ -19874,7 +19874,7 @@
                   "url": "https://www.orgvue.com/",
                   "tags": [
                     "Analytics",
-                    "Org Design",
+                    "Org-Design",
                     "P"
                   ]
                 }
@@ -20881,7 +20881,7 @@
                   "type": "url",
                   "url": "https://business.linkedin.com/talent-solutions/",
                   "tags": [
-                    "Case Study",
+                    "Case-Study",
                     "LinkedIn",
                     "Enterprise"
                   ]
@@ -20892,7 +20892,7 @@
                   "type": "url",
                   "url": "https://www.greenhouse.com/",
                   "tags": [
-                    "Case Study",
+                    "Case-Study",
                     "ATS",
                     "Success"
                   ]
@@ -20928,7 +20928,7 @@
               "type": "url",
               "url": "https://rework.withgoogle.com/guides/hiring/",
               "tags": [
-                "Case Study",
+                "Case-Study",
                 "Google"
               ]
             },
@@ -20938,7 +20938,7 @@
               "type": "url",
               "url": "https://drjohnsullivan.com/articles/amazon-recruiting-case-study-part-1/",
               "tags": [
-                "Case Study",
+                "Case-Study",
                 "Amazon"
               ]
             }
@@ -21387,7 +21387,7 @@
                   "url": "https://www.hackinghr.io/",
                   "tags": [
                     "Community",
-                    "HR Tech"
+                    "HR-Tech"
                   ]
                 },
                 {
@@ -21666,7 +21666,7 @@
                   "tags": [
                     "Analytics",
                     "AI",
-                    "Market Intelligence"
+                    "Market-Intelligence"
                   ]
                 },
                 {
@@ -21794,7 +21794,7 @@
               "url": "https://joshbersin.com/research/",
               "tags": [
                 "Research",
-                "HR Tech"
+                "HR-Tech"
               ]
             },
             {
