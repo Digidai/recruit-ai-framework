@@ -59,7 +59,7 @@ jobs:
           grep -c "<url>" docs/sitemap.xml || echo "0"
           echo ""
           echo "🔍 First 10 URLs:"
-          grep "<loc>" docs/sitemap.xml | head -10
+          head -100 docs/sitemap.xml | grep "<loc>" | head -10 || true
         shell: bash
 
       - name: Commit and push changes
