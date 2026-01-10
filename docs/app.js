@@ -9,6 +9,9 @@ const DEBOUNCE_MS = 150;
 // ========== i18n ==========
 const i18n = {
   zh: {
+    pageTitle: "Recruitment & AI Hiring Framework - 招聘与AI招聘工具导航",
+    metaDescription: "一个数据驱动的招聘工具导航地图，覆盖300+分类、1900+条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。",
+    metaKeywords: "招聘,AI招聘,人才招聘,ATS,招聘工具,HR科技,招聘合规,AI风险治理,Recruitment,Hiring,HR Tech",
     subtitle: "一个可维护的「招聘 × AI 招聘」工具地图（数据驱动），灵感来自 OSINT Framework。",
     searchPlaceholder: "搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）",
     clearBtn: "清空",
@@ -80,6 +83,9 @@ const i18n = {
     viewCardsTitle: "卡片网格",
   },
   en: {
+    pageTitle: "Recruitment & AI Hiring Framework - Navigation Map",
+    metaDescription: "A data-driven recruitment tool navigation map covering 300+ categories and 1900+ resources, including AI hiring governance, DEI, neurodiversity, etc. Inspired by OSINT Framework.",
+    metaKeywords: "Recruitment, AI Hiring, Talent Acquisition, ATS, Recruiting Tools, HR Tech, Hiring Compliance, AI Risk Governance",
     subtitle: "A maintainable data-driven Recruitment & AI Hiring tool map, inspired by OSINT Framework.",
     searchPlaceholder: "Search: Tools / Guides / Standards / Events... (supports keywords)",
     clearBtn: "Clear",
@@ -182,6 +188,14 @@ function applyLanguage(lang) {
   document.querySelectorAll("[data-i18n-title]").forEach(el => {
     const key = el.getAttribute("data-i18n-title");
     if (i18n[currentLang][key]) el.title = i18n[currentLang][key];
+  });
+
+  // SEO: Update title and meta tags
+  if (i18n[currentLang]["pageTitle"]) document.title = i18n[currentLang]["pageTitle"];
+  
+  document.querySelectorAll("[data-i18n-content]").forEach(el => {
+    const key = el.getAttribute("data-i18n-content");
+    if (i18n[currentLang][key]) el.setAttribute("content", i18n[currentLang][key]);
   });
 }
 
