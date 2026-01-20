@@ -431,9 +431,10 @@ def add_translations(node):
     if name in TRANSLATIONS:
         node["name_en"] = TRANSLATIONS[name]
     else:
-        # For items not in translation map, keep original name
-        # Many resource names already contain English or are proper nouns
-        node["name_en"] = name
+        # Only fill when name_en is missing or blank to avoid overwriting existing translations.
+        existing_en = node.get("name_en", "")
+        if not existing_en or not existing_en.strip():
+            node["name_en"] = name
 
     # Process children recursively
     if "children" in node:

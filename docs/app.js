@@ -158,44 +158,61 @@ const i18n = {
   }
 };
 
-let currentLang = localStorage.getItem("lang") || "zh";
-let currentView = localStorage.getItem("view") || "tree";
+const SUPPORTED_LANGS = ["zh", "en"];
+const SUPPORTED_VIEWS = ["tree", "accordion", "table", "explorer", "cards"];
+const DEFAULT_LANG = "zh";
+const DEFAULT_VIEW = "tree";
+
+function normalizeLang(lang) {
+  return SUPPORTED_LANGS.includes(lang) ? lang : DEFAULT_LANG;
+}
+
+function normalizeView(view) {
+  return SUPPORTED_VIEWS.includes(view) ? view : DEFAULT_VIEW;
+}
+
+let currentLang = normalizeLang(localStorage.getItem("lang"));
+let currentView = normalizeView(localStorage.getItem("view"));
 
 function t(key, ...args) {
-  const val = i18n[currentLang][key];
+  const lang = normalizeLang(currentLang);
+  if (lang !== currentLang) currentLang = lang;
+  const val = i18n[lang]?.[key];
   if (typeof val === "function") return val(...args);
   return val || key;
 }
 
 function applyLanguage(lang) {
-  currentLang = lang;
-  localStorage.setItem("lang", lang);
-  document.getElementById("htmlRoot").lang = lang === "zh" ? "zh-CN" : "en";
+  const safeLang = normalizeLang(lang);
+  currentLang = safeLang;
+  localStorage.setItem("lang", safeLang);
+  document.getElementById("htmlRoot").lang = safeLang === "zh" ? "zh-CN" : "en";
   const langLabel = document.getElementById("langLabel");
   if (langLabel) langLabel.textContent = t("langLabel");
+  const dict = i18n[safeLang];
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
-    if (i18n[currentLang][key]) el.textContent = i18n[currentLang][key];
+    if (dict?.[key]) el.textContent = dict[key];
   });
   document.querySelectorAll("[data-i18n-html]").forEach(el => {
     const key = el.getAttribute("data-i18n-html");
-    if (i18n[currentLang][key]) el.innerHTML = i18n[currentLang][key];
+    if (dict?.[key]) el.innerHTML = dict[key];
   });
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     const key = el.getAttribute("data-i18n-placeholder");
-    if (i18n[currentLang][key]) el.placeholder = i18n[currentLang][key];
+    if (dict?.[key]) el.placeholder = dict[key];
   });
   document.querySelectorAll("[data-i18n-title]").forEach(el => {
     const key = el.getAttribute("data-i18n-title");
-    if (i18n[currentLang][key]) el.title = i18n[currentLang][key];
+    if (dict?.[key]) el.title = dict[key];
   });
 
   // SEO: Update title and meta tags
-  if (i18n[currentLang]["pageTitle"]) document.title = i18n[currentLang]["pageTitle"];
+  if (dict?.pageTitle) document.title = dict.pageTitle;
   
   document.querySelectorAll("[data-i18n-content]").forEach(el => {
     const key = el.getAttribute("data-i18n-content");
-    if (i18n[currentLang][key]) el.setAttribute("content", i18n[currentLang][key]);
+    if (dict?.[key]) el.setAttribute("content", dict[key]);
   });
 }
 
@@ -250,12 +267,24 @@ function debounce(fn, delay) {
   };
 }
 
+function safeDecodeURIComponent(value) {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return null;
+  }
+}
+
 function escapeHtml(str) {
   return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 }
 
 function tagHtml(tag) {
   return `<span class="tag">${escapeHtml(tag)}</span>`;
+}
+
+function replaceQueryTemplate(url, query) {
+  return url.split("{query}").join(query);
 }
 
 // ========== Favorites ==========
@@ -340,7 +369,7 @@ function openNode(node) {
   if (nodeType === "template") {
     const q = prompt(t("promptQuery"));
     if (!q) return;
-    const finalUrl = url.replaceAll("{query}", encodeURIComponent(q.trim()));
+    const finalUrl = replaceQueryTemplate(url, encodeURIComponent(q.trim()));
     window.open(finalUrl, "_blank", "noopener");
   } else {
     window.open(url, "_blank", "noopener");
@@ -552,30 +581,31 @@ function highlightInTree(url) {
 
 // ========== View Switching ==========
 function switchView(view) {
-  currentView = view;
-  localStorage.setItem("view", view);
+  const safeView = normalizeView(view);
+  currentView = safeView;
+  localStorage.setItem("view", safeView);
 
   // Update buttons
   document.querySelectorAll(".view-btn").forEach(btn => {
-    btn.classList.toggle("active", btn.dataset.view === view);
-    btn.setAttribute("aria-selected", btn.dataset.view === view);
+    btn.classList.toggle("active", btn.dataset.view === safeView);
+    btn.setAttribute("aria-selected", btn.dataset.view === safeView);
   });
 
   // Update view containers
   document.querySelectorAll(".view-content").forEach(el => {
-    el.classList.toggle("active", el.id === view + "View");
+    el.classList.toggle("active", el.id === safeView + "View");
   });
 
   // Update title
   const titles = { tree: "treeTitle", accordion: "accordionTitle", table: "tableTitle", explorer: "explorerTitle", cards: "cardsTitle" };
-  const viewTitleText = t(titles[view] || "treeTitle");
+  const viewTitleText = t(titles[safeView] || "treeTitle");
   viewTitle.textContent = viewTitleText;
   announce(viewTitleText);
 
   // Update controls visibility
-  document.getElementById("treeControls").style.display = view === "tree" ? "flex" : "none";
-  document.getElementById("accordionControls").style.display = view === "accordion" ? "flex" : "none";
-  document.getElementById("tableControls").style.display = view === "table" ? "flex" : "none";
+  document.getElementById("treeControls").style.display = safeView === "tree" ? "flex" : "none";
+  document.getElementById("accordionControls").style.display = safeView === "accordion" ? "flex" : "none";
+  document.getElementById("tableControls").style.display = safeView === "table" ? "flex" : "none";
 
   // Update URL
   updateUrlFromState();
@@ -1166,7 +1196,10 @@ function getUrlParams() {
     if (idx > 0) {
       const key = part.slice(0, idx);
       const val = part.slice(idx + 1);
-      if (val) params[key] = decodeURIComponent(val);
+      if (val) {
+        const decoded = safeDecodeURIComponent(val);
+        if (decoded !== null) params[key] = decoded;
+      }
     }
   }
   return params;
@@ -1197,8 +1230,9 @@ function applyUrlParams() {
   if (params.tag && tagFilterSelect) tagFilterSelect.value = params.tag;
   if (params.view && ["tree", "accordion", "table", "explorer", "cards"].includes(params.view)) {
     currentView = params.view;
-    localStorage.setItem("view", currentView);
   }
+  currentView = normalizeView(currentView);
+  localStorage.setItem("view", currentView);
 }
 
 // ========== Initialize ==========

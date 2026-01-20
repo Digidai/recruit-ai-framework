@@ -113,18 +113,22 @@
       }
     };
 
-    let currentLang = localStorage.getItem("lang") || "zh";
+    const supportedLangs = ["zh", "en"];
+    const normalizeLang = (lang) => supportedLangs.includes(lang) ? lang : "zh";
+    let currentLang = normalizeLang(localStorage.getItem("lang"));
 
     function applyLanguage(lang) {
-      currentLang = lang;
-      localStorage.setItem("lang", lang);
-      document.getElementById("htmlRoot").lang = lang === "zh" ? "zh-CN" : "en";
-      document.getElementById("title").textContent = i18n[lang].title;
-      document.getElementById("desc").textContent = i18n[lang].desc;
-      document.getElementById("homeBtn").textContent = i18n[lang].homeBtn;
-      document.getElementById("issueLink").textContent = i18n[lang].issueLink;
-      document.getElementById("langLabel").textContent = i18n[lang].langLabel;
-      document.title = i18n[lang].htmlTitle;
+      const safeLang = normalizeLang(lang);
+      currentLang = safeLang;
+      localStorage.setItem("lang", safeLang);
+      document.getElementById("htmlRoot").lang = safeLang === "zh" ? "zh-CN" : "en";
+      const dict = i18n[safeLang];
+      document.getElementById("title").textContent = dict.title;
+      document.getElementById("desc").textContent = dict.desc;
+      document.getElementById("homeBtn").textContent = dict.homeBtn;
+      document.getElementById("issueLink").textContent = dict.issueLink;
+      document.getElementById("langLabel").textContent = dict.langLabel;
+      document.title = dict.htmlTitle;
     }
 
     document.getElementById("btnLang").addEventListener("click", () => {

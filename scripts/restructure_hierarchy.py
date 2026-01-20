@@ -124,7 +124,7 @@ def restructure():
 
     # Check for any missed categories
     for cat in original_categories:
-        prefix = cat.get('name', '')[:3]
+        prefix = cat.get('name', '')[:3].strip()
         if prefix not in used_categories:
             print(f"Warning: Category not assigned: {cat.get('name', '')}")
 

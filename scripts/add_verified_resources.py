@@ -675,14 +675,50 @@ VERIFIED_RESOURCES = {
     ],
 }
 
+def normalize_name(name):
+    name = name.strip()
+    name = re.sub(r'^[A-Z]\s+', '', name)
+    name = re.sub(r'^\d{2}\s+', '', name)
+    return name
+
 def find_node_by_name(root, target_name):
-    """Find a node by its name (partial match) recursively."""
-    if target_name in root.get('name', ''):
-        return root
-    for child in root.get('children', []):
-        result = find_node_by_name(child, target_name)
-        if result:
-            return result
+    """Find a node by its name (prefer exact/normalized match)."""
+    target_norm = normalize_name(target_name)
+    matches = []
+
+    def walk(node):
+        name = node.get('name', '')
+        if not name:
+            return
+        if name == target_name or normalize_name(name) == target_norm:
+            matches.append(node)
+        for child in node.get('children', []):
+            walk(child)
+
+    walk(root)
+
+    if len(matches) == 1:
+        return matches[0]
+    if len(matches) > 1:
+        print(f"❌ Ambiguous category match: {target_name} ({len(matches)} matches)")
+        return None
+
+    partial = []
+
+    def walk_partial(node):
+        name = node.get('name', '')
+        if target_name in name:
+            partial.append(node)
+        for child in node.get('children', []):
+            walk_partial(child)
+
+    walk_partial(root)
+
+    if len(partial) == 1:
+        print(f"⚠️ Using partial match for: {target_name}")
+        return partial[0]
+    if len(partial) > 1:
+        print(f"❌ Ambiguous partial match: {target_name} ({len(partial)} matches)")
     return None
 
 def validate_resource(resource):

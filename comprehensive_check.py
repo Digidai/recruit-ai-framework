@@ -124,7 +124,7 @@ def check_all(node, issues, stats, path="", seen_urls=None, seen_names=None):
         # 11. 检查只有1个子节点的文件夹
         elif len(children) == 1:
             child = children[0]
-            if 'url' not in child and 'template' not in child:
+            if 'url' not in child and child.get('type') != 'template':
                 issues['single_child_folder'].append({
                     'name': name,
                     'child': child.get('name', ''),
@@ -132,8 +132,8 @@ def check_all(node, issues, stats, path="", seen_urls=None, seen_names=None):
                 })
 
         # 12. 检查资源过少的叶子分类（<3个）
-        url_children = [c for c in children if 'url' in c or 'template' in c]
-        folder_children = [c for c in children if 'url' not in c and 'template' not in c]
+        url_children = [c for c in children if c.get('url') or c.get('type') == 'template']
+        folder_children = [c for c in children if not c.get('url') and c.get('type') != 'template']
         if len(folder_children) == 0 and 0 < len(url_children) < 3:
             issues['few_resources'].append({
                 'name': name,
