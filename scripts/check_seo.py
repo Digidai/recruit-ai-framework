@@ -241,7 +241,7 @@ def check_performance(url):
 
 def main():
     # 主 URL
-    base_url = "https://digidai.github.io/recruit-ai-framework/"
+    base_url = "https://recruit.genedai.me/"
 
     print(f"{Colors.BOLD}{Colors.BLUE}")
     print("=" * 60)

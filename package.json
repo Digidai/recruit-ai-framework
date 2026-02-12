@@ -1,0 +1,29 @@
+{
+  "name": "recruit-ai-framework",
+  "version": "1.0.0",
+  "description": "A data-driven recruitment tool navigation map covering 300+ categories and 1900+ resources",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint docs/app.js",
+    "lint:fix": "eslint docs/app.js --fix",
+    "format": "prettier --write docs/app.js docs/style.css docs/index.html",
+    "format:check": "prettier --check docs/app.js docs/style.css docs/index.html",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "npm run lint && npm run format:check && npm run test",
+    "check:data": "python3 comprehensive_check.py",
+    "sitemap": "python3 scripts/generate_sitemap.py"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "vitest": "^2.0.0",
+    "jsdom": "^25.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Digidai/recruit-ai-framework"
+  }
+}

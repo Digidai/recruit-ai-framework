@@ -1,0 +1,37 @@
+export default [
+  {
+    files: ["docs/**/*.js"],
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: "script",
+      globals: {
+        window: "readonly",
+        document: "readonly",
+        navigator: "readonly",
+        localStorage: "readonly",
+        history: "readonly",
+        fetch: "readonly",
+        console: "readonly",
+        URL: "readonly",
+        Blob: "readonly",
+        setTimeout: "readonly",
+        clearTimeout: "readonly",
+        prompt: "readonly",
+        d3: "readonly",
+        caches: "readonly",
+        self: "readonly",
+        Response: "readonly",
+        Promise: "readonly",
+      },
+    },
+    rules: {
+      "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+      "no-undef": "error",
+      "no-redeclare": "error",
+      "no-constant-condition": "warn",
+      eqeqeq: ["warn", "always"],
+      "no-eval": "error",
+      "no-implied-eval": "error",
+    },
+  },
+];

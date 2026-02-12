@@ -26,11 +26,6 @@ body {
   color: #fff;
 }
 
-::-moz-selection {
-  background: var(--accent);
-  color: #fff;
-}
-
 /* Accessibility: visually hidden but accessible to screen readers */
 .visually-hidden {
   position: absolute;

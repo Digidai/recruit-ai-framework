@@ -12,14 +12,14 @@ import xml.etree.ElementTree as ET
 from xml.dom import minidom
 
 # 配置
-BASE_URL = "https://digidai.github.io/recruit-ai-framework"
+BASE_URL = "https://recruit.genedai.me"
 # 获取项目根目录
 SCRIPT_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 DOCS_DIR = PROJECT_ROOT / "docs"
 TARF_FILE = DOCS_DIR / "tarf.json"
 SITEMAP_FILE = DOCS_DIR / "sitemap.xml"
-SITEMAP_XSL = "https://digidai.github.io/recruit-ai-framework/sitemap.xsl"
+SITEMAP_XSL = "https://recruit.genedai.me/sitemap.xsl"
 
 
 def load_resources():
@@ -36,13 +36,6 @@ def load_resources():
 def extract_all_urls(data, path=''):
     """递归提取所有 URL 资源"""
     urls = []
-
-    # 添加根页面
-    urls.append({
-        'name': data.get('name', ''),
-        'url': f"{BASE_URL}/",
-        'priority': 1.0
-    })
 
     def traverse(node, depth=0):
         """递归遍历节点"""
@@ -99,7 +92,7 @@ def generate_sitemap():
     # 获取当前日期
     today = datetime.now().strftime('%Y-%m-%d')
 
-    # 1. 添加主页（已经在 extract_all_urls 中添加，但为了确保优先级，再次添加）
+    # 1. Add main pages
     urlset.append(create_url_element(
         f"{BASE_URL}/",
         today,
@@ -114,12 +107,12 @@ def generate_sitemap():
         1.0
     ))
 
-    # 2. 加载并添加所有资源页面
+    # 2. Load and add all resource pages
     data = load_resources()
     urls = extract_all_urls(data)
 
-    # 过滤掉根主页（因为已经添加过了）
-    urls = [u for u in urls if not u['url'] == f"{BASE_URL}/"]
+    # Filter out the root page (already added above)
+    urls = [u for u in urls if u['url'] != f"{BASE_URL}/"]
 
     print(f"Found {len(urls)} resource URLs")
 

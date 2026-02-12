@@ -56,7 +56,7 @@
 
 ### 在线访问
 
-**GitHub Pages**：[https://digidai.github.io/recruit-ai-framework/](https://digidai.github.io/recruit-ai-framework/)
+**在线访问**：[https://recruit.genedai.me/](https://recruit.genedai.me/)
 
 ### 本地预览
 

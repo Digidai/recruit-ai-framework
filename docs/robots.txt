@@ -1,5 +1,5 @@
 # Recruitment & AI Hiring Framework
-# https://digidai.github.io/recruit-ai-framework/
+# https://recruit.genedai.me/
 
 User-agent: *
 Allow: /
@@ -9,7 +9,7 @@ Crawl-delay: 1
 # Disallow: /private/
 
 # Sitemap
-Sitemap: https://digidai.github.io/recruit-ai-framework/sitemap.xml
+Sitemap: https://recruit.genedai.me/sitemap.xml
 
 # Allow specific bots
 User-agent: Googlebot

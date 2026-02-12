@@ -197,7 +197,7 @@
           <div style="margin-top: 30px; padding: 15px; background: #1f2937; border-radius: 8px;">
             <p style="margin: 0; color: #a7a7a7;">
               <strong>提示：</strong>此站点地图旨在帮助搜索引擎更好地索引网站内容。
-              <a href="https://digidai.github.io/recruit-ai-framework/">返回首页</a>
+              <a href="https://recruit.genedai.me/">返回首页</a>
             </p>
           </div>
         </div>

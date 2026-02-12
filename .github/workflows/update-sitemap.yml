@@ -33,7 +33,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'
+
+      - name: Run data quality check
+        run: |
+          python comprehensive_check.py
+        shell: bash
 
       - name: Generate sitemap
         run: |
@@ -77,7 +82,7 @@ jobs:
         run: |
           echo "🔔 Notifying Google of sitemap update..."
           # 向 Google 提交 sitemap
-          response=$(curl -s -X GET "https://www.google.com/ping?sitemap=https://digidai.github.io/recruit-ai-framework/sitemap.xml")
+          response=$(curl -s -X GET "https://www.google.com/ping?sitemap=https://recruit.genedai.me/sitemap.xml")
           echo "Google response: $response"
           echo "✅ Sitemap submitted to Google"
         shell: bash

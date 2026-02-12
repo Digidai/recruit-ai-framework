@@ -82,7 +82,7 @@ def main():
     )
     parser.add_argument(
         '--sitemap-url',
-        default='https://digidai.github.io/recruit-ai-framework/sitemap.xml',
+        default='https://recruit.genedai.me/sitemap.xml',
         help='Full URL to your sitemap.xml'
     )
     parser.add_argument(

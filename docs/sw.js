@@ -1,8 +1,10 @@
 /* Service Worker for Recruitment & AI Hiring Framework
  * Provides offline support by caching essential resources
+ * Version hash is updated when tarf.json or app.js changes
  */
 
-const CACHE_NAME = 'recruit-ai-framework-v1';
+const CACHE_VERSION = '2';
+const CACHE_NAME = `recruit-ai-framework-v${CACHE_VERSION}`;
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

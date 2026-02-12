@@ -1,5 +1,10 @@
 /* Recruitment & AI Hiring Framework - Multi-View Version
  * Supports 5 visualization modes: Tree, Accordion, Table, Explorer, Cards
+ *
+ * Module structure:
+ *   modules/i18n.js   - Internationalization strings and language switching
+ *   modules/utils.js  - Utility functions, data helpers, and accessibility
+ *   app.js            - Main application entry point and view logic
  */
 
 const DATA_URL = "tarf.json";
@@ -227,11 +232,14 @@ function toggleLanguage() {
 
 function rebuildAllViews() {
   if (!window._appData) return;
-  buildTree(window._appData);
-  buildAccordion(window._appData);
-  buildTable(window._appItems);
-  buildExplorer(window._appData);
-  buildCards(window._appItems, window._appStats);
+  // Only rebuild the active view to avoid unnecessary DOM work
+  switch (currentView) {
+    case "tree": buildTree(window._appData); break;
+    case "accordion": buildAccordion(window._appData); break;
+    case "table": buildTable(window._appItems); break;
+    case "explorer": buildExplorer(window._appData); break;
+    case "cards": buildCards(window._appItems, window._appStats); break;
+  }
 }
 
 // ========== DOM Elements ==========
@@ -923,6 +931,19 @@ document.getElementById("btnAccCollapseAll")?.addEventListener("click", () => {
 });
 
 // ========== 3. Table View ==========
+function createTableRow(item, tbody) {
+  const tr = document.createElement("tr");
+  tr.innerHTML = `
+    <td><span class="table-name">${escapeHtml(getDisplayName(item))}</span></td>
+    <td><span class="table-category">${escapeHtml(getDisplayPath(item).join(" / "))}</span></td>
+    <td><span class="table-tags">${tagsHtml(item.tags)}</span></td>
+    <td><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="table-link">${escapeHtml(item.url)}</a></td>
+  `;
+  tr.style.cursor = "pointer";
+  tr.addEventListener("click", (e) => { if (e.target.tagName !== "A") openNode(item); });
+  tbody.appendChild(tr);
+}
+
 function buildTable(items) {
   const tbody = document.getElementById("tableBody");
   tbody.innerHTML = "";
@@ -930,18 +951,7 @@ function buildTable(items) {
   const sortedItems = [...items].sort((a, b) => getDisplayName(a).localeCompare(getDisplayName(b)));
 
   for (const item of sortedItems) {
-    const tr = document.createElement("tr");
-    tr.innerHTML = `
-      <td><span class="table-name">${escapeHtml(getDisplayName(item))}</span></td>
-      <td><span class="table-category">${escapeHtml(getDisplayPath(item).join(" / "))}</span></td>
-      <td><span class="table-tags">${tagsHtml(item.tags)}</span></td>
-      <td><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="table-link">${escapeHtml(item.url)}</a></td>
-    `;
-    tr.style.cursor = "pointer";
-    tr.addEventListener("click", (e) => {
-      if (e.target.tagName !== "A") openNode(item);
-    });
-    tbody.appendChild(tr);
+    createTableRow(item, tbody);
   }
 
   // Sort controls
@@ -962,16 +972,7 @@ function buildTable(items) {
       }
       tbody.innerHTML = "";
       for (const item of sorted) {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td><span class="table-name">${escapeHtml(getDisplayName(item))}</span></td>
-          <td><span class="table-category">${escapeHtml(getDisplayPath(item).join(" / "))}</span></td>
-          <td><span class="table-tags">${tagsHtml(item.tags)}</span></td>
-          <td><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="table-link">${escapeHtml(item.url)}</a></td>
-        `;
-        tr.style.cursor = "pointer";
-        tr.addEventListener("click", (e) => { if (e.target.tagName !== "A") openNode(item); });
-        tbody.appendChild(tr);
+        createTableRow(item, tbody);
       }
     };
   }
@@ -989,6 +990,21 @@ function buildExplorer(data) {
   explorerState.currentNode = data;
   explorerState.currentPath = [data];
 
+  function buildPath(node, rootData) {
+    // Build full path from root to node by searching the tree
+    function findPath(current, target, trail) {
+      if (current === target) return [...trail, current];
+      if (current.children) {
+        for (const child of current.children) {
+          const result = findPath(child, target, [...trail, current]);
+          if (result) return result;
+        }
+      }
+      return null;
+    }
+    return findPath(rootData, node, []) || [rootData, node];
+  }
+
   function renderTreeItem(node, container, depth = 0) {
     if (!node.children && !node.url) return;
 
@@ -1002,7 +1018,7 @@ function buildExplorer(data) {
         </svg>
         <span>${escapeHtml(getLocalizedName(node))}</span>
       `;
-      item.addEventListener("click", () => selectFolder(node, [data, node]));
+      item.addEventListener("click", () => selectFolder(node, buildPath(node, data)));
       container.appendChild(item);
 
       // Show first level children
@@ -1313,7 +1329,8 @@ async function init() {
 
 function showError(err) {
   console.error(err);
-  resultMeta.innerHTML = `${t("loadError", err.message || "Unknown error")} <button id="retryBtn" class="btnLink">${t("retryBtn")}</button>`;
+  const safeMessage = escapeHtml(err.message || "Unknown error");
+  resultMeta.innerHTML = `${t("loadError", safeMessage)} <button id="retryBtn" class="btnLink">${t("retryBtn")}</button>`;
   treeSvg.innerHTML = `<text x="20" y="40" fill="#e6e6e6" font-size="14">${t("loadErrorTree")}</text>`;
   if (statsContent) statsContent.innerHTML = t("loadFailed");
   document.getElementById("retryBtn")?.addEventListener("click", () => {

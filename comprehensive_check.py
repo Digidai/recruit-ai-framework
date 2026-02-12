@@ -12,6 +12,7 @@
 """
 
 import json
+import os
 import re
 from collections import defaultdict
 from urllib.parse import urlparse
@@ -179,7 +180,9 @@ def analyze_tags(stats):
 
 
 def main():
-    with open('docs/tarf.json', 'r', encoding='utf-8') as f:
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    tarf_path = os.path.join(script_dir, 'docs', 'tarf.json')
+    with open(tarf_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     issues = {
