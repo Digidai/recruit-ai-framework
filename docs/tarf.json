@@ -521,7 +521,7 @@
                   ]
                 },
                 {
-                  "name": "Myers-Briggs (MBTI)｜Type Indicator",
+                  "name": "Myers-Briggs （MBTI）｜Type Indicator",
                   "name_en": "Myers-Briggs (MBTI) | Type Indicator",
                   "type": "url",
                   "url": "https://www.myersbriggs.org/",
@@ -682,13 +682,13 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "HireVue（AI 视频面试）",
+                  "name": "HireVue（AI 视频面试）分类",
                   "tags": [
                     "Interview",
                     "AI",
                     "P"
                   ],
-                  "name_en": "HireVue (AI Video Interview)",
+                  "name_en": "HireVue (AI Video Interview) Category",
                   "children": [
                     {
                       "name": "HireVue（AI 视频面试）",
@@ -793,8 +793,8 @@
                       "type": "folder",
                       "children": [
                         {
-                          "name": "Metaview（AI 面试助手）",
-                          "name_en": "Metaview (AI Interview Assistant)",
+                          "name": "BrightHire（面试分析）",
+                          "name_en": "BrightHire (Interview Analytics)",
                           "type": "url",
                           "url": "https://www.metaview.ai/",
                           "tags": [
@@ -866,7 +866,7 @@
                       "tags": [
                         "AI",
                         "O",
-                        "GitHub"
+                        "Github"
                       ]
                     },
                     {
@@ -877,7 +877,7 @@
                       "tags": [
                         "AI",
                         "O",
-                        "GitHub",
+                        "Github",
                         "Extension"
                       ]
                     },
@@ -889,7 +889,7 @@
                       "tags": [
                         "AI",
                         "O",
-                        "GitHub"
+                        "Github"
                       ]
                     }
                   ],
@@ -1227,8 +1227,8 @@
                   ]
                 },
                 {
-                  "name": "BrightHire（面试智能）",
-                  "name_en": "BrightHire (Interview Intelligence)",
+                  "name": "BrightHire（面试平台）",
+                  "name_en": "BrightHire (Interview Platform)",
                   "type": "url",
                   "url": "https://www.brighthire.com/",
                   "tags": [
@@ -1542,7 +1542,7 @@
               "tags": [
                 "Interview",
                 "Course",
-                "LinkedIn"
+                "Linkedin"
               ]
             },
             {
@@ -1762,13 +1762,13 @@
                   "name_en": "Big Five Personality Model"
                 },
                 {
-                  "name": "APA｜Industrial-Organizational Psychology",
+                  "name": "APA（美国心理协会）工业与组织心理学",
                   "type": "url",
                   "url": "https://www.apa.org/ed/graduate/specialize/industrial",
                   "tags": [
                     "Community"
                   ],
-                  "name_en": "APA｜Industrial-Organizational Psychology"
+                  "name_en": "APA Industrial-Organizational Psychology"
                 },
                 {
                   "name": "人事心理学期刊",
@@ -1862,8 +1862,8 @@
                   "type": "url"
                 },
                 {
-                  "name": "Phenom 候选人体验平台",
-                  "name_en": "Phenom｜Candidate Experience Platform",
+                  "name": "Phenom 候选人体验平台（概念）",
+                  "name_en": "Phenom Candidate Experience Platform (Concept)",
                   "type": "folder",
                   "children": [
                     {
@@ -2212,7 +2212,7 @@
                   "name_en": "ZipRecruiter (Platform)"
                 },
                 {
-                  "name": "Monster",
+                  "name": "Monster（招聘平台）",
                   "type": "url",
                   "url": "https://www.monster.com/",
                   "tags": [
@@ -2438,11 +2438,11 @@
                   "name_en": "PowerToFly (Women & Diversity)"
                 },
                 {
-                  "name": "Hirepurpose（退伍军人招聘）",
+                  "name": "Hirepurpose（退伍军人招聘）分类",
                   "tags": [
                     "DEI"
                   ],
-                  "name_en": "Hirepurpose (Veteran Recruiting)",
+                  "name_en": "Hirepurpose (Veteran Recruiting) Category",
                   "children": [
                     {
                       "name": "Hirepurpose（退伍军人招聘）",
@@ -2756,7 +2756,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Upwork",
+                  "name": "Upwork（招聘平台）",
                   "type": "url",
                   "url": "https://www.upwork.com/",
                   "tags": [
@@ -2833,7 +2833,7 @@
               "url": "https://business.linkedin.com/talent-solutions/post-jobs",
               "tags": [
                 "Job-Board",
-                "LinkedIn",
+                "Linkedin",
                 "P"
               ]
             },
@@ -3324,7 +3324,7 @@
                   "url": "https://hiring-search.careerflow.ai/",
                   "tags": [
                     "Sourcing",
-                    "LinkedIn"
+                    "Linkedin"
                   ]
                 },
                 {
@@ -3345,7 +3345,7 @@
                   "url": "https://evaboot.com/",
                   "tags": [
                     "Sourcing",
-                    "LinkedIn",
+                    "Linkedin",
                     "Export"
                   ]
                 }
@@ -3420,7 +3420,7 @@
                   "url": "https://octohr.info/",
                   "tags": [
                     "Sourcing",
-                    "GitHub",
+                    "Github",
                     "Chrome"
                   ]
                 },
@@ -3431,7 +3431,7 @@
                   "url": "https://devskiller.com/blog/source-developers-from-github/",
                   "tags": [
                     "Sourcing",
-                    "GitHub",
+                    "Github",
                     "Guide"
                   ]
                 }
@@ -4569,7 +4569,7 @@
                   "url": "https://www.shiftsmart.com/",
                   "tags": [
                     "P",
-                    "Blue-collar",
+                    "Blue-Collar",
                     "Gig"
                   ]
                 },
@@ -4579,7 +4579,7 @@
                   "type": "url",
                   "url": "https://seasoned.co/",
                   "tags": [
-                    "Blue-collar",
+                    "Blue-Collar",
                     "Hospitality"
                   ]
                 },
@@ -4590,7 +4590,7 @@
                   "url": "https://www.landed.com/",
                   "tags": [
                     "P",
-                    "Blue-collar",
+                    "Blue-Collar",
                     "ATS"
                   ]
                 }
@@ -4653,7 +4653,7 @@
                   ]
                 },
                 {
-                  "name": "EU Careers (EPSO)｜European Union Jobs",
+                  "name": "EU Careers （EPSO）｜European Union Jobs",
                   "name_en": "EU Careers (EPSO) | European Union Jobs",
                   "type": "url",
                   "url": "https://epso.europa.eu/",
@@ -5332,7 +5332,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Workable",
+                  "name": "Workable（招聘平台）",
                   "type": "url",
                   "url": "https://www.workable.com/",
                   "tags": [
@@ -5373,7 +5373,7 @@
                   "name_en": "Zoho Recruit"
                 },
                 {
-                  "name": "Teamtailor",
+                  "name": "Teamtailor（招聘平台）",
                   "type": "url",
                   "url": "https://www.teamtailor.com/",
                   "tags": [
@@ -5431,7 +5431,7 @@
                     "CN",
                     "P"
                   ],
-                  "name_en": "Beisen (Chinese ATS) (System)"
+                  "name_en": "Beisen | ATS (Chinese)"
                 },
                 {
                   "name": "用友大易（招聘云）",
@@ -5840,7 +5840,7 @@
                   "name_en": "Lever API"
                 },
                 {
-                  "name": "Workday API",
+                  "name": "Workday API（API）",
                   "type": "url",
                   "url": "https://community.workday.com/api",
                   "tags": [
@@ -5860,7 +5860,7 @@
                   "name_en": "SmartRecruiters API"
                 },
                 {
-                  "name": "Ashby API",
+                  "name": "Ashby API（API）",
                   "type": "url",
                   "url": "https://developers.ashbyhq.com/",
                   "tags": [
@@ -6367,7 +6367,7 @@
                   "name_en": "Outreach"
                 },
                 {
-                  "name": "Salesloft",
+                  "name": "Salesloft（销售赋能平台）",
                   "type": "url",
                   "url": "https://www.salesloft.com/",
                   "tags": [
@@ -6522,7 +6522,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "ModernLoop｜Scheduling",
+                  "name": "ModernLoop（日程协调工具）",
                   "type": "url",
                   "url": "https://www.modernloop.io/",
                   "tags": [
@@ -6532,7 +6532,7 @@
                   "name_en": "ModernLoop｜Scheduling"
                 },
                 {
-                  "name": "Doodle｜Group Scheduling",
+                  "name": "Doodle（群组日程安排）",
                   "type": "url",
                   "url": "https://doodle.com/",
                   "tags": [
@@ -6542,7 +6542,7 @@
                   "name_en": "Doodle｜Group Scheduling"
                 },
                 {
-                  "name": "Cal.com｜Open Source",
+                  "name": "Cal.com（开源日程平台）",
                   "type": "url",
                   "url": "https://cal.com/",
                   "tags": [
@@ -6669,7 +6669,7 @@
                   "name_en": "Coda｜Docs & Apps (Documentations)"
                 },
                 {
-                  "name": "Obsidian｜Note Taking",
+                  "name": "Obsidian（笔记工具）",
                   "type": "url",
                   "url": "https://obsidian.md/",
                   "tags": [
@@ -6679,7 +6679,7 @@
                   "name_en": "Obsidian｜Note Taking"
                 },
                 {
-                  "name": "Roam Research｜Networked Thought",
+                  "name": "Roam Research（双向笔记）链接",
                   "type": "url",
                   "url": "https://roamresearch.com/",
                   "tags": [
@@ -6721,7 +6721,7 @@
                   "url": "https://www.linkedhelper.com/",
                   "tags": [
                     "P",
-                    "LinkedIn",
+                    "Linkedin",
                     "Extension"
                   ],
                   "name_en": "LinkedIn Helper"
@@ -6732,13 +6732,13 @@
                   "url": "https://www.dux-soup.com/",
                   "tags": [
                     "P",
-                    "LinkedIn",
+                    "Linkedin",
                     "Extension"
                   ],
                   "name_en": "Dux-Soup｜LinkedIn Automation"
                 },
                 {
-                  "name": "ContactOut｜Email Finder",
+                  "name": "ContactOut（邮箱查找）",
                   "type": "url",
                   "url": "https://contactout.com/",
                   "tags": [
@@ -6749,7 +6749,7 @@
                   "name_en": "ContactOut｜Email Finder"
                 },
                 {
-                  "name": "Hunter｜Email Finder",
+                  "name": "Hunter（邮箱查找工具）",
                   "type": "url",
                   "url": "https://hunter.io/",
                   "tags": [
@@ -6760,7 +6760,7 @@
                   "name_en": "Hunter｜Email Finder"
                 },
                 {
-                  "name": "Clearbit Connect｜Email",
+                  "name": "Clearbit Connect（数据 Enrichment）",
                   "type": "url",
                   "url": "https://clearbit.com/connect",
                   "tags": [
@@ -6776,7 +6776,7 @@
                   "url": "https://linkedradar.com/",
                   "tags": [
                     "Extension",
-                    "LinkedIn"
+                    "Linkedin"
                   ]
                 },
                 {
@@ -6913,7 +6913,7 @@
           "name_en": "Recruiting Efficiency & Productivity Tools"
         },
         {
-          "name": "招聘自动化工具",
+          "name": "招聘自动化工具（概览）",
           "type": "folder",
           "children": [
             {
@@ -6961,7 +6961,7 @@
               "name_en": "HRLineup | Top 10 Virtual Hiring Tools in 2025"
             }
           ],
-          "name_en": "Recruitment Automation Tools"
+          "name_en": "Recruitment Automation Tools (Overview)"
         },
         {
           "name": "候选人测评",
@@ -7355,7 +7355,7 @@
                   "tags": [
                     "AI",
                     "Sourcing",
-                    "LinkedIn"
+                    "Linkedin"
                   ]
                 }
               ],
@@ -7996,7 +7996,7 @@
               "tags": [
                 "AI",
                 "Referral",
-                "LinkedIn"
+                "Linkedin"
               ]
             }
           ],
@@ -8215,7 +8215,7 @@
                     "Law",
                     "EU"
                   ],
-                  "name_en": "GDPR Automated Decision-Making"
+                  "name_en": "GDPR | Automated Decision-Making (Article 22)"
                 },
                 {
                   "name": "AI Act招聘影响分析（HR合规）",
@@ -8337,7 +8337,7 @@
                     "Audit",
                     "P"
                   ],
-                  "name_en": "Deloitte NYC LL144 Bias Audit Service"
+                  "name_en": "Deloitte | NYC LL144 Bias Audit Service"
                 },
                 {
                   "name": "IBM AI Fairness 360（公平性工具）",
@@ -8978,7 +8978,7 @@
               "url": "https://github.com/linkedin/LiFT",
               "tags": [
                 "Open-Source",
-                "LinkedIn"
+                "Linkedin"
               ]
             },
             {
@@ -9055,7 +9055,7 @@
                   "name_en": "OpenAI｜ChatGPT Enterprise"
                 },
                 {
-                  "name": "Anthropic｜Claude for Work",
+                  "name": "Anthropic Claude（AI助手）",
                   "type": "url",
                   "url": "https://www.anthropic.com/claude",
                   "tags": [
@@ -9267,7 +9267,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "LangChain",
+                  "name": "LangChain（LLM开发框架）",
                   "type": "url",
                   "url": "https://www.langchain.com/",
                   "tags": [
@@ -9689,7 +9689,7 @@
                     "Research",
                     "DEI"
                   ],
-                  "name_en": "ACM｜FAccT Conference"
+                  "name_en": "ACM FAccT Conference（公平性会议）"
                 },
                 {
                   "name": "布鲁金斯学会｜人工智能 Employment",
@@ -9750,7 +9750,7 @@
                   "url": "https://business.linkedin.com/talent-solutions/resources/future-of-recruiting",
                   "tags": [
                     "Research",
-                    "LinkedIn",
+                    "Linkedin",
                     "Trends"
                   ]
                 },
@@ -10230,7 +10230,7 @@
                     "Compliance",
                     "US"
                   ],
-                  "name_en": "FTC FCRA Background Check Guide"
+                  "name_en": "FTC | FCRA Background Check Guide"
                 },
                 {
                   "name": "FTC｜Employer Background Checks and Your Rights",
@@ -10240,7 +10240,7 @@
                     "Compliance",
                     "US"
                   ],
-                  "name_en": "FTC｜Employer Background Checks and Your Rights"
+                  "name_en": "FTC（联邦贸易委员会）"
                 },
                 {
                   "name": "美国平等就业机会委员会｜Background Checks",
@@ -10553,7 +10553,7 @@
                     "Law",
                     "US"
                   ],
-                  "name_en": "Colorado｜Equal Pay for Equal Work Act"
+                  "name_en": "Colorado Equal Pay Act（科罗拉多平等薪酬法）"
                 },
                 {
                   "name": "Washington｜Equal Pay and Opportunities Act",
@@ -10563,7 +10563,7 @@
                     "Law",
                     "US"
                   ],
-                  "name_en": "Washington｜Equal Pay and Opportunities Act"
+                  "name_en": "Washington Equal Pay Act（华盛顿平等薪酬法）"
                 },
                 {
                   "name": "美国人力资源管理协会｜Pay Transparency 法律 by State",
@@ -10644,7 +10644,7 @@
                     "Law",
                     "AU"
                   ],
-                  "name_en": "Australia｜Workplace Gender Equality"
+                  "name_en": "Australia Workplace Gender Equality（澳大利亚性别平等）"
                 },
                 {
                   "name": "Canada｜薪酬公平 法案",
@@ -10998,7 +10998,7 @@
                     "Law",
                     "US"
                   ],
-                  "name_en": "Virginia CDPA"
+                  "name_en": "Virginia CDPA（弗吉尼亚消费者数据保护法）"
                 },
                 {
                   "name": "Colorado 隐私 Act",
@@ -11046,7 +11046,7 @@
                     "Law",
                     "CN"
                   ],
-                  "name_en": "China PIPL"
+                  "name_en": "China | PIPL (Personal Information Protection Law)"
                 },
                 {
                   "name": "中国｜数据安全法",
@@ -11056,7 +11056,7 @@
                     "Law",
                     "CN"
                   ],
-                  "name_en": "China Data Security Law"
+                  "name_en": "China | Data Security Law"
                 },
                 {
                   "name": "中国｜网络安全法",
@@ -11066,7 +11066,7 @@
                     "Law",
                     "CN"
                   ],
-                  "name_en": "China Cybersecurity Law"
+                  "name_en": "China | Cybersecurity Law"
                 },
                 {
                   "name": "China Briefing PIPL指南（PIPL合规）",
@@ -11576,7 +11576,7 @@
                     "Law",
                     "CN"
                   ],
-                  "name_en": "China Labor Law"
+                  "name_en": "China | Labor Law"
                 },
                 {
                   "name": "中国｜劳动合同法",
@@ -11586,7 +11586,7 @@
                     "Law",
                     "CN"
                   ],
-                  "name_en": "China Labor Contract Law"
+                  "name_en": "China | Labor Contract Law"
                 },
                 {
                   "name": "人力资源和社会保障部",
@@ -11676,7 +11676,7 @@
                     "Law",
                     "P"
                   ],
-                  "name_en": "Jackson Lewis"
+                  "name_en": "Jackson Lewis（劳动法律事务所）"
                 },
                 {
                   "name": "Fisher Phillips 劳动法律所",
@@ -12325,14 +12325,14 @@
                   "name_en": "VETS Index"
                 },
                 {
-                  "name": "军人友好雇主认证",
+                  "name": "军人友好雇主认证（退伍军人）",
                   "type": "url",
                   "url": "https://www.militaryfriendly.com/",
                   "tags": [
                     "Certification",
                     "US"
                   ],
-                  "name_en": "Military Friendly Employers"
+                  "name_en": "Military-Friendly Employer Certification (Veterans)"
                 },
                 {
                   "name": "美国退伍军人雇佣勋章",
@@ -12356,8 +12356,8 @@
                   ]
                 },
                 {
-                  "name": "军人友好雇主认证",
-                  "name_en": "Military Friendly Employer Designation",
+                  "name": "VEVRAA 退伍军人优先雇佣",
+                  "name_en": "VEVRAA Veterans Priority Employment",
                   "type": "url",
                   "url": "https://www.militaryfriendly.com/employers/",
                   "tags": [
@@ -12702,7 +12702,7 @@
               "name_en": "Accessible Recruiting Tools"
             },
             {
-              "name": "神经多样性招聘",
+              "name": "神经多样性招聘（无障碍）",
               "type": "folder",
               "children": [
                 {
@@ -12783,7 +12783,7 @@
                   ]
                 }
               ],
-              "name_en": "Neurodiversity Recruiting"
+              "name_en": "Neurodiversity Hiring (Accessibility)"
             }
           ],
           "name_en": "Accessible Hiring"
@@ -12817,7 +12817,7 @@
                   "name_en": "NELP｜Fair Chance Hiring"
                 },
                 {
-                  "name": "Business Roundtable｜Second Chance",
+                  "name": "Business Roundtable（二次机会计划）",
                   "type": "url",
                   "url": "https://www.secondchancebusinesscoalition.org/",
                   "tags": [
@@ -13137,7 +13137,7 @@
                 "AI",
                 "DEI",
                 "O",
-                "GitHub"
+                "Github"
               ]
             },
             {
@@ -13149,7 +13149,7 @@
                 "AI",
                 "DEI",
                 "O",
-                "GitHub"
+                "Github"
               ]
             }
           ],
@@ -13184,7 +13184,7 @@
                   "name_en": "Microsoft｜Autism Hiring"
                 },
                 {
-                  "name": "JPMorgan｜Autism at Work",
+                  "name": "JPMorgan自闭症工作计划",
                   "type": "url",
                   "url": "https://www.jpmorganchase.com/about/",
                   "tags": [
@@ -13401,7 +13401,7 @@
                   "name_en": "Made By Dyslexia"
                 },
                 {
-                  "name": "Understood.org｜Workplace",
+                  "name": "Understood.org（职场包容）",
                   "type": "url",
                   "url": "https://www.understood.org/en/articles/workplace",
                   "tags": [
@@ -13428,7 +13428,7 @@
                   "name_en": "Texthelp｜Read&Write"
                 },
                 {
-                  "name": "Natural Reader｜Text to Speech",
+                  "name": "Natural Reader（文字转语音）",
                   "type": "url",
                   "url": "https://www.naturalreaders.com/",
                   "tags": [
@@ -13438,7 +13438,7 @@
                   "name_en": "Natural Reader｜Text to Speech"
                 },
                 {
-                  "name": "Otter.ai｜Transcription",
+                  "name": "Otter.ai（转录工具）",
                   "type": "url",
                   "url": "https://otter.ai/",
                   "tags": [
@@ -13958,7 +13958,7 @@
           "type": "folder",
           "children": [
             {
-              "name": "视频面试平台",
+              "name": "远程视频面试平台",
               "type": "folder",
               "children": [
                 {
@@ -14005,7 +14005,7 @@
                   ]
                 }
               ],
-              "name_en": "Video Interview Platforms"
+              "name_en": "Remote Video Interview Platform"
             },
             {
               "name": "虚拟招聘会平台",
@@ -14253,7 +14253,7 @@
           "type": "folder",
           "children": [
             {
-              "name": "招聘营销平台",
+              "name": "招聘营销平台（雇主品牌）",
               "type": "folder",
               "children": [
                 {
@@ -14299,7 +14299,7 @@
                   ]
                 }
               ],
-              "name_en": "Recruitment Marketing Platforms"
+              "name_en": "Recruitment Marketing Platform (Employer Branding)"
             },
             {
               "name": "职位广告优化",
@@ -14470,9 +14470,9 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Canva（设计工具）",
+                  "name": "Canva（设计工具）分类",
                   "type": "folder",
-                  "name_en": "Canva (Design Tool)",
+                  "name_en": "Canva (Design Tools) Category",
                   "children": [
                     {
                       "name": "Canva（设计工具）",
@@ -15162,8 +15162,8 @@
                   ]
                 },
                 {
-                  "name": "CareerSiteCloud（职业网站）",
-                  "name_en": "CareerSiteCloud (Career Sites)",
+                  "name": "CareerSiteCloud（网站设计）",
+                  "name_en": "CareerSiteCloud (Website Design)",
                   "type": "url",
                   "url": "https://careersitecloud.com/",
                   "tags": [
@@ -15362,7 +15362,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Grayscale｜Texting",
+                  "name": "Grayscale（候选人沟通）",
                   "type": "url",
                   "url": "https://www.grayscaleapp.com/",
                   "tags": [
@@ -15383,7 +15383,7 @@
                   "name_en": "Emissary.ai｜Text Recruiting"
                 },
                 {
-                  "name": "Hireology｜Communication",
+                  "name": "Hireology（招聘沟通平台）",
                   "type": "url",
                   "url": "https://hireology.com/",
                   "tags": [
@@ -15551,7 +15551,7 @@
                   "name_en": "HeyGen｜AI Spokesperson"
                 },
                 {
-                  "name": "Descript｜Video Editing",
+                  "name": "Descript（视频编辑工具）",
                   "type": "url",
                   "url": "https://www.descript.com/",
                   "tags": [
@@ -15620,7 +15620,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Vimeo｜Business Video",
+                  "name": "Vimeo（商业视频平台）",
                   "type": "url",
                   "url": "https://vimeo.com/",
                   "tags": [
@@ -15630,7 +15630,7 @@
                   "name_en": "Vimeo｜Business Video"
                 },
                 {
-                  "name": "Wistia｜Video Marketing",
+                  "name": "Wistia（视频营销平台）",
                   "type": "url",
                   "url": "https://wistia.com/",
                   "tags": [
@@ -15749,7 +15749,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Matterport｜3D Tours",
+                  "name": "Matterport（3D虚拟导览）",
                   "type": "url",
                   "url": "https://matterport.com/",
                   "tags": [
@@ -15759,7 +15759,7 @@
                   "name_en": "Matterport｜3D Tours"
                 },
                 {
-                  "name": "Kuula｜360 Tours",
+                  "name": "Kuula（360度导览）",
                   "type": "url",
                   "url": "https://kuula.co/",
                   "tags": [
@@ -15779,7 +15779,7 @@
                   "name_en": "Google Street View｜Virtual Tour"
                 },
                 {
-                  "name": "Roundme｜VR Tours",
+                  "name": "Roundme（VR导览）",
                   "type": "url",
                   "url": "https://roundme.com/",
                   "tags": [
@@ -15789,7 +15789,7 @@
                   "name_en": "Roundme｜VR Tours"
                 },
                 {
-                  "name": "Pano2VR｜Virtual Tours",
+                  "name": "Pano2VR（虚拟导览）",
                   "type": "url",
                   "url": "https://ggnome.com/pano2vr/",
                   "tags": [
@@ -16527,7 +16527,7 @@
                   ]
                 },
                 {
-                  "name": "继任计划",
+                  "name": "继任计划（方法论）",
                   "name_en": "Oracle Succession Planning",
                   "type": "url",
                   "url": "https://www.oracle.com/human-capital-management/talent-management/succession-planning/",
@@ -16787,7 +16787,7 @@
                   "name_en": "Paddle HR"
                 },
                 {
-                  "name": "Avature｜Internal Mobility",
+                  "name": "Avature（人才管理平台）",
                   "type": "url",
                   "url": "https://www.avature.net/internal-mobility/",
                   "tags": [
@@ -16834,7 +16834,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Lightcast｜Skills Taxonomy",
+                  "name": "Lightcast（技能分类）",
                   "type": "url",
                   "url": "https://lightcast.io/",
                   "tags": [
@@ -16844,7 +16844,7 @@
                   "name_en": "Lightcast｜Skills Taxonomy"
                 },
                 {
-                  "name": "ESCO｜European Skills Taxonomy",
+                  "name": "ESCO（欧洲技能分类）",
                   "type": "url",
                   "url": "https://esco.ec.europa.eu/",
                   "tags": [
@@ -17005,7 +17005,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Discord｜Tech Communities",
+                  "name": "Discord（技术社区）",
                   "type": "url",
                   "url": "https://discord.com/",
                   "tags": [
@@ -17025,7 +17025,7 @@
                   "name_en": "Circle｜Community Platform"
                 },
                 {
-                  "name": "Mighty Networks｜Community",
+                  "name": "Mighty Networks（社区平台）",
                   "type": "url",
                   "url": "https://www.mightynetworks.com/",
                   "tags": [
@@ -17045,7 +17045,7 @@
                   "name_en": "Hivebrite｜Alumni & Community (Platform)"
                 },
                 {
-                  "name": "Graduway｜Alumni Network",
+                  "name": "Graduway（校友网络）",
                   "type": "url",
                   "url": "https://www.graduway.com/",
                   "tags": [
@@ -17160,7 +17160,7 @@
                   "name_en": "Almabase｜Alumni Management"
                 },
                 {
-                  "name": "PeopleGrove｜Career Networks",
+                  "name": "PeopleGrove（职业网络）",
                   "type": "url",
                   "url": "https://www.peoplegrove.com/",
                   "tags": [
@@ -17187,7 +17187,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "CMX｜Community Professionals",
+                  "name": "CMX（社区专业人士）",
                   "type": "url",
                   "url": "https://cmxhub.com/",
                   "tags": [
@@ -17319,7 +17319,7 @@
                   "name_en": "Trello｜Kanban Boards (Tools)"
                 },
                 {
-                  "name": "ClickUp｜All-in-One",
+                  "name": "ClickUp（一体化工具）",
                   "type": "url",
                   "url": "https://clickup.com/",
                   "tags": [
@@ -17329,7 +17329,7 @@
                   "name_en": "ClickUp｜All-in-One"
                 },
                 {
-                  "name": "Linear｜Issue Tracking",
+                  "name": "Linear（问题追踪）",
                   "type": "url",
                   "url": "https://linear.app/",
                   "tags": [
@@ -17377,7 +17377,7 @@
                   "name_en": "Peakon｜Employee Voice"
                 },
                 {
-                  "name": "BetterUp｜Coaching",
+                  "name": "BetterUp（教练辅导）",
                   "type": "url",
                   "url": "https://www.betterup.com/",
                   "tags": [
@@ -18056,7 +18056,7 @@
                     "RPO",
                     "P"
                   ],
-                  "name_en": "Hudson RPO"
+                  "name_en": "Hudson RPO（招聘流程外包）"
                 },
                 {
                   "name": "KellyOCG 人才外包",
@@ -18241,7 +18241,7 @@
             },
             {
               "name": "WilsonHCG",
-              "name_en": "WilsonHCG",
+              "name_en": "WilsonHCG（RPO服务商）",
               "type": "url",
               "url": "https://www.wilsonhcg.com/",
               "tags": [
@@ -18861,7 +18861,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Dev.to Jobs",
+                  "name": "Dev.to Jobs（开发者招聘）",
                   "type": "url",
                   "url": "https://dev.to/listings/",
                   "tags": [
@@ -18903,7 +18903,7 @@
                 },
                 {
                   "name": "Hacker News: Who is Hiring",
-                  "name_en": "Hacker News: Who is Hiring",
+                  "name_en": "Hacker News Who's Hiring（黑客新闻招聘）",
                   "type": "url",
                   "url": "https://news.ycombinator.com/jobs",
                   "tags": [
@@ -19529,7 +19529,7 @@
                     "CN",
                     "Job-Board"
                   ],
-                  "name_en": "58.com Blue-Collar Recruiting"
+                  "name_en": "58.com | Blue-Collar Recruiting"
                 },
                 {
                   "name": "Jobcase 蓝领社区",
@@ -19566,7 +19566,7 @@
                   "url": "https://www.teamengine.io/",
                   "tags": [
                     "P",
-                    "Blue-collar",
+                    "Blue-Collar",
                     "ATS"
                   ]
                 }
@@ -19578,7 +19578,7 @@
               "type": "folder",
               "children": [
                 {
-                  "name": "Truckstop｜Trucking Jobs",
+                  "name": "Truckstop（货运招聘）",
                   "type": "url",
                   "url": "https://truckstop.com/",
                   "tags": [
@@ -19618,7 +19618,7 @@
                   "name_en": "iHireConstruction"
                 },
                 {
-                  "name": "CoolWorks｜Seasonal Jobs",
+                  "name": "CoolWorks（季节性工作）",
                   "type": "url",
                   "url": "https://www.coolworks.com/",
                   "tags": [
@@ -19655,7 +19655,7 @@
                   "name_en": "Harri｜Hospitality Tech"
                 },
                 {
-                  "name": "Legion WFM｜Hourly",
+                  "name": "Legion WFM（排班管理）",
                   "type": "url",
                   "url": "https://legion.co/",
                   "tags": [
@@ -19665,7 +19665,7 @@
                   "name_en": "Legion WFM｜Hourly"
                 },
                 {
-                  "name": "When I Work｜Scheduling",
+                  "name": "When I Work（排班工具）",
                   "type": "url",
                   "url": "https://wheniwork.com/",
                   "tags": [
@@ -19734,7 +19734,7 @@
                   ]
                 },
                 {
-                  "name": "TextRecruit (iCIMS)｜Candidate Texting",
+                  "name": "TextRecruit （iCIMS）｜Candidate Texting",
                   "name_en": "TextRecruit (iCIMS) | Candidate Texting",
                   "type": "url",
                   "url": "https://www.icims.com/products/icims-text-engagement/",
@@ -20055,7 +20055,7 @@
               "tags": [
                 "Compensation",
                 "Europe",
-                "Real-time"
+                "Real-Time"
               ]
             },
             {
@@ -20411,7 +20411,7 @@
                   "tags": [
                     "Conference"
                   ],
-                  "name_en": "Unleash World"
+                  "name_en": "Unleash World（HR科技大会）"
                 },
                 {
                   "name": "HR 转型",
@@ -20682,7 +20682,7 @@
               "url": "https://business.linkedin.com/talent-solutions/events",
               "tags": [
                 "Conference",
-                "LinkedIn"
+                "Linkedin"
               ]
             },
             {
@@ -20934,7 +20934,7 @@
                   "type": "url",
                   "url": "https://www.youtube.com/@GreenhouseSoftware",
                   "tags": [
-                    "YouTube"
+                    "Youtube"
                   ],
                   "name_en": "Greenhouse Software"
                 }
@@ -21449,7 +21449,7 @@
                   "name_en": "Superset"
                 },
                 {
-                  "name": "Sigma Computing",
+                  "name": "Sigma Computing（BI工具）",
                   "type": "url",
                   "url": "https://www.sigmacomputing.com/",
                   "tags": [
@@ -22107,7 +22107,7 @@
                   "name_en": "Beamery Budget Planning"
                 },
                 {
-                  "name": "Appcast｜Programmatic ROI",
+                  "name": "Appcast（程序化招聘）",
                   "type": "url",
                   "url": "https://www.appcast.io/resources/",
                   "tags": [
@@ -22161,7 +22161,7 @@
                     "VMS",
                     "P"
                   ],
-                  "name_en": "Beeline VMS"
+                  "name_en": "Beeline VMS（供应商管理系统）"
                 },
                 {
                   "name": "SAP Fieldglass 外部劳动力",
@@ -22205,7 +22205,7 @@
                   ]
                 },
                 {
-                  "name": "Staffing Industry Analysts (SIA)｜VMS Research",
+                  "name": "Staffing Industry Analysts （SIA）｜VMS Research",
                   "name_en": "Staffing Industry Analysts (SIA) | VMS Research",
                   "type": "url",
                   "url": "https://www2.staffingindustry.com/",
@@ -22542,7 +22542,7 @@
               "type": "url",
               "url": "https://www.hubspot.com/company/",
               "tags": [
-                "HubSpot",
+                "Hubspot",
                 "Culture",
                 "Guide"
               ]
@@ -22909,8 +22909,8 @@
                   ]
                 },
                 {
-                  "name": "人才获取",
-                  "name_en": "SHRM Talent Acquisition Career Path",
+                  "name": "人才获取（职业发展）",
+                  "name_en": "Talent Acquisition (Career Development)",
                   "type": "url",
                   "url": "https://www.shrm.org/topics-tools/topics/careers-hr",
                   "tags": [
@@ -23289,8 +23289,8 @@
                   ]
                 },
                 {
-                  "name": "BCG｜People Strategy",
-                  "name_en": "BCG | People Strategy",
+                  "name": "BCG｜人员战略（研究）",
+                  "name_en": "BCG｜People Strategy (Research)",
                   "type": "url",
                   "url": "https://www.bcg.com/capabilities/people-strategy",
                   "tags": [
@@ -23326,7 +23326,7 @@
                   "name_en": "Aptitude Research｜TA Tech"
                 },
                 {
-                  "name": "Talent Tech Labs｜Innovation",
+                  "name": "Talent Tech Labs（创新实验室）",
                   "type": "url",
                   "url": "https://www.talenttechlabs.com/",
                   "tags": [
@@ -23392,7 +23392,7 @@
                     "Research",
                     "Global"
                   ],
-                  "name_en": "ILO｜World Employment"
+                  "name_en": "ILO（国际劳工组织）"
                 },
                 {
                   "name": "Cornell｜ILR School",
@@ -23402,7 +23402,7 @@
                     "Academic",
                     "Research"
                   ],
-                  "name_en": "Cornell｜ILR School"
+                  "name_en": "Cornell ILR School（康奈尔劳资关系学院）"
                 },
                 {
                   "name": "麻省理工学院｜Work of 未来",
@@ -23490,7 +23490,7 @@
                     "Data",
                     "CN"
                   ],
-                  "name_en": "National Bureau of Statistics (China Employment Data)"
+                  "name_en": "National Bureau of Statistics | Employment Data"
                 },
                 {
                   "name": "OECD｜Employment Outlook",
