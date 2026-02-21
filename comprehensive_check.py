@@ -100,16 +100,10 @@ def check_all(node, issues, stats, path="", seen_urls=None, seen_names=None):
         # 8. 统计标签
         for tag in tags:
             stats['tags'][tag] += 1
-
-        # 9. 检查标签大小写不一致
-        for tag in tags:
-            lower = tag.lower()
-            if lower != tag and tag != tag.upper() and tag != tag.title():
-                issues['tag_case_inconsistent'].append({
-                    'name': name,
-                    'tag': tag,
-                    'path': current_path
-                })
+            stats['tag_examples'][tag].append({
+                'name': name,
+                'path': current_path
+            })
 
     # 文件夹节点检查
     else:
@@ -205,9 +199,26 @@ def main():
         'url': 0,
         'folder': 0,
         'tags': defaultdict(int),
+        'tag_examples': defaultdict(list),
     }
 
     check_all(data, issues, stats)
+
+    # 仅在同一标签出现多个大小写变体时，判定为大小写不一致
+    lower_to_variants = defaultdict(set)
+    for tag in stats['tags']:
+        lower_to_variants[tag.lower()].add(tag)
+
+    for _, variants in lower_to_variants.items():
+        if len(variants) > 1:
+            for variant in variants:
+                for sample in stats['tag_examples'][variant]:
+                    issues['tag_case_inconsistent'].append({
+                        'name': sample['name'],
+                        'tag': variant,
+                        'path': sample['path']
+                    })
+
     tag_issues = analyze_tags(stats)
 
     # 输出报告

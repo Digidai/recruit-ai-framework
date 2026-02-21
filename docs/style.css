@@ -54,9 +54,20 @@ a:focus-visible {
 
 body {
   margin: 0;
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, "Noto Sans", "Liberation Sans", "PingFang SC", "Hiragino Sans GB",
-    "Microsoft YaHei", sans-serif;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    "Liberation Sans",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    sans-serif;
   background: var(--bg);
   color: var(--text);
 }
@@ -339,7 +350,9 @@ a:hover {
   border: 1px solid var(--border);
   border-radius: 8px;
   color: var(--muted);
-  transition: color 0.15s, border-color 0.15s;
+  transition:
+    color 0.15s,
+    border-color 0.15s;
 }
 
 .search-controls .export-btn:hover {
@@ -368,7 +381,9 @@ a:hover {
   padding: 10px 10px;
   margin: 8px 4px;
   cursor: pointer;
-  transition: border-color 0.15s ease, background-color 0.15s ease;
+  transition:
+    border-color 0.15s ease,
+    background-color 0.15s ease;
 }
 
 .resultList li:hover {
@@ -622,7 +637,10 @@ a:hover {
 
 /* D3 Tree Visualization Styles */
 .node text {
-  font: 13px ui-sans-serif, system-ui, sans-serif;
+  font:
+    13px ui-sans-serif,
+    system-ui,
+    sans-serif;
   fill: var(--text);
   /* Stronger halo effect to prevent lines from obscuring text */
   text-shadow:
@@ -665,7 +683,9 @@ a:hover {
   stroke: var(--border);
   stroke-width: 1.5px;
   stroke-opacity: 0.6;
-  transition: stroke-opacity 0.2s, stroke 0.2s;
+  transition:
+    stroke-opacity 0.2s,
+    stroke 0.2s;
 }
 
 /* ========== View Mode Selector ========== */
@@ -881,10 +901,18 @@ a:hover {
   background: rgba(255, 255, 255, 0.02);
 }
 
-.data-table .th-name { width: 30%; }
-.data-table .th-category { width: 35%; }
-.data-table .th-tags { width: 20%; }
-.data-table .th-url { width: 15%; }
+.data-table .th-name {
+  width: 30%;
+}
+.data-table .th-category {
+  width: 35%;
+}
+.data-table .th-tags {
+  width: 20%;
+}
+.data-table .th-url {
+  width: 15%;
+}
 
 .table-name {
   color: var(--text);
@@ -1228,7 +1256,9 @@ a:hover {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 /* Search result actions */
 .resultActions {
@@ -1245,7 +1275,9 @@ a:hover {
   font-size: 12px;
   cursor: pointer;
   opacity: 0.7;
-  transition: opacity 0.2s, background 0.2s;
+  transition:
+    opacity 0.2s,
+    background 0.2s;
 }
 .locateBtn:hover {
   opacity: 1;
@@ -1261,8 +1293,13 @@ a:hover {
   animation: pulse 0.5s ease-in-out 3;
 }
 @keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.5); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
 }
 
 /* Tree keyboard focus */
@@ -1305,7 +1342,7 @@ a:hover {
   font-size: 13px;
 }
 .favorites-list li:hover {
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
 }
 .fav-name {
   cursor: pointer;

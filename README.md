@@ -47,7 +47,7 @@
 | **模板链接支持** | 动态搜索模板（含 `{query}` 占位符），输入关键词即可打开 |
 | **多维度标签系统** | R(注册)/P(付费)/O(开源)/M(模板)/Law/Framework 等 |
 | **SEO 优化** | Open Graph、Twitter Card、canonical URL、sitemap 完备 |
-| **零构建部署** | 纯静态站点，无需 npm/webpack，JSON 数据驱动 |
+| **零打包部署** | 纯静态站点，可直接托管；可选 npm 质量检查（lint/test） |
 | **MIT 开源** | 自由使用、修改和分发，社区贡献友好 |
 
 ---
@@ -301,7 +301,7 @@ open http://localhost:8000/docs/
 | D3.js | 树形图可视化 | v7 (CDN) |
 | JSON | 数据存储格式 | - |
 
-**零构建依赖**：无 webpack、Vite、npm、TypeScript，纯原生开发。
+**零打包依赖**：无 webpack/Vite/TypeScript，运行时为纯原生静态页面；开发阶段可选 npm 做质量校验。
 
 ---
 

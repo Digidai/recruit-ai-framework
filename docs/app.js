@@ -1,10 +1,5 @@
 /* Recruitment & AI Hiring Framework - Multi-View Version
  * Supports 5 visualization modes: Tree, Accordion, Table, Explorer, Cards
- *
- * Module structure:
- *   modules/i18n.js   - Internationalization strings and language switching
- *   modules/utils.js  - Utility functions, data helpers, and accessibility
- *   app.js            - Main application entry point and view logic
  */
 
 const DATA_URL = "tarf.json";
@@ -15,7 +10,8 @@ const DEBOUNCE_MS = 150;
 const i18n = {
   zh: {
     pageTitle: "Recruitment & AI Hiring Framework - 招聘与AI招聘工具导航",
-    metaDescription: "一个数据驱动的招聘工具导航地图，覆盖300+分类、1900+条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。",
+    metaDescription:
+      "一个数据驱动的招聘工具导航地图，覆盖300+分类、1900+条资源，包含AI招聘风险治理、DEI、神经多样性等专项。灵感来自 OSINT Framework。",
     metaKeywords: "招聘,AI招聘,人才招聘,ATS,招聘工具,HR科技,招聘合规,AI风险治理,Recruitment,Hiring,HR Tech",
     subtitle: "一个可维护的「招聘 × AI 招聘」工具地图（数据驱动），灵感来自 OSINT Framework。",
     searchPlaceholder: "搜索：工具 / 指南 / 标准 / 会议 …（支持中英文关键词）",
@@ -39,7 +35,8 @@ const i18n = {
     collapseBtn: "收起",
     hint1: "点击「文件夹」节点展开/收起。",
     hint2: "点击「链接」节点会在新标签页打开。",
-    hint3: '点击带 <span class="tag">M</span> 的节点会弹窗让你输入关键词，并把关键词替换进 URL 里的 <code>{query}</code>。',
+    hint3:
+      '点击带 <span class="tag">M</span> 的节点会弹窗让你输入关键词，并把关键词替换进 URL 里的 <code>{query}</code>。',
     hint4: "<kbd>/</kbd> 聚焦搜索框，<kbd>Esc</kbd> 清空搜索。",
     searchResults: "搜索结果",
     searchHint: "输入关键词开始搜索。",
@@ -47,13 +44,16 @@ const i18n = {
     loading: "加载中...",
     howToExtend: "如何扩展",
     extend1: "编辑 <code>docs/tarf.json</code>（添加/修改节点）。",
-    extend2: '本地预览：在项目根目录运行 <code>python -m http.server 8000</code>，然后打开 <code>http://localhost:8000/docs/</code>。',
+    extend2:
+      "本地预览：在项目根目录运行 <code>python -m http.server 8000</code>，然后打开 <code>http://localhost:8000/docs/</code>。",
     extend3: "发布：把 <code>docs/</code> 作为静态站点部署（GitHub Pages / Cloudflare Pages / Vercel 等）。",
-    footerWarning: "⚠️ 仅用于招聘工具导航与学习研究；使用任何自动化/AI 招聘能力时请遵守适用法律法规与隐私要求，并进行必要的偏差评估与人类复核。",
+    footerWarning:
+      "⚠️ 仅用于招聘工具导航与学习研究；使用任何自动化/AI 招聘能力时请遵守适用法律法规与隐私要求，并进行必要的偏差评估与人类复核。",
     reportIssue: "反馈问题",
     totalResources: (count) => `共 ${count} 条资源。输入关键词开始搜索。`,
     matchResults: (match, show) => `匹配 ${match} 条（展示前 ${show} 条）`,
-    statsContent: (cats, res, tpl) => `<p><strong>${cats}</strong> 大分类 · <strong>${res}</strong> 条资源 · <strong>${tpl}</strong> 个模板</p>`,
+    statsContent: (cats, res, tpl) =>
+      `<p><strong>${cats}</strong> 大分类 · <strong>${res}</strong> 条资源 · <strong>${tpl}</strong> 个模板</p>`,
     hotTags: "热门标签：",
     loadError: (msg) => `加载失败：${msg}。`,
     loadErrorTree: "数据加载失败",
@@ -75,6 +75,7 @@ const i18n = {
     sortByName: "按名称",
     sortByCategory: "按分类",
     sortByTags: "按标签",
+    sortSelectLabel: "排序方式",
     itemsCount: (n) => `${n} 项`,
     viewTree: "树",
     viewAccordion: "列表",
@@ -89,8 +90,10 @@ const i18n = {
   },
   en: {
     pageTitle: "Recruitment & AI Hiring Framework - Navigation Map",
-    metaDescription: "A data-driven recruitment tool navigation map covering 300+ categories and 1900+ resources, including AI hiring governance, DEI, neurodiversity, etc. Inspired by OSINT Framework.",
-    metaKeywords: "Recruitment, AI Hiring, Talent Acquisition, ATS, Recruiting Tools, HR Tech, Hiring Compliance, AI Risk Governance",
+    metaDescription:
+      "A data-driven recruitment tool navigation map covering 300+ categories and 1900+ resources, including AI hiring governance, DEI, neurodiversity, etc. Inspired by OSINT Framework.",
+    metaKeywords:
+      "Recruitment, AI Hiring, Talent Acquisition, ATS, Recruiting Tools, HR Tech, Hiring Compliance, AI Risk Governance",
     subtitle: "A maintainable data-driven Recruitment & AI Hiring tool map, inspired by OSINT Framework.",
     searchPlaceholder: "Search: Tools / Guides / Standards / Events... (supports keywords)",
     clearBtn: "Clear",
@@ -113,7 +116,8 @@ const i18n = {
     collapseBtn: "Collapse",
     hint1: "Click folder nodes to expand/collapse.",
     hint2: "Click link nodes to open in new tab.",
-    hint3: 'Click nodes with <span class="tag">M</span> tag to enter keywords, which replace <code>{query}</code> in the URL.',
+    hint3:
+      'Click nodes with <span class="tag">M</span> tag to enter keywords, which replace <code>{query}</code> in the URL.',
     hint4: "<kbd>/</kbd> to focus search, <kbd>Esc</kbd> to clear.",
     searchResults: "Search Results",
     searchHint: "Enter keywords to search.",
@@ -121,13 +125,16 @@ const i18n = {
     loading: "Loading...",
     howToExtend: "How to Extend",
     extend1: "Edit <code>docs/tarf.json</code> (add/modify nodes).",
-    extend2: 'Local preview: Run <code>python -m http.server 8000</code> in project root, then open <code>http://localhost:8000/docs/</code>.',
+    extend2:
+      "Local preview: Run <code>python -m http.server 8000</code> in project root, then open <code>http://localhost:8000/docs/</code>.",
     extend3: "Deploy: Use <code>docs/</code> as static site (GitHub Pages / Cloudflare Pages / Vercel etc.).",
-    footerWarning: "⚠️ For recruitment tool navigation and research only. When using AI/automation in hiring, comply with applicable laws, privacy requirements, and conduct bias assessments with human review.",
+    footerWarning:
+      "⚠️ For recruitment tool navigation and research only. When using AI/automation in hiring, comply with applicable laws, privacy requirements, and conduct bias assessments with human review.",
     reportIssue: "Report Issue",
     totalResources: (count) => `${count} resources total. Enter keywords to search.`,
     matchResults: (match, show) => `${match} matches (showing first ${show})`,
-    statsContent: (cats, res, tpl) => `<p><strong>${cats}</strong> Categories · <strong>${res}</strong> Resources · <strong>${tpl}</strong> Templates</p>`,
+    statsContent: (cats, res, tpl) =>
+      `<p><strong>${cats}</strong> Categories · <strong>${res}</strong> Resources · <strong>${tpl}</strong> Templates</p>`,
     hotTags: "Popular tags: ",
     loadError: (msg) => `Load failed: ${msg}.`,
     loadErrorTree: "Data load failed",
@@ -149,6 +156,7 @@ const i18n = {
     sortByName: "By Name",
     sortByCategory: "By Category",
     sortByTags: "By Tags",
+    sortSelectLabel: "Sort by",
     itemsCount: (n) => `${n} items`,
     viewTree: "Tree",
     viewAccordion: "List",
@@ -160,7 +168,7 @@ const i18n = {
     viewTableTitle: "Data Table",
     viewExplorerTitle: "File Explorer",
     viewCardsTitle: "Card Grid",
-  }
+  },
 };
 
 const SUPPORTED_LANGS = ["zh", "en"];
@@ -195,27 +203,31 @@ function applyLanguage(lang) {
   const langLabel = document.getElementById("langLabel");
   if (langLabel) langLabel.textContent = t("langLabel");
   const dict = i18n[safeLang];
-  document.querySelectorAll("[data-i18n]").forEach(el => {
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (dict?.[key]) el.textContent = dict[key];
   });
-  document.querySelectorAll("[data-i18n-html]").forEach(el => {
+  document.querySelectorAll("[data-i18n-html]").forEach((el) => {
     const key = el.getAttribute("data-i18n-html");
     if (dict?.[key]) el.innerHTML = dict[key];
   });
-  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
     const key = el.getAttribute("data-i18n-placeholder");
     if (dict?.[key]) el.placeholder = dict[key];
   });
-  document.querySelectorAll("[data-i18n-title]").forEach(el => {
+  document.querySelectorAll("[data-i18n-title]").forEach((el) => {
     const key = el.getAttribute("data-i18n-title");
     if (dict?.[key]) el.title = dict[key];
+  });
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-aria-label");
+    if (dict?.[key]) el.setAttribute("aria-label", dict[key]);
   });
 
   // SEO: Update title and meta tags
   if (dict?.pageTitle) document.title = dict.pageTitle;
-  
-  document.querySelectorAll("[data-i18n-content]").forEach(el => {
+
+  document.querySelectorAll("[data-i18n-content]").forEach((el) => {
     const key = el.getAttribute("data-i18n-content");
     if (dict?.[key]) el.setAttribute("content", dict[key]);
   });
@@ -234,11 +246,21 @@ function rebuildAllViews() {
   if (!window._appData) return;
   // Only rebuild the active view to avoid unnecessary DOM work
   switch (currentView) {
-    case "tree": buildTree(window._appData); break;
-    case "accordion": buildAccordion(window._appData); break;
-    case "table": buildTable(window._appItems); break;
-    case "explorer": buildExplorer(window._appData); break;
-    case "cards": buildCards(window._appItems, window._appStats); break;
+    case "tree":
+      buildTree(window._appData);
+      break;
+    case "accordion":
+      buildAccordion(window._appData);
+      break;
+    case "table":
+      buildTable(window._appItems);
+      break;
+    case "explorer":
+      buildExplorer(window._appData);
+      break;
+    case "cards":
+      buildCards(window._appItems, window._appStats);
+      break;
   }
 }
 
@@ -263,7 +285,9 @@ function announce(message) {
   if (!ariaLive) return;
   // Clear first to ensure re-announcement
   ariaLive.textContent = "";
-  setTimeout(() => { ariaLive.textContent = message; }, 100);
+  setTimeout(() => {
+    ariaLive.textContent = message;
+  }, 100);
 }
 
 // ========== Utilities ==========
@@ -284,7 +308,12 @@ function safeDecodeURIComponent(value) {
 }
 
 function escapeHtml(str) {
-  return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
 }
 
 function tagHtml(tag) {
@@ -299,26 +328,36 @@ function replaceQueryTemplate(url, query) {
 function getFavorites() {
   try {
     return JSON.parse(localStorage.getItem("favorites") || "[]");
-  } catch { return []; }
+  } catch {
+    return [];
+  }
 }
 
 function saveFavorites(favs) {
   try {
     localStorage.setItem("favorites", JSON.stringify(favs));
-  } catch (e) { console.warn("Failed to save favorites", e); }
+  } catch (e) {
+    console.warn("Failed to save favorites", e);
+  }
 }
 
 function isFavorite(url) {
-  return getFavorites().some(f => f.url === url);
+  return getFavorites().some((f) => f.url === url);
 }
 
 function toggleFavorite(item) {
   const favs = getFavorites();
-  const idx = favs.findIndex(f => f.url === item.url);
+  const idx = favs.findIndex((f) => f.url === item.url);
   if (idx >= 0) {
     favs.splice(idx, 1);
   } else {
-    favs.push({ url: item.url, name: item.name, name_en: item.name_en, tags: item.tags, addedAt: new Date().toISOString() });
+    favs.push({
+      url: item.url,
+      name: item.name,
+      name_en: item.name_en,
+      tags: item.tags,
+      addedAt: new Date().toISOString(),
+    });
   }
   saveFavorites(favs);
   renderFavorites();
@@ -342,11 +381,11 @@ function renderFavorites() {
     li.querySelector(".fav-remove").addEventListener("click", (e) => {
       e.stopPropagation();
       const url = e.target.dataset.url;
-      const favs = getFavorites().filter(f => f.url !== url);
+      const favs = getFavorites().filter((f) => f.url !== url);
       saveFavorites(favs);
       renderFavorites();
       // Update any visible favorite buttons
-      document.querySelectorAll(".favBtn").forEach(btn => {
+      document.querySelectorAll(".favBtn").forEach((btn) => {
         if (btn.dataset.url === url) {
           btn.textContent = "♡";
           btn.title = t("addFavorite");
@@ -358,7 +397,7 @@ function renderFavorites() {
   document.getElementById("clearFavs")?.addEventListener("click", () => {
     saveFavorites([]);
     renderFavorites();
-    document.querySelectorAll(".favBtn").forEach(btn => {
+    document.querySelectorAll(".favBtn").forEach((btn) => {
       btn.textContent = "♡";
       btn.title = t("addFavorite");
     });
@@ -385,7 +424,7 @@ function openNode(node) {
 }
 
 function getLocalizedName(node) {
-  return (currentLang === "en" && node.name_en) ? node.name_en : node.name;
+  return currentLang === "en" && node.name_en ? node.name_en : node.name;
 }
 
 function flatten(node, path = [], pathEn = []) {
@@ -409,15 +448,17 @@ function flatten(node, path = [], pathEn = []) {
 }
 
 function getDisplayName(item) {
-  return currentLang === "en" ? (item.name_en || item.name) : item.name;
+  return currentLang === "en" ? item.name_en || item.name : item.name;
 }
 
 function getDisplayPath(item) {
-  return currentLang === "en" ? (item.path_en || item.path) : item.path;
+  return currentLang === "en" ? item.path_en || item.path : item.path;
 }
 
 function countStats(data) {
-  let categories = 0, resources = 0, templates = 0;
+  let categories = 0,
+    resources = 0,
+    templates = 0;
   const tagCounts = {};
   function traverse(node) {
     if (node.type === "folder") {
@@ -426,7 +467,10 @@ function countStats(data) {
     } else if (node.url) {
       resources++;
       if (node.type === "template") templates++;
-      if (node.tags) node.tags.forEach(tag => { tagCounts[tag] = (tagCounts[tag] || 0) + 1; });
+      if (node.tags)
+        node.tags.forEach((tag) => {
+          tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+        });
     }
   }
   traverse(data);
@@ -467,15 +511,23 @@ function renderResults(items, query) {
 
   // Apply text search
   if (q) {
-    hit = hit.filter(it => {
-      const searchText = [it.name, it.name_en || "", it.path.join(" / "), (it.path_en || it.path).join(" / "), it.tags.join(" ")].join(" ").toLowerCase();
+    hit = hit.filter((it) => {
+      const searchText = [
+        it.name,
+        it.name_en || "",
+        it.path.join(" / "),
+        (it.path_en || it.path).join(" / "),
+        it.tags.join(" "),
+      ]
+        .join(" ")
+        .toLowerCase();
       return searchText.includes(q);
     });
   }
 
   // Apply tag filter
   if (tagFilter) {
-    hit = hit.filter(it => it.tags.includes(tagFilter));
+    hit = hit.filter((it) => it.tags.includes(tagFilter));
   }
 
   currentSearchResults = hit;
@@ -495,7 +547,10 @@ function renderResults(items, query) {
         <button class="favBtn" data-url="${escapeHtml(it.url)}" title="${isFav ? t("removeFavorite") : t("addFavorite")}">${isFav ? "♥" : "♡"}</button>
         <button class="locateBtn" title="${t("showInTree")}">📍</button>
       </div>`;
-    li.querySelector(".resultUrl").addEventListener("click", (e) => { e.stopPropagation(); openNode(it); });
+    li.querySelector(".resultUrl").addEventListener("click", (e) => {
+      e.stopPropagation();
+      openNode(it);
+    });
     li.querySelector(".favBtn").addEventListener("click", (e) => {
       e.stopPropagation();
       const btn = e.target;
@@ -508,7 +563,12 @@ function renderResults(items, query) {
       highlightInTree(it.url);
     });
     li.addEventListener("click", () => openNode(it));
-    li.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openNode(it); } });
+    li.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openNode(it);
+      }
+    });
     resultList.appendChild(li);
   }
 }
@@ -516,31 +576,33 @@ function renderResults(items, query) {
 // ========== Export Functions ==========
 function escapeCSV(str) {
   // Escape quotes and handle newlines for CSV
-  return (str || "").replace(/"/g, '""').replace(/[\r\n]+/g, ' ');
+  return (str || "").replace(/"/g, '""').replace(/[\r\n]+/g, " ");
 }
 
 function exportToCSV(results) {
   if (!results.length) return;
   const headers = ["Name", "Name (EN)", "URL", "Tags", "Category"];
-  const rows = results.map(it => [
-    `"${escapeCSV(it.name)}"`,
-    `"${escapeCSV(it.name_en)}"`,
-    `"${escapeCSV(it.url)}"`,
-    `"${escapeCSV((it.tags || []).join(", "))}"`,
-    `"${escapeCSV((it.path || []).join(" / "))}"`
-  ].join(","));
+  const rows = results.map((it) =>
+    [
+      `"${escapeCSV(it.name)}"`,
+      `"${escapeCSV(it.name_en)}"`,
+      `"${escapeCSV(it.url)}"`,
+      `"${escapeCSV((it.tags || []).join(", "))}"`,
+      `"${escapeCSV((it.path || []).join(" / "))}"`,
+    ].join(",")
+  );
   const csv = [headers.join(","), ...rows].join("\n");
   downloadFile(csv, "search-results.csv", "text/csv;charset=utf-8;");
 }
 
 function exportToJSON(results) {
   if (!results.length) return;
-  const data = results.map(it => ({
+  const data = results.map((it) => ({
     name: it.name,
     name_en: it.name_en,
     url: it.url,
     tags: it.tags,
-    category: it.path.join(" / ")
+    category: it.path.join(" / "),
   }));
   const json = JSON.stringify(data, null, 2);
   downloadFile(json, "search-results.json", "application/json");
@@ -565,7 +627,9 @@ function populateTagFilter(stats) {
     tagFilterSelect.remove(1);
   }
   // Add top tags
-  const topTags = Object.entries(stats.tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 30);
+  const topTags = Object.entries(stats.tagCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 30);
   for (const [tag, count] of topTags) {
     const opt = document.createElement("option");
     opt.value = tag;
@@ -594,18 +658,24 @@ function switchView(view) {
   localStorage.setItem("view", safeView);
 
   // Update buttons
-  document.querySelectorAll(".view-btn").forEach(btn => {
+  document.querySelectorAll(".view-btn").forEach((btn) => {
     btn.classList.toggle("active", btn.dataset.view === safeView);
     btn.setAttribute("aria-selected", btn.dataset.view === safeView);
   });
 
   // Update view containers
-  document.querySelectorAll(".view-content").forEach(el => {
+  document.querySelectorAll(".view-content").forEach((el) => {
     el.classList.toggle("active", el.id === safeView + "View");
   });
 
   // Update title
-  const titles = { tree: "treeTitle", accordion: "accordionTitle", table: "tableTitle", explorer: "explorerTitle", cards: "cardsTitle" };
+  const titles = {
+    tree: "treeTitle",
+    accordion: "accordionTitle",
+    table: "tableTitle",
+    explorer: "explorerTitle",
+    cards: "cardsTitle",
+  };
   const viewTitleText = t(titles[safeView] || "treeTitle");
   viewTitle.textContent = viewTitleText;
   announce(viewTitleText);
@@ -624,11 +694,21 @@ function switchView(view) {
 function renderCurrentView() {
   if (!window._appData) return;
   switch (currentView) {
-    case "tree": buildTree(window._appData); break;
-    case "accordion": buildAccordion(window._appData); break;
-    case "table": buildTable(window._appItems); break;
-    case "explorer": buildExplorer(window._appData); break;
-    case "cards": buildCards(window._appItems, window._appStats); break;
+    case "tree":
+      buildTree(window._appData);
+      break;
+    case "accordion":
+      buildAccordion(window._appData);
+      break;
+    case "table":
+      buildTable(window._appItems);
+      break;
+    case "explorer":
+      buildExplorer(window._appData);
+      break;
+    case "cards":
+      buildCards(window._appItems, window._appStats);
+      break;
   }
 }
 
@@ -653,15 +733,18 @@ function buildTree(data) {
   const width = wrap.clientWidth || 800;
   const height = wrap.clientHeight || 600;
 
-  const g = svg.attr("viewBox", [-40, -height/2, width + 80, height]).append("g");
+  const g = svg.attr("viewBox", [-40, -height / 2, width + 80, height]).append("g");
 
-  const zoom = d3.zoom().scaleExtent([0.1, 10]).on("zoom", (event) => g.attr("transform", event.transform));
+  const zoom = d3
+    .zoom()
+    .scaleExtent([0.1, 10])
+    .on("zoom", (event) => g.attr("transform", event.transform));
   svg.call(zoom);
 
   const initialTransform = d3.zoomIdentity.translate(40, height / 2).scale(1);
 
   // Spacing configuration
-  const dx = 22;  // Base vertical spacing between nodes
+  const dx = 22; // Base vertical spacing between nodes
   const dy = 320; // Horizontal spacing between levels (needs to fit text width)
 
   // Count visible descendants of a node
@@ -671,18 +754,24 @@ function buildTree(data) {
   };
 
   // Dynamic separation based on subtree sizes to prevent overlap
-  const tree = d3.tree().nodeSize([dx, dy]).separation((a, b) => {
-    // For siblings, allocate space based on their subtree sizes
-    if (a.parent === b.parent) {
-      const aSize = countVisible(a);
-      const bSize = countVisible(b);
-      // Minimum 1, scale up based on larger subtree
-      return Math.max(1, Math.sqrt(Math.max(aSize, bSize)) * 0.8);
-    }
-    // Non-siblings need more separation
-    return 2.5;
-  });
-  const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+  const tree = d3
+    .tree()
+    .nodeSize([dx, dy])
+    .separation((a, b) => {
+      // For siblings, allocate space based on their subtree sizes
+      if (a.parent === b.parent) {
+        const aSize = countVisible(a);
+        const bSize = countVisible(b);
+        // Minimum 1, scale up based on larger subtree
+        return Math.max(1, Math.sqrt(Math.max(aSize, bSize)) * 0.8);
+      }
+      // Non-siblings need more separation
+      return 2.5;
+    });
+  const diagonal = d3
+    .linkHorizontal()
+    .x((d) => d.y)
+    .y((d) => d.x);
 
   function update(source) {
     const duration = 250;
@@ -692,122 +781,204 @@ function buildTree(data) {
     const links = root.links();
 
     // Calculate bounds
-    let x0 = Infinity, x1 = -Infinity;
-    nodes.forEach(d => {
+    let x0 = Infinity,
+      x1 = -Infinity;
+    nodes.forEach((d) => {
       if (d.x < x0) x0 = d.x;
       if (d.x > x1) x1 = d.x;
     });
 
     const viewHeight = Math.max(height, x1 - x0 + 100);
-    svg.transition().duration(duration).attr("viewBox", [-40, x0 - 50, width + 80, viewHeight]);
+    svg
+      .transition()
+      .duration(duration)
+      .attr("viewBox", [-40, x0 - 50, width + 80, viewHeight]);
 
     // Links
-    g.selectAll("path.link").data(links, d => d.target.id).join(
-      enter => enter.append("path").attr("class", "link")
-        .attr("d", () => { const o = {x: source.x0, y: source.y0}; return diagonal({source: o, target: o}); })
-        .call(enter => enter.transition().duration(duration).attr("d", diagonal)),
-      update => update.call(update => update.transition().duration(duration).attr("d", diagonal)),
-      exit => exit.call(exit => exit.transition().duration(duration)
-        .attr("d", () => { const o = {x: source.x, y: source.y}; return diagonal({source: o, target: o}); }).remove())
-    );
+    g.selectAll("path.link")
+      .data(links, (d) => d.target.id)
+      .join(
+        (enter) =>
+          enter
+            .append("path")
+            .attr("class", "link")
+            .attr("d", () => {
+              const o = { x: source.x0, y: source.y0 };
+              return diagonal({ source: o, target: o });
+            })
+            .call((enter) => enter.transition().duration(duration).attr("d", diagonal)),
+        (update) => update.call((update) => update.transition().duration(duration).attr("d", diagonal)),
+        (exit) =>
+          exit.call((exit) =>
+            exit
+              .transition()
+              .duration(duration)
+              .attr("d", () => {
+                const o = { x: source.x, y: source.y };
+                return diagonal({ source: o, target: o });
+              })
+              .remove()
+          )
+      );
 
     // Nodes
-    const node = g.selectAll("g.node").data(nodes, d => d.id);
+    const node = g.selectAll("g.node").data(nodes, (d) => d.id);
 
-    const nodeEnter = node.enter().append("g")
-      .attr("class", d => `node ${d._children || d.children ? "is-folder" : "is-leaf"}`)
+    const nodeEnter = node
+      .enter()
+      .append("g")
+      .attr("class", (d) => `node ${d._children || d.children ? "is-folder" : "is-leaf"}`)
       .attr("transform", `translate(${source.y0},${source.x0})`)
       .attr("cursor", "pointer")
       .attr("tabindex", 0)
-      .attr("role", d => (d._children || d.children) ? "treeitem" : "link")
-      .attr("aria-expanded", d => d.children ? "true" : d._children ? "false" : null)
+      .attr("role", (d) => (d._children || d.children ? "treeitem" : "link"))
+      .attr("aria-expanded", (d) => (d.children ? "true" : d._children ? "false" : null))
       .on("click", (event, d) => {
-        if (d.children) { d._children = d.children; d.children = null; }
-        else if (d._children) { d.children = d._children; d._children = null; }
-        else { openNode(d.data); return; }
+        if (d.children) {
+          d._children = d.children;
+          d.children = null;
+        } else if (d._children) {
+          d.children = d._children;
+          d._children = null;
+        } else {
+          openNode(d.data);
+          return;
+        }
         update(d);
       })
       .on("keydown", (event, d) => {
         const key = event.key;
         if (key === "Enter" || key === " ") {
           event.preventDefault();
-          if (d.children) { d._children = d.children; d.children = null; update(d); }
-          else if (d._children) { d.children = d._children; d._children = null; update(d); }
-          else { openNode(d.data); }
+          if (d.children) {
+            d._children = d.children;
+            d.children = null;
+            update(d);
+          } else if (d._children) {
+            d.children = d._children;
+            d._children = null;
+            update(d);
+          } else {
+            openNode(d.data);
+          }
         } else if (key === "ArrowRight") {
           event.preventDefault();
-          if (d._children) { d.children = d._children; d._children = null; update(d); }
-          else if (d.children && d.children.length > 0) {
+          if (d._children) {
+            d.children = d._children;
+            d._children = null;
+            update(d);
+          } else if (d.children && d.children.length > 0) {
             // Focus first child
             setTimeout(() => {
-              const firstChild = g.selectAll(".node").filter(n => n.parent === d).node();
+              const firstChild = g
+                .selectAll(".node")
+                .filter((n) => n.parent === d)
+                .node();
               if (firstChild) firstChild.focus();
             }, 300);
           }
         } else if (key === "ArrowLeft") {
           event.preventDefault();
-          if (d.children) { d._children = d.children; d.children = null; update(d); }
-          else if (d.parent) {
+          if (d.children) {
+            d._children = d.children;
+            d.children = null;
+            update(d);
+          } else if (d.parent) {
             // Focus parent
-            const parentNode = g.selectAll(".node").filter(n => n === d.parent).node();
+            const parentNode = g
+              .selectAll(".node")
+              .filter((n) => n === d.parent)
+              .node();
             if (parentNode) parentNode.focus();
           }
         } else if (key === "ArrowDown") {
           event.preventDefault();
           // Focus next visible sibling or node
-          const visibleNodes = root.descendants().filter(n => n.x !== undefined);
+          const visibleNodes = root.descendants().filter((n) => n.x !== undefined);
           const idx = visibleNodes.indexOf(d);
           if (idx >= 0 && idx < visibleNodes.length - 1) {
-            const nextNode = g.selectAll(".node").filter(n => n === visibleNodes[idx + 1]).node();
+            const nextNode = g
+              .selectAll(".node")
+              .filter((n) => n === visibleNodes[idx + 1])
+              .node();
             if (nextNode) nextNode.focus();
           }
         } else if (key === "ArrowUp") {
           event.preventDefault();
           // Focus previous visible node
-          const visibleNodes = root.descendants().filter(n => n.x !== undefined);
+          const visibleNodes = root.descendants().filter((n) => n.x !== undefined);
           const idx = visibleNodes.indexOf(d);
           if (idx > 0) {
-            const prevNode = g.selectAll(".node").filter(n => n === visibleNodes[idx - 1]).node();
+            const prevNode = g
+              .selectAll(".node")
+              .filter((n) => n === visibleNodes[idx - 1])
+              .node();
             if (prevNode) prevNode.focus();
           }
         } else if (key === "Home") {
           event.preventDefault();
-          const firstNode = g.selectAll(".node").filter(n => n === root).node();
+          const firstNode = g
+            .selectAll(".node")
+            .filter((n) => n === root)
+            .node();
           if (firstNode) firstNode.focus();
         } else if (key === "End") {
           event.preventDefault();
-          const visibleNodes = root.descendants().filter(n => n.x !== undefined);
-          const lastNode = g.selectAll(".node").filter(n => n === visibleNodes[visibleNodes.length - 1]).node();
+          const visibleNodes = root.descendants().filter((n) => n.x !== undefined);
+          const lastNode = g
+            .selectAll(".node")
+            .filter((n) => n === visibleNodes[visibleNodes.length - 1])
+            .node();
           if (lastNode) lastNode.focus();
         }
       });
 
-    const isFolder = d => d._children || d.children;
-    const isTemplate = d => d.data.type === "template";
-    nodeEnter.append("circle").attr("r", 4.5)
-      .attr("fill", d => isFolder(d) ? "#394b66" : isTemplate(d) ? "#6b5b95" : "#1b2230")
-      .attr("stroke", d => isTemplate(d) ? "#9b8bb5" : "none")
-      .attr("stroke-width", d => isTemplate(d) ? 1.5 : 0);
+    const isFolder = (d) => d._children || d.children;
+    const isTemplate = (d) => d.data.type === "template";
+    nodeEnter
+      .append("circle")
+      .attr("r", 4.5)
+      .attr("fill", (d) => (isFolder(d) ? "#394b66" : isTemplate(d) ? "#6b5b95" : "#1b2230"))
+      .attr("stroke", (d) => (isTemplate(d) ? "#9b8bb5" : "none"))
+      .attr("stroke-width", (d) => (isTemplate(d) ? 1.5 : 0));
     // Folders: [Text] O ──── (text LEFT of circle, children branch RIGHT)
     // Leaves:  O [Text]      (circle LEFT, text RIGHT)
     // Templates: O ⌨ [Text]  (with keyboard icon indicator)
-    nodeEnter.append("text").attr("dy", "0.32em")
-      .attr("x", d => isFolder(d) ? -10 : 10)
-      .attr("text-anchor", d => isFolder(d) ? "end" : "start")
-      .text(d => isTemplate(d) ? "⌨ " + getLocalizedName(d.data) : getLocalizedName(d.data));
-    nodeEnter.append("title").text(d => {
-      const path = d.ancestors().reverse().map(x => getLocalizedName(x.data)).join(" / ");
+    nodeEnter
+      .append("text")
+      .attr("dy", "0.32em")
+      .attr("x", (d) => (isFolder(d) ? -10 : 10))
+      .attr("text-anchor", (d) => (isFolder(d) ? "end" : "start"))
+      .text((d) => (isTemplate(d) ? "⌨ " + getLocalizedName(d.data) : getLocalizedName(d.data)));
+    nodeEnter.append("title").text((d) => {
+      const path = d
+        .ancestors()
+        .reverse()
+        .map((x) => getLocalizedName(x.data))
+        .join(" / ");
       return path + (d.data.url ? `\n${d.data.url}` : "");
     });
 
     const nodeUpdate = nodeEnter.merge(node);
-    nodeUpdate.transition().duration(duration).attr("transform", d => `translate(${d.y},${d.x})`);
-    nodeUpdate.select("circle").attr("fill", d => d._children ? "#394b66" : d.children ? "#394b66" : "#1b2230");
+    nodeUpdate
+      .transition()
+      .duration(duration)
+      .attr("transform", (d) => `translate(${d.y},${d.x})`);
+    nodeUpdate.select("circle").attr("fill", (d) => (d._children ? "#394b66" : d.children ? "#394b66" : "#1b2230"));
 
-    node.exit().transition().duration(duration).attr("transform", `translate(${source.y},${source.x})`).remove()
-      .select("circle").attr("r", 1e-6);
+    node
+      .exit()
+      .transition()
+      .duration(duration)
+      .attr("transform", `translate(${source.y},${source.x})`)
+      .remove()
+      .select("circle")
+      .attr("r", 1e-6);
 
-    nodes.forEach(d => { d.x0 = d.x; d.y0 = d.y; });
+    nodes.forEach((d) => {
+      d.x0 = d.x;
+      d.y0 = d.y;
+    });
   }
 
   update(root);
@@ -817,11 +988,24 @@ function buildTree(data) {
     zoomIn: () => svg.transition().duration(200).call(zoom.scaleBy, 1.5),
     zoomOut: () => svg.transition().duration(200).call(zoom.scaleBy, 0.67),
     zoomReset: () => svg.transition().duration(300).call(zoom.transform, initialTransform),
-    expandAll: () => { root.descendants().forEach(d => { if (d._children) d.children = d._children; }); update(root); },
-    collapseAll: () => { root.descendants().forEach(d => { if (d.depth >= 1 && d.children) { d._children = d.children; d.children = null; } }); update(root); },
+    expandAll: () => {
+      root.descendants().forEach((d) => {
+        if (d._children) d.children = d._children;
+      });
+      update(root);
+    },
+    collapseAll: () => {
+      root.descendants().forEach((d) => {
+        if (d.depth >= 1 && d.children) {
+          d._children = d.children;
+          d.children = null;
+        }
+      });
+      update(root);
+    },
     highlightNode: (url) => {
       // Find node by URL
-      const target = root.descendants().find(d => d.data.url === url);
+      const target = root.descendants().find((d) => d.data.url === url);
       if (!target) return false;
 
       // Expand all ancestors
@@ -837,11 +1021,11 @@ function buildTree(data) {
 
       // Remove previous highlights
       g.selectAll(".node").classed("highlighted", false);
-      g.selectAll(".node circle").attr("stroke", d => d.data.type === "template" ? "#9b8bb5" : "none");
+      g.selectAll(".node circle").attr("stroke", (d) => (d.data.type === "template" ? "#9b8bb5" : "none"));
 
       // Highlight target node
       setTimeout(() => {
-        const targetNode = g.selectAll(".node").filter(d => d.data.url === url);
+        const targetNode = g.selectAll(".node").filter((d) => d.data.url === url);
         targetNode.classed("highlighted", true);
         targetNode.select("circle").attr("stroke", "#ffd700").attr("stroke-width", 3);
 
@@ -855,12 +1039,15 @@ function buildTree(data) {
         // Remove highlight after 3 seconds
         setTimeout(() => {
           targetNode.classed("highlighted", false);
-          targetNode.select("circle").attr("stroke", d => d.data.type === "template" ? "#9b8bb5" : "none").attr("stroke-width", d => d.data.type === "template" ? 1.5 : 0);
+          targetNode
+            .select("circle")
+            .attr("stroke", (d) => (d.data.type === "template" ? "#9b8bb5" : "none"))
+            .attr("stroke-width", (d) => (d.data.type === "template" ? 1.5 : 0));
         }, 3000);
       }, 300);
 
       return true;
-    }
+    },
   };
 }
 
@@ -923,11 +1110,11 @@ function buildAccordion(data) {
 // Accordion controls (bind once)
 document.getElementById("btnAccExpandAll")?.addEventListener("click", () => {
   const wrap = document.getElementById("accordionWrap");
-  wrap?.querySelectorAll(".acc-folder").forEach(f => f.classList.add("open"));
+  wrap?.querySelectorAll(".acc-folder").forEach((f) => f.classList.add("open"));
 });
 document.getElementById("btnAccCollapseAll")?.addEventListener("click", () => {
   const wrap = document.getElementById("accordionWrap");
-  wrap?.querySelectorAll(".acc-folder").forEach(f => f.classList.remove("open"));
+  wrap?.querySelectorAll(".acc-folder").forEach((f) => f.classList.remove("open"));
 });
 
 // ========== 3. Table View ==========
@@ -940,7 +1127,9 @@ function createTableRow(item, tbody) {
     <td><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="table-link">${escapeHtml(item.url)}</a></td>
   `;
   tr.style.cursor = "pointer";
-  tr.addEventListener("click", (e) => { if (e.target.tagName !== "A") openNode(item); });
+  tr.addEventListener("click", (e) => {
+    if (e.target.tagName !== "A") openNode(item);
+  });
   tbody.appendChild(tr);
 }
 
@@ -1038,7 +1227,7 @@ function buildExplorer(data) {
     explorerState.currentPath = path;
 
     // Update tree selection
-    treeEl.querySelectorAll(".exp-tree-item").forEach(el => el.classList.remove("active"));
+    treeEl.querySelectorAll(".exp-tree-item").forEach((el) => el.classList.remove("active"));
 
     renderBreadcrumb();
     renderItems();
@@ -1068,8 +1257,8 @@ function buildExplorer(data) {
     if (!node.children) return;
 
     // Show folders first, then items
-    const folders = node.children.filter(c => c.children);
-    const items = node.children.filter(c => c.url);
+    const folders = node.children.filter((c) => c.children);
+    const items = node.children.filter((c) => c.url);
 
     for (const folder of folders) {
       const div = document.createElement("div");
@@ -1131,14 +1320,16 @@ function buildCards(items, stats) {
 
   // Build tag filter
   filterEl.innerHTML = "";
-  const topTags = Object.entries(stats.tagCounts).sort((a, b) => b[1] - a[1]).slice(0, 15);
+  const topTags = Object.entries(stats.tagCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15);
 
   const allBtn = document.createElement("button");
   allBtn.className = "filter-tag active";
   allBtn.textContent = t("allTags");
   allBtn.addEventListener("click", () => {
     cardsState.activeTag = null;
-    filterEl.querySelectorAll(".filter-tag").forEach(b => b.classList.remove("active"));
+    filterEl.querySelectorAll(".filter-tag").forEach((b) => b.classList.remove("active"));
     allBtn.classList.add("active");
     renderCards();
   });
@@ -1150,7 +1341,7 @@ function buildCards(items, stats) {
     btn.innerHTML = `${escapeHtml(tag)} <small>${count}</small>`;
     btn.addEventListener("click", () => {
       cardsState.activeTag = tag;
-      filterEl.querySelectorAll(".filter-tag").forEach(b => b.classList.remove("active"));
+      filterEl.querySelectorAll(".filter-tag").forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
       renderCards();
     });
@@ -1162,7 +1353,7 @@ function buildCards(items, stats) {
 
     let filtered = items;
     if (cardsState.activeTag) {
-      filtered = items.filter(it => it.tags.includes(cardsState.activeTag));
+      filtered = items.filter((it) => it.tags.includes(cardsState.activeTag));
     }
 
     // Limit to first 100 for performance
@@ -1258,7 +1449,7 @@ async function init() {
   document.getElementById("btnLang")?.addEventListener("click", toggleLanguage);
 
   // View switching
-  document.querySelectorAll(".view-btn").forEach(btn => {
+  document.querySelectorAll(".view-btn").forEach((btn) => {
     btn.addEventListener("click", () => switchView(btn.dataset.view));
   });
 
@@ -1291,15 +1482,31 @@ async function init() {
   const debouncedSearch = debounce(onSearch, DEBOUNCE_MS);
   searchInput.addEventListener("input", debouncedSearch);
   searchInput.addEventListener("keydown", (e) => {
-    if (e.key === "Enter") { e.preventDefault(); onSearch(); }
-    if (e.key === "Escape") { searchInput.value = ""; if (tagFilterSelect) tagFilterSelect.value = ""; onSearch(); searchInput.blur(); }
+    if (e.key === "Enter") {
+      e.preventDefault();
+      onSearch();
+    }
+    if (e.key === "Escape") {
+      searchInput.value = "";
+      if (tagFilterSelect) tagFilterSelect.value = "";
+      onSearch();
+      searchInput.blur();
+    }
   });
 
   document.addEventListener("keydown", (e) => {
-    if (e.key === "/" && document.activeElement !== searchInput) { e.preventDefault(); searchInput.focus(); }
+    if (e.key === "/" && document.activeElement !== searchInput) {
+      e.preventDefault();
+      searchInput.focus();
+    }
   });
 
-  btnClear.addEventListener("click", () => { searchInput.value = ""; if (tagFilterSelect) tagFilterSelect.value = ""; onSearch(); searchInput.focus(); });
+  btnClear.addEventListener("click", () => {
+    searchInput.value = "";
+    if (tagFilterSelect) tagFilterSelect.value = "";
+    onSearch();
+    searchInput.focus();
+  });
 
   // Tag filter with URL update
   tagFilterSelect?.addEventListener("change", onSearch);
@@ -1342,9 +1549,10 @@ function showError(err) {
 init().catch(showError);
 
 // ========== Service Worker Registration ==========
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('./sw.js')
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("./sw.js")
       .then(() => {})
       .catch(() => {});
   });
