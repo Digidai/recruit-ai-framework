@@ -7161,7 +7161,7 @@
                   "name": "Gender Decoder（性别偏见检测）",
                   "name_en": "Gender Decoder (Bias Detection)",
                   "type": "url",
-                  "url": "http://gender-decoder.katmatfield.com/",
+                  "url": "https://gender-decoder.katmatfield.com/",
                   "tags": [
                     "Tool",
                     "Free",
@@ -8623,7 +8623,7 @@
             {
               "name": "中国生成式AI管理办法",
               "name_en": "China｜Generative AI Regulations",
-              "url": "http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+              "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
               "tags": [
                 "Law",
                 "CN",
@@ -8634,7 +8634,7 @@
             {
               "name": "中国算法推荐管理规定",
               "name_en": "China｜Algorithm Recommendation Rules",
-              "url": "http://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm",
+              "url": "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm",
               "tags": [
                 "Law",
                 "CN",
@@ -9014,7 +9014,7 @@
             {
               "name": "Aequitas 偏见审计",
               "name_en": "Aequitas｜Bias Audit Framework",
-              "url": "http://aequitas.dssg.io/",
+              "url": "https://aequitas.dssg.io/",
               "tags": [
                 "O",
                 "AI",
@@ -9689,7 +9689,7 @@
                     "Research",
                     "DEI"
                   ],
-                  "name_en": "ACM FAccT Conference（公平性会议）"
+                  "name_en": "ACM FAccT Conference (Fairness Conference)"
                 },
                 {
                   "name": "布鲁金斯学会｜人工智能 Employment",
@@ -10240,7 +10240,7 @@
                     "Compliance",
                     "US"
                   ],
-                  "name_en": "FTC（联邦贸易委员会）"
+                  "name_en": "FTC (Federal Trade Commission)"
                 },
                 {
                   "name": "美国平等就业机会委员会｜Background Checks",
@@ -10553,7 +10553,7 @@
                     "Law",
                     "US"
                   ],
-                  "name_en": "Colorado Equal Pay Act（科罗拉多平等薪酬法）"
+                  "name_en": "Colorado Equal Pay Act (Colorado Equal Pay Law)"
                 },
                 {
                   "name": "Washington｜Equal Pay and Opportunities Act",
@@ -10563,7 +10563,7 @@
                     "Law",
                     "US"
                   ],
-                  "name_en": "Washington Equal Pay Act（华盛顿平等薪酬法）"
+                  "name_en": "Washington Equal Pay Act (Washington Equal Pay Law)"
                 },
                 {
                   "name": "美国人力资源管理协会｜Pay Transparency 法律 by State",
@@ -10644,7 +10644,7 @@
                     "Law",
                     "AU"
                   ],
-                  "name_en": "Australia Workplace Gender Equality（澳大利亚性别平等）"
+                  "name_en": "Australia Workplace Gender Equality (Australia Gender Equality)"
                 },
                 {
                   "name": "Canada｜薪酬公平 法案",
@@ -10998,7 +10998,7 @@
                     "Law",
                     "US"
                   ],
-                  "name_en": "Virginia CDPA（弗吉尼亚消费者数据保护法）"
+                  "name_en": "Virginia CDPA (Virginia Consumer Data Protection Act)"
                 },
                 {
                   "name": "Colorado 隐私 Act",
@@ -11041,7 +11041,7 @@
                 {
                   "name": "中国｜个人信息保护法（PIPL）",
                   "type": "url",
-                  "url": "http://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml",
+                  "url": "https://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml",
                   "tags": [
                     "Law",
                     "CN"
@@ -11051,7 +11051,7 @@
                 {
                   "name": "中国｜数据安全法",
                   "type": "url",
-                  "url": "http://www.npc.gov.cn/npc/c30834/202106/7c9af12f51334a73b56d7938f99a788a.shtml",
+                  "url": "https://www.npc.gov.cn/npc/c30834/202106/7c9af12f51334a73b56d7938f99a788a.shtml",
                   "tags": [
                     "Law",
                     "CN"
@@ -11061,7 +11061,7 @@
                 {
                   "name": "中国｜网络安全法",
                   "type": "url",
-                  "url": "http://www.cac.gov.cn/2016-11/07/c_1119867116.htm",
+                  "url": "https://www.cac.gov.cn/2016-11/07/c_1119867116.htm",
                   "tags": [
                     "Law",
                     "CN"
@@ -11094,7 +11094,7 @@
                   "name": "网络安全法｜全国人大",
                   "name_en": "Cybersecurity Law | NPC",
                   "type": "url",
-                  "url": "http://www.npc.gov.cn/npc/c12491/201611/cbf090a4e0d6435da3ed8f8a36048b47.shtml",
+                  "url": "https://www.npc.gov.cn/npc/c12491/201611/cbf090a4e0d6435da3ed8f8a36048b47.shtml",
                   "tags": [
                     "Compliance",
                     "CN",
@@ -11105,7 +11105,7 @@
                   "name": "CAC｜国家互联网信息办公室",
                   "name_en": "CAC | Cyberspace Administration of China",
                   "type": "url",
-                  "url": "http://www.cac.gov.cn/",
+                  "url": "https://www.cac.gov.cn/",
                   "tags": [
                     "Compliance",
                     "CN",
@@ -11116,7 +11116,7 @@
                   "name": "中国信息通信研究院｜数据安全研究",
                   "name_en": "CAICT | Data Security Research",
                   "type": "url",
-                  "url": "http://www.caict.ac.cn/",
+                  "url": "https://www.caict.ac.cn/",
                   "tags": [
                     "Research",
                     "CN"
@@ -11571,7 +11571,7 @@
                 {
                   "name": "中国｜劳动法",
                   "type": "url",
-                  "url": "http://www.npc.gov.cn/wxzl/gongbao/2007-10/09/content_5369350.htm",
+                  "url": "https://www.npc.gov.cn/wxzl/gongbao/2007-10/09/content_5369350.htm",
                   "tags": [
                     "Law",
                     "CN"
@@ -11581,7 +11581,7 @@
                 {
                   "name": "中国｜劳动合同法",
                   "type": "url",
-                  "url": "http://www.npc.gov.cn/wxzl/gongbao/2007-10/31/content_5374365.htm",
+                  "url": "https://www.npc.gov.cn/wxzl/gongbao/2007-10/31/content_5374365.htm",
                   "tags": [
                     "Law",
                     "CN"
@@ -11591,7 +11591,7 @@
                 {
                   "name": "人力资源和社会保障部",
                   "type": "url",
-                  "url": "http://www.mohrss.gov.cn/",
+                  "url": "https://www.mohrss.gov.cn/",
                   "tags": [
                     "Law",
                     "CN"
@@ -11601,7 +11601,7 @@
                 {
                   "name": "中国法律服务网",
                   "type": "url",
-                  "url": "http://www.12348.gov.cn/",
+                  "url": "https://www.12348.gov.cn/",
                   "tags": [
                     "Law",
                     "CN"
@@ -11612,7 +11612,7 @@
                   "name": "中国劳动法全文（官方法规）",
                   "name_en": "China Labor Law Full Text",
                   "type": "url",
-                  "url": "http://www.npc.gov.cn/npc/c2191/c2201/c19845/",
+                  "url": "https://www.npc.gov.cn/npc/c2191/c2201/c19845/",
                   "tags": [
                     "China",
                     "Labor-Law",
@@ -11634,7 +11634,7 @@
                   "name": "劳动合同法｜全文",
                   "name_en": "Labor Contract Law | Full Text",
                   "type": "url",
-                  "url": "http://www.npc.gov.cn/zgrdw/npc/xinwen/2019-01/07/content_2070261.htm",
+                  "url": "https://www.npc.gov.cn/zgrdw/npc/xinwen/2019-01/07/content_2070261.htm",
                   "tags": [
                     "Law",
                     "CN"
@@ -11676,7 +11676,7 @@
                     "Law",
                     "P"
                   ],
-                  "name_en": "Jackson Lewis（劳动法律事务所）"
+                  "name_en": "Jackson Lewis (Employment Law Firm)"
                 },
                 {
                   "name": "Fisher Phillips 劳动法律所",
@@ -14493,6 +14493,16 @@
                         "Design",
                         "Adobe"
                       ]
+                    },
+                    {
+                      "name": "Kittl（AI设计平台）",
+                      "name_en": "Kittl (AI Design Platform)",
+                      "type": "url",
+                      "url": "https://www.kittl.com/",
+                      "tags": [
+                        "Design",
+                        "AI"
+                      ]
                     }
                   ]
                 },
@@ -16989,6 +16999,16 @@
                     "Referral"
                   ],
                   "type": "url"
+                },
+                {
+                  "name": "RefApp｜员工推荐平台",
+                  "name_en": "RefApp | Employee Referral Platform",
+                  "type": "url",
+                  "url": "https://www.refapp.com/",
+                  "tags": [
+                    "P",
+                    "Referral"
+                  ]
                 }
               ],
               "name_en": "Employee Referral Systems"
@@ -18056,7 +18076,7 @@
                     "RPO",
                     "P"
                   ],
-                  "name_en": "Hudson RPO（招聘流程外包）"
+                  "name_en": "Hudson RPO (Recruitment Process Outsourcing)"
                 },
                 {
                   "name": "KellyOCG 人才外包",
@@ -18241,7 +18261,7 @@
             },
             {
               "name": "WilsonHCG",
-              "name_en": "WilsonHCG（RPO服务商）",
+              "name_en": "WilsonHCG (RPO Provider)",
               "type": "url",
               "url": "https://www.wilsonhcg.com/",
               "tags": [
@@ -18903,7 +18923,7 @@
                 },
                 {
                   "name": "Hacker News: Who is Hiring",
-                  "name_en": "Hacker News Who's Hiring（黑客新闻招聘）",
+                  "name_en": "Hacker News Who's Hiring (Hiring Thread)",
                   "type": "url",
                   "url": "https://news.ycombinator.com/jobs",
                   "tags": [
@@ -20204,7 +20224,7 @@
                   "name": "Aequitas｜Bias and Fairness Audit",
                   "name_en": "Aequitas | Bias and Fairness Audit",
                   "type": "url",
-                  "url": "http://www.datasciencepublicpolicy.org/our-work/tools-guides/aequitas/",
+                  "url": "https://www.datasciencepublicpolicy.org/our-work/tools-guides/aequitas/",
                   "tags": [
                     "O",
                     "AI",
@@ -20411,7 +20431,7 @@
                   "tags": [
                     "Conference"
                   ],
-                  "name_en": "Unleash World（HR科技大会）"
+                  "name_en": "Unleash World (HR Tech Conference)"
                 },
                 {
                   "name": "HR 转型",
@@ -20937,6 +20957,26 @@
                     "Youtube"
                   ],
                   "name_en": "Greenhouse Software"
+                },
+                {
+                  "name": "LinkedIn Talent Solutions 频道",
+                  "name_en": "LinkedIn Talent Solutions Channel",
+                  "type": "url",
+                  "url": "https://www.youtube.com/@LinkedInTalentSolutions",
+                  "tags": [
+                    "Youtube",
+                    "TA"
+                  ]
+                },
+                {
+                  "name": "SHRM 官方频道",
+                  "name_en": "SHRM Official Channel",
+                  "type": "url",
+                  "url": "https://www.youtube.com/@SHRMOfficial",
+                  "tags": [
+                    "Youtube",
+                    "HR"
+                  ]
                 }
               ],
               "name_en": "YouTube Channels"
@@ -22161,7 +22201,7 @@
                     "VMS",
                     "P"
                   ],
-                  "name_en": "Beeline VMS（供应商管理系统）"
+                  "name_en": "Beeline VMS (Vendor Management System)"
                 },
                 {
                   "name": "SAP Fieldglass 外部劳动力",
@@ -23392,7 +23432,7 @@
                     "Research",
                     "Global"
                   ],
-                  "name_en": "ILO（国际劳工组织）"
+                  "name_en": "ILO (International Labour Organization)"
                 },
                 {
                   "name": "Cornell｜ILR School",
@@ -23402,7 +23442,7 @@
                     "Academic",
                     "Research"
                   ],
-                  "name_en": "Cornell ILR School（康奈尔劳资关系学院）"
+                  "name_en": "Cornell ILR School (Industrial and Labor Relations)"
                 },
                 {
                   "name": "麻省理工学院｜Work of 未来",
