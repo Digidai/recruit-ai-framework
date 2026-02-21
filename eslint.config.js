@@ -34,4 +34,23 @@ export default [
       "no-implied-eval": "error",
     },
   },
+  {
+    files: ["tests/**/*.js"],
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: "module",
+      globals: {
+        console: "readonly",
+      },
+    },
+    rules: {
+      "no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+      "no-undef": "error",
+      "no-redeclare": "error",
+      "no-constant-condition": "warn",
+      eqeqeq: ["warn", "always"],
+      "no-eval": "error",
+      "no-implied-eval": "error",
+    },
+  },
 ];

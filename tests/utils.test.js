@@ -1,88 +1,71 @@
-import { describe, it, expect } from "vitest";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { describe, expect, it } from "vitest";
 
-// Import utility functions by evaluating them in isolation
-// Since app.js is not a module, we re-implement the pure functions here for testing
-
-function escapeHtml(str) {
-  return String(str)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#39;");
-}
-
-function replaceQueryTemplate(url, query) {
-  return url.split("{query}").join(query);
-}
-
-function safeDecodeURIComponent(value) {
-  try {
-    return decodeURIComponent(value);
-  } catch {
-    return null;
+function extractFunction(source, name) {
+  const signature = new RegExp(`function\\s+${name}\\s*\\(`);
+  const match = signature.exec(source);
+  if (!match) {
+    throw new Error(`Function not found in app.js: ${name}`);
   }
-}
 
-function normalizeLang(lang) {
-  const SUPPORTED_LANGS = ["zh", "en"];
-  const DEFAULT_LANG = "zh";
-  return SUPPORTED_LANGS.includes(lang) ? lang : DEFAULT_LANG;
-}
-
-function normalizeView(view) {
-  const SUPPORTED_VIEWS = ["tree", "accordion", "table", "explorer", "cards"];
-  const DEFAULT_VIEW = "tree";
-  return SUPPORTED_VIEWS.includes(view) ? view : DEFAULT_VIEW;
-}
-
-function escapeCSV(str) {
-  return (str || "").replace(/"/g, '""').replace(/[\r\n]+/g, " ");
-}
-
-function flatten(node, path = [], pathEn = []) {
-  const here = [...path, node.name];
-  const hereEn = [...pathEn, node.name_en || node.name];
-  const out = [];
-  if (node.type === "folder" && Array.isArray(node.children)) {
-    for (const ch of node.children) out.push(...flatten(ch, here, hereEn));
-  } else if (node.url) {
-    out.push({
-      name: node.name,
-      name_en: node.name_en || node.name,
-      type: node.type || "url",
-      url: node.url,
-      tags: node.tags || [],
-      path: here.slice(0, -1),
-      path_en: hereEn.slice(0, -1),
-    });
+  const start = match.index;
+  const bodyStart = source.indexOf("{", match.index);
+  if (bodyStart < 0) {
+    throw new Error(`Function body not found in app.js: ${name}`);
   }
-  return out;
-}
 
-function countStats(data) {
-  let categories = 0,
-    resources = 0,
-    templates = 0;
-  const tagCounts = {};
-  function traverse(node) {
-    if (node.type === "folder") {
-      if (node.name.match(/^[A-Z]\s/)) categories++;
-      if (Array.isArray(node.children)) node.children.forEach(traverse);
-    } else if (node.url) {
-      resources++;
-      if (node.type === "template") templates++;
-      if (node.tags)
-        node.tags.forEach((tag) => {
-          tagCounts[tag] = (tagCounts[tag] || 0) + 1;
-        });
+  let depth = 0;
+  let end = -1;
+  for (let i = bodyStart; i < source.length; i++) {
+    const ch = source[i];
+    if (ch === "{") depth += 1;
+    if (ch === "}") depth -= 1;
+    if (depth === 0) {
+      end = i + 1;
+      break;
     }
   }
-  traverse(data);
-  return { categories, resources, templates, tagCounts };
+
+  if (end < 0) {
+    throw new Error(`Unclosed function in app.js: ${name}`);
+  }
+
+  return source.slice(start, end);
 }
 
-// ========== Tests ==========
+function loadFunction(source, name) {
+  return new Function(`${extractFunction(source, name)}; return ${name};`)();
+}
+
+function extractConst(source, name) {
+  const pattern = new RegExp(`const\\s+${name}\\s*=\\s*[^;]+;`);
+  const match = pattern.exec(source);
+  if (!match) {
+    throw new Error(`Constant not found in app.js: ${name}`);
+  }
+  return match[0];
+}
+
+function loadFunctionWithConsts(source, name, constNames) {
+  const constCode = constNames.map((constName) => extractConst(source, constName)).join("\n");
+  return new Function(`${constCode}\n${extractFunction(source, name)}; return ${name};`)();
+}
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const appPath = path.resolve(__dirname, "../docs/app.js");
+const appSource = fs.readFileSync(appPath, "utf8");
+
+const escapeHtml = loadFunction(appSource, "escapeHtml");
+const replaceQueryTemplate = loadFunction(appSource, "replaceQueryTemplate");
+const safeDecodeURIComponent = loadFunction(appSource, "safeDecodeURIComponent");
+const normalizeLang = loadFunctionWithConsts(appSource, "normalizeLang", ["SUPPORTED_LANGS", "DEFAULT_LANG"]);
+const normalizeView = loadFunctionWithConsts(appSource, "normalizeView", ["SUPPORTED_VIEWS", "DEFAULT_VIEW"]);
+const escapeCSV = loadFunction(appSource, "escapeCSV");
+const flatten = loadFunction(appSource, "flatten");
+const countStats = loadFunction(appSource, "countStats");
 
 describe("escapeHtml", () => {
   it("escapes ampersands", () => {
@@ -90,9 +73,7 @@ describe("escapeHtml", () => {
   });
 
   it("escapes angle brackets", () => {
-    expect(escapeHtml("<script>alert('xss')</script>")).toBe(
-      "&lt;script&gt;alert(&#39;xss&#39;)&lt;/script&gt;"
-    );
+    expect(escapeHtml("<script>alert('xss')</script>")).toBe("&lt;script&gt;alert(&#39;xss&#39;)&lt;/script&gt;");
   });
 
   it("escapes quotes", () => {
@@ -113,21 +94,15 @@ describe("escapeHtml", () => {
 
 describe("replaceQueryTemplate", () => {
   it("replaces {query} in URL", () => {
-    expect(replaceQueryTemplate("https://example.com/?q={query}", "test")).toBe(
-      "https://example.com/?q=test"
-    );
+    expect(replaceQueryTemplate("https://example.com/?q={query}", "test")).toBe("https://example.com/?q=test");
   });
 
   it("replaces multiple occurrences", () => {
-    expect(replaceQueryTemplate("{query}+{query}", "hello")).toBe(
-      "hello+hello"
-    );
+    expect(replaceQueryTemplate("{query}+{query}", "hello")).toBe("hello+hello");
   });
 
   it("handles URL with no template", () => {
-    expect(replaceQueryTemplate("https://example.com/", "test")).toBe(
-      "https://example.com/"
-    );
+    expect(replaceQueryTemplate("https://example.com/", "test")).toBe("https://example.com/");
   });
 });
 
@@ -199,8 +174,18 @@ describe("flatten", () => {
       name: "Root",
       type: "folder",
       children: [
-        { name: "Item 1", name_en: "Item 1", url: "https://example.com/1", tags: ["R"] },
-        { name: "Item 2", name_en: "Item 2", url: "https://example.com/2", tags: ["O"] },
+        {
+          name: "Item 1",
+          name_en: "Item 1",
+          url: "https://example.com/1",
+          tags: ["R"],
+        },
+        {
+          name: "Item 2",
+          name_en: "Item 2",
+          url: "https://example.com/2",
+          tags: ["O"],
+        },
       ],
     };
     const items = flatten(data);
@@ -218,9 +203,7 @@ describe("flatten", () => {
         {
           name: "Category",
           type: "folder",
-          children: [
-            { name: "Item", url: "https://example.com", tags: [] },
-          ],
+          children: [{ name: "Item", url: "https://example.com", tags: [] }],
         },
       ],
     };
@@ -246,7 +229,12 @@ describe("countStats", () => {
           type: "folder",
           children: [
             { name: "Item 1", url: "https://example.com/1", tags: ["R", "P"] },
-            { name: "Item 2", url: "https://example.com/2", type: "template", tags: ["M"] },
+            {
+              name: "Item 2",
+              url: "https://example.com/2",
+              type: "template",
+              tags: ["M"],
+            },
           ],
         },
       ],
